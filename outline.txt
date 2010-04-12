@@ -118,6 +118,9 @@ Tool chain
         - Peru, West Bank, India
         - Following chapters document those collaborations and their fruits
 
+#############################################################
+
+
 Lima case study - information gathering, prototyping, 'designing with'
     Need assessment
         Potential beneficiaries/collborators: Hector, Carla/Manzanita A, CEDRO, Escuelab, Shuawa

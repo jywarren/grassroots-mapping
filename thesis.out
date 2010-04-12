@@ -1,0 +1,41 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}
+\BOOKMARK [1][-]{section.1.1}{Overview}{chapter.1}
+\BOOKMARK [1][-]{section.1.2}{Defining Grassroots Mapping: Toolkit, Practices, or Community?}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.2.1}{Software}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.2}{Practice, Community, Support structure}{section.1.2}
+\BOOKMARK [1][-]{section.1.3}{Novel Contributions}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.3.1}{Novel application of low-cost tools to well-established need for raster imagery}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.2}{Novel approaches to map rendering}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.3}{Central merit: technology or culture?}{section.1.3}
+\BOOKMARK [0][-]{chapter.2}{Subjectivity in Mapping}{}
+\BOOKMARK [1][-]{section.2.1}{The mythical 'complete' map}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Maps: rhetorical, even tactical}{chapter.2}
+\BOOKMARK [1][-]{section.2.3}{Ground Truth, or maps as testimony}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.3.1}{Subjective cartography in practice}{section.2.3}
+\BOOKMARK [0][-]{chapter.3}{The Need for Geospatial Data}{}
+\BOOKMARK [1][-]{section.3.1}{Two worlds of mapping}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.1.1}{Urban slums, informal settlements}{section.3.1}
+\BOOKMARK [2][-]{subsection.3.1.2}{Tenure mapping}{section.3.1}
+\BOOKMARK [1][-]{section.3.2}{Environmental assessment}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.2.1}{Carbon cowboys}{section.3.2}
+\BOOKMARK [1][-]{section.3.3}{Open geodata and crisis mapping}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.3.1}{Crisis mapping and Ushahidi}{section.3.3}
+\BOOKMARK [0][-]{chapter.4}{State of the Art}{}
+\BOOKMARK [1][-]{section.4.1}{PGIS: Participatory Geographic Information Systems}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.1.1}{Participatory GIS for Development}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.2}{Shortcomings of traditional PGIS practice}{section.4.1}
+\BOOKMARK [1][-]{section.4.2}{OpenStreetMap}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.2.1}{Humanitarian OSM Team}{section.4.2}
+\BOOKMARK [0][-]{chapter.5}{Grassroots Mapping as an alternative means of participatory cartography}{}
+\BOOKMARK [1][-]{section.5.1}{Cartagen: an alternative architecture}{chapter.5}
+\BOOKMARK [0][-]{chapter.6}{Related works}{}
+\BOOKMARK [1][-]{section.6.1}{Beyond symbolic mapping: Data-driven approaches to participatory mapping}{chapter.6}
+\BOOKMARK [0][-]{chapter.7}{Evaluation criteria}{}
+\BOOKMARK [1][-]{section.7.1}{Participants vs. collaborators}{chapter.7}
+\BOOKMARK [0][-]{chapter.8}{The Grassroots Mapping tool chain}{}
+\BOOKMARK [1][-]{section.8.1}{Balloon/kite Aerial Mapping \(BAM/KAM\)}{chapter.8}
+\BOOKMARK [1][-]{section.8.2}{Digital maps: reconceptualizing mapping interaction}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.2.1}{Beyond raster mapping/Tile politics}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.2}{Cartagen dynamic rendering}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.3}{An iterative toolchain development process}{section.8.2}
+\BOOKMARK [0][-]{chapter.9}{ReadingList}{}
