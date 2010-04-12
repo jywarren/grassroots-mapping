@@ -1,0 +1,270 @@
+Outline:
+
+Introduction
+
+    Grassroots Mapping is a... toolkit and a community. 
+        - A series of 
+
+    Defining Grassroots Mapping: toolkit, techniques, community?
+        - software
+            - interface, cartagen framework, rendering architecture
+        - the website
+        - maps produced
+        - the community
+    Novelty
+        Novel application of low-cost tools to well-established need for raster imagery
+        Novel approaches to map rendering
+    Strength of project: toolkit & community
+Subjectivity in mapping (Beautiful Maps article)
+    - often imagine 'complete maps'
+        - OSM reference to a 'complete map of UK'
+        - Chris Anderson's Wired article of complete dataset
+        - Endless variety of possible data: Wood, Power of Maps, p.1
+        - not a representation of truth, but a rhetorical tool; Wood, p1?
+            - social construction of maps
+    - varying definitions of ownership, contested terrain
+        - 'Ground Truth' policy in OSM (http://wiki.openstreetmap.org/wiki/Disputes#On_the_Ground_Rule)
+    - ref. West Bank mapping in Dec 2009
+        - mapping as testimony of use/presence/ownership by Abed's farm
+The need for geospatial information
+    Tenure
+        - El Otro Sendero
+            - graph of informal settlement percentages
+        - COFOPRI
+    Environmental assessment
+        - carbon cowboys
+    Data politics/Open geodata
+        - UN-SPIDER/Google MapMaker response to Mikel Maron, Chile Earthquake
+    UN-HABITAT quotation
+State of the art
+    PGIS
+        Jen Osha's article
+        Guide to Participatory GIS
+        Claudia Canepa's PhD dissertation
+    Peter Poole - Life after Tenure Mapping
+        - outsourcing of GIS processing typical, problems
+    OSM/HOT
+        Map Kibera, Free Map Palestine, Free Map India
+        Data modeling: http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags/Humanitarian_Data_Model
+    Shortcomings
+        Slum mapping, disaster-specific issues
+        architectural/infrastructural shortcomings
+Proposed alternative techniques 
+    Meet subjectivity needs
+        - against a canonical datastore
+        - solution lays in tools and formats and practices, not in a single project/datastore
+            - therefore GM & Cartagen are based around:
+                - a body of code
+                - a thorough documentation and guide to mapping techniques
+        - options to organize project: as a 'generic hub' for imagery, like OpenAerialMap, engage primarily via internet/blogs
+            - or, focus on collaborating with specific communities in cartographic dispute
+                - expand into matchmaking between mappers and communities in need, as well as supporting via mailing list 
+                - maintain open communication with end-users, iterate back into tools: 
+                    - requests made via list: stewart long asks for masking, Crispen asks for entry of lat/lon pairs, WhereCamp folks asked for locking, Pat Coyle asked for 'natural_size' feature
+    Meet technical limitations
+        - existing solutions based around cloud systems
+            - this move opposite - closer to client
+            - needs: data under no connectivity
+            - multiple devices
+            - ownership of data/infrastructure
+                - FrontlineSMS, 'local' is a feature, opposite of corporate/commercial strategy
+        - low-AI approach; technical literacy, flexibility, admits 'misuse'
+            - examples: USGS overlay at WhereCamp 2010
+            - additon of non-map features with Warper tool
+            - difficulty of use of hugin, etc
+                - DIYDrones thread: "3 days stitching and tweaking images" (http://diydrones.com/profiles/blog/show?id=705844:BlogPost:134855&page=1#comments)
+            - Stewart Long uses Photoshop for most stitches (get him on record)
+Emphasis on building in response to end-user needs
+    - this work could only be done by working with communities in cartographic dispute. See Lima case study.
+Related works
+    Inspiration, context, history of activist/grassroots mapping
+    Reiterate HOT/Free Map Palestine, India, Kibera
+    GroundTruth, Jai Sen, A People's Atlas of Chicago
+    Beyond symbolic mapping: Data-driven approaches to participatory mapping
+        Expanding role of mapping to legal, tactical
+        Institute for Applied Autonomy
+Evaluation criteria
+    'Participants' or 'collaborators'
+        Role of Carla, Escuelab, Shuawa
+        Hector as a fellow educator (interview)
+    'Reconceptualizing Validity' (Patti Lather, p.67)
+        Triangulation
+        Construct validity - how theory was affected by data
+        Face validity - how research was received by participants
+        Catalytic Validity - how participation transforms the situation (self-awareness/reflexivity)
+    Interview process
+    Wiki, mailing list, blog, media coverage (~ Face validity)
+
+Tool chain
+    Balloon/kite Aerial Mapping (BAM/KAM)
+    UAV - DIYDrones and collaboration (see 'Future work')
+        Leveraging both expert and 'amateur'/enthusiast expertise
+        Connecting hobby/DIY communities with activist communities and agendas
+    Digital maps: reconceptualizing mapping interaction
+        Beyond raster mapping/Tile politics
+            Metadata: authorship data
+            Google Maps png metadata hack
+            GIS and broadly adopted consumer-focused mapping stacks
+        Cartagen dynamic rendering
+            Existing vector systems (Chris Schmitt's email on geowanking)
+            Limitations: technical, barrier-to-entry, participatory, literacy
+                GSS (and OSM-JSON): appropriating the HTML/CSS paradigm for data legibility and open access
+                    Format politics: XML, JSON, RSS
+    Toolchain not developed in vacuum, but through collaboration and study on-site
+        - initial flight testing with Josh Levinger
+            - MIT map
+            - terrain, difficulty
+            - optimization for site: Peru, low buildings, no trees
+        - Peru, West Bank, India
+        - Following chapters document those collaborations and their fruits
+
+Lima case study - information gathering, prototyping, 'designing with'
+    Need assessment
+        Potential beneficiaries/collborators: Hector, Carla/Manzanita A, CEDRO, Escuelab, Shuawa
+    Suitability of Peru - history of 'invasions'
+        - de Soto's work; tenure 9x value
+        - asset mapping; NiJeL, informal economies
+        - COFOPRI and history of ineffective state-led mapping/legalization processes
+    Current approaches to mapping: 
+        COFOPRI, engineering firms, comparisons with OSM-HOT, UN-SPIDER from earlier discussion
+    Development as a curriculum
+        Importance of understand political/social role of cartography
+    - Communities mapped:
+        - Juan Pablo II
+            - CEDRO & Manzanita "A"
+            - size, ages, of kids
+            - outline of activities
+                - (Illustration of timeline)
+                - Introduction to mapping
+                    - discussion: literal mapping difficult due to different mental models
+                    - tape-measure technique -- bodystorming
+                    - introduction to Google imagery not relevant
+                - Initial balloon flights
+                    - technical issues
+                    - difficulty in involving kids in process
+                        - note: thought about potential for each student to build a satellite: want to try
+                    - immediate interest & success amongst community members
+                - Printing & review of images
+                    - unanticipated interest in seeing selves from above
+                - History & Future exercises
+                    - Having seen community from above made representation easier
+                    - interspersed with flights
+                    - very specific information about construction/infrastructure from Frank & others
+                    - maquette in 3D - unsolicited - wealth of specific information about goals
+                        - 3 story buildings (sendero - stored wealth/bank accounts)
+                        - explicit connection between mapping and urban planning
+                        - real engaging activity as a corollary to mapmaking
+                        - references to infant care (WaWaWasi), shops, flowers, soccer fields
+                        - Project Morrinho maquettes in Brazil
+                - Stitching exercises
+                    - with kids - 'rubber sheets'
+                        - with teachers (secondary audience) - Map Warper, discussion of difficulties (see ahead)
+        - San Ignacio Loyola (have title and survey)
+            - Manzanita "A"
+            - usage of Photoshop primarily; fast mapping; 2-3 hrs flight, 1-2 hrs stitching
+            - Hector: ideal user: 
+                - lives in an informal settlement
+                - teacher, interested in using this in curriculum
+                - community leader
+                - interest in tech, willing to try map warping
+                    - difficulty in trackpad/menu usage, took notes
+                - engaged despite workload
+                - sees applicability for mapping tools in settlements
+        - Cantagallo A
+            - Escuelab - technology, art, society
+            - engaged with a creative group, Shuawa
+            - political neutrality, but obviously interested in political situations: ex: shipibo language
+            - narrative of 10 year stay, claim to land, contested claims, and riverbank site
+            - Drawing exercises
+                - 'amazon' home vs current home
+                - non-literal mapping - related to issues of veracity re: Wherecamp sugg. of children mapping with stickers
+             - Flights: fastest yet
+                - total images
+                - usage of hugin/SIFT/Photoshop
+        - Cantagallo B
+            - Escuelab & Sara/CEDRO
+            - Sr. Ricardo - possible political engagement/entanglement
+            - entry into SETAME site; playfulness seen as neutrality? Or just no resistance at low levels to mapping activity?
+                - not perceived as claim-related?
+    Map Warper design issues
+        - designed for printed maps
+        - large loop of interaction - overcorrection easy, no immediate feedback upon assigning GCPs
+        - difficulty in explaining GCPs, and necessity of javascript hack for areas without base data
+        - amazing for intended use, even note application in Mumbai
+    Evaluation based on criteria
+        - Interviews!!!!!!! transcribe them
+        - Applications of maps we made
+            - legal role
+            - import to OSM?
+            - World Bank mandate to map every home? do we support that goal?
+            - education, urban planning, NGO planning support, demonstration project
+
+- Goals for a true 'pilot' that goes beyond information gathering and use of existing State of the art tools
+   - planning of new, easier interfaces and techniques
+                - Map Warper difficulties, speed
+            - discussion and 'designing with' leading to Cartagen Knitter (see later discussion)
+            - needs assessment - user-centric design, appropriate design
+    - Possibility of mapping a fast-changing community
+        History/future assignments make explicit the value of mapping as an activity
+
+>>> India <<<
+
+Project sustainability
+    Wiki, blog and mailing list
+        Incorporation of new needs through dialogue (see Evaluation Criteria > Face validity/Construct validity
+        Examples of community-based reformulation/innovation
+            Crispen's suggestion of lat/lon rectification points (mentioned above)
+            Pat Coyle's videos, bungee-cable design, and camera shutdown research
+    Illustrated Guide
+        Nathan Cooke, Pat Coyle
+    Workshops/flights
+    Community building, matchmaking (mentioned in strategies section above)
+
+Future work
+    - Vision Workbench interface
+        - magnets
+        - bundle adjustment techniques for 3d
+            - Juan Pablo II need for topo, existing only SRTM2/ 30meter
+    - UAV work 
+        - collaboration with various parties, MIT HALab, CBA, etc
+        - $500 UAV?
+    - Workshops 
+    - New sites/projects/partners
+        - Jordan, Belize, Sumatra, Cambridge, Georgia, India, Philippines (Poole), Millenium villages (Earth Institute)
+        - usage as part of D-Lab
+    - source for OpenAerialMap
+    - Crisis Mapping usage
+    - Curricular efforts
+        - JumpStart, HOT, etc.
+    - One Satellite Per Child
+        - advantages of short-format    
+        - cross-curricular possibilities
+        - Sites
+
+Conclusions
+    - Many practitioners in this space,  PGIS, OSM, etc.
+    - each lacks certain things
+        - example: OSM's failure to connect with Rede Jovem; mapping nerds, format-obsessed
+            - need to reconcile standards-based, central approaches with community-based, people-centric orgs
+        - attempt to fill some gaps, present a coherent and well-documented/tested toolchain and supporting materials
+    - bring in not just tech enthusiasts, but broader audience, from children/youth to activists, create dialogue
+    - emphasis on working tools, built through iteration and collaboration, rigor, both process and results
+        - long-term engagement, if possible.
+        - "when are you going back" - Mikel Maron
+
+
+Web references:
+
+Is There Life After Tenure? http://www.iied.org/pubs/pdfs/14507IIED.pdf#page=42
+http://digitalurbanisms.tumblr.com/post/449272552/socialjusticecartography
+    - on Cartagen and Australia in 1980s
+
+http://www.ij-healthgeographics.com/content/9/1/14
+    - Cartagen on Health Geographics
+
+Linda Raftree: "But when I’m sitting around with a group of people in a rural community without many services, it can be pretty hard to remember or to explain the benefits of digital mapping over low tech map making. Why should people make a digital map if they only have sporadic electricity and internet access (if at all) and not many smart phones.  How will they access that digital map on a regular basis once they make it?  Does the fact that they could make a digital map, necessarily mean that they should?" (http://lindaraftree.wordpress.com/2009/12/16/is-this-map-better-than-that-map/)
+
+www.tacticaltech.org/mapsforadvocacy
+
+
+
