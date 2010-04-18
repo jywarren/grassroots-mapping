@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.10)  12 APR 2010 13:53
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.10)  17 APR 2010 14:41
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -122,6 +122,84 @@ Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
+) (./pdfcomment.sty
+Package: pdfcomment 2009/11/10 pdfcomment.sty v1.5b - Josef Kleber (C) 2008-200
+9
+
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2006/11/18 v2.5f package option processing (HA)
+
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.tex
+\XKV@toks=\toks18
+\XKV@depth=\count97
+File: xkeyval.tex 2006/11/18 v2.5f key=value parser (HA)
+))
+\c@pc@annot@lines=\count98
+\pc@dima=\skip44
+\pc@dimb=\skip45
+\pc@dimc=\skip46
+\pc@dimd=\skip47
+\pc@dime=\skip48
+\pc@Sposx=\skip49
+\pc@Sposy=\skip50
+\pc@Eposx=\skip51
+\pc@Eposy=\skip52
+\pc@box@height=\skip53
+\pc@box@depth=\skip54
+
+(/usr/share/texmf/tex/latex/oberdiek/zref-savepos.sty
+Package: zref-savepos 2007/01/23 v1.4 Module savepos for zref (HO)
+
+(/usr/share/texmf/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2007/01/23 Module base for zref (HO)
+
+(/usr/share/texmf/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2006/05/31 v1.0 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 346.
+Package zref Info: New property: default on input line 347.
+Package zref Info: New property: page on input line 348.
+)
+(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2006/02/20 v1.4 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+Package zref Info: New property list: savepos on input line 60.
+Package zref Info: New property: posx on input line 61.
+Package zref Info: New property: posy on input line 62.
+)
+
+LaTeX Warning: You have requested, on input line 2662, version
+               `2007/04/22' of package zref-savepos,
+               but only version
+               `2007/01/23 v1.4 Module savepos for zref (HO)'
+               is available.
+
+\c@zref@unique=\count99
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count100
+\calc@Bcount=\count101
+\calc@Adimen=\dimen110
+\calc@Bdimen=\dimen111
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count102
+\calc@Cskip=\skip57
+)
+(/usr/share/texmf/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2006/10/26 v1.1 non floating margin notes for LaTeX
+\c@mn@abspage=\count103
+)
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 2677.
+
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 13.
  (./thesis.aux)
@@ -142,14 +220,13 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 Package hyperref Info: Link coloring ON on input line 27.
-
-(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+ (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
 (/usr/share/texmf/tex/latex/oberdiek/refcount.sty
 Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
-\c@section@level=\count97
+\c@section@level=\count104
 )
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
@@ -158,6 +235,8 @@ LaTeX Info: Redefining \pageref on input line 27.
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
+Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
+(marginnote)             Extended possition detection mode activated.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -172,16 +251,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 34.
-<images/100-dollar-satellite-poster.jpg, id=143, 1480.0896pt x 987.2082pt>
+<images/100-dollar-satellite-poster.jpg, id=263, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
 <use images/100-dollar-satellite-poster.jpg>
-Overfull \hbox (13.6128pt too wide) in paragraph at lines 51--51
+Overfull \hbox (13.6128pt too wide) in paragraph at lines 54--54
 []\OT1/cmr/bx/n/12 Novel ap-pli-ca-tion of low-cost tools
  []
 
 
-Overfull \hbox (7.58083pt too wide) in paragraph at lines 54--54
+Overfull \hbox (7.58083pt too wide) in paragraph at lines 58--58
 []\OT1/cmr/bx/n/12 Central merit: tech-nol-ogy or cul-
  []
 
@@ -189,7 +268,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 \chapter
+l.61 \chapter
              {Subjectivity in Mapping} [1
 
 ] [2 <./images/100-dollar-satellite-poster.jpg>]
@@ -202,6 +281,13 @@ Chapter 3.
 
 ]
 Chapter 4.
+
+Overfull \hbox (12.8933pt too wide) in paragraph at lines 119--121
+\OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
+et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
+0 http : / / dusk2 . geo . orst . edu / gis / student _
+ []
+
 [5
 
 ]
@@ -218,15 +304,27 @@ Chapter 7.
 
 ]
 Chapter 8.
-<images/test.jpg, id=193, 244.29295pt x 136.3969pt>
-File: images/test.jpg Graphic file (type jpg)
- <use images/test.jpg>
 [9
 
- <./images/test.jpg>]
+]
 Chapter 9.
+[10
+
+] [11]
+Chapter 10.
+[12
+
+]
+Chapter 11.
+<images/test.jpg, id=341, 244.29295pt x 136.3969pt>
+File: images/test.jpg Graphic file (type jpg)
+ <use images/test.jpg>
+[13
+
+ <./images/test.jpg>]
+Chapter 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 219.
+(Font)              <10.95> on input line 387.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -254,29 +352,29 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[10
+[14
 
-] [11] (./thesis.aux)
+] [15] (./thesis.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2721 strings out of 256216
- 37638 string characters out of 1917072
- 95556 words of memory out of 1500000
- 5944 multiletter control sequences out of 10000+200000
+ 4128 strings out of 256216
+ 67846 string characters out of 1917072
+ 128309 words of memory out of 1500000
+ 7284 multiletter control sequences out of 10000+200000
  9892 words of font info for 35 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 25i,7n,36p,801b,355s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 33i,7n,36p,801b,367s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
 ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
 /usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
 /bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr
 /share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (12 pages, 612222 bytes).
+Output written on thesis.pdf (16 pages, 634973 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 131072)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 131072)
+ 523 words of extra memory for PDF output out of 10000 (max. 10000000)
 

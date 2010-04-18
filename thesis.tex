@@ -7,7 +7,7 @@
             pdfkeywords={Cartography},
             pdfproducer={Latex with hyperref},
             pdfcreator={pdflatex,colorlinks}]{hyperref}
-\usepackage{graphicx,wrapfig,color}
+\usepackage{graphicx,wrapfig,color,pdfcomment}
 \definecolor{linkblue}{rgb}{0.2,0.2,1}
 \hypersetup{colorlinks=true,
 	    urlcolor=linkblue}
@@ -33,6 +33,9 @@
 
 Exactly what makes up the Grassroots Mapping project? Is it a body of code, available under an MIT license at \url{http://github.com/jywarren/cartagen}? Is it a set of mapping practices, or tools, which have been employed in Lima, Peru, or Rio de Janiero? Or is it a community of practitioners and the web site, wiki, and mailing list which tie them together?
 
+The core of the Grassroots Mapping project is the \textbf{application} of a novel combination of technology to a specific cultural need. Without
+% ... 
+
 \subsection{Software}
 \subsubsection{Interfaces for participatory cartography}
 \subsubsection{The Cartagen framework}
@@ -49,7 +52,8 @@ Exactly what makes up the Grassroots Mapping project? Is it a body of code, avai
 \subsubsection*{The Grassroots Mapping community and mailing list}
 \section{Novel Contributions}
 \subsection{Novel application of low-cost tools to well-established need for raster imagery}
-%do we discuss existing systems here? no, just mention paradigms of tiles, reference later section
+%\pdfcomment{do we discuss existing systems here? no, just mention paradigms of tiles, reference later section}
+
 \subsection{Novel approaches to map rendering}
 \subsection{Central merit: technology or culture?}
 %both, duh: technology is only relevant in a context, and I make no attempt to separate this technology from its intended sociopolitical meaning
@@ -60,12 +64,16 @@ Exactly what makes up the Grassroots Mapping project? Is it a body of code, avai
 % Epistomology and mapping: maps are a form of technology, and of power      
 %  - OSM reference to a 'complete map of UK'
 %        - Chris Anderson's Wired article of complete dataset
+\section{Maps as a 'window' onto the world}
+% Fallacy!!! Wood, p. 20,21 - centimeter accuracy gives false impression of 'scientific accuracy' and completeness
+% essentially epistemological issue.
 \section{Maps: rhetorical, even tactical}
 %        - Endless variety of possible data: Wood, Power of Maps, p.1
 %        - not a representation of truth, but a rhetorical tool; Wood, p1?
 %            - social construction of maps
 % 	- map of sewer system from Wood
 %	- Tactical cartography from Institute for Applied Autonomy
+%	- http://www.tacticaltech.org/mapsforadvocacy
 \section{Ground Truth, or maps as testimony}
 %    - varying definitions of ownership, contested terrain
 %        - 'Ground Truth' policy in OSM (http://wiki.openstreetmap.org/wiki/Disputes#On_the_Ground_Rule)
@@ -75,18 +83,25 @@ Exactly what makes up the Grassroots Mapping project? Is it a body of code, avai
 % B'Tselem map of settlements
 %        - mapping as testimony of use/presence/ownership by Abed's farm
 
-
 \chapter{The Need for Geospatial Data}
 \section{Two worlds of mapping}
 \subsection{Urban slums, informal settlements}
 %    UN-HABITAT quotation
+%	- “geographical mapping techniques to support struggles for social justice in India”. The end result, it added, could make maps as “tools to fight injustice in society”.
+%	- http://timeoutbengaluru.net/aroundtown/aroundtown_feature_details.asp?code=59
 \subsection{Tenure mapping}
 \subsubsection{The invasion of Lima, Peru}
 %        - El Otro Sendero
 %            - graph of informal settlement percentages
 %        - COFOPRI
 \section{Environmental assessment}
-\subsection{Carbon cowboys}
+\subsection{Asset allocation mapping and carbon cowboys}
+
+%	- bibliography/poole-peter.pdf
+%	- stewardship of biodiversity, p.2
+%	- case study uses of mapping capability, p.5
+%	- detecting and monitoring impacts of industrial-scale development
+
 \section{Open geodata and crisis mapping}
 \subsection{Crisis mapping and Ushahidi}
 %	- origin in political mapping, focus on natural disaster
@@ -96,6 +111,13 @@ Exactly what makes up the Grassroots Mapping project? Is it a body of code, avai
 \section{PGIS: Participatory Geographic Information Systems}
 
 Traditional GIS technology has been used since the XX's to support communities in developing contexts for purposes such as making tenure claims, environmental defense against petroleum and other extraction industries, as well as for planning purposes. This has become known as PGIS, or Participatory GIS, and typically... 
+
+% See Peter Poole's Life after Tenure Mapping for a brief historical timeline, i think
+
+\subsection{PPGIS}
+
+Definition: \url{http://www.ppgis.net/ppgis.htm}
+Bibliography: \url{http://dusk2.geo.orst.edu/gis/student_bibs/slurie.htm}
 
 \subsection{Participatory GIS for Development}
 % Jen Osha's article
@@ -165,12 +187,16 @@ Traditional GIS technology has been used since the XX's to support communities i
 %        Role of Carla, Escuelab, Shuawa
 %        Hector as a fellow educator (interview)
 %    'Reconceptualizing Validity' (Patti Lather, p.67)
-%        Triangulation
-%        Construct validity - how theory was affected by data
-%        Face validity - how research was received by participants
-%        Catalytic Validity - how participation transforms the situation (self-awareness/reflexivity)
-%    Interview process
-%    Wiki, mailing list, blog, media coverage (~ Face validity)
+\subsubsection{Triangulation}
+\subsubsection{Construct validity}
+how theory was affected by data
+\subsubsection{Face validity}
+how research was received by participants
+\subsubsection{Catalytic Validity}
+how participation transforms the situation (self-awareness/reflexivity)
+
+\subsection{Interviews with local partners}
+Wiki, mailing list, blog, media coverage (~ Face validity)
 
 \chapter{The Grassroots Mapping tool chain}
 \section{Balloon/kite Aerial Mapping (BAM/KAM)}
@@ -196,6 +222,148 @@ Traditional GIS technology has been used since the XX's to support communities i
 %        - Peru, West Bank, India
 %        - Following chapters document those collaborations and their fruits
 
+\chapter{Case Study: Grassroots Mapping in Lima, Peru}
+
+\section{Introduction}
+
+In the interest of basing tool development and design on real-world applications, and due to an ongoing conversation with Carla del Carpio of Lima-based Manzanita "A", 
+
+traveled to Lima, Peru in January 2010 to conduct field research and to collaborate on the Grassroots Mapping tool set with those who would be likely to use it.
+
+\subsection{Designing with, not for}
+
+Needs assessment
+
+Potential beneficiaries/collborators: Hector, Carla/Manzanita A, CEDRO, Escuelab, Shuawa
+
+\subsection{The Other Path: Lima's history of informal settlement}
+
+%    Suitability of Peru - history of 'invasions'
+%        - de Soto's work; tenure 9x value
+
+\subsection{Valuation and 'grey' economies}
+
+%        - asset mapping; NiJeL, informal economies
+
+\subsection{Limits of state-sanctioned mapping efforts}
+
+%        - COFOPRI and history of ineffective state-led mapping/legalization processes
+%    Current approaches to mapping: 
+%        COFOPRI, engineering firms, comparisons with OSM-HOT, UN-SPIDER from earlier discussion
+
+\subsection{A Grassroots Mapping curriculum}
+
+%    Development as a curriculum
+%        Importance of understand political/social role of cartography
+
+\subsection{Mapping with Juan Pablo II}
+
+%            - CEDRO & Manzanita "A"
+%            - size, ages, of kids
+%            - outline of activities
+%                - (Illustration of timeline)
+                - Introduction to mapping
+                    - discussion: literal mapping difficult due to different mental models
+                    - tape-measure technique -- bodystorming
+                    - introduction to Google imagery not relevant
+\subsubsection{First flights in Juan Pablo II}
+
+%                - Initial balloon flights
+%                    - technical issues
+%                    - difficulty in involving kids in process
+%                        - note: thought about potential for each student to build a satellite: want to try
+%                    - immediate interest & success amongst community members
+
+\subsubsection{Situating mapping practice}
+
+%                - Printing & review of images
+%                    - unanticipated interest in seeing selves from above
+%                - History & Future exercises
+%                    - Having seen community from above made representation easier
+%                    - interspersed with flights
+%                    - very specific information about construction/infrastructure from Frank & others
+%                    - maquette in 3D - unsolicited - wealth of specific information about goals
+%                        - 3 story buildings (sendero - stored wealth/bank accounts)
+%                        - explicit connection between mapping and urban planning
+%                        - real engaging activity as a corollary to mapmaking
+%                        - references to infant care (WaWaWasi), shops, flowers, soccer fields
+%                        - Project Morrinho maquettes in Brazil
+
+\subsubsection{Stitching maps with Juan Pablo II}
+                - Stitching exercises
+                    - with kids - 'rubber sheets'
+                        - with teachers (secondary audience) - Map Warper, discussion of difficulties (see ahead)
+
+\subsection{Mapping with San Ignacio Loyola}
+% (have title and survey)
+            - Manzanita "A"
+            - usage of Photoshop primarily; fast mapping; 2-3 hrs flight, 1-2 hrs stitching
+            - Hector: ideal user: 
+                - lives in an informal settlement
+                - teacher, interested in using this in curriculum
+                - community leader
+                - interest in tech, willing to try map warping
+                    - difficulty in trackpad/menu usage, took notes
+                - engaged despite workload
+                - sees applicability for mapping tools in settlements
+
+\subsection{Mapping with Cantagallo}
+            - Escuelab - technology, art, society
+            - engaged with a creative group, Shuawa
+\subsubsection{The Shipibo in Lima}
+            - narrative of 10 year stay, claim to land, contested claims, and riverbank site
+            - Escuelab sought political neutrality, but obviously interested in political situations: ex: shipibo language            - Drawing exercises
+                - 'amazon' home vs current home
+                - non-literal mapping - related to issues of veracity re: Wherecamp sugg. of children mapping with stickers
+\subsubsection{Flying balloons with Cantagallo}
+- fastest yet
+                - total images
+                - usage of hugin/SIFT/Photoshop
+\subsubsection{Lower Cantagallo and local geographic dispute}
+            - Escuelab and Sara/CEDRO
+	- two cantagallos (three?)
+            - Sr. Ricardo - possible political engagement/entanglement
+            - entry into SETAME site; playfulness seen as neutrality? Or just no resistance at low levels to mapping activity?
+                - not perceived as claim-related?
+\subsection{Computing literacy challenges with orthorectification}
+	- map warper
+        - designed for printed maps
+        - large loop of interaction - overcorrection easy, no immediate feedback upon assigning GCPs
+        - difficulty in explaining GCPs, and necessity of javascript hack for areas without base data
+        - amazing for intended use, even note application in Mumbai
+    - Photoshop better, but barely
+	- stuart long uses photoshop, maybe bruce owen (see emails)
+\subsection{Evaluation}
+- based on criteria
+        - Interviews!!!!!!! transcribe them
+        - Applications of maps we made
+            - legal role
+            - import to OSM?
+            - World Bank mandate to map every home? do we support that goal?
+            - education, urban planning, NGO planning support, demonstration project
+\subsection{Needs (Re)assessment}
+- Goals for a true 'pilot' that goes beyond information gathering and use of existing State of the art tools
+   - planning of new, easier interfaces and techniques
+                - Map Warper difficulties, speed
+            - discussion and 'designing with' leading to Cartagen Knitter (see later discussion)
+            - needs assessment - user-centric design, appropriate design
+    - Possibility of mapping a fast-changing community
+        History/future assignments make explicit the value of mapping as an activity
+
+\chapter{Field trials in India}
+\section{Goals}
+
+\chapter{Project sustainability and ongoing work}
+\section{Wiki, blog and mailing list}
+        Incorporation of new needs through dialogue (see Evaluation Criteria .. Face validity/Construct validity)
+        Examples of community-based reformulation/innovation
+            Crispen's suggestion of lat/lon rectification points (mentioned above)
+            Pat Coyle's videos, bungee-cable design, and camera shutdown research
+
+\section{Illustrated Guide}
+        Nathan Cooke, Pat Coyle
+    Workshops/flights
+    Community building, matchmaking (mentioned in strategies section above)
 
 
 
