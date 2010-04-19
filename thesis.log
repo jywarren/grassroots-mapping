@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.10)  17 APR 2010 14:41
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.10)  19 APR 2010 09:01
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -205,21 +205,21 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 13.
  (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-Package hyperref Info: Link coloring ON on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+Package hyperref Info: Link coloring ON on input line 30.
  (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
@@ -228,8 +228,8 @@ Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
 \c@section@level=\count104
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
  (./thesis.out)
 (./thesis.out)
 \@outlinefile=\write3
@@ -238,29 +238,29 @@ LaTeX Info: Redefining \pageref on input line 27.
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended possition detection mode activated.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 29.
+(Font)              <12> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 29.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 29.
+(Font)              <6> on input line 32.
  [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Chapter 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
-<images/100-dollar-satellite-poster.jpg, id=263, 1480.0896pt x 987.2082pt>
+(Font)              <5> on input line 37.
+<images/100-dollar-satellite-poster.jpg, id=279, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
 <use images/100-dollar-satellite-poster.jpg>
-Overfull \hbox (13.6128pt too wide) in paragraph at lines 54--54
+Overfull \hbox (13.6128pt too wide) in paragraph at lines 57--57
 []\OT1/cmr/bx/n/12 Novel ap-pli-ca-tion of low-cost tools
  []
 
 
-Overfull \hbox (7.58083pt too wide) in paragraph at lines 58--58
+Overfull \hbox (7.58083pt too wide) in paragraph at lines 61--61
 []\OT1/cmr/bx/n/12 Central merit: tech-nol-ogy or cul-
  []
 
@@ -268,63 +268,96 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \chapter
+l.64 \chapter
              {Subjectivity in Mapping} [1
 
 ] [2 <./images/100-dollar-satellite-poster.jpg>]
 Chapter 2.
+
+Overfull \hbox (114.8409pt too wide) in paragraph at lines 86--89
+[]\OT1/cmr/m/n/10.95 Andrew Turner: In-tro-duc-tion to Neo-geog-ra-phy coined b
+y Di-Ann Eis-nor? http://apb.directionsmag.com/archives/1379-
+ []
+
+
+Overfull \hbox (51.74059pt too wide) in paragraph at lines 92--93
+[][][]$\OT1/cmtt/m/n/10 http : / / books . google . com / books ? id = oHgDv4fe
+V-[]8C&dq = neogeography + turner&printsec = frontcover&source =
+ []
+
+
+Overfull \hbox (3.24086pt too wide) in paragraph at lines 92--93
+\OT1/cmtt/m/n/10 bn&hl = en&ei = gmDLS6 _ -[]KYj98AaY _ KWXDA&sa = X&oi = book 
+_ result&ct = result&resnum = 5&ved = 0CBwQ6AEwBA #
+ []
+
 [3
 
-]
+] <images/osm-missing-parts.png, id=308, 1024.82875pt x 576.1525pt>
+File: images/osm-missing-parts.png Graphic file (type png)
+
+<use images/osm-missing-parts.png>
+Underfull \hbox (badness 3158) in paragraph at lines 140--140
+[]\OT1/cmr/bx/n/14.4 Maps: rhetor-i-cal, even
+ []
+
+[4 <./images/osm-missing-parts.png (PNG copy)>]
 Chapter 3.
-[4
 
-]
-Chapter 4.
-
-Overfull \hbox (12.8933pt too wide) in paragraph at lines 119--121
-\OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
-et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
-0 http : / / dusk2 . geo . orst . edu / gis / student _
+Overfull \hbox (82.67355pt too wide) in paragraph at lines 170--172
+\OT1/cmtt/m/n/10 2009 / 11 / how-[]dictators-[]watch-[]us-[]on-[]the-[]web/$[][
+] [][]$http : / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[]vs
+-[]shirky/$[][]
  []
 
 [5
 
 ]
-Chapter 5.
+Chapter 4.
+
+Overfull \hbox (12.8933pt too wide) in paragraph at lines 195--197
+\OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
+et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
+0 http : / / dusk2 . geo . orst . edu / gis / student _
+ []
+
 [6
 
 ]
-Chapter 6.
+Chapter 5.
 [7
 
 ]
-Chapter 7.
+Chapter 6.
 [8
 
 ]
-Chapter 8.
+Chapter 7.
 [9
 
 ]
-Chapter 9.
+Chapter 8.
 [10
 
-] [11]
+]
+Chapter 9.
+[11
+
+] [12]
 Chapter 10.
-[12
+[13
 
 ]
 Chapter 11.
-<images/test.jpg, id=341, 244.29295pt x 136.3969pt>
+<images/test.jpg, id=374, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
-[13
+[14
 
  <./images/test.jpg>]
 Chapter 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 387.
+(Font)              <10.95> on input line 463.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -352,29 +385,26 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[14
+[15
 
-] [15] (./thesis.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] [16] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 4128 strings out of 256216
- 67846 string characters out of 1917072
+ 4146 strings out of 256216
+ 68175 string characters out of 1917072
  128309 words of memory out of 1500000
- 7284 multiletter control sequences out of 10000+200000
- 9892 words of font info for 35 fonts, out of 1200000 for 2000
+ 7293 multiletter control sequences out of 10000+200000
+ 10238 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 33i,7n,36p,801b,367s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
-ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
-/usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
-/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr
-/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (16 pages, 634973 bytes).
+ 33i,7n,36p,820b,367s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></us
+r/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/b
+luesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/sh
+are/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesk
+y/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share
+/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (17 pages, 1143749 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 131072)
- 523 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 462 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 131072)
+ 560 words of extra memory for PDF output out of 10000 (max. 10000000)
 
