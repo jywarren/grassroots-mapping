@@ -182,16 +182,50 @@ Outline of history and benefits of PGIS, but also of ethics and beneficiaries
 
 \chapter{The Need for Geospatial Data}
 \section{Two worlds of mapping}
-\subsection{Urban slums, informal settlements}
+
+Present-day users of web-based mapping products such as Google Maps are presented with an extremely rich cartographic landscape when they view maps of first-world urban centers such as New York and San Francisco. Real-time traffic data is often overlaid in lines of shifting red and green, and many buildings appear in orthographic '3D'. Well-known restaurants are interspersed with subway stops whose schedules may be called up with a few clicks. Routing algorithms offer turn-by-turn directions, optimized for pedestrians, bicyclists, and motorists. 
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		% \includegraphics[width=0.45\textwidth]{images/100-dollar-satellite-poster.jpg}
+		Views of Manhattan, left, and a settlement in Lima, Peru, right.
+		% could add Cameroon, where towns are missing
+	\end{flushright}
+\end{wrapfigure}
+
+Many are surprised when they view places such as Lima, Peru, a metropolis of 11 million people, and find that not far from the city center are vast areas of indistinct and unlabelled buildings. While some of these are recognized and official parts of the Municipality of Lima, many are informal settlements, whose inhabitants lack deeds to their plots of land, and whose streets and buildings do not appear on any city map. Many of these settlements, or 'invasions' as they are known to Peruvians, are governed by leaders who are either elected by the several hundred inhabitants, or who maintain control through intimidation -- employing thugs to collect taxes and enforce rules. 
+
+A legal process exists to establish official land ownership in these settlements, and to issue deeds to their inhabitants, but the state lacks the resources to quantify or map these areas:
+
 %    UN-HABITAT quotation
 %	- “geographical mapping techniques to support struggles for social justice in India”. The end result, it added, could make maps as “tools to fight injustice in society”.
 %	- http://timeoutbengaluru.net/aroundtown/aroundtown_feature_details.asp?code=59
 
-Brief outline of fulfilled needs: chambers-who-empowered-disempowered-gains-loses.pdf, p.4
+In Lima, the organization in charge of land registrations, known as COFOPRI, requires residents to submit a plan -- essentially a measured and drawn map of their plots -- as one of many prerequisites to receiving a deed. Civil engineering firms have filled this gap by offering surveying and mapmaking services, but their high prices are a strain on the already poor inhabitants of the invasions.  
+
+% find COFOPRI def
+
+The Grassroots Mapping project was conceived as a means to broaden access to mapping technology, and was developed in direct response to the need for maps in areas 
+
+...incomplete...
+
+\subsection{Urban slums, informal settlements}
+
+This state of affairs is not limited to Lima; by some estimates, a full quarter of the worlds population lives in urban slums. 
+
+% find reference
+% UN-HABITAT quotation
 
 \subsection{Tenure mapping}
+
 \subsubsection{The invasion of Lima, Peru}
 %        - El Otro Sendero
+
+The history of urban growth in Lima over the last hundred years can be described as a slow legitimization of vast areas of informal settlements; many populous and well-established districts such as Pamplona, Villa el Salvador and others, began as invasions decades ago.
+
+Hernando de Soto, a well-known economist and champion of capitalism, ... quotation
+
+Brief outline of fulfilled needs: chambers-who-empowered-disempowered-gains-loses.pdf, p.4
 %            - graph of informal settlement percentages
 %        - COFOPRI
 
@@ -208,6 +242,11 @@ It is easy for activist cartographers who do not live in a community to advocate
 Corbett, Jon M., and C. Peter Keller. 2005. An Analytical Framework to Examine Empowerment Associated with Participatory Geographic Information Systems (PGIS). Cartographica 40 (4):91-102.
 
 \section{Environmental assessment}
+
+Beyond issues of land rights and ownership, there are many other potential uses for inexpensive map data; the ability to produce photographic, or raster maps of sensitive environmental sites may empower small organizations which are unable to acquire timely or high resoultion satellite images of sites of interest. A group of environmental activists in West Virginia ...
+
+% West Virginia project
+
 \subsection{Asset allocation mapping and carbon cowboys}
 
 %	- bibliography/poole-peter.pdf
@@ -217,14 +256,41 @@ Corbett, Jon M., and C. Peter Keller. 2005. An Analytical Framework to Examine E
 
 \section{Open geodata and crisis mapping}
 \subsection{Crisis mapping and Ushahidi}
+
+\subsubsection{Ushahidi}
+
+The Ushahidi platform has emerged as a common and easy-to-set-up system for crowdsourced crisis reporting. Developed in collaboration with Kenyan programmers to help voters report election violence in Kenya in 200x, it allows citizens with mobile phones to send 140 character text messages to a publicized telephone number. These messages are read by a group of editors, who attempt to identify where the messages were sent from, and are published on a web site as red dots at their assumed location. That users self-report their locations, and can do so incorrectly, is tolerated because it may represent a means of privacy for users, and because in the aggregate it is quite difficult to 'fake' an event. Each report is 'verified' by ... 
+
+% ref. AJ Turner's presentation at Where 2.0, i think - or Patrick Meier's on iRevolutioni
+% interview LABB folks about how reports are verified
+
+Ushahidi works in many cases because it is simple to understand on its surface; visitors to an Ushahidi web site see a series of dots with messages such as "I'm stuck under rubble" and imagine a person sending such a message from their cell phone. It makes use of existing communications infrastructure, namely that 'most people have cell phones' and relies on both a high level of literacy with text messaging and a willingness to send reports to a site which is not immediately viewable. However, it is not a means to 'make' a map, but rather to annotate an existing map with data points.
+
+Ushahidi has been successfully used to gather and publish very up-to-date information about unfolding crises, for example in the instance created by the New Orleans-based environmental group Louisiana Bucket Brigade in response to the British Petroleum oil spill in April 2010. The kind of information it provides, however, is fundamentally difficult to verify or to quantify, and may be more useful in the context of emergency response than in evidence-gathering. Locations must often be approximated to the nearest town or city, and most reports are often just a few words with no name or photographic evidence. While geotagged photographs can be uploaded to Ushahidi, EXIF data can be falsified. In many cases there is an additional need for quantitative data. Map imagery provides better quality information in that every pixel of a map is georeferenced.  
+
+\subsubsection{Photographs and maps as testimony}
+
+
+
+\subsubsection{Satellite imagery access}
+
+Access to up-to-date imagery of crisis areas has become something of a hot-button issue in crisis mapping circles, as those companies and agencies in control of the imagery do not always elect to release it, or to license it freely for any use. Whethe due to an unwillingness to offer expensive imagery for unrestricted use, or due to the administrative burden of actually offering such data for download under a permissive license, access to satellite imagery has become a frequent bottleneck for aid organizations. 
+
+Specifically in the bottom-up response to the Haitian earthquake and subsequent humanitarian crisis of January 2010, access became more difficult within weeks of the crisis. While GeoEye and other vendors generously offered open access to satellite imagery in the initial weeks of the crisis, most did not elect to do so on an ongoing basis, or for subsequent crises such as the February 2010 earthquake in Chile.
+
+% who released data??? 
+
+Mikel Maron of the OpenStreetMap Humanitarian Team 
+
 %	- origin in political mapping, focus on natural disaster
 %        - UN-SPIDER/Google MapMaker response to Mikel Maron, Chile Earthquake
 
 \chapter{State of the Art}
 \section{PGIS: Participatory Geographic Information Systems}
 
-Traditional GIS technology has been used since the XX's to support communities in developing contexts for purposes such as making tenure claims, environmental defense against petroleum and other extraction industries, as well as for planning purposes. This has become known as PGIS, or Participatory GIS, and typically... 
+Traditional GIS technology has been used for since the 1990's to support communities in developing contexts for purposes such as making tenure claims, environmental defense against petroleum and other extraction industries, as well as for planning purposes. This has become known as PGIS, or Participatory GIS, and typically... 
 
+% reference: Qualitative GIS book
 % See Peter Poole's Life after Tenure Mapping for a brief historical timeline, i think
 
 \subsection{PPGIS}
@@ -247,10 +313,18 @@ bibliography/rambaldi-participatory-spatial-developing-countries.pdf
 
 % OSM acronym
 
+Emphasis on 2 means of mapping: GPS/GPX and tracing
+
 \subsection{Humanitarian OSM Team}
-%   HOT acronym
+ 
+An offshoot of the OpenStreetMap project known as the OpenStreetMap Humanitarian Team or HOT was started in late 2009 by Mikel Maron, a map programmer and co-founder of mapping firm Mapufacture. Positioned in direct response to the need for maps in areas of humanitarian crisis, Mikel has organized members from the technology community to visit crisis zones such as Port-au-Prince as well as a long-term presence in Kibera, a large slum in Nairobi, Kenya. HOT uses the same tools as the wider OpenStreetMap community, and either runs a separate instance of the OpenStreetMap server and database, or directly uploads the data to the main OpenStreetMap.org service. 
+
 \subsubsection{Free Map Gaza}
+
 %        Map Kibera, Free Map Palestine, Free Map India
+
+Public domain data, JumpStart International
+
 \subsubsection{Followup projects}
 %        Data modeling: http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags/Humanitarian_Data_Model
 \subsubsection{Challenges}
@@ -263,18 +337,28 @@ bibliography/rambaldi-participatory-spatial-developing-countries.pdf
 \textbf{Emphasis on local infrastructure}
 
 \chapter{Grassroots Mapping as an alternative means of participatory cartography}
+
 %    Meet subjectivity needs
 %        - against a canonical datastore
 %        - solution lays in tools and formats and practices, not in a single project/datastore
 %            - therefore GM & Cartagen are based around:
 %                - a body of code
 %                - a thorough documentation and guide to mapping techniques
+		- a series of case studies
 %        - options to organize project: as a 'generic hub' for imagery, like OpenAerialMap, engage primarily via internet/blogs
 %            - or, focus on collaborating with specific communities in cartographic dispute
 %                - expand into matchmaking between mappers and communities in need, as well as supporting via mailing list 
 %                - maintain open communication with end-users, iterate back into tools: 
 %                    - requests made via list: stewart long asks for masking, Crispen asks for entry of lat/lon pairs, WhereCamp folks asked for locking, Pat Coyle asked for 'natural_size' feature
-\section{Cartagen: an alternative architecture}
+
+\section{Aerial imaging with low-cost tools}
+
+Due to the need for cheap and up-to-date imagery, a major part of the Grassroots Mapping project has been the design and use of low-cost platforms for capturing images of the ground from above. The use of kites and balloons to raise consumer-level 'point-and-shoot' cameras has allowed participants to capture images of sites of interest at minimal cost. A 'Grassroots Mapping Kit' can be assemnbled for less than \$100. 
+
+\section{Cartagen: an alternative architecture for digital maps}
+
+However, in order to orthorectify or 'stitch' aerial imagery into a flat, geographically referenced map requires a system to display and manipulate raster imagery. The ability to label, trace, and otherwise annotate the resulting rectified map requires a system to display and manipulate vector data. In order to meet these needs the author created a map authoring and display framework called Cartagen. Written in JavaScript, it enables users to ...
+
 %        - existing solutions based around cloud systems
 %            - this move opposite - closer to client
 %            - needs: data under no connectivity

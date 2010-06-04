@@ -8,3 +8,11 @@
 
 - release of imagery data in Haiti email thread
 	- bibliography/christiaan-adams-mikel-maron-thread.pdf
+
+
+
+ability to see self in image
+
+2 sources - GPS and imagery - both rely on satellites
+
+
