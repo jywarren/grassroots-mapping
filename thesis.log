@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=amstex 2010.4.10)  22 APR 2010 19:26
+This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.12)  4 JUN 2010 12:53
 entering extended mode
 **thesis.tex
 (./thesis.tex
@@ -262,63 +262,64 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 37.
-<images/100-dollar-satellite-poster.jpg, id=283, 1480.0896pt x 987.2082pt>
-File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
-
-<use images/100-dollar-satellite-poster.jpg>
-Overfull \hbox (13.6128pt too wide) in paragraph at lines 60--60
-[]\OT1/cmr/bx/n/12 Novel ap-pli-ca-tion of low-cost tools
- []
-
-
-Overfull \hbox (7.58083pt too wide) in paragraph at lines 64--64
-[]\OT1/cmr/bx/n/12 Central merit: tech-nol-ogy or cul-
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67 \chapter
-             {Subjectivity in Mapping} [1
+l.46 
+      [1
 
-] [2 <./images/100-dollar-satellite-poster.jpg>]
+]
+<images/100-dollar-satellite-poster.jpg, id=302, 1480.0896pt x 987.2082pt>
+File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
+
+<use images/100-dollar-satellite-poster.jpg>
+Overfull \hbox (13.6128pt too wide) in paragraph at lines 75--75
+[]\OT1/cmr/bx/n/12 Novel ap-pli-ca-tion of low-cost tools
+ []
+
+
+Overfull \hbox (7.58083pt too wide) in paragraph at lines 79--79
+[]\OT1/cmr/bx/n/12 Central merit: tech-nol-ogy or cul-
+ []
+
+[2] [3 <./images/100-dollar-satellite-poster.jpg>]
 Chapter 2.
 
-Overfull \hbox (114.8409pt too wide) in paragraph at lines 89--92
+Overfull \hbox (114.8409pt too wide) in paragraph at lines 110--113
 []\OT1/cmr/m/n/10.95 Andrew Turner: In-tro-duc-tion to Neo-geog-ra-phy coined b
 y Di-Ann Eis-nor? http://apb.directionsmag.com/archives/1379-
  []
 
 
-Overfull \hbox (51.74059pt too wide) in paragraph at lines 95--96
+Overfull \hbox (51.74059pt too wide) in paragraph at lines 116--117
 [][][]$\OT1/cmtt/m/n/10 http : / / books . google . com / books ? id = oHgDv4fe
 V-[]8C&dq = neogeography + turner&printsec = frontcover&source =
  []
 
 
-Overfull \hbox (3.24086pt too wide) in paragraph at lines 95--96
+Overfull \hbox (3.24086pt too wide) in paragraph at lines 116--117
 \OT1/cmtt/m/n/10 bn&hl = en&ei = gmDLS6 _ -[]KYj98AaY _ KWXDA&sa = X&oi = book 
 _ result&ct = result&resnum = 5&ved = 0CBwQ6AEwBA #
  []
 
-[3
+[4
 
-] <images/osm-missing-parts.png, id=316, 1024.82875pt x 576.1525pt>
+] <images/osm-missing-parts.png, id=331, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
-Underfull \hbox (badness 3158) in paragraph at lines 145--145
+Underfull \hbox (badness 3158) in paragraph at lines 167--167
 []\OT1/cmr/bx/n/14.4 Maps: rhetor-i-cal, even
  []
 
 
-Overfull \hbox (37.6202pt too wide) in paragraph at lines 158--159
+Overfull \hbox (37.6202pt too wide) in paragraph at lines 180--181
 \OT1/cmtt/m/n/10 / / commerce . metapress . com / content / c21115120603xj14 /
  []
 
 
-Overfull \hbox (143.11928pt too wide) in paragraph at lines 158--159
+Overfull \hbox (143.11928pt too wide) in paragraph at lines 180--181
 \OT1/cmtt/m/n/10 resource-[]secured / ?target = fulltext . pdf&sid = gb5vtk2lhv
 t0dj55c1xba4aa&sh =
  []
@@ -326,63 +327,73 @@ t0dj55c1xba4aa&sh =
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[4 <./images/osm-missing-parts.png (PNG copy)>]
+[5 <./images/osm-missing-parts.png (PNG copy)>]
 Chapter 3.
 
-Overfull \hbox (82.67355pt too wide) in paragraph at lines 193--195
+Overfull \hbox (82.67355pt too wide) in paragraph at lines 215--217
 \OT1/cmtt/m/n/10 2009 / 11 / how-[]dictators-[]watch-[]us-[]on-[]the-[]web/$[][
 ] [][]$http : / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[]vs
 -[]shirky/$[][]
  []
 
-[5
+[6
 
 ]
 Chapter 4.
 
-Overfull \hbox (12.8933pt too wide) in paragraph at lines 225--227
+Overfull \hbox (12.8933pt too wide) in paragraph at lines 247--249
 \OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
 et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
 0 http : / / dusk2 . geo . orst . edu / gis / student _
  []
 
-[6
-
-]
-Chapter 5.
 [7
 
 ]
-Chapter 6.
+Chapter 5.
 [8
 
 ]
-Chapter 7.
+Chapter 6.
 [9
 
 ]
-Chapter 8.
+Chapter 7.
 [10
 
 ]
-Chapter 9.
+Chapter 8.
 [11
 
-] [12]
+]
+Chapter 9.
+[12
+
+]
+Overfull \hbox (82.97742pt too wide) in paragraph at lines 480--488
+\OT1/cmr/m/n/10.95 and 'de-sign-ing with' lead-ing to Carta-gen Knit-ter (see l
+ater dis-cus-sion) - http://en.wikipedia.org/wiki/Rubbersheeting
+ []
+
+[13]
 Chapter 10.
-[13
+[14
 
 ]
 Chapter 11.
-<images/test.jpg, id=389, 244.29295pt x 136.3969pt>
+[15
+
+]
+Chapter 12.
+<images/test.jpg, id=406, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
-[14
+[16
 
  <./images/test.jpg>]
-Chapter 12.
+Chapter 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 500.
+(Font)              <10.95> on input line 541.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -410,23 +421,23 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[15
+[17
 
-] [16] (./thesis.aux)
+] [18] (./thesis.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4441 strings out of 94073
- 72802 string characters out of 1164797
- 131671 words of memory out of 1500000
- 7579 multiletter control sequences out of 10000+50000
+ 4449 strings out of 94073
+ 72899 string characters out of 1164797
+ 131674 words of memory out of 1500000
+ 7582 multiletter control sequences out of 10000+50000
  10238 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 33i,7n,36p,820b,367s stack positions out of 5000i,500n,6000p,200000b,5000s
-pdfTeX warning (dest): name{subsection.2.5.1} has been referenced but does no
-t exist, replaced by a fixed one
+ 33i,7n,36p,895b,367s stack positions out of 5000i,500n,6000p,200000b,5000s
+pdfTeX warning (dest): name{section.11.2} has been referenced but does not ex
+ist, replaced by a fixed one
 
 </opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pfb></opt/local/shar
 e/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/share/texmf-dist/fon
@@ -435,362 +446,9 @@ cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr17.pfb></op
 t/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/share/te
 xmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></opt/local/share/texmf-dist/fonts/t
 ype1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (17 pages, 1148718 bytes).
+Output written on thesis.pdf (19 pages, 1156480 bytes).
 PDF statistics:
- 479 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 131072)
- 568 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 079341e45f48d6248238ff1bcf5463f39a6976bc
+ 501 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 131072)
+ 592 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-AmS-TeX- Version 2.2
-
-! Undefined control sequence.
-l.1 \documentclass
-                  [11pt]{report}
-? q
-OK, entering \batchmode...
-! Undefined control sequence.
-l.2 \usepackage
-               {fullpage}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.3 \usepackage
-               [pdftex,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.10 \usepackage
-                {graphicx,wrapfig,color,pdfcomment}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.11 \definecolor
-                 {linkblue}{rgb}{0.2,0.2,1}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.12 \hypersetup
-                {colorlinks=true,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (6.32945pt too wide) in paragraph at lines 1--14
-\tenrm for par-tic-i-pa-tory and ac-tivist car-tog-ra-phy, pdf-sub-ject=Partici
-patory Car-tog-ra-phy, pdfkey-words=Cartography,|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm f
-.\tenrm o
-.\tenrm r
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\tenrm p
-.etc.
-
-
-Overfull \hbox (8.49617pt too wide) in paragraph at lines 1--14
-\tenrm pdf-pro-ducer=Latex with hy-per-ref, pdfcre-ator=pdflatex,colorlinks]hyp
-erref graph-icx,wrapfig,color,pdfcomment|
-
-\hbox(7.5+2.5)x469.75499, glue set - 1.0
-.\tenrm p
-.\kern0.27779
-.\tenrm d
-.\tenrm f
-.\discretionary
-..\tenrm -
-.etc.
-
-! Undefined control sequence.
-l.15 \title
-           {Grassroots Mapping: a toolkit for participatory and politically ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.16 \author
-            {Jeffrey Warren}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.17 \date
-          {May 7, 2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.20 \makeatletter
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.23 \makeatother
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.25 \urlstyle
-              {jeff}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.30 \begin
-           {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.31 \maketitle
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.33 \chapter
-             {Introduction}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.34 \section
-             {Overview}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.35 \section
-             {Defining Grassroots Mapping: Toolkit, Practices, or Community?}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Use of \url doesn't match its definition.
-l.37 ...e, available under an MIT license at \url{
-                                                  http://github.com/jywarren...
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Too many }'s.
-l.37 ... \url{http://github.com/jywarren/cartagen}
-                                                  ? Is it a set of mapping p...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Undefined control sequence.
-l.39 ... Grassroots Mapping project is the \textbf
-                                                  {application} of a novel c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.42 \subsection
-                {Software}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.43 \subsubsection
-                   {Interfaces for participatory cartography}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.44 \subsubsection
-                   {The Cartagen framework}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.45 \subsubsection
-                   *{Rendering architecture}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.46 \subsection
-                {Hardware}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.47 \subsubsection
-                   {Balloon Aerial Photography}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.48 \subsubsection
-                   {Photography from Kites and Unmanned Aerial Vehicles}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.49 \subsection
-                {Practice, Community, Support structure}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.50 \subsubsection
-                   {GrassrootsMapping.org}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.51 \subsubsection
-                   *{The Grassroots Mapping Wiki}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.52 \begin
-           {wrapfigure}{r}{0.5\textwidth}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.52 \begin{wrapfigure}{r}{0.5\textwidth
-                                        }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.53 	\begin
-            {flushright}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.54 		\includegraphics
-                       [width=0.45\textwidth]{images/100-dollar-satellite-po...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.54 		\includegraphics[width=0.45\textwidth
-                                            ]{images/100-dollar-satellite-po...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (13.60712pt too wide) in paragraph at lines 42--55
-\tenrm Com-mu-nity, Sup-port struc-ture Grass-rootsMap-ping.org *The Grass-root
-s Map-ping Wiki wrap-fig-urer0.5 flushright|
-
-\hbox(7.5+1.94444)x469.75499, glue set - 1.0
-.\tenrm C
-.\tenrm o
-.\tenrm m
-.\discretionary
-..\tenrm -
-.\tenrm m
-.etc.
-
- [1] )
-Output written on thesis.dvi (1 page, 2104 bytes).
