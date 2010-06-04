@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.12)  4 JUN 2010 18:32
+This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.12)  4 JUN 2010 18:47
 entering extended mode
 **thesis.tex
 (./thesis.tex
@@ -270,7 +270,7 @@ l.46
       [1
 
 ]
-<images/100-dollar-satellite-poster.jpg, id=314, 1480.0896pt x 987.2082pt>
+<images/100-dollar-satellite-poster.jpg, id=318, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
 <use images/100-dollar-satellite-poster.jpg>
@@ -305,92 +305,100 @@ _ result&ct = result&resnum = 5&ved = 0CBwQ6AEwBA #
 
 [4
 
-] <images/osm-missing-parts.png, id=344, 1024.82875pt x 576.1525pt>
+] <images/osm-missing-parts.png, id=348, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
-Overfull \hbox (9.5714pt too wide) in paragraph at lines 195--196
+<images/February_5,_2003_trucks_at_the_Al_Mussayyib_chemical_complex_along_with
+_a_decontamination_vehicle.jpg, id=350, 803.0pt x 602.25pt>
+File: images/February_5,_2003_trucks_at_the_Al_Mussayyib_chemical_complex_along
+_with_a_decontamination_vehicle.jpg Graphic file (type jpg)
+
+<use images/February_5,_2003_trucks_at_the_Al_Mussayyib_chemical_complex_along_
+with_a_decontamination_vehicle.jpg> [5 <./images/osm-missing-parts.png (PNG cop
+y)> <./images/February_5,_2003_trucks_at_the_Al_Mussayyib_chemical_complex_alon
+g_with_a_decontamination_vehicle.jpg>]
+Overfull \hbox (9.5714pt too wide) in paragraph at lines 203--204
 \OT1/cmr/m/n/10.95 Cartography, ethics, and so-cial the-ory: [][]$\OT1/cmtt/m/n
 /10 https : / / commerce . metapress . com / content / c21115120603xj14 /
  []
 
 
-Overfull \hbox (13.74077pt too wide) in paragraph at lines 195--196
+Overfull \hbox (13.74077pt too wide) in paragraph at lines 203--204
 \OT1/cmtt/m/n/10 resource-[]secured / ?target = fulltext . pdf&sid = gb5vtk2lhv
 t0dj55c1xba4aa&sh = utpjournals . metapress .
  []
 
-[5 <./images/osm-missing-parts.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [6]
+[6]
 Chapter 3.
+[7
 
-Overfull \hbox (82.67355pt too wide) in paragraph at lines 230--232
+]
+Overfull \hbox (82.67355pt too wide) in paragraph at lines 272--274
 \OT1/cmtt/m/n/10 2009 / 11 / how-[]dictators-[]watch-[]us-[]on-[]the-[]web/$[][
 ] [][]$http : / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[]vs
 -[]shirky/$[][]
  []
 
-[7
-
-]
+[8] [9]
 Chapter 4.
 
-Overfull \hbox (12.8933pt too wide) in paragraph at lines 262--264
+Overfull \hbox (12.8933pt too wide) in paragraph at lines 336--338
 \OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
 et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
 0 http : / / dusk2 . geo . orst . edu / gis / student _
  []
 
-[8
-
-]
-Chapter 5.
-[9
-
-]
-Chapter 6.
 [10
 
-]
-Chapter 7.
-[11
-
-]
-Chapter 8.
+] [11]
+Chapter 5.
 [12
 
 ]
-Chapter 9.
+Chapter 6.
 [13
 
 ]
-Overfull \hbox (82.97742pt too wide) in paragraph at lines 495--503
+Chapter 7.
+[14
+
+]
+Chapter 8.
+[15
+
+]
+Chapter 9.
+[16
+
+]
+Overfull \hbox (82.97742pt too wide) in paragraph at lines 587--595
 \OT1/cmr/m/n/10.95 and 'de-sign-ing with' lead-ing to Carta-gen Knit-ter (see l
 ater dis-cus-sion) - http://en.wikipedia.org/wiki/Rubbersheeting
  []
 
-[14]
+[17]
 Chapter 10.
-[15
+[18
 
 ]
 Chapter 11.
-[16
+[19
 
 ]
 Chapter 12.
-<images/test.jpg, id=422, 244.29295pt x 136.3969pt>
+<images/test.jpg, id=447, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
-[17
+[20
 
  <./images/test.jpg>]
 Chapter 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 556.
+(Font)              <10.95> on input line 648.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -418,27 +426,31 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[18
+[21
 
-] [19] (./thesis.aux) ) 
+] [22] (./thesis.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4454 strings out of 94073
- 72960 string characters out of 1164797
+ 4467 strings out of 94073
+ 73590 string characters out of 1164797
  131677 words of memory out of 1500000
- 7585 multiletter control sequences out of 10000+50000
+ 7590 multiletter control sequences out of 10000+50000
  10238 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  33i,7n,36p,895b,367s stack positions out of 5000i,500n,6000p,200000b,5000s
-</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx
-10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/loc
-al/share/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb></opt/local/share/texmf-di
-st/fonts/type1/bluesky/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bl
-uesky/cm/cmr17.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.p
-fb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></opt/local/s
-hare/texmf-dist/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (20 pages, 1159293 bytes).
+</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pfb></opt/local/sh
+are/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/share/texmf-dist/f
+onts/type1/bluesky/cm/cmr10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesk
+y/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr17.pfb></
+opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/share/
+texmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></opt/local/share/texmf-dist/fonts
+/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (23 pages, 1301390 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 131072)
- 616 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 540 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 131072)
+ 629 words of extra memory for PDF output out of 10000 (max. 10000000)
 
