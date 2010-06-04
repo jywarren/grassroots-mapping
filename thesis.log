@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.12)  4 JUN 2010 12:53
+This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.12)  4 JUN 2010 18:32
 entering extended mode
 **thesis.tex
 (./thesis.tex
@@ -270,130 +270,127 @@ l.46
       [1
 
 ]
-<images/100-dollar-satellite-poster.jpg, id=302, 1480.0896pt x 987.2082pt>
+<images/100-dollar-satellite-poster.jpg, id=314, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
 <use images/100-dollar-satellite-poster.jpg>
-Overfull \hbox (13.6128pt too wide) in paragraph at lines 75--75
+Overfull \hbox (13.6128pt too wide) in paragraph at lines 79--79
 []\OT1/cmr/bx/n/12 Novel ap-pli-ca-tion of low-cost tools
  []
 
 
-Overfull \hbox (7.58083pt too wide) in paragraph at lines 79--79
+Overfull \hbox (7.58083pt too wide) in paragraph at lines 83--83
 []\OT1/cmr/bx/n/12 Central merit: tech-nol-ogy or cul-
  []
 
 [2] [3 <./images/100-dollar-satellite-poster.jpg>]
 Chapter 2.
 
-Overfull \hbox (114.8409pt too wide) in paragraph at lines 110--113
+Overfull \hbox (114.8409pt too wide) in paragraph at lines 114--117
 []\OT1/cmr/m/n/10.95 Andrew Turner: In-tro-duc-tion to Neo-geog-ra-phy coined b
 y Di-Ann Eis-nor? http://apb.directionsmag.com/archives/1379-
  []
 
 
-Overfull \hbox (51.74059pt too wide) in paragraph at lines 116--117
+Overfull \hbox (51.74059pt too wide) in paragraph at lines 120--121
 [][][]$\OT1/cmtt/m/n/10 http : / / books . google . com / books ? id = oHgDv4fe
 V-[]8C&dq = neogeography + turner&printsec = frontcover&source =
  []
 
 
-Overfull \hbox (3.24086pt too wide) in paragraph at lines 116--117
+Overfull \hbox (3.24086pt too wide) in paragraph at lines 120--121
 \OT1/cmtt/m/n/10 bn&hl = en&ei = gmDLS6 _ -[]KYj98AaY _ KWXDA&sa = X&oi = book 
 _ result&ct = result&resnum = 5&ved = 0CBwQ6AEwBA #
  []
 
 [4
 
-] <images/osm-missing-parts.png, id=331, 1024.82875pt x 576.1525pt>
+] <images/osm-missing-parts.png, id=344, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
-Underfull \hbox (badness 3158) in paragraph at lines 167--167
-[]\OT1/cmr/bx/n/14.4 Maps: rhetor-i-cal, even
+Overfull \hbox (9.5714pt too wide) in paragraph at lines 195--196
+\OT1/cmr/m/n/10.95 Cartography, ethics, and so-cial the-ory: [][]$\OT1/cmtt/m/n
+/10 https : / / commerce . metapress . com / content / c21115120603xj14 /
  []
 
 
-Overfull \hbox (37.6202pt too wide) in paragraph at lines 180--181
-\OT1/cmtt/m/n/10 / / commerce . metapress . com / content / c21115120603xj14 /
- []
-
-
-Overfull \hbox (143.11928pt too wide) in paragraph at lines 180--181
+Overfull \hbox (13.74077pt too wide) in paragraph at lines 195--196
 \OT1/cmtt/m/n/10 resource-[]secured / ?target = fulltext . pdf&sid = gb5vtk2lhv
-t0dj55c1xba4aa&sh =
+t0dj55c1xba4aa&sh = utpjournals . metapress .
  []
 
+[5 <./images/osm-missing-parts.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[5 <./images/osm-missing-parts.png (PNG copy)>]
+ [6]
 Chapter 3.
 
-Overfull \hbox (82.67355pt too wide) in paragraph at lines 215--217
+Overfull \hbox (82.67355pt too wide) in paragraph at lines 230--232
 \OT1/cmtt/m/n/10 2009 / 11 / how-[]dictators-[]watch-[]us-[]on-[]the-[]web/$[][
 ] [][]$http : / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[]vs
 -[]shirky/$[][]
  []
 
-[6
+[7
 
 ]
 Chapter 4.
 
-Overfull \hbox (12.8933pt too wide) in paragraph at lines 247--249
+Overfull \hbox (12.8933pt too wide) in paragraph at lines 262--264
 \OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
 et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
 0 http : / / dusk2 . geo . orst . edu / gis / student _
  []
 
-[7
-
-]
-Chapter 5.
 [8
 
 ]
-Chapter 6.
+Chapter 5.
 [9
 
 ]
-Chapter 7.
+Chapter 6.
 [10
 
 ]
-Chapter 8.
+Chapter 7.
 [11
 
 ]
-Chapter 9.
+Chapter 8.
 [12
 
 ]
-Overfull \hbox (82.97742pt too wide) in paragraph at lines 480--488
+Chapter 9.
+[13
+
+]
+Overfull \hbox (82.97742pt too wide) in paragraph at lines 495--503
 \OT1/cmr/m/n/10.95 and 'de-sign-ing with' lead-ing to Carta-gen Knit-ter (see l
 ater dis-cus-sion) - http://en.wikipedia.org/wiki/Rubbersheeting
  []
 
-[13]
+[14]
 Chapter 10.
-[14
-
-]
-Chapter 11.
 [15
 
 ]
+Chapter 11.
+[16
+
+]
 Chapter 12.
-<images/test.jpg, id=406, 244.29295pt x 136.3969pt>
+<images/test.jpg, id=422, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
-[16
+[17
 
  <./images/test.jpg>]
 Chapter 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 541.
+(Font)              <10.95> on input line 556.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -421,34 +418,27 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[17
+[18
 
-] [18] (./thesis.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] [19] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 4449 strings out of 94073
- 72899 string characters out of 1164797
- 131674 words of memory out of 1500000
- 7582 multiletter control sequences out of 10000+50000
+ 4454 strings out of 94073
+ 72960 string characters out of 1164797
+ 131677 words of memory out of 1500000
+ 7585 multiletter control sequences out of 10000+50000
  10238 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  33i,7n,36p,895b,367s stack positions out of 5000i,500n,6000p,200000b,5000s
-pdfTeX warning (dest): name{section.11.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pfb></opt/local/shar
-e/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/share/texmf-dist/fon
-ts/type1/bluesky/cm/cmr10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/
-cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr17.pfb></op
-t/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/share/te
-xmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></opt/local/share/texmf-dist/fonts/t
-ype1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (19 pages, 1156480 bytes).
+</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx
+10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/loc
+al/share/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb></opt/local/share/texmf-di
+st/fonts/type1/bluesky/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bl
+uesky/cm/cmr17.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.p
+fb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></opt/local/s
+hare/texmf-dist/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (20 pages, 1159293 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 131072)
- 592 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 131072)
+ 616 words of extra memory for PDF output out of 10000 (max. 10000000)
 
