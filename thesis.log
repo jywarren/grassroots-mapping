@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.10)  29 MAY 2010 14:18
+=======
+This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.12)  4 JUN 2010 12:53
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -251,63 +255,96 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 37.
+<<<<<<< HEAD
 <images/100-dollar-satellite-poster.jpg, id=303, 1480.0896pt x 987.2082pt>
-File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
-
-<use images/100-dollar-satellite-poster.jpg>
-Overfull \hbox (13.6128pt too wide) in paragraph at lines 60--60
-[]\OT1/cmr/bx/n/12 Novel ap-pli-ca-tion of low-cost tools
- []
-
-
-Overfull \hbox (7.58083pt too wide) in paragraph at lines 64--64
-[]\OT1/cmr/bx/n/12 Central merit: tech-nol-ogy or cul-
- []
-
+=======
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67 \chapter
-             {Subjectivity in Mapping} [1
+l.46 
+      [1
 
-] [2 <./images/100-dollar-satellite-poster.jpg>]
+]
+<images/100-dollar-satellite-poster.jpg, id=302, 1480.0896pt x 987.2082pt>
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
+File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
+
+<use images/100-dollar-satellite-poster.jpg>
+Overfull \hbox (13.6128pt too wide) in paragraph at lines 75--75
+[]\OT1/cmr/bx/n/12 Novel ap-pli-ca-tion of low-cost tools
+ []
+
+
+Overfull \hbox (7.58083pt too wide) in paragraph at lines 79--79
+[]\OT1/cmr/bx/n/12 Central merit: tech-nol-ogy or cul-
+ []
+
+[2] [3 <./images/100-dollar-satellite-poster.jpg>]
 Chapter 2.
 
+<<<<<<< HEAD
 Overfull \hbox (114.8409pt too wide) in paragraph at lines 95--98
+=======
+Overfull \hbox (114.8409pt too wide) in paragraph at lines 110--113
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 []\OT1/cmr/m/n/10.95 Andrew Turner: In-tro-duc-tion to Neo-geog-ra-phy coined b
 y Di-Ann Eis-nor? http://apb.directionsmag.com/archives/1379-
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (51.74059pt too wide) in paragraph at lines 101--102
+=======
+Overfull \hbox (51.74059pt too wide) in paragraph at lines 116--117
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 [][][]$\OT1/cmtt/m/n/10 http : / / books . google . com / books ? id = oHgDv4fe
 V-[]8C&dq = neogeography + turner&printsec = frontcover&source =
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (3.24086pt too wide) in paragraph at lines 101--102
+=======
+Overfull \hbox (3.24086pt too wide) in paragraph at lines 116--117
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 \OT1/cmtt/m/n/10 bn&hl = en&ei = gmDLS6 _ -[]KYj98AaY _ KWXDA&sa = X&oi = book 
 _ result&ct = result&resnum = 5&ved = 0CBwQ6AEwBA #
  []
 
-[3
+[4
 
+<<<<<<< HEAD
 ] <images/osm-missing-parts.png, id=334, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
 Underfull \hbox (badness 3158) in paragraph at lines 152--152
+=======
+] <images/osm-missing-parts.png, id=331, 1024.82875pt x 576.1525pt>
+File: images/osm-missing-parts.png Graphic file (type png)
+
+<use images/osm-missing-parts.png>
+Underfull \hbox (badness 3158) in paragraph at lines 167--167
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 []\OT1/cmr/bx/n/14.4 Maps: rhetor-i-cal, even
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (37.6202pt too wide) in paragraph at lines 165--166
+=======
+Overfull \hbox (37.6202pt too wide) in paragraph at lines 180--181
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 \OT1/cmtt/m/n/10 / / commerce . metapress . com / content / c21115120603xj14 /
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (143.11928pt too wide) in paragraph at lines 165--166
+=======
+Overfull \hbox (143.11928pt too wide) in paragraph at lines 180--181
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 \OT1/cmtt/m/n/10 resource-[]secured / ?target = fulltext . pdf&sid = gb5vtk2lhv
 t0dj55c1xba4aa&sh =
  []
@@ -315,30 +352,48 @@ t0dj55c1xba4aa&sh =
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[4 <./images/osm-missing-parts.png (PNG copy)>]
+[5 <./images/osm-missing-parts.png (PNG copy)>]
 Chapter 3.
 [5
 
+<<<<<<< HEAD
 ]
 Overfull \hbox (82.67355pt too wide) in paragraph at lines 234--236
+=======
+Overfull \hbox (82.67355pt too wide) in paragraph at lines 215--217
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 \OT1/cmtt/m/n/10 2009 / 11 / how-[]dictators-[]watch-[]us-[]on-[]the-[]web/$[][
 ] [][]$http : / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[]vs
 -[]shirky/$[][]
  []
 
+<<<<<<< HEAD
 [6] [7]
 Chapter 4.
 
 Overfull \hbox (12.8933pt too wide) in paragraph at lines 298--300
+=======
+[6
+
+]
+Chapter 4.
+
+Overfull \hbox (12.8933pt too wide) in paragraph at lines 247--249
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 \OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
 et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
 0 http : / / dusk2 . geo . orst . edu / gis / student _
  []
 
+<<<<<<< HEAD
 [8
+=======
+[7
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 
 ] [9]
 Chapter 5.
+<<<<<<< HEAD
 [10
 
 ]
@@ -377,11 +432,55 @@ Chapter 12.
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
 [18
+=======
+[8
+
+]
+Chapter 6.
+[9
+
+]
+Chapter 7.
+[10
+
+]
+Chapter 8.
+[11
+
+]
+Chapter 9.
+[12
+
+]
+Overfull \hbox (82.97742pt too wide) in paragraph at lines 480--488
+\OT1/cmr/m/n/10.95 and 'de-sign-ing with' lead-ing to Carta-gen Knit-ter (see l
+ater dis-cus-sion) - http://en.wikipedia.org/wiki/Rubbersheeting
+ []
+
+[13]
+Chapter 10.
+[14
+
+]
+Chapter 11.
+[15
+
+]
+Chapter 12.
+<images/test.jpg, id=406, 244.29295pt x 136.3969pt>
+File: images/test.jpg Graphic file (type jpg)
+ <use images/test.jpg>
+[16
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 
  <./images/test.jpg>]
 Chapter 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
+<<<<<<< HEAD
 (Font)              <10.95> on input line 610.
+=======
+(Font)              <10.95> on input line 541.
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -409,6 +508,7 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
+<<<<<<< HEAD
 [19
 
 ] [20] (./thesis.aux) ) 
@@ -431,4 +531,36 @@ PDF statistics:
  518 PDF objects out of 1000 (max. 8388607)
  123 named destinations out of 1000 (max. 131072)
  608 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+[17
+
+] [18] (./thesis.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4449 strings out of 94073
+ 72899 string characters out of 1164797
+ 131674 words of memory out of 1500000
+ 7582 multiletter control sequences out of 10000+50000
+ 10238 words of font info for 36 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 33i,7n,36p,895b,367s stack positions out of 5000i,500n,6000p,200000b,5000s
+pdfTeX warning (dest): name{section.11.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pfb></opt/local/shar
+e/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/share/texmf-dist/fon
+ts/type1/bluesky/cm/cmr10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/
+cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr17.pfb></op
+t/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/share/te
+xmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></opt/local/share/texmf-dist/fonts/t
+ype1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (19 pages, 1156480 bytes).
+PDF statistics:
+ 501 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 131072)
+ 592 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 60815ec2f9154892c3384e894c32f9cb1e62d031
 
