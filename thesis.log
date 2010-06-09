@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  9 JUN 2010 17:43
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  9 JUN 2010 17:51
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -306,12 +306,7 @@ File: images/iraq-image-16.jpg Graphic file (type jpg)
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-
-LaTeX Warning: Citation `rambaldi2006practical' on page 6 undefined on input li
-ne 211.
-
-[6] [7]
+ [6] [7]
 Chapter 3.
 [8
 
@@ -322,17 +317,8 @@ Overfull \hbox (82.67355pt too wide) in paragraph at lines 283--285
 -[]shirky/$[][]
  []
 
-[9]
-
-LaTeX Warning: Citation `okolloh2009ushahidi' on page 10 undefined on input lin
-e 315.
-
-[10] [11]
+[9] [10] [11]
 Chapter 4.
-
-LaTeX Warning: Citation `chambers2006participatory' on page 12 undefined on inp
-ut line 352.
-
 
 Overfull \hbox (12.8933pt too wide) in paragraph at lines 360--362
 \OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
@@ -342,17 +328,8 @@ et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
 
 [12
 
-]
-
-LaTeX Warning: Citation `maron2010openstreetmap' on page 13 undefined on input 
-line 382.
-
-[13]
+] [13]
 Chapter 5.
-
-LaTeX Warning: Citation `chambers2006participatory' on page 14 undefined on inp
-ut line 430.
-
 [14
 
 ]
@@ -387,7 +364,7 @@ Chapter 11.
 
 ]
 Chapter 12.
-<images/test.jpg, id=456, 244.29295pt x 136.3969pt>
+<images/test.jpg, id=465, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
 [23
@@ -425,30 +402,33 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 [24
 
-] (./thesis.bbl [25]) [26
+] (./thesis.bbl [25]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+) [26
 
-] (./thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 4195 strings out of 256216
- 68869 string characters out of 1917073
- 129344 words of memory out of 1500000
+ 4199 strings out of 256216
+ 68976 string characters out of 1917073
+ 129515 words of memory out of 1500000
  7312 multiletter control sequences out of 10000+200000
  10883 words of font info for 38 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  33i,7n,36p,951b,367s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
-ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
-/usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
-/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr
-/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bl
-uesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (27 pages, 1233022 bytes).
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/sha
+re/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesk
+y/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/t
+exmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
+cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texm
+f/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (27 pages, 1237783 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 134 named destinations out of 1000 (max. 131072)
+ 565 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 131072)
  629 words of extra memory for PDF output out of 10000 (max. 10000000)
 

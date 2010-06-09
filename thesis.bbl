@@ -1,9 +1,34 @@
 \begin{thebibliography}{1}
 
+\bibitem{chambers2006participatory}
+R.~Chambers.
+\newblock {Participatory mapping and geographic information systems: whose map?
+  Who is empowered and who disempowered? Who gains and who loses?}
+\newblock {\em The Electronic Journal of Information Systems in Developing
+  Countries}, 25(0), 2006.
+
+\bibitem{maron2010openstreetmap}
+Mikel Maron.
+\newblock Openstreetmap for activism.
+\newblock In {\em Maps for Making Change}. Maps for Making Change, 2010.
+
+\bibitem{okolloh2009ushahidi}
+O.~Okolloh.
+\newblock {Ushahidi, or ‘testimony’: Web 2.0 tools for crowdsourcing crisis
+  information}.
+\newblock {\em Change at Hand: Web 2.0 for Development}, page~65, 2009.
+
 \bibitem{poole2006there}
 P.~Poole.
 \newblock {Is there life after tenure mapping?}
 \newblock {\em Participatory Learning and Action: Mapping for change: practice,
   technologies and communication}, page~41, 2006.
+
+\bibitem{rambaldi2006practical}
+G.~Rambaldi, R.~Chambers, M.~McCall, and J.~Fox.
+\newblock {Practical ethics for PGIS practitioners, facilitators, technology
+  intermediaries and researchers}.
+\newblock {\em Participatory Learning and Action: Mapping for change: practice,
+  technologies and communication}, page 106, 2006.
 
 \end{thebibliography}
