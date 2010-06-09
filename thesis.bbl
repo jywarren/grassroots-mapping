@@ -1,16 +1,86 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{aber2002unmanned}
+J.S. Aber, S.W. Aber, and F.~Pavri.
+\newblock {UNMANNED SMALL FORMAT AERIAL PHOTOGRAPHY FROM KITES ACQUIRING
+  LARGE-SCALE, HIGH-RESOLUTION, MULTIVIEW-ANGLE IMAGERY}.
+\newblock {\em INTERNATIONAL ARCHIVES OF PHOTOGRAMMETRY REMOTE SENSING AND
+  SPATIAL INFORMATION SCIENCES}, 34(1):1--6, 2002.
+
+\bibitem{aber1999kite}
+J.S. Aber, R.J. Sobieski, D.A. Distler, and M.C. Nowak.
+\newblock {Kite aerial photography for environmental site investigations in
+  Kansas}.
+\newblock {\em Transactions of the Kansas Academy of Science (1903)},
+  102(1):57--67, 1999.
+
+\bibitem{boike2003mapping}
+J.~Boike and K.~Yoshikawa.
+\newblock {Mapping of periglacial geomorphology using kite/balloon aerial
+  photography}.
+\newblock {\em Permafrost and periglacial processes}, 14(1):81--85, 2003.
+
+\bibitem{boulos2010web}
+M.N.K. Boulos, J.~Warren, J.~Gong, and P.~Yue.
+\newblock {Web GIS in practice VIII: HTML5 and the canvas element for
+  interactive online mapping}.
+\newblock {\em International Journal of Health Geographics}, 9(1):14, 2010.
+
+\bibitem{buerkert1996soil}
+A.~Buerkert, F.~Mahler, and H.~Marschner.
+\newblock {Soil productivity management and plant growth in the Sahel:
+  potential of an aerial monitoring technique}.
+\newblock {\em Plant and Soil}, 180(1):29--38, 1996.
+
+\bibitem{canepa2005new}
+Claudia Canepa.
+\newblock {New information technologies in the old political economy : an
+  exploration of community-based GIS for improving basic services for the poor
+  in New Delhi, India}.
+\newblock Master's thesis, Massachusetts Institute of Technology, 2005.
 
 \bibitem{chambers2006participatory}
 R.~Chambers.
 \newblock {Participatory mapping and geographic information systems: whose map?
-  Who is empowered and who disempowered? Who gains and who loses?}
+  Who is empowered and who disempowered? Who gains and who lo ses?}
 \newblock {\em The Electronic Journal of Information Systems in Developing
   Countries}, 25(0), 2006.
+
+\bibitem{de1989other}
+H.~De~Soto and M.V. Llosa.
+\newblock {\em {The other path: the invisible revolution in the Third World}}.
+\newblock Harper \& Row New York, 1989.
+
+\bibitem{goodchild2009neogeography}
+M.~Goodchild.
+\newblock {NeoGeography and the nature of geographic expertise}.
+\newblock {\em Journal of Location Based Services}, 99999(1):1--15, 2009.
+
+\bibitem{guardian2003powell}
+{Full text of Colin Powell's speech | World news | guardian.co.uk, Project
+  Website}.
+\newblock \url{http://www.guardian.co.uk/world/2003/feb/05/iraq.usa}.
 
 \bibitem{maron2010openstreetmap}
 Mikel Maron.
 \newblock Openstreetmap for activism.
 \newblock In {\em Maps for Making Change}. Maps for Making Change, 2010.
+
+\bibitem{maron2009misconceptions}
+{Brain Off » Misconceptions and Objections to Gaza Mapping: My Response ::
+  Mikel Maron :: Building Digital Technology for Our Planet}.
+\newblock \url{http://brainoff.com/weblog/2009/01/12/1389}.
+
+\bibitem{maron2010freedom}
+{Brain Off » Freedom and Restrictions in Open Data :: Mikel Maron :: Building
+  Digital Technology for Our Planet}.
+\newblock \url{http://brainoff.com/weblog/2010/06/03/1620}.
+
+\bibitem{miyamoto2004use}
+M.~Miyamoto, K.~Yoshino, T.~Nagano, T.~Ishida, and Y.~Sato.
+\newblock {Use of balloon aerial photography for classification of Kushiro
+  wetland vegetation, northeastern Japan}.
+\newblock {\em Wetlands}, 24(3):701--710, 2004.
 
 \bibitem{okolloh2009ushahidi}
 O.~Okolloh.
@@ -30,5 +100,45 @@ G.~Rambaldi, R.~Chambers, M.~McCall, and J.~Fox.
   intermediaries and researchers}.
 \newblock {\em Participatory Learning and Action: Mapping for change: practice,
   technologies and communication}, page 106, 2006.
+
+\bibitem{rambaldi2006participatory}
+G.~Rambaldi, P.A.K. Kyem, M.~McCall, and D.~Weiner.
+\newblock {Participatory spatial information management and communication in
+  developing countries}.
+\newblock {\em The Electronic Journal of Information Systems in Developing
+  Countries}, 25(0), 2006.
+
+\bibitem{rana2009neogeography}
+S.~Rana and T.~Joliveau.
+\newblock {NeoGeography: an extension of mainstream geography for everyone made
+  by everyone?}
+\newblock {\em Journal of Location Based Services}, 3(2):75--81, 2009.
+
+\bibitem{senate2004report}
+United States~Senate Select Committee~on Intelligence.
+\newblock {Report of the Select Committee on Intelligence on the U.S.
+  Intelligence Community’s Prewar Intelligence Assessments on Iraq}.
+\newblock \url{http://www.gpoaccess.gov/serialset/creports/iraq.html}.
+
+\bibitem{vierling2006short}
+L.A. Vierling, M.~Fersdahl, X.~Chen, Z.~Li, and P.~Zimmerman.
+\newblock {The Short Wave Aerostat-Mounted Imager (SWAMI): A novel platform for
+  acquiring remotely sensed data from a tethered balloon}.
+\newblock {\em Remote Sensing of Environment}, 103(3):255--264, 2006.
+
+\bibitem{waters2009warper}
+{Rectify Map San Ignacio Loyola on Map Warper, Project Website}.
+\newblock \url{http://warper.geothings.net/maps/preview/2018}.
+
+\bibitem{wittens2008projective}
+{Projective Texturing with Canvas | Steven Wittens - Acko.net, Project
+  Website}.
+\newblock \url{http://acko.net/blog/projective-texturing-with-canvas}.
+
+\bibitem{wolf2006lowcost}
+Eric~B. Wolf.
+\newblock Low-cost large scale aerial photography and the upland south folk
+  cemetery.
+\newblock Master's thesis, Northwest Missouri State University, 2006.
 
 \end{thebibliography}
