@@ -491,6 +491,10 @@ However, in order to orthorectify or `stitch' aerial imagery into a flat, geogra
 
 raster abilities of Cartagen
 
+Beyond the ability to orthorectify imagery, Cartagen is a fully-fledged cartographic scripting environment and renderer. It can draw vector data onto a pixel grid - not just fast enough to generate tiles, but at over 10 frames per second on most computers. As the user interacts with a Cartagen map, features are drawn continuously, as in an animation. This negates the need to cache or otherwise store raster representations of map data, and sidesteps many of the assumptions and limitations of the modern mapping technology stack.
+
+This alternative `geostack' is one of the most unique aspects of the Grassroots Mapping tool chain, but while some might see it as an unnecessary reinvention of the wheel,  
+
 %        - existing solutions based around cloud systems
 %            - this move opposite - closer to client
 %            - needs: data under no connectivity

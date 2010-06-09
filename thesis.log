@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  9 JUN 2010 18:55
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  9 JUN 2010 19:48
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -356,30 +356,30 @@ et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
 Chapter 5.
 [16
 
-]
+] [17]
 Chapter 6.
-[17
-
-]
-Chapter 7.
 [18
 
 ]
+Chapter 7.
+[19
+
+]
 Chapter 8.
-<images/map-warper.png, id=483, 971.63pt x 651.43375pt>
+<images/map-warper.png, id=487, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
 <use images/map-warper.png>
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-571.
+577.
 
-<images/map-warper-hack.png, id=485, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=489, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
-<use images/map-warper-hack.png> [19
+<use images/map-warper-hack.png> [20
 
-] [20 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG c
+] [21 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG c
 opy)>]
 Chapter 9.
 Missing character: There is no √ in font cmr10!
@@ -388,33 +388,33 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
-[21
+[22
 
-] [22]
-Overfull \hbox (82.97742pt too wide) in paragraph at lines 723--731
+] [23]
+Overfull \hbox (82.97742pt too wide) in paragraph at lines 729--737
 \OT1/cmr/m/n/10.95 and 'de-sign-ing with' lead-ing to Carta-gen Knit-ter (see l
 ater dis-cus-sion) - http://en.wikipedia.org/wiki/Rubbersheeting
  []
 
-[23]
+[24]
 Chapter 10.
-[24
-
-]
-Chapter 11.
 [25
 
 ]
+Chapter 11.
+[26
+
+]
 Chapter 12.
-<images/test.jpg, id=526, 244.29295pt x 136.3969pt>
+<images/test.jpg, id=530, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
-[26
+[27
 
  <./images/test.jpg>]
 Chapter 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 781.
+(Font)              <10.95> on input line 787.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -442,9 +442,9 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[27
+[28
 
-] (./thesis.bbl [28]
+] (./thesis.bbl [29]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ª in font cmr10!
 Missing character: There is no ¬ in font cmr10!
@@ -455,30 +455,34 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [29
+ [30
 
 ]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-) [30] (./thesis.aux) ) 
+) [31] (./thesis.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4273 strings out of 256216
- 70525 string characters out of 1917073
+ 4274 strings out of 256216
+ 70532 string characters out of 1917073
  131253 words of memory out of 1500000
  7353 multiletter control sequences out of 10000+200000
  10883 words of font info for 38 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  33i,7n,36p,1158b,468s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></us
-r/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/b
-luesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/sh
-are/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesk
-y/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share
-/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (31 pages, 5259416 bytes).
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
+/usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr
+/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bl
+uesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (32 pages, 5260612 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 167 named destinations out of 1000 (max. 131072)
+ 659 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 131072)
  697 words of extra memory for PDF output out of 10000 (max. 10000000)
 
