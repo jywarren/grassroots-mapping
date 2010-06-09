@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.10)  8 JUN 2010 09:35
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  9 JUN 2010 17:43
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -303,87 +303,99 @@ File: images/iraq-image-16.jpg Graphic file (type jpg)
 
 <use images/iraq-image-16.jpg> [5 <./images/osm-missing-parts.png (PNG copy)> <
 ./images/iraq-image-16.jpg>]
-Overfull \hbox (9.5714pt too wide) in paragraph at lines 203--204
-\OT1/cmr/m/n/10.95 Cartography, ethics, and so-cial the-ory: [][]$\OT1/cmtt/m/n
-/10 https : / / commerce . metapress . com / content / c21115120603xj14 /
- []
-
-
-Overfull \hbox (13.74077pt too wide) in paragraph at lines 203--204
-\OT1/cmtt/m/n/10 resource-[]secured / ?target = fulltext . pdf&sid = gb5vtk2lhv
-t0dj55c1xba4aa&sh = utpjournals . metapress .
- []
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[6]
+
+
+LaTeX Warning: Citation `rambaldi2006practical' on page 6 undefined on input li
+ne 211.
+
+[6] [7]
 Chapter 3.
-[7
+[8
 
 ]
-Overfull \hbox (82.67355pt too wide) in paragraph at lines 272--274
+Overfull \hbox (82.67355pt too wide) in paragraph at lines 283--285
 \OT1/cmtt/m/n/10 2009 / 11 / how-[]dictators-[]watch-[]us-[]on-[]the-[]web/$[][
 ] [][]$http : / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[]vs
 -[]shirky/$[][]
  []
 
-[8] [9]
+[9]
+
+LaTeX Warning: Citation `okolloh2009ushahidi' on page 10 undefined on input lin
+e 315.
+
+[10] [11]
 Chapter 4.
 
-Overfull \hbox (12.8933pt too wide) in paragraph at lines 339--341
+LaTeX Warning: Citation `chambers2006participatory' on page 12 undefined on inp
+ut line 352.
+
+
+Overfull \hbox (12.8933pt too wide) in paragraph at lines 360--362
 \OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
 et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
 0 http : / / dusk2 . geo . orst . edu / gis / student _
  []
 
-[10
-
-] [11]
-Chapter 5.
 [12
 
 ]
-Chapter 6.
-[13
 
-]
-Chapter 7.
+LaTeX Warning: Citation `maron2010openstreetmap' on page 13 undefined on input 
+line 382.
+
+[13]
+Chapter 5.
+
+LaTeX Warning: Citation `chambers2006participatory' on page 14 undefined on inp
+ut line 430.
+
 [14
 
 ]
-Chapter 8.
+Chapter 6.
 [15
 
 ]
-Chapter 9.
+Chapter 7.
 [16
 
 ]
-Overfull \hbox (82.97742pt too wide) in paragraph at lines 597--605
+Chapter 8.
+[17
+
+]
+Chapter 9.
+[18
+
+]
+Overfull \hbox (82.97742pt too wide) in paragraph at lines 631--639
 \OT1/cmr/m/n/10.95 and 'de-sign-ing with' lead-ing to Carta-gen Knit-ter (see l
 ater dis-cus-sion) - http://en.wikipedia.org/wiki/Rubbersheeting
  []
 
-[17] [18]
+[19] [20]
 Chapter 10.
-[19
+[21
 
 ]
 Chapter 11.
-[20
+[22
 
 ]
 Chapter 12.
-<images/test.jpg, id=451, 244.29295pt x 136.3969pt>
+<images/test.jpg, id=456, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
-[21
+[23
 
  <./images/test.jpg>]
 Chapter 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 658.
+(Font)              <10.95> on input line 692.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -411,32 +423,32 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[22
+[24
 
-] (./thesis.bbl [23]) [24
+] (./thesis.bbl [25]) [26
 
 ] (./thesis.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4189 strings out of 256216
- 68760 string characters out of 1917072
+ 4195 strings out of 256216
+ 68869 string characters out of 1917073
  129344 words of memory out of 1500000
- 7308 multiletter control sequences out of 10000+200000
+ 7312 multiletter control sequences out of 10000+200000
  10883 words of font info for 38 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 33i,7n,36p,966b,367s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 33i,7n,36p,951b,367s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
 ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
 /usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
 /bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr
 /share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bl
 uesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (25 pages, 1227516 bytes).
+Output written on thesis.pdf (27 pages, 1233022 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 131072)
+ 556 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 131072)
  629 words of extra memory for PDF output out of 10000 (max. 10000000)
 

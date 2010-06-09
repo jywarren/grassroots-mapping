@@ -200,16 +200,26 @@ This aspect of the public perception of maps as an objective, quantitative measu
 
 \section{Cartographic ethics}
 
-Cartography, ethics, and social theory: \url{https://commerce.metapress.com/content/c21115120603xj14/resource-secured/?target=fulltext.pdf&sid=gb5vtk2lhvt0dj55c1xba4aa&sh=utpjournals.metapress.com}
+In light of this reassessment of the political and social roles of maps and their production, some from the PGIS community have called for a code of ethics in participatory mapping projects. This seems especially prudent given that the production of maps can have dramatic effects on the residents of the mapped area. Giacomo Rambaldi, Robert Chambers, Mike McCall, and Jefferson Fox proposed in 2006 a set of 33 guidelines entitled "Practical ethics for PGIS practitioners, facilitators, technology intermediaries and researchers". The following is a sampling:
+
+\begin{quote}
+- Do your best to recognise that you are working with socially differentiated communities and that your presence will not be politically neutral
+- Consider using spatial information technologies that can be mastered by local people (or local technology intermediaries) after being provided sufficient training
+- Be considerate in taking peoples' time
+- Stimulate spatial learning and information generation rather than mere data extraction for outsider’s analysis and interpretation
+- Ensure that the outputs of the mapping process are understood by all those concerned
+\cite{rambaldi2006practical}
+\end{quote}
+
+These guidelines demonstrate an belief that maps should be produced \textbf{in collaboration with} local communities, and with respect for their needs and interests. They have proved invaluable to the author in formalizing and understanding his interactions with mapping participants. In particular, they address the core concern of who owns the maps and for whom they are made; there is often the implicit assumption by enthusiasts of open geodata that simply dumping map data into OpenStreetMap is the end goal. It is important to be aware that most people (and especially those in communities in geographic conflict) are unaware of the existence of OpenStreetMap, and would likely be unreceptive to its benefits. 
+
+Robert Chambers in particular warns PGIS practitioners against raising expectations of concrete results, noting that ``Any process of analysis facilitated by an outsider is liable to raise expectations of some benefit, even when the outsider goes to pains to explain that they have nothing to offer and nothing will follow from their visit. Disappointment, and reinforced disillusion with visitors and organisations outside the community then follow."
+
+
+% email exchange from PPGIS list from early June 
 
 % THIS WHOLE SECTION SHOULD PERHAPS BE MOVED TO 'DISCUSSION', post-Peru, or just after introducing state of the art... it may be a whole chapter.
 
-PGIS: 
-Do your best to recognise that you are working with socially differentiated communities and that your presence will not be politically neutral
-Be considerate in taking people’s time
-(bibliography/rambaldi-practical-ethics-for-pgis.pdf)
-
-Chambers, chambers-who-empowered-disempowered-gains-loses.pdf
 Outline of history and benefits of PGIS, but also of ethics and beneficiaries
 
 \subsection{Subjective cartography in practice}
@@ -242,10 +252,11 @@ A legal process exists to establish official land ownership in these settlements
 In Lima, the organization in charge of land registrations, known as COFOPRI, requires residents to submit a plan -- essentially a measured and drawn map of their plots -- as one of many prerequisites to receiving a deed. Civil engineering firms have filled this gap by offering surveying and mapmaking services, but their high prices are a strain on the already poor inhabitants of the invasions.  
 
 % find COFOPRI def
+% image of posters showing what families owe to registration process
 
-The Grassroots Mapping project was conceived as a means to broaden access to mapping technology, and was developed in direct response to the need for maps in areas 
+The Grassroots Mapping project was conceived as a means to broaden access to mapping technology, and was developed in direct response to the need for maps in informal settlements on the outskirts of Lima, Peru.
 
-...incomplete...
+...
 
 \subsection{Urban slums, informal settlements}
 
@@ -281,10 +292,9 @@ Corbett, Jon M., and C. Peter Keller. 2005. An Analytical Framework to Examine E
 
 \section{Environmental assessment}
 
-Beyond issues of land rights and ownership, there are many other potential uses for inexpensive map data; the ability to produce photographic, or raster maps of sensitive environmental sites may empower small organizations which are unable to acquire timely or high resoultion satellite images of sites of interest. One case study we will examine is that of a group of environmental activists in West Virginia who have struggled to gather meaningful and quantitative evidence of the environmental damage and health hazards of mountaintop removal mining across the Appalachia region of the United States. Besides the prohibitive cost of traditional satellite imagery and high level of expertise required by traditional GIS tools, they strive for data which will make a visceral and emotional impact on policymakers and regulators, as well as the general public. Among other metric, they make use of water conductivity tests to determine the degree of ...
+Beyond issues of land rights and ownership, there are many other potential uses for inexpensive map data; the ability to produce photographic, or raster maps of sensitive environmental sites may empower small organizations which are unable to acquire timely or high resoultion satellite images of sites of interest. One case study we will examine is that of a group of environmental activists in West Virginia who have struggled to gather meaningful and quantitative evidence of the environmental damage and health hazards of mountaintop removal mining across the Appalachia region of the United States. Besides the prohibitive cost of traditional satellite imagery and high level of expertise required by traditional GIS tools, they strive for data which will make a visceral and emotional impact on policymakers and regulators, as well as the general public. 
 
-
-% West Virginia project
+Among other metrics, they make use of water conductivity tests to determine the degree of contamination due to runoff and blackwater releases. Conductivity is a secondary measure, and is not as direct as photography. Aerial imaging, or specifically mapping, is an ideal blend of direct measurement and visual appeal, and its main detractor is its price; overflights cost hundreds of dollars each and image processing is labor- and skills-intensive. A case study examining the applicability of Grassroots Mapping tools to this problem was performed in May 2010 and is discussed in Chapter 12.
 
 \subsection{Asset allocation mapping and carbon cowboys}
 
@@ -298,9 +308,11 @@ Beyond issues of land rights and ownership, there are many other potential uses 
 \section{Open geodata and crisis mapping}
 \subsection{Crisis mapping and Ushahidi}
 
+A variety of different sorts of 'crowdsourced' or grassroots mapping strategies have evolved in recent years with the intent to respond to, document, analyze, and report on the real-time occurrence of disasters and crises. From environmental crises such as the April 2010 BP Oil Spill in the Gulf of Mexico to the humanitarian crisis in the aftermath of the January 2010 Haitian earthquake, a clear need has evolved for low-cost, decentralized situational awareness and documentation tools with geospatial features. Here we discuss some of the challenges of fulfilling such diverse needs under unpredictable conditions.
+
 \subsubsection{Ushahidi}
 
-The Ushahidi platform has emerged as a common and easy-to-set-up system for crowdsourced crisis reporting. Developed in collaboration with Kenyan programmers to help voters report election violence in Kenya in 200x, it allows citizens with mobile phones to send 140 character text messages to a publicized telephone number. These messages are read by a group of editors, who attempt to identify where the messages were sent from, and are published on a web site as red dots at their assumed location. That users self-report their locations, and can do so incorrectly, is tolerated because it may represent a means of privacy for users, and because in the aggregate it is quite difficult to 'fake' an event. Each report is 'verified' by ... 
+The Ushahidi platform has emerged as a common and easy-to-install system for crowdsourced crisis reporting. Developed in collaboration with Kenyan programmers to help voters report election violence in Kenya in 200x, it allows citizens with mobile phones to send 140 character text messages to a publicized telephone number.\cite{okolloh2009ushahidi} These messages are read by a group of editors, who attempt to identify where the messages were sent from, and are published on a web site as red dots at their assumed location. That users self-report their locations, and can do so incorrectly, is tolerated because it may represent a means of privacy for users, and because in the aggregate it is quite difficult to 'fake' an event. Each report is 'verified' by ... 
 
 % ref. AJ Turner's presentation at Where 2.0, i think - or Patrick Meier's on iRevolutioni
 % interview LABB folks about how reports are verified
@@ -315,9 +327,13 @@ Ushahidi has been successfully used to gather and publish very up-to-date inform
 
 \subsubsection{Satellite imagery access}
 
-Access to up-to-date imagery of crisis areas has become something of a hot-button issue in crisis mapping circles, as those companies and agencies in control of the imagery do not always elect to release it, or to license it freely for any use. Whethe due to an unwillingness to offer expensive imagery for unrestricted use, or due to the administrative burden of actually offering such data for download under a permissive license, access to satellite imagery has become a frequent bottleneck for aid organizations. 
+Public access to up-to-date imagery of crisis areas has become something of a hot-button issue in crisis mapping circles, as those companies and agencies in control of the imagery do not always elect to release it, or to license it freely for any use. Whethe due to an unwillingness to offer expensive imagery for unrestricted use, or due to the administrative burden of actually offering such data for download under a permissive license, access to satellite imagery has become a frequent bottleneck for aid organizations. 
 
 Specifically in the bottom-up response to the Haitian earthquake and subsequent humanitarian crisis of January 2010, access became more difficult within weeks of the crisis. While GeoEye and other vendors generously offered open access to satellite imagery in the initial weeks of the crisis, most did not elect to do so on an ongoing basis, or for subsequent crises such as the February 2010 earthquake in Chile.
+
+
+
+% Republishing Christiaan's response or UN-SPIDER's response may not be allowed, depending on the policies of the Crisis Mapping Network
 
 % who released data??? 
 
@@ -330,6 +346,11 @@ Mikel Maron of the OpenStreetMap Humanitarian Team
 \section{PGIS: Participatory Geographic Information Systems}
 
 Traditional GIS technology has been used for since the 1990's to support communities in developing contexts for purposes such as making tenure claims, environmental defense against petroleum and other extraction industries, as well as for planning purposes. This has become known as PGIS, or Participatory GIS, and typically... 
+
+\begin{quote}
+It was also in 1988 in an AKRSP (India) RRA training involving Jennifer McCracken, Anil Shah, Parmesh Shah and others, that a headman, asked to present to the villagers the map the outsiders had draw, had difficulty until he turned it ``upside down", which was the way he and the villagers saw their village . . . . We were teetering on the brink of learning that ``They can do it".
+\cite{chambers2006participatory}
+\end{quote}
 
 % reference: Qualitative GIS book
 % See Peter Poole's Life after Tenure Mapping for a brief historical timeline, i think
@@ -352,9 +373,17 @@ bibliography/rambaldi-participatory-spatial-developing-countries.pdf
 %        - outsourcing of GIS processing typical, problems
 \section{OpenStreetMap}
 
-% OSM acronym
+OpenStreetMap.org taken as an open-source software project, a database of open geodata, and a community of volunteer mappers, represents one of the best examples in recent years of the \textbf{neogeographic} response to PGIS. That is, without explicit ties to the PGIS movement, or even a high degree of literacy in the movements 2 decades of literature and research, OpenStreetMap (or OSM, as it has become known in neogeographic circles) has attempted to meet many of the same goals. OSM encourages volunteers around the world to contribute to a single, shared digital map and corresponding map database. 
 
-Emphasis on 2 means of mapping: GPS/GPX and tracing
+In many ways it has met with wild success, and the size and detail of the OSM map database is formidable. 
+% How big is it? 
+However, participants are overwhelmingly European and American, and tend to be wealthy due to the emphasis on internet connectivity and the use of GPS devices to produce new map data.
+
+In fact, the OSM data collection strategy relies most heavily upon three sources. First, existing municipal and public domain databases make up an enormous part of the available data; the TIGER database produced by the US Census increased the size of OSM by a factor of ten. Second, tracing of satellite data with the Potlatch, JOSM, and other tools to extract vector data from rasters plays a large role, especially in areas with few local participants. This technique was used in the Free Map Palestine project to map all of Gaza using a satellite dataset purchased for \$5,000 from donations during the Gaza war in late 2008. \cite{maron2010openstreetmap} While convenient in that it does not require mappers to actually travel to the places they are mapping, it does not actively involve residents of an area in the mapping process, and sufferes from many of the shortcomings which inspired the PGIS movement. 
+
+Finally, much of the OMS database was created by individuals carrying GPS devices to record GPX tracks, or collections of latitude/longitude coordinates. These are later uploaded, annotated and merged into the main OSM database using tools such as JOSM. This is the preferred means of collecting data because of its high accuracy, its emphasis on firsthand mapping, the clear legal ownership of the data, and because of the implicit belief among many OSM participants that better maps are made `on the ground'. 
+
+This belief is supported by the `on the ground' policy stated explicitly in the OpenStreetMap wiki, a central organizing document of the community.
 
 \subsection{Humanitarian OSM Team}
  
@@ -395,6 +424,11 @@ Public domain data, JumpStart International
 \section{Aerial imaging with low-cost tools}
 
 Due to the need for cheap and up-to-date imagery, a major part of the Grassroots Mapping project has been the design and use of low-cost platforms for capturing images of the ground from above. The use of kites and balloons to raise consumer-level 'point-and-shoot' cameras has allowed participants to capture images of sites of interest at minimal cost. A 'Grassroots Mapping Kit' can be assemnbled for less than \$100. 
+
+\begin{quote}
+In parallel came the discovery that local people could readily interpret black and white aerial photographs, often at 1:5000 (Dewees 1989; Mearns 1989; Sandford 1989). 
+\cite{chambers2006participatory}
+\end{quote}
 
 \section{Cartagen: an alternative architecture for digital maps}
 
@@ -618,7 +652,7 @@ The 2010 Gulf oil spill was seen as an opportunity to apply the low-cost mapping
 
 % http://modis.gsfc.nasa.gov/about/specifications.php
 
-By contrast, the imagery collected by the LABB/Grassroots Mapping teams was up to 5 cm/px in resolution, and could be repeatedly captured over the course of days or weeks.  
+By contrast, the imagery collected by the LABB/Grassroots Mapping teams was up to 9 cm/px in resolution, and could be repeatedly captured over the course of days or weeks.  
 
 
 \chapter{Field trials in India}
