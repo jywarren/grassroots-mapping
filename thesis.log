@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.12)  9 JUN 2010 13:41
+This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.12)  9 JUN 2010 13:57
 entering extended mode
 **thesis.tex
 (./thesis.tex
@@ -347,9 +347,12 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 [7]
 Chapter 3.
-[8
+<images/two-worlds-mapping.png, id=408, 901.9296pt x 360.8682pt>
+File: images/two-worlds-mapping.png Graphic file (type png)
 
-]
+<use images/two-worlds-mapping.png> [8
+
+ <./images/two-worlds-mapping.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
@@ -385,7 +388,7 @@ Chapter 7.
 
 ]
 Chapter 8.
-<images/map-warper.png, id=470, 971.63pt x 651.43375pt>
+<images/map-warper.png, id=473, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
 <use images/map-warper.png>
@@ -393,7 +396,7 @@ File: images/map-warper.png Graphic file (type png)
 Package wrapfig Warning: Collision between wrapping environments on input line 
 534.
 
-<images/map-warper-hack.png, id=472, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=475, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
 <use images/map-warper-hack.png> [17
@@ -419,7 +422,7 @@ Chapter 11.
 
 ]
 Chapter 12.
-<images/test.jpg, id=509, 244.29295pt x 136.3969pt>
+<images/test.jpg, id=512, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
 [23
@@ -458,34 +461,38 @@ Missing character: There is no “ in font cmr10!
 [24
 
 ] (./thesis.bbl [25]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no » in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no » in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no » in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no » in font cmr10!
 ) [26
 
-] (./thesis.aux) ) 
+] (./thesis.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4522 strings out of 94073
- 74210 string characters out of 1164797
+ 4527 strings out of 94073
+ 74367 string characters out of 1164797
  131990 words of memory out of 1500000
- 7619 multiletter control sequences out of 10000+50000
+ 7623 multiletter control sequences out of 10000+50000
  10883 words of font info for 38 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  33i,7n,36p,1158b,367s stack positions out of 5000i,500n,6000p,200000b,5000s
-</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pf
-b></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/sh
-are/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb></opt/local/share/texmf-dist/fo
-nts/type1/bluesky/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky
-/cm/cmr17.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></
-opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></opt/local/share/
-texmf-dist/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (27 pages, 2414842 bytes).
+</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pfb></opt/local/sh
+are/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/share/texmf-dist/f
+onts/type1/bluesky/cm/cmr10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesk
+y/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr17.pfb></
+opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/share/
+texmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></opt/local/share/texmf-dist/fonts
+/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (27 pages, 5237544 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
+ 622 PDF objects out of 1000 (max. 8388607)
  148 named destinations out of 1000 (max. 131072)
- 700 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 705 words of extra memory for PDF output out of 10000 (max. 10000000)
 
