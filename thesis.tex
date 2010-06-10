@@ -134,22 +134,17 @@ Orig. ref to Platial's usage: \url{http://placekraft.blogspot.com/2006/04/neogeo
 
 % NEED reference for start of GIS practices 
 
-\section{The mythical 'complete' map}
+\section{The mythical `complete map'}
 
-The most famous (yet fictional) version of this fantasy is Jorge Luis Borges' short story 
-
-'a mile to the mile!'
+A fictional version of this fantasy is mentioned in Lewis Carroll's \textbf{Sylvie and Bruno Concluded} on page 169. ... 'a mile to the mile!'
 'So we now use the country itself, as its own map, and I assure you it does nearly as well.' p.169
 
-This idea was later elaborated in Jorge Luis Borges' 
+This idea was later elaborated in a short story by Jorge Luis Borges and Adolfo Bioy Casares, called On Exactitude in Science:
 
-% Of Exactitude in Science
-
-% ...In that Empire, the craft of Cartography attained such Perfection that the Map of a Single province covered the space of an entire City, and the Map of the Empire itself an entire Province. In the course of Time, these Extensive maps were found somehow wanting, and so the College of Cartographers evolved a Map of the Empire that was of the same Scale as the Empire and that coincided with it point for point. Less attentive to the Study of Cartography, succeeding Generations came to judge a map of such Magnitude cumbersome, and, not without Irreverence, they abandoned it to the Rigours of sun and Rain. In the western Deserts, tattered Fragments of the Map are still to be found, Sheltering an occasional Beast or beggar; in the whole Nation, no other relic is left of the Discipline of Geography.
-
-% From Travels of Praiseworthy Men (1658) by J. A. Suarez Miranda
-
-% The piece was written by Jorge Luis Borges and Adolfo Bioy Casares. English translation quoted from J. L. Borges, A Universal History of Infamy, Penguin Books, London, 1975.
+\begin{quote}
+...In that Empire, the craft of Cartography attained such Perfection that the Map of a Single province covered the space of an entire City, and the Map of the Empire itself an entire Province. In the course of Time, these Extensive maps were found somehow wanting, and so the College of Cartographers evolved a Map of the Empire that was of the same Scale as the Empire and that coincided with it point for point. Less attentive to the Study of Cartography, succeeding Generations came to judge a map of such Magnitude cumbersome, and, not without Irreverence, they abandoned it to the Rigours of sun and Rain. In the western Deserts, tattered Fragments of the Map are still to be found, Sheltering an occasional Beast or beggar; in the whole Nation, no other relic is left of the Discipline of Geography.
+\cite{borges1946exactitude}
+\end{quote}
 
 The idea that maps accurately, or even completely depict a location is not entertained in a literal sense, yet amongst
 
@@ -412,9 +407,30 @@ bibliography/rambaldi-participatory-spatial-developing-countries.pdf
 \subsection{Shortcomings of traditional PGIS practice}
 %    Peter Poole - Life after Tenure Mapping
 %        - outsourcing of GIS processing typical, problems
+
+\section{Web mapping}
+
+Some degree of mapmaking has become commonplace to the internet-connected public since the advent of highly user-friendly `slippy map' interfaces such as Google Maps. This has been especially true since the release of the Google Maps Application Programmer's Interface (API) in the summer of 2004, allowing programmers to modify and repurpose Google's web map services.  Early examples of reuse included the GMaps Pedometer, which would output the linear distance of a path you walked, along with how many calories you burnt. \cite{gibson2006google} From the frivolous to the essential, this means of mapmaking has become widespread and relatively easy. However, many would argue that this is not mapmaking at all; most of the users of Google maps do not edit the underlying map data, but overlay points, lines, and polygons \textbf{on top of} Google's proprietary data.
+
+\subsection{Google Maps and proprietary data}
+
+In fact, not only Google Maps, but the vast majority of the online maps are based on the relatively static base maps made available by larger organizations. Google and other providers of map data publish these maps as collections of small image 'tiles'; JPG or PNG images of typically 256 by 256 pixels, which are rendered ahead of time and cached. These are served using Apache or another conventional web server. The main benefit of this technique is that it serves map data as a set of common image files; a standard and highly optimized means of distribution. These are re-assembled in the browser into a seemingly continuous map, and as the user pans or `slips' around, new tiles are transferred to maintain the illusion of a continous map.
+
+A second reason for the use of map tiles is that it is quite difficult to reconstruct the original discrete vector data set from map tiles; in this respect they are similar to compiled code. Google and other commercial map vendors do not share their point, line, and polygon data, nor do they make metadata such as labels or land use markers available. Distributing tiles gives them a degree of control over what source data they choose to release, and allows them to maintain control of those assets.
+
+Distributing the underlying data used to generate these tiles conflicts with these companies' business models: such data is valued intellectual property. The tile-based rendering system strips the map of its metadata, making a local, or personal, critical, or revisionist interpretation quite difficult. Tiles immutable – they contain no information about authorship, no hyperlinks, and in order not to crowd a given tile, each one displays only a selection of available data for that corresponding area of the world. 
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushleft}
+		\includegraphics[width=0.45\textwidth]{images/osm-composition.png}
+	\end{flushleft}
+\end{wrapfigure}
+
+Open data projects such as OpenStreetMap, the 'wiki map of the world', do just the opposite – like the open source software projects they took inspiration from, they share the entire dataset as coordinates, semantic tags, polygons, and most importantly, time and authorship data. In the case of OpenStreetMap, anyone with enough disk space can download the entire planet's worth of data (over 200 gigabytes when loaded into a database) and create their own maps. In that dataset in particular, authorship data actually outweighs its geometric counterpart. Perhaps even more tellingly, historical data – for areas of the map which have been overwritten – occupies more storage space than current data. This suggests that authors have challenged each others' data more than they've added new data to unmapped areas. \cite{warren2009composition}
+
 \section{OpenStreetMap}
 
-OpenStreetMap.org taken as an open-source software project, a database of open geodata, and a community of volunteer mappers, represents one of the best examples in recent years of the \textbf{neogeographic} response to PGIS. That is, without explicit ties to the PGIS movement, or even a high degree of literacy in the movements 2 decades of literature and research, OpenStreetMap (or OSM, as it has become known in neogeographic circles) has attempted to meet many of the same goals. OSM encourages volunteers around the world to contribute to a single, shared digital map and corresponding map database. 
+OpenStreetMap.org, taken as an open-source software project, a database of open geodata, and a community of volunteer mappers, represents one of the best examples in recent years of the \textbf{neogeographic} response to PGIS. That is, without explicit ties to the PGIS movement, or even a high degree of literacy in the movements 2 decades of literature and research, OpenStreetMap (or OSM, as it has become known in neogeographic circles) has attempted to meet many of the same goals. OSM encourages volunteers around the world to contribute to a single, shared digital map and corresponding map database. 
 
 In many ways it has met with wild success, and the size and detail of the OSM map database is formidable. 
 % How big is it? 
@@ -425,6 +441,18 @@ In fact, the OSM data collection strategy relies most heavily upon three sources
 Finally, much of the OMS database was created by individuals carrying GPS devices to record GPX tracks, or collections of latitude/longitude coordinates. These are later uploaded, annotated and merged into the main OSM database using tools such as JOSM. This is the preferred means of collecting data because of its high accuracy, its emphasis on firsthand mapping, the clear legal ownership of the data, and because of the implicit belief among many OSM participants that better maps are made `on the ground'. 
 
 This belief is supported by the `on the ground' policy stated explicitly in the OpenStreetMap wiki, a central organizing document of the community.
+
+\begin{wrapfigure}{r}{0.75\textwidth}
+	\begin{flushleft}
+		\includegraphics[width=0.7\textwidth]{images/osm-diagram.png}
+	\end{flushleft}
+\end{wrapfigure}
+
+\subsection{The modern open-source geostack}
+
+Another interesting aspect of OpenStreetMap is that it represents a deployed and working combination of many of the premier open-source mapping tools available today. It makes use of OpenLayers, a web browser-based framework for displaying raster map tiles using JavaScript. Tiles are produced using Mapnik, the popular open-source tile renderer. An array of other open-source utilities are used to create, edit, translate, import, and export the data. 
+
+...
 
 \subsection{Humanitarian OSM Team}
  
@@ -493,7 +521,9 @@ raster abilities of Cartagen
 
 Beyond the ability to orthorectify imagery, Cartagen is a fully-fledged cartographic scripting environment and renderer. It can draw vector data onto a pixel grid - not just fast enough to generate tiles, but at over 10 frames per second on most computers. As the user interacts with a Cartagen map, features are drawn continuously, as in an animation. This negates the need to cache or otherwise store raster representations of map data, and sidesteps many of the assumptions and limitations of the modern mapping technology stack.
 
-This alternative `geostack' is one of the most unique aspects of the Grassroots Mapping tool chain, but while some might see it as an unnecessary reinvention of the wheel,  
+This alternative `geostack' is one of the most unique aspects of the Grassroots Mapping tool chain. Far from an unnecessary reinvention of the wheel, the abilities it affords make it suitable for deploying original data without placing a high demand on technical skills or resources. 
+
+Reference chapter 4.2 discussion on current geostack 
 
 %        - existing solutions based around cloud systems
 %            - this move opposite - closer to client
@@ -782,12 +812,6 @@ In early 2010, Jeff Haack of JumpStart International, the nonprofit group which 
 
 \hypertarget{related_readings_1}{}\subsection*{{Related readings}}\label{related_readings_1}
 
-\href{http://dspace.mit.edu/handle/1721.1/33012}{New information technologies in the old political economy : an exploration of community-based GIS for improving basic services for the poor in New Delhi, India} - 2005 MIT DUSP dissertation by Claudia Canepa
-
-\href{http://www.ejisdc.org/ojs2/index.php/ejisdc/article/viewFile/237/158}{PARTICIPATORY SPATIAL INFORMATION MANAGEMENT AND COMMUNICATION IN DEVELOPING COUNTRIES} - Giacomo Rambaldi, Peter A Kwaku Kyem, Mike $\backslash$McCall, Daniel Weiner, EJISDC, 2006
-
-\href{http://books.google.com/books?id=4u79ffyzekoC&printsec=frontcover&dq=child%27s+pictorial+world&ei=5EUYS9veGqPqygShs7TVBw#v=onepage&q=&f=false}{The child'{}s creation of a pictorial world}, Claire Golomb
-
 \href{http://www.unicef.org/teachers/researchers/intro.htm}{Curriculum on ``{}Children as Community Researchers''{}} - UNICEF, authored by \href{http://web.gc.cuny.edu/che/cerg/about_cerg/environmental_learning_index.htm}{Children'{}s Environment Research Group}
 
 \href{http://www.directionsmag.com/article.php?article_id=2365&trv=1.}{Participatory GIS - A Paradigm Shift in Development?} - Jen Osha and Daniel Weiner, 2006
@@ -795,8 +819,6 @@ In early 2010, Jeff Haack of JumpStart International, the nonprofit group which 
 \href{http://www.iapad.org/pgis2005/}{Mapping for Change} - 2005 International Conference on Participatory Spatial Information Management and Communication
 
 Weiner, D. and T. Harris, 2003. ''{}\href{http://www.rri.wvu.edu/pdffiles/gisweiner.pdf}{Community-Integrated GIS for Land Reform in South Africa}.''{} URISA Journal. 15(2): 61-73.
-
-\href{http://www.maptogether.net/taxonomy/term/151}{PPGIS on MapTogether.net}
 
 \href{http://books.google.com/books?hl=en&lr=&id=_VK-ABCKlVgC&oi=fnd&pg=PA3&dq=Nino+Bariola&ots=_r1wMwjiou&sig=TH0Gn1P27Xtsdq2Oc0Up5D6HLzg#v=onepage&q=Nino%20Bariola&f=false}{Bilingualism and identity: Spanish at the crossroads with other languages} - Geographic dispute in Canta Gallo, in Lima, \href{http://books.google.com/books?id=_VK-ABCKlVgC&lpg=PA3&ots=_r1wMwjiou&dq=Nino%20Bariola&lr=&pg=PA153#v=onepage&q=&f=true}{Chapter 7}
 
@@ -806,15 +828,15 @@ Weiner, D. and T. Harris, 2003. ''{}\href{http://www.rri.wvu.edu/pdffiles/giswei
 
 Lots of work by Proboscis: \href{http://urbantapestries.net/}{Social Tapestries/Urban Tapestries}, 2002-7 - Urban Tapestries investigated how, by combining mobile and internet technologies with geographic information systems, people could `{}author'{} the environment around them; a kind of Mass Observation for the 21st Century. Like the founders of Mass Observation in the 1930s, we were interested creating opportunities for an ``{}anthropology of ourselves''{} – adopting and adapting new and emerging technologies for creating and sharing everyday knowledge and experience; building up organic, collective memories that trace and embellish different kinds of relationships across places, time and communities.
 
-\href{http://www.geoconnections.org/publications/Key_documents/Sensitive_Env_Geo_Data_Guide_EN_v1.pdf}{BEST PRACTICES FOR SHARING SENSITIVE ENVIRONMENTAL GEOSPATIAL DATA} - for GeoConnections by AMEC Earth \& Environmental, 2010
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%% BIBLIOGRAPHY
 \nocite{*}
 {\small
 \bibliographystyle{plain}
 \bibliography{thesis}
 }
+
+\chapter*{License}
+
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
 
 \end{document}

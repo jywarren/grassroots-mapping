@@ -20,6 +20,12 @@ J.~Boike and K.~Yoshikawa.
   photography}.
 \newblock {\em Permafrost and periglacial processes}, 14(1):81--85, 2003.
 
+\bibitem{borges1946exactitude}
+Jorge~Luis Borges and Adolfo~Bioy Casares.
+\newblock {\em {Del rigor en la ciencia}}.
+\newblock Emece Editores, Buenos Aires, 1946.
+\newblock Translation by Norman Thomas de Giovanni, Penguin Books, 1975.
+
 \bibitem{boulos2010web}
 M.N.K. Boulos, J.~Warren, J.~Gong, and P.~Yue.
 \newblock {Web GIS in practice VIII: HTML5 and the canvas element for
@@ -50,6 +56,11 @@ R.~Chambers.
 H.~De~Soto and M.V. Llosa.
 \newblock {\em {The other path: the invisible revolution in the Third World}}.
 \newblock Harper \& Row New York, 1989.
+
+\bibitem{gibson2006google}
+Rich Gibson and Schuyler Erle.
+\newblock {\em {Google Maps Hacks}}.
+\newblock O'Reilly Media, 2006.
 
 \bibitem{goodchild2009neogeography}
 M.~Goodchild.
@@ -125,6 +136,12 @@ L.A. Vierling, M.~Fersdahl, X.~Chen, Z.~Li, and P.~Zimmerman.
 \newblock {The Short Wave Aerostat-Mounted Imager (SWAMI): A novel platform for
   acquiring remotely sensed data from a tethered balloon}.
 \newblock {\em Remote Sensing of Environment}, 103(3):255--264, 2006.
+
+\bibitem{warren2009composition}
+{Composition of a typical OpenStreetMap API response}.
+\newblock
+  \url{http://unterbahn.com/2009/10/composition-of-a-openstreetmap-api-respons%
+es/}.
 
 \bibitem{waters2009warper}
 {Rectify Map San Ignacio Loyola on Map Warper, Project Website}.

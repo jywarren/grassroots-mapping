@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  9 JUN 2010 19:48
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  10 JUN 2010 18:18
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -259,7 +259,7 @@ l.46
       [1
 
 ]
-<images/100-dollar-satellite-poster.jpg, id=342, 1480.0896pt x 987.2082pt>
+<images/100-dollar-satellite-poster.jpg, id=354, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
 <use images/100-dollar-satellite-poster.jpg> [2]
@@ -294,38 +294,42 @@ _ result&ct = result&resnum = 5&ved = 0CBwQ6AEwBA #
 
 [4
 
-] <images/osm-missing-parts.png, id=372, 1024.82875pt x 576.1525pt>
+]
+
+LaTeX Warning: Citation `borges1946exactitude' on page 5 undefined on input lin
+e 146.
+
+<images/osm-missing-parts.png, id=384, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
-<images/iraq-image-16.jpg, id=374, 602.25pt x 451.6875pt>
+<images/iraq-image-16.jpg, id=386, 602.25pt x 451.6875pt>
 File: images/iraq-image-16.jpg Graphic file (type jpg)
 
-<use images/iraq-image-16.jpg> [5 <./images/osm-missing-parts.png (PNG copy)> <
-./images/iraq-image-16.jpg>]
-<images/iraq-image-13.jpg, id=385, 602.25pt x 451.6875pt>
+<use images/iraq-image-16.jpg> [5 <./images/osm-missing-parts.png (PNG copy)>]
+<images/iraq-image-13.jpg, id=396, 602.25pt x 451.6875pt>
 File: images/iraq-image-13.jpg Graphic file (type jpg)
 
 <use images/iraq-image-13.jpg>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 21
-1.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 20
+6.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 21
-3.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 20
+8.
 
-[6 <./images/iraq-image-13.jpg>]
-Underfull \hbox (badness 3158) in paragraph at lines 223--223
+[6 <./images/iraq-image-16.jpg>]
+Underfull \hbox (badness 3158) in paragraph at lines 218--218
 []\OT1/cmr/bx/n/14.4 Maps: rhetor-i-cal, even
  []
 
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[7] [8]
+[7 <./images/iraq-image-13.jpg>] [8]
 Chapter 3.
-<images/two-worlds-mapping.png, id=406, 901.9296pt x 360.8682pt>
+<images/two-worlds-mapping.png, id=418, 901.9296pt x 360.8682pt>
 File: images/two-worlds-mapping.png Graphic file (type png)
 
 <use images/two-worlds-mapping.png> [9
@@ -335,7 +339,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
 
-Overfull \hbox (82.67355pt too wide) in paragraph at lines 324--326
+Overfull \hbox (82.67355pt too wide) in paragraph at lines 319--321
 \OT1/cmtt/m/n/10 2009 / 11 / how-[]dictators-[]watch-[]us-[]on-[]the-[]web/$[][
 ] [][]$http : / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[]vs
 -[]shirky/$[][]
@@ -344,7 +348,7 @@ Overfull \hbox (82.67355pt too wide) in paragraph at lines 324--326
 [10] [11] [12]
 Chapter 4.
 
-Overfull \hbox (12.8933pt too wide) in paragraph at lines 401--403
+Overfull \hbox (12.8933pt too wide) in paragraph at lines 396--398
 \OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
 et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
 0 http : / / dusk2 . geo . orst . edu / gis / student _
@@ -352,34 +356,90 @@ et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
 
 [13
 
-] [14] [15]
-Chapter 5.
-[16
-
-] [17]
-Chapter 6.
-[18
-
 ]
-Chapter 7.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ <images/osm-composition.png, id=464, 526.96875pt x 427.5975pt>
+File: images/osm-composition.png Graphic file (type png)
+
+<use images/osm-composition.png>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [14 <./images/osm-composition.png (PNG copy)>] <images/osm-diagram.png, id=472
+, 803.0pt x 493.845pt>
+File: images/osm-diagram.png Graphic file (type png)
+
+<use images/osm-diagram.png>
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 45
+1.
+
+
+Overfull \hbox (0.41885pt too wide) in paragraph at lines 453--454
+[]\OT1/cmr/m/n/10.95 Another in-ter-est-ing as-
+ []
+
+
+Overfull \hbox (2.70016pt too wide) in paragraph at lines 453--454
+\OT1/cmr/m/n/10.95 pect of Open-StreetMap
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 453--454
+\OT1/cmr/m/n/10.95 avail-able to-day. It
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 453--454
+\OT1/cmr/m/n/10.95 makes use of Open-
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 453--454
+\OT1/cmr/m/n/10.95 based frame-work for
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 453--454
+\OT1/cmr/m/n/10.95 u-lar open-source tile
+ []
+
+[15 <./images/osm-diagram.png (PNG copy)>] [16]
+Chapter 5.
+[17
+
+] [18]
+Chapter 6.
 [19
 
 ]
+Chapter 7.
+[20
+
+]
 Chapter 8.
-<images/map-warper.png, id=487, 971.63pt x 651.43375pt>
+<images/map-warper.png, id=509, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
 <use images/map-warper.png>
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-577.
+607.
 
-<images/map-warper-hack.png, id=489, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=511, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
-<use images/map-warper-hack.png> [20
+<use images/map-warper-hack.png> [21
 
-] [21 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG c
+] [22 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG c
 opy)>]
 Chapter 9.
 Missing character: There is no √ in font cmr10!
@@ -388,33 +448,31 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
-[22
+[23
 
-] [23]
-Overfull \hbox (82.97742pt too wide) in paragraph at lines 729--737
+] [24]
+Overfull \hbox (82.97742pt too wide) in paragraph at lines 759--767
 \OT1/cmr/m/n/10.95 and 'de-sign-ing with' lead-ing to Carta-gen Knit-ter (see l
 ater dis-cus-sion) - http://en.wikipedia.org/wiki/Rubbersheeting
  []
 
-[24]
+[25]
 Chapter 10.
-[25
-
-]
-Chapter 11.
 [26
 
 ]
+Chapter 11.
+[27
+
+]
 Chapter 12.
-<images/test.jpg, id=530, 244.29295pt x 136.3969pt>
+<images/test.jpg, id=552, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
-[27
+[28
 
  <./images/test.jpg>]
 Chapter 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 787.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -442,9 +500,9 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[28
+(./thesis.bbl [29
 
-] (./thesis.bbl [29]
+]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ª in font cmr10!
 Missing character: There is no ¬ in font cmr10!
@@ -461,28 +519,38 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-) [31] (./thesis.aux)
+
+Underfull \hbox (badness 3078) in paragraph at lines 141--145
+[]\OT1/cmr/m/n/10 Composition of a typ-i-cal Open-StreetMap API re-sponse.  [][
+]$\OT1/cmtt/m/n/10 http : / / unterbahn . com / 2009 / 10 /
+ []
+
+) [31] [32
+
+] (./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4274 strings out of 256216
- 70532 string characters out of 1917073
- 131253 words of memory out of 1500000
- 7353 multiletter control sequences out of 10000+200000
- 10883 words of font info for 38 fonts, out of 1200000 for 2000
+ 4295 strings out of 256216
+ 70987 string characters out of 1917073
+ 131334 words of memory out of 1500000
+ 7364 multiletter control sequences out of 10000+200000
+ 10267 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 33i,7n,36p,1158b,468s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 33i,7n,36p,1158b,470s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
 ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
 /usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
-/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr
-/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bl
-uesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (32 pages, 5260612 bytes).
+/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr
+/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (33 pages, 5476061 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 168 named destinations out of 1000 (max. 131072)
- 697 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 676 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 131072)
+ 731 words of extra memory for PDF output out of 10000 (max. 10000000)
 
