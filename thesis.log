@@ -1,6 +1,5 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  10 JUN 2010 18:18
+This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.4.12)  16 JUN 2010 00:34
 entering extended mode
- %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2005/12/01>
@@ -11,9 +10,9 @@ erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
 us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
 tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
 turkish, ukenglish, ukrainian, loaded.
-(/usr/share/texmf/tex/latex/base/report.cls
+(/opt/local/share/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
-(/usr/share/texmf/tex/latex/base/size11.clo
+(/opt/local/share/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -29,14 +28,10 @@ File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf/tex/latex/preprint/fullpage.sty
-Package: fullpage 1999/02/23 1.1 (PWD)
-\FP@margin=\skip43
-)
-(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+(/opt/local/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
 
-(/usr/share/texmf/tex/latex/graphics/keyval.sty
+(/opt/local/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
@@ -44,13 +39,13 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
 
-(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+(/opt/local/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
 )
-(/usr/share/texmf/tex/latex/config/hyperref.cfg
+(/opt/local/share/texmf/tex/latex/config/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+(/opt/local/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
 HO)
 )
@@ -62,7 +57,7 @@ Package hyperref Info: Backreferencing OFF on input line 2308.
 
 Implicit mode ON; LaTeX internals redefined
 Package hyperref Info: Bookmarks ON on input line 2444.
-(/usr/share/texmf/tex/latex/ltxmisc/url.sty
+(/opt/local/share/texmf-dist/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip10
 Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
 )
@@ -82,32 +77,32 @@ Package hyperref Info: Link coloring OFF on input line 3122.
 \c@Hfootnote=\count93
 )
 *hyperref using driver hpdftex*
-(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+(/opt/local/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
 \Fld@listcount=\count94
 )
-(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/trig.sty
+(/opt/local/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texmf/tex/latex/config/graphics.cfg
+(/opt/local/share/texmf/tex/latex/config/graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 90.
 
-(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+(/opt/local/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
 \Gread@gobject=\count95
 ))
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
-(/usr/share/texmf/tex/latex/wrapfig/wrapfig.sty
+(/opt/local/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen108
 \WF@size=\dimen109
 \c@WF@wrappedlines=\count96
@@ -115,10 +110,10 @@ File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
 \WF@everypar=\toks17
 Package: wrapfig 2003/01/31  v 3.6
 )
-(/usr/share/texmf/tex/latex/graphics/color.sty
+(/opt/local/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texmf/tex/latex/config/color.cfg
+(/opt/local/share/texmf/tex/latex/config/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
@@ -126,41 +121,41 @@ Package color Info: Driver file: pdftex.def on input line 130.
 Package: pdfcomment 2009/11/10 pdfcomment.sty v1.5b - Josef Kleber (C) 2008-200
 9
 
-(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
+(/opt/local/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2006/11/18 v2.5f package option processing (HA)
 
-(/usr/share/texmf/tex/latex/xkeyval/xkeyval.tex
+(/opt/local/share/texmf-dist/tex/latex/xkeyval/xkeyval.tex
 \XKV@toks=\toks18
 \XKV@depth=\count97
 File: xkeyval.tex 2006/11/18 v2.5f key=value parser (HA)
 ))
 \c@pc@annot@lines=\count98
-\pc@dima=\skip44
-\pc@dimb=\skip45
-\pc@dimc=\skip46
-\pc@dimd=\skip47
-\pc@dime=\skip48
-\pc@Sposx=\skip49
-\pc@Sposy=\skip50
-\pc@Eposx=\skip51
-\pc@Eposy=\skip52
-\pc@box@height=\skip53
-\pc@box@depth=\skip54
+\pc@dima=\skip43
+\pc@dimb=\skip44
+\pc@dimc=\skip45
+\pc@dimd=\skip46
+\pc@dime=\skip47
+\pc@Sposx=\skip48
+\pc@Sposy=\skip49
+\pc@Eposx=\skip50
+\pc@Eposy=\skip51
+\pc@box@height=\skip52
+\pc@box@depth=\skip53
 
-(/usr/share/texmf/tex/latex/oberdiek/zref-savepos.sty
+(/opt/local/share/texmf-dist/tex/latex/oberdiek/zref-savepos.sty
 Package: zref-savepos 2007/01/23 v1.4 Module savepos for zref (HO)
 
-(/usr/share/texmf/tex/latex/oberdiek/zref-base.sty
+(/opt/local/share/texmf-dist/tex/latex/oberdiek/zref-base.sty
 Package: zref-base 2007/01/23 Module base for zref (HO)
 
-(/usr/share/texmf/tex/latex/oberdiek/auxhook.sty
+(/opt/local/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2006/05/31 v1.0 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 346.
 Package zref Info: New property: default on input line 347.
 Package zref Info: New property: page on input line 348.
 )
-(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty
+(/opt/local/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2006/02/20 v1.4 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in pdf mode detected.
 )
@@ -176,23 +171,23 @@ LaTeX Warning: You have requested, on input line 2662, version
                is available.
 
 \c@zref@unique=\count99
-(/usr/share/texmf/tex/latex/base/ifthen.sty
+(/opt/local/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texmf/tex/latex/tools/calc.sty
+(/opt/local/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count100
 \calc@Bcount=\count101
 \calc@Adimen=\dimen110
 \calc@Bdimen=\dimen111
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count102
-\calc@Cskip=\skip57
+\calc@Cskip=\skip56
 )
-(/usr/share/texmf/tex/latex/marginnote/marginnote.sty
+(/opt/local/share/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2006/10/26 v1.1 non floating margin notes for LaTeX
 \c@mn@abspage=\count103
 )
@@ -220,10 +215,10 @@ LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 Package hyperref Info: Link coloring ON on input line 30.
- (/usr/share/texmf/tex/latex/hyperref/nameref.sty
+ (/opt/local/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
-(/usr/share/texmf/tex/latex/oberdiek/refcount.sty
+(/opt/local/share/texmf-dist/tex/latex/oberdiek/refcount.sty
 Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
 \c@section@level=\count104
@@ -235,6 +230,18 @@ LaTeX Info: Redefining \pageref on input line 30.
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
+ (/opt/local/share/texmf-dist/tex/context/base/supp-pdf.tex
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen112
+\scratchbox=\box27
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen113
+\MPnumerator=\count109
+\everyMPtoPDFconversion=\toks19
+)
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended possition detection mode activated.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -245,7 +252,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 32.
  [1
 
-{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/opt/local/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Chapter 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 37.
@@ -255,59 +262,152 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 
+l.42 
       [1
 
-]
-<images/100-dollar-satellite-poster.jpg, id=354, 1480.0896pt x 987.2082pt>
+] [2]
+<images/100-dollar-satellite-poster.jpg, id=359, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
-<use images/100-dollar-satellite-poster.jpg> [2]
-Overfull \hbox (13.6128pt too wide) in paragraph at lines 87--87
-[]\OT1/cmr/bx/n/12 Novel ap-pli-ca-tion of low-cost tools
+<use images/100-dollar-satellite-poster.jpg>
+Underfull \hbox (badness 2521) in paragraph at lines 81--81
+[][]\OT1/cmr/bx/n/10.95 Printed guides and sup-port
  []
 
 
-Overfull \hbox (7.58083pt too wide) in paragraph at lines 91--91
-[]\OT1/cmr/bx/n/12 Central merit: tech-nol-ogy or cul-
+Overfull \hbox (26.35045pt too wide) in paragraph at lines 84--84
+[]\OT1/cmr/bx/n/10.95 Documentation, case stud-ies, Grass-
  []
 
-[3 <./images/100-dollar-satellite-poster.jpg>]
+
+Overfull \hbox (8.86475pt too wide) in paragraph at lines 86--86
+[]\OT1/cmr/bx/n/14.4 Novel Con-tri-bu-tions 
+ []
+
+
+Overfull \hbox (13.96529pt too wide) in paragraph at lines 87--87
+[]\OT1/cmr/bx/n/12 Novel ap-pli-ca-tion of low-
+ []
+
+
+Overfull \hbox (16.15141pt too wide) in paragraph at lines 90--90
+[]\OT1/cmr/bx/n/12 Novel ap-proaches to map
+ []
+
+
+Overfull \hbox (6.31944pt too wide) in paragraph at lines 91--91
+[]\OT1/cmr/bx/n/12 Central merit: tech-nol-
+ []
+
+[3] [4 <./images/100-dollar-satellite-poster.jpg>]
 Chapter 2.
-
-Overfull \hbox (114.8409pt too wide) in paragraph at lines 122--125
-[]\OT1/cmr/m/n/10.95 Andrew Turner: In-tro-duc-tion to Neo-geog-ra-phy coined b
-y Di-Ann Eis-nor? http://apb.directionsmag.com/archives/1379-
- []
-
-
-Overfull \hbox (51.74059pt too wide) in paragraph at lines 128--129
-[][][]$\OT1/cmtt/m/n/10 http : / / books . google . com / books ? id = oHgDv4fe
-V-[]8C&dq = neogeography + turner&printsec = frontcover&source =
- []
-
-
-Overfull \hbox (3.24086pt too wide) in paragraph at lines 128--129
-\OT1/cmtt/m/n/10 bn&hl = en&ei = gmDLS6 _ -[]KYj98AaY _ KWXDA&sa = X&oi = book 
-_ result&ct = result&resnum = 5&ved = 0CBwQ6AEwBA #
- []
-
-[4
+[5
 
 ]
+Overfull \hbox (9.55276pt too wide) in paragraph at lines 122--125
+\OT1/cmr/m/n/10.95 nor? http://apb.directionsmag.com/archives/1379-Define-Neoge
+ography.html 
+ []
 
-LaTeX Warning: Citation `borges1946exactitude' on page 5 undefined on input lin
-e 146.
 
-<images/osm-missing-parts.png, id=384, 1024.82875pt x 576.1525pt>
+Overfull \hbox (66.99643pt too wide) in paragraph at lines 128--129
+[][][]$\OT1/cmtt/m/n/10 http : / / books . google . com / books ? id = oHgDv4fe
+V-[]8C&dq = neogeography + turner&printsec =
+ []
+
+
+Overfull \hbox (39.49652pt too wide) in paragraph at lines 128--129
+\OT1/cmtt/m/n/10 frontcover&source = bn&hl = en&ei = gmDLS6 _ -[]KYj98AaY _ KWX
+DA&sa = X&oi = book _ result&ct =
+ []
+
+
+Overfull \hbox (3.97858pt too wide) in paragraph at lines 130--132
+[]\OT1/cmr/m/n/10.95 "NeoGeography and the na-ture of ge-o-graphic ex-per-tise"
+, Au-thor: Michael
+ []
+
+
+Overfull \hbox (37.97725pt too wide) in paragraph at lines 130--132
+\OT1/cmr/m/n/10.95 Good-child [][]$\OT1/cmtt/m/n/10 http : / / www . informawor
+ld . com / smpp / content[]db = all[]content = a911734343$[][] 
+ []
+
+<images/osm-missing-parts.png, id=388, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
-<images/iraq-image-16.jpg, id=386, 602.25pt x 451.6875pt>
+Underfull \hbox (badness 3884) in paragraph at lines 158--158
+[]\OT1/cmr/m/n/10.95 Figure 2.1: [][][]$\OT1/cmtt/m/n/10 http : / / www . reedh
+ome .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\OT1/cmtt/m/n/10 org . uk / Documents / osmembed . html ?
+ []
+
+[6]
+Underfull \hbox (badness 1748) in paragraph at lines 171--171
+[]\OT1/cmr/bx/n/14.4 Maps as a 'win-
+ []
+
+<images/iraq-image-16.jpg, id=400, 602.25pt x 451.6875pt>
 File: images/iraq-image-16.jpg Graphic file (type jpg)
 
-<use images/iraq-image-16.jpg> [5 <./images/osm-missing-parts.png (PNG copy)>]
-<images/iraq-image-13.jpg, id=396, 602.25pt x 451.6875pt>
+<use images/iraq-image-16.jpg>
+Underfull \hbox (badness 8189) in paragraph at lines 180--180
+[]\OT1/cmr/m/n/10.95 Figure 2.2: [][][]$\OT1/cmtt/m/n/10 http : / / www . gwu .
+ edu /
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 180--180
+[]\OT1/cmtt/m/n/10 nsarchiv / NSAEBB / NSAEBB88/$[][]\OT1/cmr/m/n/10.95 , Im-ag
+e
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 188--189
+[]\OT1/cmr/m/n/10.95 ``Let me say a word
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 188--189
+\OT1/cmr/m/n/10.95 about satel-lite im-ages
+ []
+
+[7 <./images/osm-missing-parts.png (PNG copy)> <./images/iraq-image-16.jpg>]
+Overfull \hbox (7.2268pt too wide) in paragraph at lines 192--193
+[]\OT1/cmr/m/n/10.95 How do I know that? How
+ []
+
+
+Overfull \hbox (14.16307pt too wide) in paragraph at lines 192--193
+\OT1/cmr/m/n/10.95 give you a closer look. Look
+ []
+
+
+Overfull \hbox (1.81384pt too wide) in paragraph at lines 192--193
+\OT1/cmr/m/n/10.95 chem-i-cal mu-ni-tions. The
+ []
+
+
+Overfull \hbox (4.47028pt too wide) in paragraph at lines 192--193
+\OT1/cmr/m/n/10.95 ar-row at the top that says
+ []
+
+
+Overfull \hbox (1.30692pt too wide) in paragraph at lines 192--193
+\OT1/cmr/m/n/10.95 and spe-cial equip-ment to
+ []
+
+
+Overfull \hbox (1.27655pt too wide) in paragraph at lines 192--193
+\OT1/cmr/m/n/10.95 mon-i-tor any leak-age that
+ []
+
+<images/iraq-image-13.jpg, id=413, 602.25pt x 451.6875pt>
 File: images/iraq-image-13.jpg Graphic file (type jpg)
 
 <use images/iraq-image-13.jpg>
@@ -319,48 +419,73 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 20
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 20
 8.
 
-[6 <./images/iraq-image-16.jpg>]
-Underfull \hbox (badness 3158) in paragraph at lines 218--218
-[]\OT1/cmr/bx/n/14.4 Maps: rhetor-i-cal, even
+[8]
+Underfull \hbox (badness 2189) in paragraph at lines 214--215
+\OT1/cmr/m/n/10.95 im-agery is that it rep-re-sents a
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 214--215
+\OT1/cmr/m/n/10.95 in-volve-ment of hu-man tes-ti-mony
  []
 
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[7 <./images/iraq-image-13.jpg>] [8]
+[9 <./images/iraq-image-13.jpg>] [10]
 Chapter 3.
-<images/two-worlds-mapping.png, id=418, 901.9296pt x 360.8682pt>
+<images/two-worlds-mapping.png, id=433, 901.9296pt x 360.8682pt>
 File: images/two-worlds-mapping.png Graphic file (type png)
 
-<use images/two-worlds-mapping.png> [9
+<use images/two-worlds-mapping.png>
 
- <./images/two-worlds-mapping.png>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (0.73915pt too wide) in paragraph at lines 272--273
+[]\OT1/cmr/m/n/10.95 Many are sur-prised when they view places such as Lima, Pe
+ru, a metropo-
+ []
+
+[11
+
+] [12 <./images/two-worlds-mapping.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
 
-Overfull \hbox (82.67355pt too wide) in paragraph at lines 319--321
-\OT1/cmtt/m/n/10 2009 / 11 / how-[]dictators-[]watch-[]us-[]on-[]the-[]web/$[][
-] [][]$http : / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[]vs
--[]shirky/$[][]
+Overfull \hbox (12.93013pt too wide) in paragraph at lines 319--321
+\OT1/cmtt/m/n/10 prospectmagazine . co . uk / 2009 / 11 / how-[]dictators-[]wat
+ch-[]us-[]on-[]the-[]web/$[][] [][]$http :
  []
 
-[10] [11] [12]
+
+Overfull \hbox (15.2854pt too wide) in paragraph at lines 319--321
+\OT1/cmtt/m/n/10 / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[
+]vs-[]shirky/$[][] \OT1/cmr/m/n/10.95 (Patrick Meier) 
+ []
+
+
+Overfull \hbox (1.56036pt too wide) in paragraph at lines 325--326
+[]\OT1/cmr/m/n/10.95 "empowerment":(great ar-ti-cle on def-i-ni-tions for em-po
+w-er-ment and frame-
+ []
+
+[13] [14] [15] [16]
 Chapter 4.
-
-Overfull \hbox (12.8933pt too wide) in paragraph at lines 396--398
-\OT1/cmr/m/n/10.95 Definition: [][]$\OT1/cmtt/m/n/10 http : / / www . ppgis . n
-et / ppgis . htm$[][] \OT1/cmr/m/n/10.95 Bib-li-og-ra-phy: [][]$\OT1/cmtt/m/n/1
-0 http : / / dusk2 . geo . orst . edu / gis / student _
- []
-
-[13
+[17
 
 ]
+Overfull \hbox (11.8138pt too wide) in paragraph at lines 418--419
+\OT1/cmr/m/n/10.95 Some de-gree of map-mak-ing has be-come com-mon-place to the
+ internet-connected
+ []
+
+[18]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- <images/osm-composition.png, id=464, 526.96875pt x 427.5975pt>
+ <images/osm-composition.png, id=495, 526.96875pt x 427.5975pt>
 File: images/osm-composition.png Graphic file (type png)
 
 <use images/osm-composition.png>
@@ -373,74 +498,73 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- [14 <./images/osm-composition.png (PNG copy)>] <images/osm-diagram.png, id=472
-, 803.0pt x 493.845pt>
+
+Underfull \hbox (badness 2846) in paragraph at lines 434--435
+[][]\OT1/cmr/m/n/10.95 Open data projects such as
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 434--435
+\OT1/cmr/m/n/10.95 StreetMap, any-one with enough
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 434--435
+\OT1/cmr/m/n/10.95 200 gi-ga-bytes when loaded into
+ []
+
+[19 <./images/osm-composition.png (PNG copy)>]
+<images/osm-diagram.png, id=503, 803.0pt x 493.845pt>
 File: images/osm-diagram.png Graphic file (type png)
 
 <use images/osm-diagram.png>
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 45
-1.
-
-
-Overfull \hbox (0.41885pt too wide) in paragraph at lines 453--454
-[]\OT1/cmr/m/n/10.95 Another in-ter-est-ing as-
+Overfull \hbox (1.34666pt too wide) in paragraph at lines 452--453
+ [] 
  []
 
 
-Overfull \hbox (2.70016pt too wide) in paragraph at lines 453--454
-\OT1/cmr/m/n/10.95 pect of Open-StreetMap
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 2096) in paragraph at lines 453--454
-\OT1/cmr/m/n/10.95 avail-able to-day. It
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 453--454
-\OT1/cmr/m/n/10.95 makes use of Open-
- []
-
-
-Underfull \hbox (badness 2020) in paragraph at lines 453--454
-\OT1/cmr/m/n/10.95 based frame-work for
- []
-
-
-Underfull \hbox (badness 1859) in paragraph at lines 453--454
-\OT1/cmr/m/n/10.95 u-lar open-source tile
- []
-
-[15 <./images/osm-diagram.png (PNG copy)>] [16]
+[20] [21 <./images/osm-diagram.png (PNG copy)>] [22]
 Chapter 5.
-[17
+[23
 
-] [18]
+] [24]
 Chapter 6.
-[19
+[25
 
 ]
 Chapter 7.
-[20
+[26
 
 ]
 Chapter 8.
-<images/map-warper.png, id=509, 971.63pt x 651.43375pt>
+<images/map-warper.png, id=544, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
-<use images/map-warper.png>
+<use images/map-warper.png> [27
+
+]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-607.
+612.
 
-<images/map-warper-hack.png, id=511, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=550, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
-<use images/map-warper-hack.png> [21
+<use images/map-warper-hack.png>
+Underfull \hbox (badness 1117) in paragraph at lines 619--620
+\OT1/cmr/m/n/10.95 cess, but the low avail-abil-ity of
+ []
 
-] [22 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG c
-opy)>]
+
+Overfull \hbox (2.14009pt too wide) in paragraph at lines 621--622
+\OT1/cmr/m/n/10.95 Frame-work along with an HTML 5 dis-tor-tion tech-nique pro-
+to-typed by Steven
+ []
+
+[28 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG cop
+y)>] [29]
 Chapter 9.
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
@@ -448,28 +572,31 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
-[23
+[30
 
-] [24]
-Overfull \hbox (82.97742pt too wide) in paragraph at lines 759--767
-\OT1/cmr/m/n/10.95 and 'de-sign-ing with' lead-ing to Carta-gen Knit-ter (see l
-ater dis-cus-sion) - http://en.wikipedia.org/wiki/Rubbersheeting
+] [31] [32]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+ [33]
+Overfull \hbox (95.94647pt too wide) in paragraph at lines 769--777
+\OT1/cmr/m/n/10.95 lead-ing to Carta-gen Knit-ter (see later dis-cus-sion) - ht
+tp://en.wikipedia.org/wiki/Rubbersheeting
  []
 
-[25]
+[34]
 Chapter 10.
-[26
+[35
 
-]
+] [36]
 Chapter 11.
-[27
+[37
 
 ]
 Chapter 12.
-<images/test.jpg, id=552, 244.29295pt x 136.3969pt>
+<images/test.jpg, id=607, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
-[28
+[38
 
  <./images/test.jpg>]
 Chapter 13.
@@ -500,7 +627,16 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-(./thesis.bbl [29
+[39
+
+] (./thesis.bbl [40]
+Underfull \hbox (badness 1708) in paragraph at lines 4--9
+[]\OT1/cmr/m/n/10 J.S. Aber, S.W. Aber, and F. Pavri.  UN-MANNED SMALL FOR-
+ []
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ≥ in font cmti10!
+[41
 
 ]
 Missing character: There is no ¬ in font cmr10!
@@ -513,44 +649,35 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [30
-
-]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-Underfull \hbox (badness 3078) in paragraph at lines 141--145
-[]\OT1/cmr/m/n/10 Composition of a typ-i-cal Open-StreetMap API re-sponse.  [][
-]$\OT1/cmtt/m/n/10 http : / / unterbahn . com / 2009 / 10 /
+ [42]) [43]
+Overfull \hbox (61.74785pt too wide) in paragraph at lines 850--851
+\OT1/cmr/m/n/10.95 Li-cense. To view a copy of this li-cense, visit http://crea
+tivecommons.org/licenses/by/3.0/
  []
 
-) [31] [32
+[44
 
-] (./thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 4295 strings out of 256216
- 70987 string characters out of 1917073
- 131334 words of memory out of 1500000
- 7364 multiletter control sequences out of 10000+200000
+ 4581 strings out of 94073
+ 75366 string characters out of 1164797
+ 133775 words of memory out of 1500000
+ 7635 multiletter control sequences out of 10000+50000
  10267 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 33i,7n,36p,1158b,470s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
-ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
-/usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
-/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr
-/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (33 pages, 5476061 bytes).
+ 33i,7n,36p,1158b,466s stack positions out of 5000i,500n,6000p,200000b,5000s
+</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pf
+b></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/sh
+are/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb></opt/local/share/texmf-dist/fo
+nts/type1/bluesky/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky
+/cm/cmr17.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></
+opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (45 pages, 5492462 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
- 176 named destinations out of 1000 (max. 131072)
+ 744 PDF objects out of 1000 (max. 8388607)
+ 192 named destinations out of 1000 (max. 131072)
  731 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 \documentclass[11pt]{report}
-\usepackage{fullpage}
+%\usepackage{fullpage}
 \usepackage[pdftex,
             pdfauthor={Jeffrey Yoo Warren},
             pdftitle={Grassroots Mapping: a toolkit for participatory and activist cartography},
@@ -155,7 +155,7 @@ The idea that maps accurately, or even completely depict a location is not enter
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/osm-missing-parts.png}
-	\url{http://www.reedhome.org.uk/Documents/osmembed.html?kml=KML/osmcategory.kml}
+	\caption{\url{http://www.reedhome.org.uk/Documents/osmembed.html?kml=KML/osmcategory.kml}}
 	\end{flushright}
 \end{wrapfigure}
 
@@ -177,7 +177,7 @@ For a variety of reasons, maps carry the weight of authority in a way that few o
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/iraq-image-16.jpg}
-		\url{http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB88/}, Image 16: Chemical weapons leaving Al-Musayyib
+		\caption{\url{http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB88/}, Image 16: Chemical weapons leaving Al-Musayyib}
 	\end{flushright}
 \end{wrapfigure}
 
@@ -383,13 +383,18 @@ Mikel Maron of the OpenStreetMap Humanitarian Team
 
 Traditional GIS technology has been used for since the 1990's to support communities in developing contexts for purposes such as making tenure claims, environmental defense against petroleum and other extraction industries, as well as for planning purposes. This has become known as PGIS, or Participatory GIS, and typically... 
 
+% See Peter Poole's Life after Tenure Mapping for a brief historical timeline, i think
+
+
+
+PGIS was part of a more general movement towards a ``critical GIS" practice, which could . Sarah Elwood summarizes various alternative GIS movements, one which ``could incorporate diverse forms of spatial knowledge and promote multiple epistomologies" \cite{elwood2009representations}
+
+``how GIS, spatial data, and maps produce and negotiate politics and power relations, or how they can be used to foster participatory decision making processes."
+
 \begin{quote}
 It was also in 1988 in an AKRSP (India) RRA training involving Jennifer McCracken, Anil Shah, Parmesh Shah and others, that a headman, asked to present to the villagers the map the outsiders had draw, had difficulty until he turned it ``upside down", which was the way he and the villagers saw their village . . . . We were teetering on the brink of learning that ``They can do it".
 \cite{chambers2006participatory}
 \end{quote}
-
-% reference: Qualitative GIS book
-% See Peter Poole's Life after Tenure Mapping for a brief historical timeline, i think
 
 \subsection{PPGIS}
 
@@ -442,11 +447,11 @@ Finally, much of the OMS database was created by individuals carrying GPS device
 
 This belief is supported by the `on the ground' policy stated explicitly in the OpenStreetMap wiki, a central organizing document of the community.
 
-\begin{wrapfigure}{r}{0.75\textwidth}
-	\begin{flushleft}
-		\includegraphics[width=0.7\textwidth]{images/osm-diagram.png}
-	\end{flushleft}
-\end{wrapfigure}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.45]{images/osm-diagram.png}
+  \end{center}
+\end{figure}
 
 \subsection{The modern open-source geostack}
 
@@ -631,33 +636,35 @@ The program was also explicitly educational in its goals, and with educators fro
 
 Because of the land-ownership situation discussed in earlier chapters, the Lima project was also intended to provide easy and inexpensive alternative means for communities to produce maps specifically for tenure claims. However, the author and members of the partner NGOs felt that this agenda should be secondary to the educational goals. Further discussion cemented their belief that as non-residents who would not be affected by the outcome of more political and legal uses of the maps, it was not their place to aggressively advocate such uses. 
 
+\subsection{The Other Path: Lima's history of informal settlement}
+
+Lima, Peru was chosen as an ideal pilot location in part because of the author's familiarity with local NGOs and the development community, however the city's unique history made it an especially good choice. Lima has expanded over the last century to include a full third of the population of Peru, in what has become a process of continuous and transformative growth. The result is a city in which large tracts of land have been settled 'extralegally', a term borrowed from Hernando de Soto's exhaustive history in `The Other Path'. These settlements are known locally as `invasions' due to their inhabitants' sense of having not only literally seized the land from private landowners or the government, but of having unilaterally constructed a working alternative to the official municipal government, including public works, tax collection, and education. These communities, typically made up of only a few hundred people each, are truly apart from the central government, and only through a years-long process are able to gain title to their land along with basic services such as plumbing and electricity.
+
+De Soto paints a picture of a government entirely overwhelmed by the floods of immigrants from rural areas, and entirely unable to accommodate these newcomers in its infrastructural or bureaucratic capacity. ``We appear to be witnessing", he writes, ``the most important rebellion against the status quo ever waged in the history of independent Peru." The stunning statistics of the informal population; he describes in detail how "...through invasions or illegal aquisitions of land, neighborhoods sprang up which today account for 42.6 percent of all housing in Lima and are home to 47 percent of the city's population." \cite{desoto1987sendero}
+
+This context, though not unique in the world, is especially appropriate as a place to attempt a mapping project which acts outside of traditional cartographic means of production, and outside the conventional framework of GIS. In the months that followed the Lima project, the author began to refer to the tools and techniques which were prototyped in Lima as a kind of `DIY satellite', and that seems fitting given that in the invasions of Lima, residents are accustomed to Doing Everything Yourself, from constructing roads to building and maintaining their own plumbing. In addition, any means to reduce the barriers to acquiring tenure is held in high value; de Soto holds that ...
+%        - de Soto's work; tenure 9x value
+
 \subsection{Designing tools with, not for, participants}
 
 Both Manzanita ``A" and CEDRO were enthusiastic about the potential of a mapping project from the outset, and Carla del Carpio coordinated with CEDRO's Ernesto Fernandez to set up a Projecto Integral
 % define a Projecto Integral
 with a group of approximately a dozen students in the Juan Pablo II settlement in Lima's Villa el Salvador district at the south end of the city.
 
-Asset mapping, demographics, availability of maps to NGOs.
+Emphasis was placed on collaborating with local NGOs such as CEDRO and Manzanita ``A" rather than in the roles of researcher and subjects, or even designer and client. Decisions 
 
-Needs assessment
+Initial discussion established several possibe use cases for maps, such as demographics to 
 
-Potential beneficiaries/collborators: Hector, Carla/Manzanita A, CEDRO, Escuelab, Shuawa
+..support planning by NGOs, infrastructural assessment...  
 
-\subsection{The Other Path: Lima's history of informal settlement}
-
-%    Suitability of Peru - history of 'invasions'
-%        - de Soto's work; tenure 9x value
-
-"Thus it was, that in order to survive, the migrants became informals." p.11
-
-"We appear to be witnessing the most important rebellion against the status quo ever waged in the history of independent Peru."
-"...we show how, through invasions or illegal aquisitions of land, neighborhoods sprang up which today account for 42.6 percent of all housing in Lima and are home to 47 percent of the city's population." p.13
-
-p. 24, value of buildings with title 9x that of buildings without - also expectative property right and evolution of title
 
 \subsection{Valuation and 'grey' economies}
 
 %        - asset mapping; NiJeL, informal economies
+
+Many invasions are self-governing, and elect a group of 'dirigentes' or leaders in charge of specific tasks, such as public works. According to Manzanita "A", one of the main roles of the leadership of an invasion is as record keepers for land ownership; even in the absence of state-sanctioned deeds, plots are allotted to families. However the ability to transact land sales or to leverage one's plot as collateral for loans is dramatically increased upon receiving title. 
+
+p. 24, value of buildings with title 9x that of buildings without - also expectative property right and evolution of title
 
 \subsection{Limits of state-sanctioned mapping efforts}
 
@@ -667,8 +674,7 @@ p. 24, value of buildings with title 9x that of buildings without - also expecta
 
 \subsection{A Grassroots Mapping curriculum}
 
-%    Development as a curriculum
-%        Importance of understand political/social role of cartography
+As planning progressed for the month-long Projecto Integrador, it became clear that much of our preparatory work was laying the foundation for a youth curriculum in participatory mapping. The group felt strongly that beyond simply producing a map, the activities should include a discussion of the political and social role of cartography. This was elaborated in a series of loosely-planned exercises which broke up the regular kite- and balloon-flying activities. 
 
 \subsection{Mapping with Juan Pablo II}
 
@@ -739,6 +745,8 @@ p. 24, value of buildings with title 9x that of buildings without - also expecta
             - Sr. Ricardo - possible political engagement/entanglement
             - entry into SETAME site; playfulness seen as neutrality? Or just no resistance at low levels to mapping activity?
                 - not perceived as claim-related?
+	- ``De hecho hasta ahora no hay uno mejor que el tuyo. En los demás mapas simplemente Canta Gallo no existe." - Helder Solari, one of the activists participating in the Escuelab/Canta Gallo collaboration
+
 \subsection{Computing literacy challenges with orthorectification}
 	- map warper
         - designed for printed maps
@@ -747,6 +755,7 @@ p. 24, value of buildings with title 9x that of buildings without - also expecta
         - amazing for intended use, even note application in Mumbai
     - Photoshop better, but barely
 	- stuart long uses photoshop, maybe bruce owen (see emails)
+	- ``For example, tracing was chosen over digitisation, and simple graphics software over geographic information systems (GIS)." \cite{poole2006there}
 \subsection{Evaluation}
 - based on criteria
         - Interviews!!!!!!! transcribe them
@@ -827,6 +836,8 @@ Weiner, D. and T. Harris, 2003. ''{}\href{http://www.rri.wvu.edu/pdffiles/giswei
 \href{http://training.esri.com/campus/library/bibliography/RecordDetail.cfm?ID=95545&browseonly=0}{Mapping in a Shoebox} - A Grassroots Approach for Developing the Geospatial Literacy of Elementary Children - 24th International Cartographic Conference - Jaqueline M. Anderson, Sally Hermansen, Lorraine Innes, 2009
 
 Lots of work by Proboscis: \href{http://urbantapestries.net/}{Social Tapestries/Urban Tapestries}, 2002-7 - Urban Tapestries investigated how, by combining mobile and internet technologies with geographic information systems, people could `{}author'{} the environment around them; a kind of Mass Observation for the 21st Century. Like the founders of Mass Observation in the 1930s, we were interested creating opportunities for an ``{}anthropology of ourselves''{} – adopting and adapting new and emerging technologies for creating and sharing everyday knowledge and experience; building up organic, collective memories that trace and embellish different kinds of relationships across places, time and communities.
+
+\chapter*{Appendix A}
 
 %%%%%%%%%%%%%%%%%%%%%%%%% BIBLIOGRAPHY
 \nocite{*}

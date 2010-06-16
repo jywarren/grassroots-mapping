@@ -48,7 +48,7 @@ Claudia Canepa.
 \bibitem{chambers2006participatory}
 R.~Chambers.
 \newblock {Participatory mapping and geographic information systems: whose map?
-  Who is empowered and who disempowered? Who gains and who lo ses?}
+  Who is empowered and who disempowered? Who gains and who loses?}
 \newblock {\em The Electronic Journal of Information Systems in Developing
   Countries}, 25(0), 2006.
 
@@ -56,6 +56,17 @@ R.~Chambers.
 H.~De~Soto and M.V. Llosa.
 \newblock {\em {The other path: the invisible revolution in the Third World}}.
 \newblock Harper \& Row New York, 1989.
+
+\bibitem{desoto1987sendero}
+Hernando de~Soto.
+\newblock {\em {El otro sendero: la revolución informal}}.
+\newblock Instituto Libertad y Democracia, 1987.
+
+\bibitem{elwood2009representations}
+Sarah Elwood.
+\newblock {\em {Multiple representations, significations, and epistimologies in
+  community-based GIS}}.
+\newblock SAGE Publications, Ltd, 2009.
 
 \bibitem{gibson2006google}
 Rich Gibson and Schuyler Erle.
