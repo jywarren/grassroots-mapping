@@ -2,46 +2,46 @@ This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: thesis.bib
-Warning--I didn't find a database entry for "desoto"
-You've used 29 entries,
+Warning--I didn't find a database entry for "http://brainoff.com/weblog/2010/04/28/1556"
+You've used 32 entries,
             2118 wiz_defined-function locations,
-            652 strings with 9310 characters,
-and the built_in function-call counts, 7593 in all, are:
-= -- 734
-> -- 325
+            663 strings with 9741 characters,
+and the built_in function-call counts, 8195 in all, are:
+= -- 791
+> -- 340
 < -- 3
-+ -- 133
-- -- 104
-* -- 453
-:= -- 1268
-add.period$ -- 83
-call.type$ -- 29
-change.case$ -- 140
++ -- 140
+- -- 108
+* -- 472
+:= -- 1359
+add.period$ -- 91
+call.type$ -- 32
+change.case$ -- 151
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 308
-empty$ -- 653
-format.name$ -- 104
-if$ -- 1604
+cite$ -- 32
+duplicate$ -- 336
+empty$ -- 726
+format.name$ -- 108
+if$ -- 1744
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 25
-newline$ -- 143
-num.names$ -- 46
-pop$ -- 168
+int.to.str$ -- 32
+missing$ -- 26
+newline$ -- 156
+num.names$ -- 50
+pop$ -- 191
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 125
 quote$ -- 0
-skip$ -- 232
+skip$ -- 255
 stack$ -- 0
-substring$ -- 320
-swap$ -- 45
+substring$ -- 335
+swap$ -- 49
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 106
+type$ -- 118
 warning$ -- 0
-while$ -- 66
-width$ -- 31
-write$ -- 292
+while$ -- 70
+width$ -- 34
+write$ -- 317
 (There was 1 warning)

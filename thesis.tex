@@ -363,7 +363,7 @@ Ushahidi has been successfully used to gather and publish very up-to-date inform
 
 
 
-\subsubsection{Satellite imagery access}
+\subsubsection{Satellite imagery}
 
 Public access to up-to-date imagery of crisis areas has become something of a hot-button issue in crisis mapping circles, as those companies and agencies in control of the imagery do not always elect to release it, or to license it freely for any use. Whethe due to an unwillingness to offer expensive imagery for unrestricted use, or due to the administrative burden of actually offering such data for download under a permissive license, access to satellite imagery has become a frequent bottleneck for aid organizations. 
 
@@ -443,9 +443,9 @@ In many ways it has met with wild success, and the size and detail of the OSM ma
 % How big is it? 
 However, participants are overwhelmingly European and American, and tend to be wealthy due to the emphasis on internet connectivity and the use of GPS devices to produce new map data.
 
-In fact, the OSM data collection strategy relies most heavily upon three sources. First, existing municipal and public domain databases make up an enormous part of the available data; the TIGER database produced by the US Census increased the size of OSM by a factor of ten. Second, tracing of satellite data with the Potlatch, JOSM, and other tools to extract vector data from rasters plays a large role, especially in areas with few local participants. This technique was used in the Free Map Palestine project to map all of Gaza using a satellite dataset purchased for \$5,000 from donations during the Gaza war in late 2008. \cite{maron2010openstreetmap} While convenient in that it does not require mappers to actually travel to the places they are mapping, it does not actively involve residents of an area in the mapping process, and sufferes from many of the shortcomings which inspired the PGIS movement. 
+In fact, the OSM data collection strategy relies most heavily upon three sources. First, existing municipal and public domain databases make up an enormous part of the available data; the TIGER database produced by the US Census increased the size of OSM by a factor of ten. Second, tracing of satellite data with the Potlatch, JOSM, and other tools to extract vector data from rasters plays a large role, especially in areas with few local participants. This technique was used in the OSM Gaza project to map all of Gaza using a satellite dataset purchased for \$5,000 from donations during the Gaza war in late 2008. \cite{maron2010openstreetmap} While convenient in that it does not require mappers to actually travel to the places they are mapping, it does not actively involve residents of an area in the mapping process, and sufferes from many of the shortcomings which inspired the PGIS movement. 
 
-Finally, much of the OMS database was created by individuals carrying GPS devices to record GPX tracks, or collections of latitude/longitude coordinates. These are later uploaded, annotated and merged into the main OSM database using tools such as JOSM. This is the preferred means of collecting data because of its high accuracy, its emphasis on firsthand mapping, the clear legal ownership of the data, and because of the implicit belief among many OSM participants that better maps are made `on the ground'. 
+Finally, much of the OSM database was created by individuals carrying GPS devices to record GPX tracks, or collections of latitude/longitude coordinates. These are later uploaded, annotated and merged into the main OSM database using tools such as JOSM. This is the preferred means of collecting data because of its high accuracy, its emphasis on firsthand mapping, the clear legal ownership of the data, and because of the implicit belief among many OSM participants that better maps are made `on the ground'. 
 
 This belief is supported by the `on the ground' policy stated explicitly in the OpenStreetMap wiki, a central organizing document of the community.
 
@@ -465,13 +465,26 @@ Another interesting aspect of OpenStreetMap is that it represents a deployed and
  
 An offshoot of the OpenStreetMap project known as the OpenStreetMap Humanitarian Team or HOT was started in late 2009 by Mikel Maron, a map programmer and co-founder of mapping firm Mapufacture. Positioned in direct response to the need for maps in areas of humanitarian crisis, Mikel has organized members from the technology community to visit crisis zones such as Port-au-Prince as well as a long-term presence in Kibera, a large slum in Nairobi, Kenya. HOT uses the same tools as the wider OpenStreetMap community, and either runs a separate instance of the OpenStreetMap server and database, or directly uploads the data to the main OpenStreetMap.org service. 
 
-\subsubsection{Free Map Gaza}
+\url{http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team}
 
-%        Map Kibera, Free Map Palestine, Free Map India
+\subsubsection{OSM Gaza}
+
+HOT's first project, a volunteer effort to map the Gaza Strip during the 2008-2009 war between Israel and Gaza, relied on Yahoo Maps and Digital Globe satellite imagery. Over seven days, OpenStreetMap volunteers traced the satellite imagery in order to produce a more accurate, more up-to-date map, and with assistance from JumpStart International, the map was available online and for download with no copyright restrictions. This emphasis on placing map data (not just rendered maps!) in the public domain was intended to provide for the widest possible uses of the information, on both a technical and legal basis.
+
+
+
+%        Map Kibera, Free Map Palestine, Free Map India, OpenMapCaucuses
 
 Public domain data, JumpStart International
 
-\subsubsection{Followup projects}
+\subsubsection{Mapping the Haiti Earthquake}
+
+
+
+\quote{The have been at least 400 OpenStreetMap editing sessions in Haiti since the quake hit. Mostly tracing Yahoo imagery, and gleaning information from old CIA maps. We also just received permission to use GeoEye imagery acquired post-event … that will allow us to tag collapsed buildings.} \cite{maron2010haiti}
+
+\quote{`Sea change in the legitimacy of crowdsourced geographic data. For instance, all the United Nations agencies acting on the ground in Haiti used OpenStreetMap for their print maps'} \cite{glennon2010grassrootscrisis}
+
 %        Data modeling: http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags/Humanitarian_Data_Model
 \subsubsection{Challenges}
 %        Slum mapping, disaster-specific issues
@@ -548,6 +561,9 @@ Reference chapter 4.2 discussion on current geostack
 %    - this work could only be done by working with communities in cartographic dispute. See Lima case study.
 
 \chapter{Related works}
+
+Additional non-technical works?
+
 %    Inspiration, context, history of activist/grassroots mapping
 %    Reiterate HOT/Free Map Palestine, India, Kibera
 %    GroundTruth, Jai Sen, A People's Atlas of Chicago
@@ -576,6 +592,16 @@ Wiki, mailing list, blog, media coverage (~ Face validity)
 
 \chapter{The Grassroots Mapping tool chain}
 \section{Balloon/kite Aerial Mapping (BAM/KAM)}
+
+previous BAP/KAP for mapping: Eric Wolf, others
+ 
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/maron-spy-satellite.jpg}
+		\cite{maron2008former}
+	\end{flushright}
+\end{wrapfigure}
+
 %    UAV - DIYDrones and collaboration (see 'Future work')
 %        Leveraging both expert and 'amateur'/enthusiast expertise
 %        Connecting hobby/DIY communities with activist communities and agendas
@@ -800,6 +826,8 @@ By contrast, the imagery collected by the LABB/Grassroots Mapping teams was up t
 \chapter{Case Study: A Grassroots Mapping curriculum in Georgia}
 
 In early 2010, Jeff Haack of JumpStart International, the nonprofit group which funded and operated the Free Map Palestine project with Mikel Maron in 2008-9, expressed interest in applying Grassroots Mapping tools and ideas to a nation-wide mapping project in the country of Georgia. With educational projects in 5 cities across the country, this was to be the first large explicitly educational application of the Grassroots Mapping concept. Beginning in June 2010 and lasting 6 weeks, the program consisted of a series of workshops and trainings with JumpStart-affiliated educators and activists using balloons, kites, and remote controlled airplanes.
+
+\quote{The NGO structure JumpStart has built in Georgia is, in my opinion, an apt and sustainable way forward. After our experience in Palestine it became clear that impact requires a lasting effort in a community and the encouragement of local skills and ownership. It’s not merely about mapping a country, but about understanding where that, conceptually, meets societal needs, and building value therein. Sustainability for Open Maps Caucasus comes by understanding the convergence of digital technologies with community mapping, social fabric, governance, and civil society, and filling a need within that sphere. We’re not expecting OMC’s community mapping focus to last forever, but that concept, at the very heart of it is meaningful and sustainable, because accessing the tools for extracting and considering not oil or timber, but information, strengthens a society and can make it more prone to long term development.} \url{http://brainoff.com/weblog/2010/04/28/1556}
 
 \chapter{Project sustainability and ongoing work}
 \section{Wiki, blog and mailing list}
