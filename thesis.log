@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  19 JUN 2010 14:50
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  23 JUN 2010 07:28
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -445,19 +445,19 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
 
-Overfull \hbox (12.93013pt too wide) in paragraph at lines 321--323
+Overfull \hbox (12.93013pt too wide) in paragraph at lines 323--325
 \OT1/cmtt/m/n/10 prospectmagazine . co . uk / 2009 / 11 / how-[]dictators-[]wat
 ch-[]us-[]on-[]the-[]web/$[][] [][]$http :
  []
 
 
-Overfull \hbox (15.2854pt too wide) in paragraph at lines 321--323
+Overfull \hbox (15.2854pt too wide) in paragraph at lines 323--325
 \OT1/cmtt/m/n/10 / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[
 ]vs-[]shirky/$[][] \OT1/cmr/m/n/10.95 (Patrick Meier) 
  []
 
 
-Overfull \hbox (1.56036pt too wide) in paragraph at lines 327--328
+Overfull \hbox (1.56036pt too wide) in paragraph at lines 329--330
 []\OT1/cmr/m/n/10.95 "empowerment":(great ar-ti-cle on def-i-ni-tions for em-po
 w-er-ment and frame-
  []
@@ -467,7 +467,7 @@ Chapter 4.
 [17
 
 ]
-Overfull \hbox (11.8138pt too wide) in paragraph at lines 420--421
+Overfull \hbox (11.8138pt too wide) in paragraph at lines 422--423
 \OT1/cmr/m/n/10.95 Some de-gree of map-mak-ing has be-come com-mon-place to the
  internet-connected
  []
@@ -490,17 +490,17 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 
-Underfull \hbox (badness 2846) in paragraph at lines 436--437
+Underfull \hbox (badness 2846) in paragraph at lines 438--439
 [][]\OT1/cmr/m/n/10.95 Open data projects such as
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 436--437
+Underfull \hbox (badness 2469) in paragraph at lines 438--439
 \OT1/cmr/m/n/10.95 StreetMap, any-one with enough
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 436--437
+Underfull \hbox (badness 2050) in paragraph at lines 438--439
 \OT1/cmr/m/n/10.95 200 gi-ga-bytes when loaded into
  []
 
@@ -509,7 +509,7 @@ Underfull \hbox (badness 2050) in paragraph at lines 436--437
 File: images/osm-diagram.png Graphic file (type png)
 
 <use images/osm-diagram.png>
-Overfull \hbox (1.34666pt too wide) in paragraph at lines 454--455
+Overfull \hbox (1.34666pt too wide) in paragraph at lines 456--457
  [] 
  []
 
@@ -517,152 +517,93 @@ Overfull \hbox (1.34666pt too wide) in paragraph at lines 454--455
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20] [21 <./images/osm-diagram.png (PNG copy)>]
+<images/kibera-gpx.png, id=519, 946.53625pt x 472.76625pt>
+File: images/kibera-gpx.png Graphic file (type png)
+
+<use images/kibera-gpx.png> [22 <./images/kibera-gpx.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 
-Overfull \hbox (0.1946pt too wide) in paragraph at lines 504--505
-\OT1/cmr/m/n/10.95 Map Warper soft-ware writ-ten by Tim Wa-ters, Schuyler
- []
-
-[22]
-Overfull \hbox (8.7413pt too wide) in paragraph at lines 506--506
-[]\OT1/cmr/bx/n/12 GonzoEarth and man-ual stitch-ing with
+Overfull \hbox (1.98926pt too wide) in paragraph at lines 489--489
+\OT1/cmr/m/n/10.95 For in-stance, all the United Na-tions agen-cies act-ing on 
+the ground
  []
 
 [23]
 Chapter 5.
-
-Overfull \hbox (15.50151pt too wide) in paragraph at lines 527--527
-[]\OT1/cmr/bx/n/14.4 Aerial imag-ing with low-cost tools 
- []
-
 [24
 
 ] [25]
 Chapter 6.
-
-Overfull \hbox (13.5198pt too wide) in paragraph at lines 570--570
-[]\OT1/cmr/bx/n/14.4 Beyond sym-bolic map-ping: Data-
- []
-
-
-Overfull \hbox (22.54483pt too wide) in paragraph at lines 570--570
-\OT1/cmr/bx/n/14.4 driven ap-proaches to par-tic-i-pa-tory map-
- []
-
 [26
 
 ]
 Chapter 7.
-
-Overfull \hbox (71.64352pt too wide) in paragraph at lines 588--589
-\OT1/cmr/m/n/10.95 how par-tic-i-pa-tion trans-forms the sit-u-a-tion (self-awa
-reness/reflexivity) 
- []
-
 [27
 
-]
+] [28] [29]
 Chapter 8.
-
-Overfull \hbox (85.57152pt too wide) in paragraph at lines 594--594
-[]\OT1/cmr/bx/n/14.4 Balloon/kite Aerial Map-ping (BAM/KAM) 
- []
-
-
-Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
-put line 598.
-
-<images/maron-spy-satellite.jpg, id=557, 2601.72pt x 1951.29pt>
+<images/maron-spy-satellite.jpg, id=571, 2601.72pt x 1951.29pt>
 File: images/maron-spy-satellite.jpg Graphic file (type jpg)
 
 <use images/maron-spy-satellite.jpg>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 60
-8.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 63
+9.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 61
-2.
-
-
-Overfull \hbox (2.0615pt too wide) in paragraph at lines 612--612
-[]\OT1/cmr/bx/n/14.4 Digital maps: recon-cep-tu-al-iz-ing
- []
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 61
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 64
 3.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 61
-7.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 64
+4.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 62
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 64
+8.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 65
+3.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 66
 2.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 63
-0.
-
-
-Overfull \hbox (13.97047pt too wide) in paragraph at lines 630--630
-[]\OT1/cmr/bx/n/12 Web-based or-thorec-ti-fi-ca-tion and warp-
+Underfull \hbox (badness 1067) in paragraph at lines 664--665
+\OT1/cmr/m/n/10.95 sign pro-cess and in-ter-views con-
  []
 
+[30
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 63
-2.
-
-[28
-
-]
-
-Package wrapfig Warning: Collision between wrapping environments on input line 
-636.
-
-
-Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
-put line 636.
-
-<images/map-warper.png, id=563, 971.63pt x 651.43375pt>
+ <./images/maron-spy-satellite.jpg>]
+<images/map-warper.png, id=579, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
 <use images/map-warper.png>
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-643.
+675.
 
-
-Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
-put line 643.
-
-<images/map-warper-hack.png, id=565, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=581, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
 <use images/map-warper-hack.png>
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 65
-0.
-
-[29 <./images/maron-spy-satellite.jpg> <./images/map-warper.png (PNG copy)>]
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 65
-2.
-
-
-Overfull \hbox (7.09924pt too wide) in paragraph at lines 652--653
-[]\OT1/cmr/m/n/10.95 The Carta-gen Knit-ter soft-ware, de-vel-oped in the month
-s
+Underfull \hbox (badness 1117) in paragraph at lines 682--683
+\OT1/cmr/m/n/10.95 cess, but the low avail-abil-ity of
  []
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 65
-6.
+Overfull \hbox (2.14009pt too wide) in paragraph at lines 684--685
+\OT1/cmr/m/n/10.95 Frame-work along with an HTML 5 dis-tor-tion tech-nique pro-
+to-typed by Steven
+ []
 
-[30 <./images/map-warper-hack.png (PNG copy)>]
+[31 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG cop
+y)>] [32]
 Chapter 9.
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
@@ -670,93 +611,22 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
+[33
 
-Overfull \hbox (3.29718pt too wide) in paragraph at lines 666--667
-[]\OT1/cmr/m/n/10.95 The pro-gram was also ex-plic-itly ed-u-ca-tional in its g
-oals,
- []
-
-[31
-
-]
-Overfull \hbox (3.65205pt too wide) in paragraph at lines 672--673
-\OT1/cmr/m/n/10.95 de Soto's ex-haus-tive his-tory in `The Other Path'. These
- []
-
-[32]
-Overfull \hbox (11.32716pt too wide) in paragraph at lines 676--678
-\OT1/cmr/m/n/10.95 means of pro-duc-tion, and out-side the con-ven-tional frame
--
- []
-
-
-Overfull \hbox (0.75737pt too wide) in paragraph at lines 685--686
-[]\OT1/cmr/m/n/10.95 Emphasis was placed on col-lab-o-rat-ing with lo-cal NGOs
- []
-
-[33]
-Overfull \hbox (14.96712pt too wide) in paragraph at lines 708--709
-\OT1/cmr/m/n/10.95 ricu-lum in par-tic-i-pa-tory map-ping. The group felt stron
-gly
- []
-
-[34]
-Overfull \hbox (24.28465pt too wide) in paragraph at lines 770--773
-\OT1/cmr/m/n/10.95 - fastest yet - to-tal im-ages - us-age of hugin/SIFT/Photos
-hop 
- []
-
+] [34] [35]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
-
-Overfull \hbox (1.6534pt too wide) in paragraph at lines 774--780
-\OT1/cmr/m/n/10.95 - Es-cue-lab and Sara/CEDRO - two can-ta-gal-los (three?)
+ [36]
+Overfull \hbox (95.94647pt too wide) in paragraph at lines 831--839
+\OT1/cmr/m/n/10.95 lead-ing to Carta-gen Knit-ter (see later dis-cus-sion) - ht
+tp://en.wikipedia.org/wiki/Rubbersheeting
  []
 
-
-Overfull \hbox (19.34698pt too wide) in paragraph at lines 774--780
-\OT1/cmr/m/n/10.95 - Sr. Ri-cardo - pos-si-ble po-lit-i-cal en-gage-ment/entang
-lement
- []
-
-[35]
-Overfull \hbox (2.99306pt too wide) in paragraph at lines 799--807
-\OT1/cmr/m/n/10.95 nity His-tory/future as-sign-ments make ex-plicit the value
- []
-
-[36] [37]
+[37]
 Chapter 10.
-
-Overfull \hbox (18.14049pt too wide) in paragraph at lines 811--814
-\OT1/cmr/m/n/10.95 Yeh spe-cial-izes in high-altitude pho-tog-ra-phy us-ing wea
-ther
- []
-
-
-Overfull \hbox (12.87843pt too wide) in paragraph at lines 811--814
-\OT1/cmr/m/n/10.95 con-tact with Anne Rolfes of the Louisiana Bucket Brigade
- []
-
 [38
 
-]
-Overfull \hbox (3.08427pt too wide) in paragraph at lines 819--820
-\OT1/cmr/m/n/10.95 (Mod-er-ate Res-o-lu-tion Imag-ing Spec-tro-ra-diome-ter) se
-n-
- []
-
-
-Overfull \hbox (2.25282pt too wide) in paragraph at lines 819--820
-\OT1/cmr/m/n/10.95 sors aboard NASA's Terra and Aqua satel-lites. MODIS
- []
-
-
-Overfull \hbox (24.05664pt too wide) in paragraph at lines 823--824
-[]\OT1/cmr/m/n/10.95 By con-trast, the im-agery col-lected by the LABB/Grassroo
-ts
- []
-
-[39]
+] [39]
 Chapter 11.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -767,54 +637,17 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-LaTeX Warning: Citation `http://brainoff.com/weblog/2010/04/28/1556' on page 40
- undefined on input line 830.
-
 [40
 
 ] [41]
 Chapter 12.
-
-Overfull \hbox (21.245pt too wide) in paragraph at lines 834--838
-\OT1/cmr/m/n/10.95 (see Eval-u-a-tion Cri-te-ria .. Face va-lid-ity/Construct
- []
-
-
-Overfull \hbox (7.99345pt too wide) in paragraph at lines 840--843
-\OT1/cmr/m/n/10.95 Com-mu-nity build-ing, match-mak-ing (men-tioned
- []
-
-<images/test.jpg, id=635, 244.29295pt x 136.3969pt>
+<images/test.jpg, id=642, 244.29295pt x 136.3969pt>
 File: images/test.jpg Graphic file (type jpg)
  <use images/test.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [42
 
-] [43 <./images/test.jpg>]
+ <./images/test.jpg>]
 Chapter 13.
-
-Overfull \hbox (0.5109pt too wide) in paragraph at lines 861--862
-[][][]\OT1/cmr/m/n/10.95 Mapping for Change[][] - 2005 In-ter-na-tional Con-
- []
-
-
-Overfull \hbox (0.53114pt too wide) in paragraph at lines 863--864
-[]\OT1/cmr/m/n/10.95 Weiner, D. and T. Har-ris, 2003. ''[][]Community-
- []
-
-
-Overfull \hbox (16.46329pt too wide) in paragraph at lines 863--864
-\OT1/cmr/m/n/10.95 Integrated GIS for Land Re-form in South Africa[][].''
- []
-
-
-Overfull \hbox (6.35094pt too wide) in paragraph at lines 865--866
-[][][]\OT1/cmr/m/n/10.95 Bilingualism and iden-tity: Span-ish at the cross-
- []
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -839,183 +672,68 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-
-Overfull \hbox (1.33217pt too wide) in paragraph at lines 869--870
-\OT1/cmr/m/n/10.95 der-son, Sally Her-mansen, Lor-raine Innes, 2009 
- []
-
-[44
-
-]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
+[43
 
-Overfull \hbox (26.12175pt too wide) in paragraph at lines 871--872
-[]\OT1/cmr/m/n/10.95 Lots of work by Pro-boscis: [][]So-cial Tapestries/Urban
- []
-
-[45] (./thesis.bbl [46
+] [44] (./thesis.bbl [45
 
 ]
-Underfull \hbox (badness 7186) in paragraph at lines 4--9
-\OT1/cmr/m/n/10 MANNED SMALL FOR-MAT AERIAL
+Underfull \hbox (badness 1708) in paragraph at lines 4--9
+[]\OT1/cmr/m/n/10 J.S. Aber, S.W. Aber, and F. Pavri.  UN-MANNED SMALL FOR-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-\OT1/cmr/m/n/10 PHO-TOG-RA-PHY FROM KITES AC-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-\OT1/cmr/m/n/10 QUIR-ING LARGE-SCALE, HIGH-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-\OT1/cmr/m/it/10 OF PHO-TOGRAM-ME-TRY RE-MOTE
- []
-
-
-Underfull \hbox (badness 6691) in paragraph at lines 18--22
-[]\OT1/cmr/m/n/10 J. Boike and K. Yoshikawa.  Map-
- []
-
-
-Underfull \hbox (badness 3281) in paragraph at lines 18--22
-\OT1/cmr/m/n/10 ping of periglacial ge-o-mor-phol-ogy us-ing
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 36--40
-\OT1/cmr/m/n/10 Soil pro-duc-tiv-ity man-age-ment and plant
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 36--40
-\OT1/cmr/m/n/10 mon-i-tor-ing tech-nique.  \OT1/cmr/m/it/10 Plant and Soil\OT1/
-cmr/m/n/10 ,
- []
-
-[47
-
-]
 Missing character: There is no √ in font cmti10!
 Missing character: There is no ≥ in font cmti10!
+[46
 
-Underfull \hbox (badness 4686) in paragraph at lines 87--90
-[]\OT1/cmr/m/n/10 Full text of Colin Pow-ell's speech |
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 92--94
-[]\OT1/cmr/m/n/10 Mikel Maron.  [][]$\OT1/cmtt/m/n/10 http : / / www . flickr .
- com /
- []
-
+]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ª in font cmr10!
-
-Underfull \hbox (badness 4072) in paragraph at lines 101--104
-[]\OT1/cmr/m/n/10 Brain Off  Mis-con-cep-tions and Ob-jec-
- []
-
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ª in font cmr10!
-
-Underfull \hbox (badness 1005) in paragraph at lines 106--109
-\OT1/cmr/m/n/10 Data :: Mikel Maron :: Build-ing Dig-i-
- []
-
-[48]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ª in font cmr10!
-
-Underfull \hbox (badness 2237) in paragraph at lines 116--120
-[]\OT1/cmr/m/n/10 M. Miyamoto, K. Yoshino, T. Nagano,
- []
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+ [47]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-Underfull \hbox (badness 2103) in paragraph at lines 160--164
-\OT1/cmr/m/n/10 and P. Zim-mer-man.  The Short Wave
+) [48]
+Overfull \hbox (61.74785pt too wide) in paragraph at lines 917--918
+\OT1/cmr/m/n/10.95 Li-cense. To view a copy of this li-cense, visit http://crea
+tivecommons.org/licenses/by/3.0/
  []
 
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
-[]\OT1/cmr/m/n/10 Composition of a typ-i-cal Open-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
-\OT1/cmr/m/n/10 StreetMap API re-sponse.  [][]$\OT1/cmtt/m/n/10 http :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
-\OT1/cmtt/m/n/10 / / unterbahn . com / 2009 / 10 /
- []
-
-
-Overfull \hbox (46.43948pt too wide) in paragraph at lines 166--170
-\OT1/cmtt/m/n/10 composition-[]of-[]a-[]openstreetmap-[]api-[]responses/$[][]\O
-T1/cmr/m/n/10 . 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--179
-[]\OT1/cmr/m/n/10 Projective Tex-tur-ing with Can-vas |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--179
-\OT1/cmr/m/n/10 Steven Wit-tens - Acko.net, Project
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--179
-\OT1/cmr/m/n/10 Web-site.  [][]$\OT1/cmtt/m/n/10 http : / / acko . net / blog /
-
- []
-
-) [50]
-Overfull \hbox (148.3361pt too wide) in paragraph at lines 884--885
-\OT1/cmr/m/n/10.95 view a copy of this li-cense, visit http://creativecommons.o
-rg/licenses/by/3.0/
- []
-
-[51
+[49
 
 ] (./thesis.aux)
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4315 strings out of 256216
- 71294 string characters out of 1917073
+ 4321 strings out of 256216
+ 71412 string characters out of 1917073
  131527 words of memory out of 1500000
- 7359 multiletter control sequences out of 10000+200000
+ 7362 multiletter control sequences out of 10000+200000
  10267 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 33i,7n,36p,1158b,455s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 33i,7n,36p,1158b,468s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
 ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
 /usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
 /bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr
 /share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (52 pages, 6921606 bytes).
+Output written on thesis.pdf (50 pages, 6944613 bytes).
 PDF statistics:
- 799 PDF objects out of 1000 (max. 8388607)
- 204 named destinations out of 1000 (max. 131072)
- 744 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 791 PDF objects out of 1000 (max. 8388607)
+ 206 named destinations out of 1000 (max. 131072)
+ 749 words of extra memory for PDF output out of 10000 (max. 10000000)
 
