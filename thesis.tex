@@ -514,23 +514,17 @@ While there are a diverse range of approaches to participatory mapping, several 
 
 Perhaps the most ambitious project of this type is the Map Warper software written by Tim Waters, Schuyler Erle, and Shekhar Krishnan, as part of their project to 'crowdsource' the digitization of the New York Public Library map archive. \cite{waters2009warper} The tool, built for the New York Public Library Map Archive to digitize their collection, invites volunteers to orthorectify maps by matching Ground Control Points, or GCPs, between a source image and a reference map. 
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/map-warper.png}
-		The Map Warper interface for identifying Ground Control Points. \cite{waters2009warper}
-	\end{flushright}
-\end{wrapfigure}
-
-However
-
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/map-warper-hack.png}
-		Demonstration of JavaScript hack to insert Google satellite data for warping in areas with low feature density. \cite{waters2009warper}
-	\end{flushright}
-\end{wrapfigure}
+While designed for warping archival maps onto a vector dataset, namely OpenStreetMap, the tool can be used to warp aerial imagery onto satellite data. This is achieved by inserting a new layer into the reference map pane, which is implemented in OpenLayers. The resulting warped image can be downloaded as a GeoTiff or accessed as a standards-compliant WMS layer. 
 
 \subsection{GonzoEarth and manual stitching with Adobe Photoshop}
+
+One of the main practitioners of low-cost mapmaking today is Stewart Long and his one-man company GonzoEarth. Stewart is responsible for such impressive maps as the 2009 map of Burning Man, published at a 3 cm resolution. This map was surprisingly warped onto a lower resolution base map, blended, and output as a BigTiff image using Adobe Photoshop CS4. The image was then reprojected and saved as a GeoTiff using the open source GDAL package.
+
+The imagery for the Burning Man map was taken from a balloon by ....... , but Stewart typically uses a lightweight and relatively inexpensive remote control airplane called the Easystar, sold by the German company Multiplex. A small canon camera is inserted into the cockpit and a hole is cut in the belly of the plane through which the pictures are taken. Stewart can fly the plane at up to a half-mile away, steering manually with a 2.4 Ghz transmitter and can capture imagery at hundreds of feet in the air. The plane can remain in the air for up to an hour. 
+
+Reasons... get quotation
+
+DIYDrones T3
 
 % mention DIYDrones, kite aerial photography guy with hugin/big Xs on the ground 
 
@@ -691,11 +685,28 @@ The Cartagen framework represents an alternative system which is optimized for u
 %                GSS (and OSM-JSON): appropriating the HTML/CSS paradigm for data legibility and open access
 %                    Format politics: XML, JSON, RSS
 
-Despite reinventing much of the typical geostack, Cartagen makes use of open standards such as JSON, OSM-XML, and GeoJSON, and can be used to generate GeoTiffs or even a TMS tile service.
+Despite reinventing much of the typical geostack, Cartagen makes use of open standards such as JSON, OSM-XML, and GeoJSON, and can be used to generate GeoTiffs or even a TMS tile service. In addition, because it can store and display both raster and vector data, once images are rectified, the pen tool can be used to trace streets, buildings, and borders.   
 
-Why an entirely new mapping system?
+Another unique part about Cartagen is that it allows users to style vector map data using a stylesheet, in a syntax similar to that of CSS. This is intendd to mirror the content vs. style relationship between HTML and CSS, and in fact the map stylesheet format Cartagen uses is called GSS. This is intended to leverage the widespread literacy in web design and provide a scaffolding for those just beginning to make their own maps with these tools. 
+
+Illustration of GSS
+
+\subsection{Why an entirely new mapping system?}
+
+needs rewrite for thesis style:
+
+In a sense, rendering is at the heart of the argument for critical cartography. If mapping is to be a means to advance an agenda, or develop a narrative, or create a communal self-image, it must allow for diverse forms of representation. We have the divergent data and the means to collect, collate, and publish it – what we lack is a way to represent it in layered, interactive, and radically unique ways. 
+
+Cartagen is distributed solution to the problem of generating complete world maps with minimal resources, which describe a constantly changing data set. This turned out to be both technologically advantageous and epistemologically transformative. Once maps are rendered in your browser window instead of by Google or Yahoo, you are empowered to design, manipulate, and use that data in new and compelling ways. 
+
+Instead of just annotating a Google Map with pins representing your data, Cartagen provides an opportunity to create your own map from scratch, using both open geodata and data you've collected from your environment. Mapmaking with Cartagen is a form of cartographic narrative. 
+
+
 
 \subsection{Beyond raster mapping/Tile politics}
+
+
+
 %            Metadata: authorship data
 %            Google Maps png metadata hack
 %            GIS and broadly adopted consumer-focused mapping stacks
@@ -770,7 +781,7 @@ Emphasis was placed on collaborating with local NGOs such as CEDRO and Manzanita
 Initial discussion established several possibe use cases for maps, such as demographics to 
 
 ..support planning by NGOs, infrastructural assessment...  
-
+.. see Maps for Advocacy for uses, also Practical PGIS...er, the blue reading
 
 \subsection{Valuation and 'grey' economies}
 
@@ -861,12 +872,27 @@ As planning progressed for the month-long Projecto Integrador, it became clear t
                 - not perceived as claim-related?
 	- ``De hecho hasta ahora no hay uno mejor que el tuyo. En los demás mapas simplemente Canta Gallo no existe." - Helder Solari, one of the activists participating in the Escuelab/Canta Gallo collaboration
 
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/map-warper.png}
+		The Map Warper interface for identifying Ground Control Points. \cite{waters2009warper}
+	\end{flushright}
+\end{wrapfigure}
+
 \subsection{Computing literacy challenges with orthorectification}
 	- map warper
         - designed for printed maps
         - large loop of interaction - overcorrection easy, no immediate feedback upon assigning GCPs
         - difficulty in explaining GCPs, and necessity of javascript hack for areas without base data
         - amazing for intended use, even note application in Mumbai
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/map-warper-hack.png}
+		Demonstration of JavaScript hack to insert Google satellite data for warping in areas with low feature density. \cite{waters2009warper}
+	\end{flushright}
+\end{wrapfigure}
+
     - Photoshop better, but barely
 	- stuart long uses photoshop, maybe bruce owen (see emails)
 	- ``For example, tracing was chosen over digitisation, and simple graphics software over geographic information systems (GIS)." \cite{poole2006there}

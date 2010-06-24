@@ -64,9 +64,10 @@
 \BOOKMARK [2][-]{subsection.8.1.1}{Accuracy and precision in kite and balloon imaging}{section.8.1}
 \BOOKMARK [1][-]{section.8.2}{Digital maps: reconceptualizing mapping interaction}{chapter.8}
 \BOOKMARK [2][-]{subsection.8.2.1}{Cartagen dynamic rendering}{section.8.2}
-\BOOKMARK [2][-]{subsection.8.2.2}{Beyond raster mapping/Tile politics}{section.8.2}
-\BOOKMARK [2][-]{subsection.8.2.3}{An iterative toolchain development process}{section.8.2}
-\BOOKMARK [2][-]{subsection.8.2.4}{Web-based orthorectification and warping}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.2}{Why an entirely new mapping system?}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.3}{Beyond raster mapping/Tile politics}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.4}{An iterative toolchain development process}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.5}{Web-based orthorectification and warping}{section.8.2}
 \BOOKMARK [0][-]{chapter.9}{Case Study: Grassroots Mapping in Lima, Peru}{}
 \BOOKMARK [1][-]{section.9.1}{Introduction}{chapter.9}
 \BOOKMARK [2][-]{subsection.9.1.1}{The Other Path: Lima's history of informal settlement}{section.9.1}

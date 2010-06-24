@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  23 JUN 2010 12:57
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  23 JUN 2010 20:04
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -255,7 +255,7 @@ l.42
       [1
 
 ] [2]
-<images/100-dollar-satellite-poster.jpg, id=395, 1480.0896pt x 987.2082pt>
+<images/100-dollar-satellite-poster.jpg, id=399, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
 <use images/100-dollar-satellite-poster.jpg>
@@ -316,7 +316,7 @@ Overfull \hbox (37.97725pt too wide) in paragraph at lines 136--138
 ld . com / smpp / content[]db = all[]content = a911734343$[][] 
  []
 
-[7] <images/osm-missing-parts.png, id=436, 1024.82875pt x 576.1525pt>
+[7] <images/osm-missing-parts.png, id=440, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
@@ -335,7 +335,7 @@ Underfull \hbox (badness 1748) in paragraph at lines 181--181
 []\OT1/cmr/bx/n/14.4 Maps as a 'win-
  []
 
-<images/iraq-image-16.jpg, id=439, 602.25pt x 451.6875pt>
+<images/iraq-image-16.jpg, id=443, 602.25pt x 451.6875pt>
 File: images/iraq-image-16.jpg Graphic file (type jpg)
 
 <use images/iraq-image-16.jpg>
@@ -391,7 +391,7 @@ Overfull \hbox (1.27655pt too wide) in paragraph at lines 202--203
  []
 
 [9 <./images/iraq-image-16.jpg>]
-<images/iraq-image-13.jpg, id=457, 602.25pt x 451.6875pt>
+<images/iraq-image-13.jpg, id=461, 602.25pt x 451.6875pt>
 File: images/iraq-image-13.jpg Graphic file (type jpg)
 
 <use images/iraq-image-13.jpg>
@@ -419,7 +419,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
  [11] [12]
 Chapter 3.
-<images/two-worlds-mapping.png, id=478, 901.9296pt x 360.8682pt>
+<images/two-worlds-mapping.png, id=482, 901.9296pt x 360.8682pt>
 File: images/two-worlds-mapping.png Graphic file (type png)
 
 <use images/two-worlds-mapping.png>
@@ -470,7 +470,7 @@ Overfull \hbox (11.8138pt too wide) in paragraph at lines 430--431
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- <images/osm-composition.png, id=539, 526.96875pt x 427.5975pt>
+ <images/osm-composition.png, id=543, 526.96875pt x 427.5975pt>
 File: images/osm-composition.png Graphic file (type png)
 
 <use images/osm-composition.png>
@@ -499,7 +499,7 @@ Underfull \hbox (badness 2050) in paragraph at lines 446--447
  []
 
 [21 <./images/osm-composition.png (PNG copy)>]
-<images/osm-diagram.png, id=547, 803.0pt x 493.845pt>
+<images/osm-diagram.png, id=551, 803.0pt x 493.845pt>
 File: images/osm-diagram.png Graphic file (type png)
 
 <use images/osm-diagram.png>
@@ -511,7 +511,7 @@ Overfull \hbox (1.34666pt too wide) in paragraph at lines 464--465
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [22] [23 <./images/osm-diagram.png (PNG copy)>]
-<images/kibera-gpx.png, id=559, 946.53625pt x 472.76625pt>
+<images/kibera-gpx.png, id=563, 946.53625pt x 472.76625pt>
 File: images/kibera-gpx.png Graphic file (type png)
 
 <use images/kibera-gpx.png> [24 <./images/kibera-gpx.png (PNG copy)>]
@@ -524,29 +524,7 @@ Overfull \hbox (1.98926pt too wide) in paragraph at lines 497--497
 the ground
  []
 
-<images/map-warper.png, id=569, 971.63pt x 651.43375pt>
-File: images/map-warper.png Graphic file (type png)
-
-<use images/map-warper.png> [25]
-
-Package wrapfig Warning: Collision between wrapping environments on input line 
-526.
-
-<images/map-warper-hack.png, id=579, 967.615pt x 475.7775pt>
-File: images/map-warper-hack.png Graphic file (type png)
-
-<use images/map-warper-hack.png>
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 53
-3.
-
-
-Underfull \hbox (badness 4084) in paragraph at lines 533--533
-\OT1/cmr/bx/n/12 ual stitch-ing with Adobe
- []
-
-[26 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG cop
-y)>]
+[25] [26]
 Chapter 5.
 [27
 
@@ -566,15 +544,25 @@ File: images/maron-spy-satellite.jpg Graphic file (type jpg)
 <use images/maron-spy-satellite.jpg>
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 66
-9.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 67
 3.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 66
+7.
 
 [33
 
- <./images/maron-spy-satellite.jpg>] [34] [35] [36] [37]
+ <./images/maron-spy-satellite.jpg>] [34]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Overfull \hbox (1.92838pt too wide) in paragraph at lines 702--703
+\OT1/cmr/m/n/10.95 data, Carta-gen pro-vides an op-por-tu-nity to cre-ate your 
+own map from scratch,
+ []
+
+[35] [36] [37] [38]
 Chapter 9.
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
@@ -582,22 +570,46 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
-[38
+[39
 
-] [39] [40]
+] [40] [41]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
- [41]
-Overfull \hbox (95.94647pt too wide) in paragraph at lines 882--890
-\OT1/cmr/m/n/10.95 lead-ing to Carta-gen Knit-ter (see later dis-cus-sion) - ht
-tp://en.wikipedia.org/wiki/Rubbersheeting
+ [42] <images/map-warper.png, id=672, 971.63pt x 651.43375pt>
+File: images/map-warper.png Graphic file (type png)
+
+<use images/map-warper.png>
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 88
+2.
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+889.
+
+<images/map-warper-hack.png, id=674, 967.615pt x 475.7775pt>
+File: images/map-warper-hack.png Graphic file (type png)
+
+<use images/map-warper-hack.png>
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 89
+6.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 89
+9.
+
+
+Overfull \hbox (7.23616pt too wide) in paragraph at lines 907--907
+[]\OT1/cmr/bx/n/12 Needs (Re)assessment 
  []
 
-[42]
+[43 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG cop
+y)>] [44]
 Chapter 10.
-[43
+[45
 
-] [44]
+] [46]
 Chapter 11.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -608,13 +620,13 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[45
-
-] [46]
-Chapter 12.
 [47
 
 ] [48]
+Chapter 12.
+[49
+
+] [50]
 Chapter 13.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -643,14 +655,14 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[49
+[51
 
-] [50] (./thesis.bbl [51
+] [52] (./thesis.bbl [53
 
 ]
 Missing character: There is no √ in font cmti10!
 Missing character: There is no ≥ in font cmti10!
- [52
+ [54
 
 ]
 Missing character: There is no ¬ in font cmr10!
@@ -665,39 +677,35 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [53]
+ [55]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-) [54]
-Overfull \hbox (61.74785pt too wide) in paragraph at lines 971--972
+) [56]
+Overfull \hbox (61.74785pt too wide) in paragraph at lines 997--998
 \OT1/cmr/m/n/10.95 Li-cense. To view a copy of this li-cense, visit http://crea
 tivecommons.org/licenses/by/3.0/
  []
 
-[55
+[57
 
-] (./thesis.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 4333 strings out of 256216
- 71535 string characters out of 1917073
+ 4337 strings out of 256216
+ 71583 string characters out of 1917073
  131527 words of memory out of 1500000
- 7366 multiletter control sequences out of 10000+200000
+ 7367 multiletter control sequences out of 10000+200000
  10267 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  33i,7n,36p,1289b,472s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
-ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
-/usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
-/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr
-/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (56 pages, 6938852 bytes).
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/sha
+re/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesk
+y/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/t
+exmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
+cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (58 pages, 6943712 bytes).
 PDF statistics:
- 842 PDF objects out of 1000 (max. 8388607)
- 215 named destinations out of 1000 (max. 131072)
- 808 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 858 PDF objects out of 1000 (max. 8388607)
+ 218 named destinations out of 1000 (max. 131072)
+ 816 words of extra memory for PDF output out of 10000 (max. 10000000)
 
