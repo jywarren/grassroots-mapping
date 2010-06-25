@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  23 JUN 2010 20:04
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  25 JUN 2010 17:59
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -292,134 +292,110 @@ Overfull \hbox (6.31944pt too wide) in paragraph at lines 91--91
 Chapter 2.
 [5
 
-] [6]
-Overfull \hbox (66.99643pt too wide) in paragraph at lines 134--135
-[][][]$\OT1/cmtt/m/n/10 http : / / books . google . com / books ? id = oHgDv4fe
-V-[]8C&dq = neogeography + turner&printsec =
- []
-
-
-Overfull \hbox (39.49652pt too wide) in paragraph at lines 134--135
-\OT1/cmtt/m/n/10 frontcover&source = bn&hl = en&ei = gmDLS6 _ -[]KYj98AaY _ KWX
-DA&sa = X&oi = book _ result&ct =
- []
-
-
-Overfull \hbox (3.97858pt too wide) in paragraph at lines 136--138
-[]\OT1/cmr/m/n/10.95 "NeoGeography and the na-ture of ge-o-graphic ex-per-tise"
-, Au-thor: Michael
- []
-
-
-Overfull \hbox (37.97725pt too wide) in paragraph at lines 136--138
-\OT1/cmr/m/n/10.95 Good-child [][]$\OT1/cmtt/m/n/10 http : / / www . informawor
-ld . com / smpp / content[]db = all[]content = a911734343$[][] 
- []
-
-[7] <images/osm-missing-parts.png, id=440, 1024.82875pt x 576.1525pt>
+] [6] [7] <images/osm-missing-parts.png, id=437, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
-Underfull \hbox (badness 3884) in paragraph at lines 168--168
+Underfull \hbox (badness 3884) in paragraph at lines 169--169
 []\OT1/cmr/m/n/10.95 Figure 2.1: [][][]$\OT1/cmtt/m/n/10 http : / / www . reedh
 ome .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
 \OT1/cmtt/m/n/10 org . uk / Documents / osmembed . html ?
  []
 
-
-Underfull \hbox (badness 1748) in paragraph at lines 181--181
+[8]
+Underfull \hbox (badness 1748) in paragraph at lines 182--182
 []\OT1/cmr/bx/n/14.4 Maps as a 'win-
  []
 
-<images/iraq-image-16.jpg, id=443, 602.25pt x 451.6875pt>
+<images/iraq-image-16.jpg, id=445, 602.25pt x 451.6875pt>
 File: images/iraq-image-16.jpg Graphic file (type jpg)
 
 <use images/iraq-image-16.jpg>
-Underfull \hbox (badness 8189) in paragraph at lines 190--190
+Underfull \hbox (badness 8189) in paragraph at lines 191--191
 []\OT1/cmr/m/n/10.95 Figure 2.2: [][][]$\OT1/cmtt/m/n/10 http : / / www . gwu .
  edu /
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 190--190
+Underfull \hbox (badness 4168) in paragraph at lines 191--191
 []\OT1/cmtt/m/n/10 nsarchiv / NSAEBB / NSAEBB88/$[][]\OT1/cmr/m/n/10.95 , Im-ag
 e
  []
 
-[8 <./images/osm-missing-parts.png (PNG copy)>]
-Underfull \hbox (badness 2384) in paragraph at lines 198--199
+
+Underfull \hbox (badness 2384) in paragraph at lines 199--200
 []\OT1/cmr/m/n/10.95 ``Let me say a word
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 198--199
+Underfull \hbox (badness 2582) in paragraph at lines 199--200
 \OT1/cmr/m/n/10.95 about satel-lite im-ages
  []
 
-
-Overfull \hbox (7.2268pt too wide) in paragraph at lines 202--203
+[9 <./images/osm-missing-parts.png (PNG copy)> <./images/iraq-image-16.jpg>]
+Overfull \hbox (7.2268pt too wide) in paragraph at lines 203--204
 []\OT1/cmr/m/n/10.95 How do I know that? How
  []
 
 
-Overfull \hbox (14.16307pt too wide) in paragraph at lines 202--203
+Overfull \hbox (14.16307pt too wide) in paragraph at lines 203--204
 \OT1/cmr/m/n/10.95 give you a closer look. Look
  []
 
 
-Overfull \hbox (1.81384pt too wide) in paragraph at lines 202--203
+Overfull \hbox (1.81384pt too wide) in paragraph at lines 203--204
 \OT1/cmr/m/n/10.95 chem-i-cal mu-ni-tions. The
  []
 
 
-Overfull \hbox (4.47028pt too wide) in paragraph at lines 202--203
+Overfull \hbox (4.47028pt too wide) in paragraph at lines 203--204
 \OT1/cmr/m/n/10.95 ar-row at the top that says
  []
 
 
-Overfull \hbox (1.30692pt too wide) in paragraph at lines 202--203
+Overfull \hbox (1.30692pt too wide) in paragraph at lines 203--204
 \OT1/cmr/m/n/10.95 and spe-cial equip-ment to
  []
 
 
-Overfull \hbox (1.27655pt too wide) in paragraph at lines 202--203
+Overfull \hbox (1.27655pt too wide) in paragraph at lines 203--204
 \OT1/cmr/m/n/10.95 mon-i-tor any leak-age that
  []
 
-[9 <./images/iraq-image-16.jpg>]
-<images/iraq-image-13.jpg, id=461, 602.25pt x 451.6875pt>
+<images/iraq-image-13.jpg, id=458, 602.25pt x 451.6875pt>
 File: images/iraq-image-13.jpg Graphic file (type jpg)
 
 <use images/iraq-image-13.jpg>
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 21
-6.
+7.
 
+[10]
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 21
-8.
+9.
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 224--225
+Underfull \hbox (badness 2189) in paragraph at lines 225--226
 \OT1/cmr/m/n/10.95 im-agery is that it rep-re-sents a
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 224--225
+Underfull \hbox (badness 1527) in paragraph at lines 225--226
 \OT1/cmr/m/n/10.95 in-volve-ment of hu-man tes-ti-mony
  []
 
-[10 <./images/iraq-image-13.jpg>]
+[11 <./images/iraq-image-13.jpg>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [11] [12]
+ [12]
 Chapter 3.
-<images/two-worlds-mapping.png, id=482, 901.9296pt x 360.8682pt>
+<images/two-worlds-mapping.png, id=479, 901.9296pt x 360.8682pt>
 File: images/two-worlds-mapping.png Graphic file (type png)
 
 <use images/two-worlds-mapping.png>
@@ -427,7 +403,7 @@ File: images/two-worlds-mapping.png Graphic file (type png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (0.73915pt too wide) in paragraph at lines 282--283
+Overfull \hbox (0.73915pt too wide) in paragraph at lines 283--284
 []\OT1/cmr/m/n/10.95 Many are sur-prised when they view places such as Lima, Pe
 ru, a metropo-
  []
@@ -439,19 +415,19 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
 
-Overfull \hbox (12.93013pt too wide) in paragraph at lines 331--333
+Overfull \hbox (12.93013pt too wide) in paragraph at lines 332--334
 \OT1/cmtt/m/n/10 prospectmagazine . co . uk / 2009 / 11 / how-[]dictators-[]wat
 ch-[]us-[]on-[]the-[]web/$[][] [][]$http :
  []
 
 
-Overfull \hbox (15.2854pt too wide) in paragraph at lines 331--333
+Overfull \hbox (15.2854pt too wide) in paragraph at lines 332--334
 \OT1/cmtt/m/n/10 / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[
 ]vs-[]shirky/$[][] \OT1/cmr/m/n/10.95 (Patrick Meier) 
  []
 
 
-Overfull \hbox (1.56036pt too wide) in paragraph at lines 337--338
+Overfull \hbox (1.56036pt too wide) in paragraph at lines 338--339
 []\OT1/cmr/m/n/10.95 "empowerment":(great ar-ti-cle on def-i-ni-tions for em-po
 w-er-ment and frame-
  []
@@ -461,7 +437,7 @@ Chapter 4.
 [19
 
 ]
-Overfull \hbox (11.8138pt too wide) in paragraph at lines 430--431
+Overfull \hbox (11.8138pt too wide) in paragraph at lines 431--432
 \OT1/cmr/m/n/10.95 Some de-gree of map-mak-ing has be-come com-mon-place to the
  internet-connected
  []
@@ -470,7 +446,7 @@ Overfull \hbox (11.8138pt too wide) in paragraph at lines 430--431
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- <images/osm-composition.png, id=543, 526.96875pt x 427.5975pt>
+ <images/osm-composition.png, id=540, 526.96875pt x 427.5975pt>
 File: images/osm-composition.png Graphic file (type png)
 
 <use images/osm-composition.png>
@@ -484,26 +460,26 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Underfull \hbox (badness 2846) in paragraph at lines 446--447
+Underfull \hbox (badness 2846) in paragraph at lines 447--448
 [][]\OT1/cmr/m/n/10.95 Open data projects such as
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 446--447
+Underfull \hbox (badness 2469) in paragraph at lines 447--448
 \OT1/cmr/m/n/10.95 StreetMap, any-one with enough
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 446--447
+Underfull \hbox (badness 2050) in paragraph at lines 447--448
 \OT1/cmr/m/n/10.95 200 gi-ga-bytes when loaded into
  []
 
 [21 <./images/osm-composition.png (PNG copy)>]
-<images/osm-diagram.png, id=551, 803.0pt x 493.845pt>
+<images/osm-diagram.png, id=548, 803.0pt x 493.845pt>
 File: images/osm-diagram.png Graphic file (type png)
 
 <use images/osm-diagram.png>
-Overfull \hbox (1.34666pt too wide) in paragraph at lines 464--465
+Overfull \hbox (1.34666pt too wide) in paragraph at lines 465--466
  [] 
  []
 
@@ -511,7 +487,7 @@ Overfull \hbox (1.34666pt too wide) in paragraph at lines 464--465
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [22] [23 <./images/osm-diagram.png (PNG copy)>]
-<images/kibera-gpx.png, id=563, 946.53625pt x 472.76625pt>
+<images/kibera-gpx.png, id=560, 946.53625pt x 472.76625pt>
 File: images/kibera-gpx.png Graphic file (type png)
 
 <use images/kibera-gpx.png> [24 <./images/kibera-gpx.png (PNG copy)>]
@@ -519,7 +495,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ¦ in font cmr10!
 
-Overfull \hbox (1.98926pt too wide) in paragraph at lines 497--497
+Overfull \hbox (1.98926pt too wide) in paragraph at lines 498--498
 \OT1/cmr/m/n/10.95 For in-stance, all the United Na-tions agen-cies act-ing on 
 the ground
  []
@@ -538,17 +514,17 @@ Chapter 7.
 
 ] [31] [32]
 Chapter 8.
-<images/maron-spy-satellite.jpg, id=615, 2601.72pt x 1951.29pt>
+<images/maron-spy-satellite.jpg, id=612, 2601.72pt x 1951.29pt>
 File: images/maron-spy-satellite.jpg Graphic file (type jpg)
 
 <use images/maron-spy-satellite.jpg>
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 66
-3.
+4.
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 66
-7.
+8.
 
 [33
 
@@ -557,7 +533,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Overfull \hbox (1.92838pt too wide) in paragraph at lines 702--703
+Overfull \hbox (1.92838pt too wide) in paragraph at lines 703--704
 \OT1/cmr/m/n/10.95 data, Carta-gen pro-vides an op-por-tu-nity to cre-ate your 
 own map from scratch,
  []
@@ -575,32 +551,32 @@ Missing character: There is no ³ in font cmr10!
 ] [40] [41]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
- [42] <images/map-warper.png, id=672, 971.63pt x 651.43375pt>
+ [42] <images/map-warper.png, id=669, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
 <use images/map-warper.png>
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 88
-2.
+3.
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-889.
+890.
 
-<images/map-warper-hack.png, id=674, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=671, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
 <use images/map-warper-hack.png>
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 89
-6.
+7.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 89
-9.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 90
+0.
 
 
-Overfull \hbox (7.23616pt too wide) in paragraph at lines 907--907
+Overfull \hbox (7.23616pt too wide) in paragraph at lines 908--908
 []\OT1/cmr/bx/n/12 Needs (Re)assessment 
  []
 
@@ -682,7 +658,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 ) [56]
-Overfull \hbox (61.74785pt too wide) in paragraph at lines 997--998
+Overfull \hbox (61.74785pt too wide) in paragraph at lines 998--999
 \OT1/cmr/m/n/10.95 Li-cense. To view a copy of this li-cense, visit http://crea
 tivecommons.org/licenses/by/3.0/
  []
@@ -697,15 +673,15 @@ Here is how much of TeX's memory you used:
  7367 multiletter control sequences out of 10000+200000
  10267 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 33i,7n,36p,1289b,472s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 33i,7n,36p,1394b,472s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/sha
 re/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesk
 y/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/t
 exmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
 cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (58 pages, 6943712 bytes).
+Output written on thesis.pdf (58 pages, 6942026 bytes).
 PDF statistics:
- 858 PDF objects out of 1000 (max. 8388607)
+ 855 PDF objects out of 1000 (max. 8388607)
  218 named destinations out of 1000 (max. 131072)
  816 words of extra memory for PDF output out of 10000 (max. 10000000)
 
