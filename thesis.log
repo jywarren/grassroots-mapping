@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  25 JUN 2010 22:00
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  27 JUN 2010 11:26
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -255,7 +255,7 @@ l.42
       [1
 
 ] [2]
-<images/100-dollar-satellite-poster.jpg, id=399, 1480.0896pt x 987.2082pt>
+<images/100-dollar-satellite-poster.jpg, id=407, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
 <use images/100-dollar-satellite-poster.jpg>
@@ -292,7 +292,12 @@ Overfull \hbox (6.31944pt too wide) in paragraph at lines 91--91
 Chapter 2.
 [5
 
-] [6] [7] <images/osm-missing-parts.png, id=437, 1024.82875pt x 576.1525pt>
+]
+
+LaTeX Warning: Citation `oconnor2008maps' on page 6 undefined on input line 126
+.
+
+[6] [7] <images/osm-missing-parts.png, id=445, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
@@ -311,7 +316,7 @@ Underfull \hbox (badness 1748) in paragraph at lines 182--182
 []\OT1/cmr/bx/n/14.4 Maps as a 'win-
  []
 
-<images/iraq-image-16.jpg, id=445, 602.25pt x 451.6875pt>
+<images/iraq-image-16.jpg, id=453, 602.25pt x 451.6875pt>
 File: images/iraq-image-16.jpg Graphic file (type jpg)
 
 <use images/iraq-image-16.jpg>
@@ -366,7 +371,7 @@ Overfull \hbox (1.27655pt too wide) in paragraph at lines 203--204
 \OT1/cmr/m/n/10.95 mon-i-tor any leak-age that
  []
 
-<images/iraq-image-13.jpg, id=458, 602.25pt x 451.6875pt>
+<images/iraq-image-13.jpg, id=466, 602.25pt x 451.6875pt>
 File: images/iraq-image-13.jpg Graphic file (type jpg)
 
 <use images/iraq-image-13.jpg>
@@ -395,7 +400,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
  [12]
 Chapter 3.
-<images/two-worlds-mapping.png, id=479, 901.9296pt x 360.8682pt>
+<images/two-worlds-mapping.png, id=487, 901.9296pt x 360.8682pt>
 File: images/two-worlds-mapping.png Graphic file (type png)
 
 <use images/two-worlds-mapping.png>
@@ -446,7 +451,7 @@ Overfull \hbox (11.8138pt too wide) in paragraph at lines 431--432
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- <images/osm-composition.png, id=540, 526.96875pt x 427.5975pt>
+ <images/osm-composition.png, id=548, 526.96875pt x 427.5975pt>
 File: images/osm-composition.png Graphic file (type png)
 
 <use images/osm-composition.png>
@@ -475,7 +480,7 @@ Underfull \hbox (badness 2050) in paragraph at lines 447--448
  []
 
 [21 <./images/osm-composition.png (PNG copy)>]
-<images/osm-diagram.png, id=548, 803.0pt x 493.845pt>
+<images/osm-diagram.png, id=556, 803.0pt x 493.845pt>
 File: images/osm-diagram.png Graphic file (type png)
 
 <use images/osm-diagram.png>
@@ -487,7 +492,7 @@ Overfull \hbox (1.34666pt too wide) in paragraph at lines 465--466
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [22] [23 <./images/osm-diagram.png (PNG copy)>]
-<images/kibera-gpx.png, id=560, 946.53625pt x 472.76625pt>
+<images/kibera-gpx.png, id=568, 946.53625pt x 472.76625pt>
 File: images/kibera-gpx.png Graphic file (type png)
 
 <use images/kibera-gpx.png> [24 <./images/kibera-gpx.png (PNG copy)>]
@@ -510,7 +515,7 @@ Chapter 6.
 
 ]
 Chapter 7.
-<images/maron-spy-satellite.jpg, id=597, 2601.72pt x 1951.29pt>
+<images/maron-spy-satellite.jpg, id=605, 2601.72pt x 1951.29pt>
 File: images/maron-spy-satellite.jpg Graphic file (type jpg)
 
 <use images/maron-spy-satellite.jpg>
@@ -547,7 +552,7 @@ Missing character: There is no ≥ in font cmr10!
 ] [37] [38]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
- [39] <images/map-warper.png, id=667, 971.63pt x 651.43375pt>
+ [39] <images/map-warper.png, id=663, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
 <use images/map-warper.png>
@@ -559,7 +564,7 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 84
 Package wrapfig Warning: Collision between wrapping environments on input line 
 851.
 
-<images/map-warper-hack.png, id=669, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=665, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
 <use images/map-warper-hack.png>
@@ -599,10 +604,15 @@ Chapter 11.
 [46
 
 ] [47] [48] [49]
-Chapter 12.
-[50
 
-] [51]
+LaTeX Warning: Citation `oconnor2008maps' on page 50 undefined on input line 10
+01.
+
+[50] [51]
+Chapter 12.
+[52
+
+] [53] [54]
 Chapter 13.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -631,14 +641,14 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[52
+[55
 
-] [53] (./thesis.bbl [54
+] [56] (./thesis.bbl [57
 
 ]
 Missing character: There is no √ in font cmti10!
 Missing character: There is no ≥ in font cmti10!
- [55
+ [58
 
 ]
 Missing character: There is no ¬ in font cmr10!
@@ -653,108 +663,42 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [56]
+ [59]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-) [57]
-Overfull \hbox (61.74785pt too wide) in paragraph at lines 1056--1057
+) [60]
+Overfull \hbox (61.74785pt too wide) in paragraph at lines 1084--1085
 \OT1/cmr/m/n/10.95 Li-cense. To view a copy of this li-cense, visit http://crea
 tivecommons.org/licenses/by/3.0/
  []
 
-[58
+[61
 
 ] (./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4362 strings out of 256216
- 71960 string characters out of 1917073
+ 4347 strings out of 256216
+ 71724 string characters out of 1917073
  131527 words of memory out of 1500000
- 7367 multiletter control sequences out of 10000+200000
+ 7370 multiletter control sequences out of 10000+200000
  10267 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  33i,7n,36p,1394b,472s stack positions out of 5000i,500n,6000p,200000b,15000s
-pdfTeX warning (dest): name{section.10.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.11} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.10} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.9} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.2.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.8.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.4.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.3} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></u
-sr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/b
-luesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/s
-hare/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (59 pages, 6948522 bytes).
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
+/usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr
+/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (62 pages, 6955741 bytes).
 PDF statistics:
- 891 PDF objects out of 1000 (max. 8388607)
- 243 named destinations out of 1000 (max. 131072)
- 816 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 887 PDF objects out of 1000 (max. 8388607)
+ 225 named destinations out of 1000 (max. 131072)
+ 832 words of extra memory for PDF output out of 10000 (max. 10000000)
 
