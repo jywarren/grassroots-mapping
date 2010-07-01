@@ -159,6 +159,8 @@ Did I write this: The idea that maps accurately, or even completely depict a loc
 
 Critique of quantitative GIS - Marianna Pavlovskaya, Non-Quantitative GIS, Qualitative GIS
 
+GroundTruth; B'Tselem, -- mapping contested land
+
 % Title: UK Motorways 100% Complete
 % I'm pleased to announce that the main carriageways of all mainland UK motorways have been completed.  Over 3,000 km of roadway.
 % Etienne Cherdlu Sat Jan 7 10:45:05 UTC 2006
@@ -398,7 +400,7 @@ Traditional GIS technology has been used for since the 1990's to support communi
 
 % See Peter Poole's Life after Tenure Mapping for a brief historical timeline, i think
 
-
+\href{http://www.directionsmag.com/article.php?article_id=2365&trv=1.}{Participatory GIS - A Paradigm Shift in Development?} - Jen Osha and Daniel Weiner, 2006
 
 PGIS was part of a more general movement towards a ``critical GIS" practice, which could . Sarah Elwood summarizes various alternative GIS movements, one which ``could incorporate diverse forms of spatial knowledge and promote multiple epistomologies" \cite{elwood2009representations}
 
@@ -529,6 +531,22 @@ DIYDrones T3
 
 % mention DIYDrones, kite aerial photography guy with hugin/big Xs on the ground 
 
+\section{Additional politically and socially engaged cartographic projects}
+
+% Rename this section.
+%    Inspiration, context, history of activist/grassroots mapping
+
+Jai Sen
+
+A People's Atlas of Chicago
+
+Proboscis: Urban Tapestries... democratization of GIS tools for an `anthropology of ourselves'
+
+\section{Beyond symbolic mapping: Data-driven approaches to participatory mapping}
+%        Expanding role of mapping to legal, tactical
+%        Institute for Applied Autonomy
+
+
 \chapter{Grassroots Mapping as an alternative means of participatory cartography}
 
 How do the tools/technologies outlined above meet the needs described, and how are they better?
@@ -536,10 +554,6 @@ How do the tools/technologies outlined above meet the needs described, and how a
 %    Meet subjectivity needs
 %        - against a canonical datastore
 %        - solution lays in tools and formats and practices, not in a single project/datastore
-%            - therefore GM & Cartagen are based around:
-%                - a body of code
-%                - a thorough documentation and guide to mapping techniques
-%		- a series of case studies
 %        - options to organize project: as a 'generic hub' for imagery, like OpenAerialMap, engage primarily via internet/blogs
 %            - or, focus on collaborating with specific communities in cartographic dispute
 %                - expand into matchmaking between mappers and communities in need, as well as supporting via mailing list 
@@ -549,6 +563,31 @@ How do the tools/technologies outlined above meet the needs described, and how a
 \section{Aerial imaging with low-cost tools}
 
 Due to the need for cheap and up-to-date imagery, a major part of the Grassroots Mapping project has been the design and use of low-cost platforms for capturing images of the ground from above. The use of kites and balloons to raise consumer-level 'point-and-shoot' cameras has allowed participants to capture images of sites of interest at minimal cost. A 'Grassroots Mapping Kit' can be assemnbled for less than \$100. 
+
+previous BAP/KAP for mapping: Eric Wolf, others
+
+1858, Gaspard Felix Tournachon near Paris (Newhall, 1969) \cite{vierling2006short}
+
+Stewart Long/GonzoEarth Burning Man map
+
+Eric Wolf, necrogeography
+
+Kiteography (Warner, 1996) - KAP for `making large-scale topographic maps, based on photogrammetric principles.' \cite{vierling2006short}
+
+Mikel Maron suggested
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/maron-spy-satellite.jpg}
+		\cite{maron2008former}
+	\end{flushright}
+\end{wrapfigure}
+
+This considerably better resolution than is typically available makes it possible to produce maps that relate to the human scale; 
+
+% Redundant with section on spatial resolution?
+
+Illustration of sunbathers on a beach in Mississippi
 
 \begin{quote}
 In parallel came the discovery that local people could readily interpret black and white aerial photographs, often at 1:5000 (Dewees 1989; Mearns 1989; Sandford 1989). 
@@ -582,48 +621,74 @@ Reference chapter 4.2 discussion on current geostack
 %Emphasis on building in response to end-user needs
 %    - this work could only be done by working with communities in cartographic dispute. See Lima case study.
 
-\chapter{Related works}
-
-Additional non-technical works?
-
-%    Inspiration, context, history of activist/grassroots mapping
-%    Reiterate HOT/Free Map Palestine, India, Kibera
-%    GroundTruth, Jai Sen, A People's Atlas of Chicago
-\section{Beyond symbolic mapping: Data-driven approaches to participatory mapping}
-%        Expanding role of mapping to legal, tactical
-%        Institute for Applied Autonomy
-
-
 \chapter{The Grassroots Mapping tool chain}
+
+Illustration of the process and average timeline of the Grassroots Mapping tool chain
+
 \section{Balloon/kite Aerial Mapping (BAM/KAM)}
 
-previous BAP/KAP for mapping: Eric Wolf, others
+As discussed in Chapter 5, Section 1, prior works in kite and balloon mapping make it redundant to discuss the advantages of such techniques beyond to say that they are easier and less expensive than aircraft or satellite-based imagery sources. However, the particulars of the equipment design developed for use in Grassroots Mapping projects emphasized yet lower cost, ease of use, and ease of reproduction than many existing designs, and a discussion of these decisions and the resulting designs is relevant. 
 
-1858, Gaspard Felix Tournachon near Paris (Newhall, 1969) \cite{vierling2006short}
+%\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{table}
+\begin{tabular}{|l|l|l|}
+\hline
+Type&Kite&Balloon\\
+\hline
+Altitude{\footnotesize (highest flown during project)}&\~{}1500ft&\~{}4000ft\\
+\hline
+Control&difficult above 45kph or below 10kph&difficult above 10kph\\
+\hline
+Payload&up to 1-2 kg&up to 300g\\
+\hline
+Time constraints&best winds in early afternoon&lowest winds at dawn\\
+\hline
+Portability&foil kites pack down to 1 liter size&helium tank and fragility of balloon limit portability, access\\
+\hline
+Tether angle&often flies at low angle; camera altitude as low as 1/5 of tether length&in close to zero wind, flies essentially vertically; in $>$10kph wind can fly near horizontally\\
+\hline
+Camera stability&inversely related to wind turbulence&steady when not reeling in or out\\
+\hline
+Durability&high reuseability&very poor; balloons pop regularly\\
+\hline
+Cost per flight&none&\$15-35 per flight\\
+\hline
+Initial total cost of kit&\$60-400 depending on kite and tether material (see Appendix C for budgets)&\$100-500 depending on choice of balloon and tether material\\
+\hline
+\end{tabular}
+\end{table}
+%\end{wrapfigure}
 
-Stewart Long/GonzoEarth Burning Man map
+Due to the distinct compromises of each technique, I recommend that those attempting to capture aerial imagery equip themselves for both scenarios. Luckily, the techniques share much of the same equipment, and it is possible in many places in the world to assemble a basic but complete kit for under \$150. I have done so in surprisingly unlikely locales, such as the West Bank in Palestine, Lima, Peru, and Kutaisi, Georgia. 
 
-Eric Wolf, necrogeography
+Illustration of `complete kit'
 
-Kiteography (Warner, 1996) - KAP for `making large-scale topographic maps, based on photogrammetric principles.' \cite{vierling2006short}
+\subsection{Balloon mapping}
 
-Mikel Maron suggested
+Helium is a limited and non-renewable resource, and obtaining it in the quantities necessary for aerial photography can prove challenging in the more remote parts of the world. 250 cubic foot tanks are most common, but are too heavy to carry without a wheeled dolly, and do not easily fit into cars or buses. They are also excessive, providing enough helium for between six and ten flights with a typical payload. If available, 80 or 120 cubic foot tanks are preferable, typically available in the United States for approximately \$45 and \$60, respectively. Those constructed from aluminum are especially convenient, being far lighter and easier to transport. Costs vary, depending on the distance from major helium sources such as the United States and Russia, but I have found large, 250 cubic foot tanks available for rental at approximately \$250 each in Bethlehem, in the West Bank, and for approximately \$300 in Lima, Peru, both at party stores. Gas supply vendors may offer somewhat lower prices, but sometimes require a permanent customer account, and can be reluctant to rent to non-industrial customers. 
 
+Illustration: Tetrahedral balloon instructions
 
+To further reduce costs, it is possible to use large high density polyethelene trash bags, of the kind typical worldwide. Two extra-large ninety-nine gallon bags suffice to lift a small camera and string to thousands of feet. Bags may be sealed shut with tape and filled without modification, or cut open and reassembled into tetrahedral shapes to minimize the surface area to volume ratio, providing greater lift. In addition, trash bags may be left inflated for several days without stretching or damaging the plastic, unlike latex balloons. However, helium leaks slowly through the plastic, and even relatively thick 2.7 mil plastic bags will lose most of their lifting power after a day or two. Trash bags are available for less than a dollar anywhere in the world, as is the clear plastic packing tape which may be used to seal them closed.  
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/maron-spy-satellite.jpg}
-		\cite{maron2008former}
-	\end{flushright}
-\end{wrapfigure}
+Illustration of 3 types durability/cost comparison
 
-%    UAV - DIYDrones and collaboration (see 'Future work')
-%        Leveraging both expert and 'amateur'/enthusiast expertise
-%        Connecting hobby/DIY communities with activist communities and agendas
-\subsection{Accuracy and precision in kite and balloon imaging}
-% focus on cost goals, 'mapping at all'
+Shannon's quote about `80\% kites'
 
+\subsection{Kite mapping}
+
+Table of kite pros/cons: Flowform, locally produced, portability, Sled on a Thread
+
+\subsection{Camera, enclosures and suspensions}
+
+Resolution/weight/cost compromise for cameras; CHDK, durability
+
+Picavet, S4, Soda bottle: 
+- tangling, difficulty of rigging picavet, 
+- simplicity \& durability of soda bottle rig
+- advantages to swinging
+
+Weight issues
 
 \section{Digital maps: reconceptualizing mapping interaction}
 
@@ -662,11 +727,7 @@ Cartagen is distributed solution to the problem of generating complete world map
 
 Instead of just annotating a Google Map with pins representing your data, Cartagen provides an opportunity to create your own map from scratch, using both open geodata and data you've collected from your environment. Mapmaking with Cartagen is a form of cartographic narrative. 
 
-
-
 \subsection{Beyond raster mapping/Tile politics}
-
-
 
 %            Metadata: authorship data
 %            Google Maps png metadata hack
@@ -1002,6 +1063,13 @@ On a purely technical basis, there were several key benefits to to the technique
 
 % cite GeoEye resolution
 
+\begin{figure}[h]
+  \begin{center}
+	\includegraphics[width=1\textwidth]{diagrams/resolution-frequency.pdf}
+	\caption{Comparison of various imaging techniques and typical resolution/frequency characteristics}
+  \end{center}
+\end{figure}
+
 This is accentuated by the lack of control over the time imagery is captured. Purchasing existing satellite imagery is expensive, at about US\$ 15 per square kilometer (cite Mikel or his sources) but to buy new imagery requires satellite operators to actually repoint the satellite in space, and thus is even more costly. In the citizen mapping of the BP oil spill in 2010, daily imagery of the spill was available only from the NASA satellites Terra and Aqua, whose MODIS imaging sensor captured a resolution of only 1 km -- though each image could capture the entire oil spill. The images were further obscured by cloud cover (a common challenge with satellite imagery \cite{miyamoto2004use}) and glare from the sun, although I emphasize that the MODIS imagery is extremely useful for different reasons than those captured by balloon or kite; volunteers at the Louisiana Bucket Brigade often used MODIS imagery to identify likely sites to perform kite and balloon mapping. In fact, the two resolutions are almost impossible to reconcile, as all of the citizen maps produced by the Bucket Brigade fit within one or two pixels of the MODIS data. (see illustration)
 
 % find pricing citation
@@ -1062,6 +1130,11 @@ Some community participants have gone to great lengths to document their design 
 % Check Pat's bio, BelizeOpenSource...?
 % Mathew Lippincott's blog post on helium and HDPE
 
+%    UAV - DIYDrones and collaboration (see 'Future work')
+%        Leveraging both expert and 'amateur'/enthusiast expertise
+%        Connecting hobby/DIY communities with activist communities and agendas
+
+
 \section{Illustrated Guides}
 
 Originally suggested on the Grassroots Mapping mailing list in ....... by list member Pat Coyle, the idea of an illustrated guide to provide a rich and cross-language instruction set has received some attention. Storyboarding, outlining, and initial sketches were begun in the spring of 2010 by Pay Coyle, Nathan Cooke of MIT's D-Lab, 
@@ -1076,11 +1149,7 @@ There has been a great deal of interest from both technology enthusiasts (kite, 
 
 \chapter{ReadingList}
 
-\hypertarget{related_readings_1}{}\subsection*{{Related readings}}\label{related_readings_1}
-
 \href{http://www.unicef.org/teachers/researchers/intro.htm}{Curriculum on ``{}Children as Community Researchers''{}} - UNICEF, authored by \href{http://web.gc.cuny.edu/che/cerg/about_cerg/environmental_learning_index.htm}{Children'{}s Environment Research Group}
-
-\href{http://www.directionsmag.com/article.php?article_id=2365&trv=1.}{Participatory GIS - A Paradigm Shift in Development?} - Jen Osha and Daniel Weiner, 2006
 
 \href{http://www.iapad.org/pgis2005/}{Mapping for Change} - 2005 International Conference on Participatory Spatial Information Management and Communication
 
@@ -1094,9 +1163,38 @@ Weiner, D. and T. Harris, 2003. ''{}\href{http://www.rri.wvu.edu/pdffiles/giswei
 
 Lots of work by Proboscis: \href{http://urbantapestries.net/}{Social Tapestries/Urban Tapestries}, 2002-7 - Urban Tapestries investigated how, by combining mobile and internet technologies with geographic information systems, people could `{}author'{} the environment around them; a kind of Mass Observation for the 21st Century. Like the founders of Mass Observation in the 1930s, we were interested creating opportunities for an ``{}anthropology of ourselves''{} – adopting and adapting new and emerging technologies for creating and sharing everyday knowledge and experience; building up organic, collective memories that trace and embellish different kinds of relationships across places, time and communities.
 
-\chapter*{Appendix A}
+\chapter*{Appendix A: Maps}
 
-%%%%%%%%%%%%%%%%%%%%%%%%% BIBLIOGRAPHY
+\section{Maps from Lima, Peru}
+
+\subsection{Juan Pablo II}
+
+\subsection{San Ignacio Loyola}
+
+\subsection{Canta Gallo I}
+
+\subsection{Canta Gallo II}
+
+\section{Maps from the 2010 BP Oil Spill}
+
+
+
+\section{Maps from Appalachia}
+
+\subsection{Black Mountain, Virginia}
+
+\subsection{Cherry Pond Mountain, West Virginia}
+
+\section{Maps from Georgia}
+
+
+\chapter*{Appendix B: Guides and curricular materials}
+
+
+\chapter*{Appendix C: Materials checklists and prices}
+
+
+
 \nocite{*}
 {\small
 \bibliographystyle{plain}
