@@ -1,0 +1,389 @@
+\documentclass[]{report}
+\usepackage[english]{babel}
+\usepackage[pdftex]{color}
+\definecolor{pink}{rgb}{1, 0.2, 0.4}
+\definecolor{grey}{rgb}{.2, .2, .2}
+\usepackage[colorlinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amsmath,amssymb}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{fullpage}
+
+\hypersetup{
+    letterpaper, % page format
+    pdftitle={},                  % Title
+    pdfsubject={Green Composites}, % Subject 
+    pdfauthor={Nadya Peek},              % Author
+    pdfkeywords={green, eco, bio, composites},       % Keywords
+    plainpages=false, %
+    urlcolor=pink,    % color of external links
+    linkcolor=grey,    % color of internal links
+    citecolor=pink,  % color of links to bibliography
+    bookmarksnumbered
+}
+\renewcommand{\emph}[1]{\textit{\textcolor{grey}{#1}}}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\pink}[1]{\textit{\textcolor{pink}{#1}}}
+
+\titleformat{\chapter}
+{\titlerule
+\vspace{.8ex}%
+\normalfont\scshape}
+{\thesection.}{.5em}{}
+
+\titleformat{\section}
+{\titlerule
+\vspace{.8ex}%
+\normalfont\scshape}
+{\thesection.}{.5em}{}
+
+\titleformat{\subsection}
+{\normalfont\scshape}
+{\thesubsection.}{.5em}{}
+
+\titleformat{\subsubsection}
+{\normalfont\scshape}
+{\thesubsubsection.}{.5em}{}
+
+\makeatletter
+% Hacks to use figures in multicol:
+\newenvironment{figurehere}
+  {\def\@captype{figure}}
+  {}
+
+\newenvironment{tablehere}
+  {\def\@captype{table}}
+  {}
+\makeatother
+
+
+\begin{document}
+
+
+
+%\begin{multicols}{2}
+
+
+
+\title{\begin{flushleft}\vspace{-80px}
+Simple Field Fabrication of Advanced Green Composites\\ \vspace{10px}
+\emph{by Nadya Peek}\\ \vspace{10px}
+\large{B.Sc. University of Amsterdam 2008}\\ \vspace{30px}
+\large{Submitted to the Program in Media Arts and Sciences,\\
+School of Architecture and Planning,\\
+in partial fulfilment of the requirements for the degree of\\
+Master of Science\\
+at the {\sc MASSACHUSETTS INSTITUTE OF TECHNOLOGY}\\
+September 2010\\ 
+\copyright Massachusetts Institute of Technology 2010. All rights reserved.}\\
+\vspace{40px}
+\large{\emph{author: }}\\ \vspace{2px}
+\hrule \vspace{10px}
+\begin{flushright}
+Program in Media Arts and Sciences
+September 2010
+\end{flushright}
+\vspace{40px}
+\large{\emph{certified by: }}\\ 
+\hrule \vspace{10px}
+\begin{flushright}
+Dr. Neil Gershenfeld\\
+Professor of Media Arts and Sciences\\
+Program in Media Arts and Sciences\\
+Thesis supervisor
+\end{flushright}
+\vspace{40px}
+\large{\emph{accepted by: }}\\
+\hrule \vspace{10px}
+\begin{flushright}
+Dr. Pattie Maes\\
+Professor of Media Arts and Sciences\\
+Program in Media Arts and Sciences
+\end{flushright}
+\end{flushleft}}
+\author{
+%Nadya Peek - peek@mit.edu\\
+%MIT Media Lab, Physics and Media\\
+%20 Ames st. Room E15-411\\
+%Cambridge, MA 02142\\
+}
+\date{}
+\maketitle
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.3em}
+\bibliographystyle{plain}
+
+
+
+\pagebreak
+
+\Large{
+Simple Field Fabrication of Advanced Green Composites  \vspace{10px} \\ 
+\emph{by Nadya Peek}\vspace{10px} \\ 
+B.Sc. University of Amsterdam 2008} \vspace{20px} \\ 
+\large{Submitted to the Program in Media Arts and Sciences,\\
+School of Architecture and Planning,\\
+in partial fulfilment of the requirements for the degree of\\
+Master of Science\\
+at the {\sc MASSACHUSETTS INSTITUTE OF TECHNOLOGY}\\
+September 2010\\ 
+\copyright Massachusetts Institute of Technology 2010. All rights reserved.}\\ \vspace{20px}
+
+\normalsize{
+\section*{Abstract}
+Composites are materials which are very strong and light, using the tensile strength of a fibre and the compressive strength of a resin matrix to make a hybrid material with wonderful mechanical properties.  Unfortunately, popular composites are also not recyclable and made with fibres and resins that are hazardous to the health of the people working with them.
+
+Research in green-, eco- or bio- composites has been gaining traction since the early 90s.  Using renewable resources instead of petroleum for resins, or using plant-based fibres, or making entirely biodegradable matrices all fall under this category.  A lot of the studies published remain firmly in lab-- the resources evaluated are not readily accessible for small scale manufacturing.
+
+This thesis contains an exhaustive evaluation of green composites which could be sourced and made in the field.  Different fibres and matrices are evaluated separately and together to determine their characteristics and possible applications.  I will evaluate green composites as a candidate material for small scale, low cost and local fabrication.   As a case study, I consider the development of a paediatric lower limb prosthesis in collaboration with the Jaipur Foot Organisation in India.
+
+This research was made possible through funding provided by the MIT Centre for Bits and Atoms and MIT's International Science and Technology Initiatives.
+}
+
+\vspace{20px}
+\large{
+Thesis supervisor:\\
+Dr. Neil Gershenfeld\\
+\emph{Professor of Media Arts and Sciences}\\
+Program in Media Arts and Sciences\\
+}
+\pagebreak
+
+\Large{
+Simple Field Fabrication of Advanced Green Composites  \vspace{10px} \\ 
+\emph{by Nadya Peek}} \vspace{10px} \\
+
+\normalsize{Thesis reader:\\
+\hrule \vspace{10px}
+\begin{flushright}
+Dr. Anil Netravali\\
+\emph{Professor of Fiber Science}\\
+Cornell College of Human Ecology\\ \vspace{10px}
+\end{flushright}
+}
+
+
+\pagebreak
+
+
+\Large{
+Simple Field Fabrication of Advanced Green Composites  \vspace{10px} \\ 
+\emph{by Nadya Peek}}\vspace{10px} \\ \vspace{20px}
+
+\normalsize{Thesis reader:\\
+\hrule \vspace{10px}
+\begin{flushright}
+Dr. Bish Sanyal\\
+\emph{Professor of Urban Studies and Planning}\\
+MIT Department of Urban Studies and Planning\\ 
+\end{flushright}
+}
+
+\pagebreak
+
+\normalsize{
+\section*{Acknowledgements}
+}
+
+\tableofcontents
+
+
+
+\chapter{Introduction: fast, light and cheap materials without sacrificing personal or environmental health}
+
+
+
+The Industrial Revolution provided us with the mechanisation of production facilities, allowing more reliable, cheaper, and higher quality products.   Most of the products that surround us now are mass-produced.  Manufacturing costs have gone down so far that it has become cheaper to replace products than to repair them.  This has reinforced the use of the cheapest possible materials that are easy to form, particularly plastics.  Plastics do not last well in their functional form-- the pieces snap, bend, deform.  However, the rendered useless plastic material lasts lifetimes in landfills.
+
+Waste production has steadily increased by two pounds per person per day since the 1960s, a 68\% increase \cite{epa}.  In that time, waste recycling has only increased a total of 33\%, and the increase has slowed significantly in the last 10 years.  This is an unsustainable discrepancy for the environment.  Current production rates are already revealing the planet's limited energy resources and raw materials, not to mention the effects on the earth's biosphere and ecosystems.  \\
+
+{\sc Plastics}
+
+Plastics are currently a very inexpensive and divers material, easily moulded or extruded into mass produced items.  They are mostly by polymerising monomers extracted from crude oil.  As the price of oil goes up, the cost of making common plastics will also steadily increase. Although many types of plastic are readily recyclable, it can be difficult to sort the different types of plastic for processing.  The amount of plastic which finally is recycled remains low. 
+
+In response to the increase in oil cost and a drive to be more sustainable, many companies have started developing plastics using vegetable oils and other non-petroleum derivatives.  They derive the monomers from soy or corn oil.  There has also been a leap in the development of biodegradable plastics which need not be recycled, made from starch derivatives.
+
+Plastic is abrasion resistant and durable, but mostly do not have great tensile strength properties.  Because of the manufacturing methods commonly employed, it remains difficult to make large scale objects (4m+) of plastic.  When making higher strength or larger scale objects which must remain very light, composites are often employed alongside plastics for reinforcement.\\
+
+{\sc Composites}
+
+A composite combines two or more constituent materials to form a material that displays a combination of the ingredient's mechanical properties.  In general, the constituents include a reinforcement material and a matrix material.  A historical example of a composite is adobe, a building material that combines mud and straw into bricks through compression.  A popular high-performance composite is currently carbon fibre in an epoxy plastic matrix, which has great strength while remaining very light.  Carbon fibre is therefore used extensively in demanding technological applications such as aerospace engineering, prosthetics manufacturing and sports equipment.  Like plastic, composites can be easily made into any array of shapes and forms.  Once joined, it is very hard to separate the constituent materials of a composite, making them bad candidates for recycling.
+
+Besides being difficult to recycle, it is relatively hazardous and difficult to work with high performance composites.  Fibreglass and carbon fibre dust pose large respiratory hazards, and epoxy resins emit hazardous fumes while curing.  Because of the capital needed for health protection and the machines used for producing high performance composites,  as well as the expense of many of the moulding options, composites are still mainly produced in mass production facilities.  This keeps the cost of composites structures high for small production runs, and does not encourage prototyping and innovation with composites.\\
+
+{\sc Green composites}
+
+Environmentally friendly composites are a possible alternative to (reinforced) plastic materials.  Instead of using the typical epoxy resins and plastics, they use biodegradable matrices and plant-based biodegradable fibres.   Not all of the mechanical properties of the green composites match those in their non-green counterparts, nor do they last as long, but these qualities could also be seen as features.  A beneficial side effect would be that the constituent materials are far less hazardous to work with, and could enable individuals and companies with small production runs to use high strength and low weight materials.  
+
+There has already been extensive research in green composites, especially with regard to their biodegradability and environmental impact in comparison to other materials \cite{mohanty, greencomposites}.  Green composites are also already used in various industrial applications \cite{use}.  However, there has not yet been an extensive evaluation of how green composites could be used on a small scale, and what they could be made of.  Sourcing fibres and resins can be challenging on a small scale, especially in rural areas.\\
+
+{\sc Lifecycle analysis}
+
+Even though green composites sound appealing in their material choice, more characteristics should be taken into account when choosing the right material for a product.  A lifecycle analysis (or lifecycle assessment) studies the phases the product goes through-- raw material production, manufacturing, distribution, usage, disposal and all of the transport required between the different stages \cite{lca}.  Thist information is used to form a methodical analysis of the environmental impact of a product.  A full lifecycle analysis of a given product could take several years, and without strict standards, the information obtained through the LCA could be misleading \cite{Jensen97}.
+
+With small scale green composite development, the actual cost of producing prototypes may not reflect the true cost of material and development.  Without executing a full life cycle analysis, I will attempt to provide an accurate idea of how different green composites could be used.  In many cases, the use of biodegradable materials is not as efficient as fully recycling a material into new products.  
+
+\vspace{20px}
+
+Part of this thesis will consider the possibilities of field fabrication of green composites for small scale projects.  It includes an overview of green composites already developed in academia and industry research institutes, an overview of green composites currently in use in industry, and an evaluation of the mechanical properties of selected green composite combinations in Chapters \ref{chap:research}, \ref{chap:properties} and \ref{chap:applications}.
+
+Chapter \ref{chap:tools} details tools developed for more efficient (in energy and cost) composite manufacturing.  These include methods for making intelligent moulds that heat the parts internally, low-cost 3D scanning techniques and embedding temperature sensors into moulds to be able to sense the cure cycles of the curing resins.
+
+In Chaper \ref{chap:cradle} I will briefly outline possible recycling practices for composite materials and propose methods of manufacturing composite materials that can be reused over and over in different products.  Chapter \ref{chap:cases} looks at some case studies of green composite development and use, including data from an extended development and design session on lower limb prosthetics in collaboration with the  Jaipur Foot Organisation in Rajasthan, India.
+
+A summary and outline of possible future research and goals is included in Chapter \ref{chap:summary}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Analysing mechanical properties of green composites}
+\label{chap:properties}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Matrices}
+hydroxul valerate
+polyhydroxyalkanoates
+polyclycolic
+starch
+hydroxy butyrate
+proteins
+polycaprolactate
+phenolics
+
+
+\subsection{Thermoplast matrices}
+
+polylactic acid
+
+
+
+\subsection{Thermoset matrices}
+
+
+\section{Fibres}
+
+Wood
+
+Vegetable
+cotton
+hemp
+jute
+ramie
+kenaf
+abaca
+sisal
+coir
+
+Animal
+wool
+silk
+spider silk
+feather
+chitosan
+down
+tortoise shell
+
+Mineral
+Asbestos
+
+
+\section{Selected resin/matrix combinations}
+\section{Compressive properties}
+\section{Tensile properties}
+
+
+
+\chapter{Contemporary research in green composites}
+\label{chap:research}
+
+Green composite research is driven in part by the academic community, researching the possibilities of materials and crops, and in part by industry seeking cheaper alternatives to current practices.  The largest user of composite materials is by far the automotive industry, followed by aeronautics and civil engineering, who together account for almost 80\% of all composite production.  Both parties are motivated to wean production off of using petroleum and fossil fuel industry by-products and moving towards more sustainable practices.  Exploring low cost or subsidised crops such as soy beans and corn as possible petroleum alternatives for manufacturing epoxies and plastics is gaining momentum in the field \cite{soyepoxy}.
+
+\section{Acquisition}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Applications of field composites}
+\label{chap:applications}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Automotive Industry}
+\section{Residential applications}
+
+
+
+
+\chapter{Tools for composite manufacturing}
+\label{chap:tools}
+
+Composite manufacturing techniques can be quite unwieldy, and not particularly energy efficient.  For advanced high-temperature epoxies used in aeroplanes, the methods for curing and testing wings are scaled up versions of methods used on much smaller parts.  A significant amount of energy can be saved by simply locally heating the parts that need to be cured instead of building larger and larger autoclaves.
+
+Composite materials are often used for specially curved and complex parts, especially for medical devices.  To develop a composite socket for a prosthetic leg requires several castings and mouldings of secondary materials.  More accessible 3D scanners would make the development of models and positives for these methods much easier.
+
+\section{Smart moulds}
+High-performance composites are often made with two-part epoxy resins.  The curing process of epoxy resins is an exothermic reaction that can be regulated by varying the surrounding temperature and the ratios of the hardener and resin.    Current practice for monitoring epoxy curing are either imprecise or very expensive.  In this section we describe a system of distributed heat regulation and cure monitoring embedded directly into the composite mould itself.   The mould becomes the new smart tool for composite fabrication.
+
+\subsection{Calorimetry for cure sensing}
+Current common practice for testing whether the epoxy has finished curing is to check a jar of epoxy curing outside the mould.  The assumption is, if the jar of epoxy is cured, the part curing in the mould must be cured as well.  This is not always accurate, and some more sophisticated methods are also in use.  These include monitoring the optical qualities of the resin, checking for a change in opacity in the cured part, or monitoring the dialectric constant of the curing part, waiting for the constant to cross some threshold \cite{opticalcure, dielectricmonitor}.  These require specialised sensors specifically for the epoxy resins being used, and need to be tuned for each curing process.
+
+
+\begin{figure}[htbp]
+\begin{center}
+\scalebox{1}{\includegraphics{excursion.png}}
+\end{center}
+\caption{With a closed loop temperature controller maintaining the mould at a fixed temperature, the excursion in input current needed indicates another energy source providing heat within the mould.  In this case, the exothermic epoxy reaction.}
+\end{figure}
+
+
+Some attempts have been made to use differential scanning calorimetry to check for the end of the exothermic epoxy curing reaction \cite{Ryan1979203}.  Checking for the end of an exothermic reaction would eliminate the need for specialised sensors.  These cure sensing attempts remain limited however, for they employ use of an autoclave to heat the mould and component-- not an easily scalable process.  Imagine trying to build an autoclave that would fit around an entire A380 wing.
+
+Heating moulds remains a difficult problem even if the autoclave is not being used for differential scanning calorimetry.  Instead of building huge autoclaves and moulds specially formed for heat distribution through the part, we propose to embed heating in the moulds directly, and distribute control over many nodes in the mould.  This allows distributed sensing and control of the epoxy curing.
+
+To sense the curing of the epoxy in the mould, we propose to determine the end of the exothermic reaction by monitoring the amount of energy that goes into the mould.  If an exothermic reaction is taking place, the amount of current needed to keep the mould at a constant temperature will be less.  If the temperature in a mould is kept constant and there is no exothermic reaction going on, the amount of energy required would remain constant.  If there is an exothermic reaction taking place within the mould, the amount of energy required to keep the mould at a constant temperature should be less.
+
+To test a heated mould with calorimetry for cure sensing, we built a system that controls a network of nodes, each equipped with a temperature sensor and a heating element.  The nodes perform closed loop temperature control and can be set to different temperature profiles that can correspond to the thickness of the part at that location in the mould.   The nodes communicate through Asynchronous Packet Automata, where the geometry of their connections determines how to address them.
+%add more on the system?
+
+We set out to cure epoxy on the test tool to determine whether we would be able to see the excursion in input current as a result of the exothermic reaction in the epoxy.  As of right now, we have done an experiment with two part polyurethane, detailed in figure \ref{flir}.
+
+\begin{figure}[htbp]
+\label{flir}
+\begin{center}
+\scalebox{.6}{\includegraphics{flir.png}}
+\end{center}
+\caption{This is the resulting plot of an experiment where the sample cup was initially held at 120 degrees C.  The 2 part polyurethane was introduced at t=2450, after which the exothermic reaction begun and the sample began producing its own heat.  The current decreases to maintain the temperature, later increasing again to maintain temperature after the end of the exothermic reaction and also the end of the cure.}
+\end{figure}
+
+
+\section{3D scanning}
+
+
+
+\chapter{Cradle to Cradle Composites}
+\label{chap:cradle}
+\section{Snap-together structures}
+\section{Reuse}
+
+\chapter{Adapting green composites for low-scale field use}
+\label{chap:cases}
+
+\section{Haystack Mountain School of Crafts}
+
+\section{Field fabrication of an adjustable lower-limb child's prosthetic}
+\subsection{BMVSS, the Jaipur Foot Organisation}
+\subsection{Adjustable prosthetic design}
+\subsection{Patient testing}
+
+
+\chapter{Summary and Future Goals for Composite Materials}
+\label{chap:summary}
+\section{Green composites}
+\section{Cradle to cradle composites}
+\section{Case studies}
+
+
+\bibliography{greencomposites}
+
+
+\end{document}
+

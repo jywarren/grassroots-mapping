@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  2 JUL 2010 00:05
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  11 JUL 2010 17:34
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -437,17 +437,16 @@ w-er-ment and frame-
 Chapter 4.
 [19
 
-]
-Overfull \hbox (11.8138pt too wide) in paragraph at lines 433--434
+] [20]
+Overfull \hbox (11.8138pt too wide) in paragraph at lines 442--443
 \OT1/cmr/m/n/10.95 Some de-gree of map-mak-ing has be-come com-mon-place to the
  internet-connected
  []
 
-[20]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- <images/osm-composition.png, id=603, 526.96875pt x 427.5975pt>
+[21] <images/osm-composition.png, id=608, 526.96875pt x 427.5975pt>
 File: images/osm-composition.png Graphic file (type png)
 
 <use images/osm-composition.png>
@@ -461,95 +460,96 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 
-Underfull \hbox (badness 2846) in paragraph at lines 449--450
+Underfull \hbox (badness 2846) in paragraph at lines 458--459
 [][]\OT1/cmr/m/n/10.95 Open data projects such as
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 449--450
+Underfull \hbox (badness 2469) in paragraph at lines 458--459
 \OT1/cmr/m/n/10.95 StreetMap, any-one with enough
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 449--450
+Underfull \hbox (badness 2050) in paragraph at lines 458--459
 \OT1/cmr/m/n/10.95 200 gi-ga-bytes when loaded into
  []
 
-[21 <./images/osm-composition.png (PNG copy)>]
-<images/osm-diagram.png, id=611, 803.0pt x 493.845pt>
+[22 <./images/osm-composition.png (PNG copy)>]
+<images/osm-diagram.png, id=616, 803.0pt x 493.845pt>
 File: images/osm-diagram.png Graphic file (type png)
 
 <use images/osm-diagram.png>
-Overfull \hbox (1.34666pt too wide) in paragraph at lines 467--468
+Overfull \hbox (1.34666pt too wide) in paragraph at lines 476--477
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[22] [23 <./images/osm-diagram.png (PNG copy)>]
+[23 <./images/osm-diagram.png (PNG copy)>]
 <images/kibera-gpx.png, id=623, 946.53625pt x 472.76625pt>
 File: images/kibera-gpx.png Graphic file (type png)
 
-<use images/kibera-gpx.png> [24 <./images/kibera-gpx.png (PNG copy)>]
+<use images/kibera-gpx.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¶ in font cmr10!
-
-Overfull \hbox (1.98926pt too wide) in paragraph at lines 500--500
+ [25 <./images/kibera-gpx.png (PNG copy)>]
+Overfull \hbox (1.98926pt too wide) in paragraph at lines 509--509
 \OT1/cmr/m/n/10.95 For in-stance, all the United Na-tions agen-cies act-ing on 
 the ground
  []
 
-[25]
-Overfull \hbox (1.77283pt too wide) in paragraph at lines 534--534
+[26]
+Overfull \hbox (1.77283pt too wide) in paragraph at lines 543--543
 []\OT1/cmr/bx/n/14.4 Additional po-lit-i-cally and so-cially en-gaged car-
  []
 
-[26]
+[27]
 Chapter 5.
-<images/maron-spy-satellite.jpg, id=647, 2601.72pt x 1951.29pt>
+<images/maron-spy-satellite.jpg, id=652, 2601.72pt x 1951.29pt>
 File: images/maron-spy-satellite.jpg Graphic file (type jpg)
 
-<use images/maron-spy-satellite.jpg> [27
+<use images/maron-spy-satellite.jpg> [28
 
  <./images/maron-spy-satellite.jpg>]
-Underfull \hbox (badness 1087) in paragraph at lines 593--595
+Underfull \hbox (badness 1087) in paragraph at lines 602--604
 \OT1/cmr/m/n/10.95 could read-ily in-ter-pret
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 593--595
+Underfull \hbox (badness 2521) in paragraph at lines 602--604
 \OT1/cmr/m/n/10.95 pho-tographs, of-ten at
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 593--595
+Underfull \hbox (badness 4995) in paragraph at lines 602--604
 \OT1/cmr/m/n/10.95 1:5000 (De-wees 1989;
  []
 
-[28]
+[29]
 Chapter 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 634.
+(Font)              <10.95> on input line 643.
 
-Overfull \hbox (633.19754pt too wide) in paragraph at lines 634--659
+Overfull \hbox (633.19754pt too wide) in paragraph at lines 643--668
 [][] 
  []
 
-[29
+[30
 
-] [30] [31] [32]
+] [31] [32] [33]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 
-Overfull \hbox (1.92838pt too wide) in paragraph at lines 728--729
+Overfull \hbox (1.92838pt too wide) in paragraph at lines 737--738
 \OT1/cmr/m/n/10.95 data, Carta-gen pro-vides an op-por-tu-nity to cre-ate your 
 own map from scratch,
  []
 
-[33] [34] [35]
+[34] [35] [36]
 Chapter 7.
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
@@ -557,47 +557,47 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
-[36
+[37
 
-] [37] [38] [39]
+] [38] [39] [40]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
- [40]
-<images/map-warper.png, id=724, 971.63pt x 651.43375pt>
+ [41]
+<images/map-warper.png, id=729, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
 <use images/map-warper.png>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 91
-7.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 92
+6.
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-924.
+933.
 
-<images/map-warper-hack.png, id=726, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=731, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
 <use images/map-warper-hack.png>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 93
-1.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 94
+0.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 93
-4.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 94
+3.
 
 
-Overfull \hbox (7.23616pt too wide) in paragraph at lines 942--942
+Overfull \hbox (7.23616pt too wide) in paragraph at lines 951--951
 []\OT1/cmr/bx/n/12 Needs (Re)assessment 
  []
 
-[41 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG cop
-y)>] [42]
+[42 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG cop
+y)>] [43]
 Chapter 8.
-[43
+[44
 
-] [44]
+] [45]
 Chapter 9.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -608,26 +608,47 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[45
+[46
 
-] [46]
+] [47]
 Chapter 10.
-[47
+[48
 
-] [48] [49] [50]
-<diagrams/resolution-frequency.pdf, id=781, 562.1pt x 264.99pt>
+] [49] <images/knitter-mestia.jpg, id=771, 1027.84pt x 770.88pt>
+File: images/knitter-mestia.jpg Graphic file (type jpg)
+
+<use images/knitter-mestia.jpg>
+Overfull \hbox (4.95691pt too wide) in paragraph at lines 1032--1033
+\OT1/cmr/m/n/10.95 tion, or-thorec-ti-fi-ca-tion tools, and dis-
+ []
+
+
+Overfull \hbox (3.74023pt too wide) in paragraph at lines 1032--1033
+\OT1/cmr/m/n/10.95 oped, the Carta-gen Knit-ter, is specif-
+ []
+
+[50 <./images/knitter-mestia.jpg>]
+<images/black-mountain.jpg, id=778, 392.2655pt x 411.136pt>
+File: images/black-mountain.jpg Graphic file (type jpg)
+
+<use images/black-mountain.jpg> [51 <./images/black-mountain.jpg>]
+
+LaTeX Warning: Citation `solari2010cantagallo' on page 52 undefined on input li
+ne 1043.
+
+[52] [53] <diagrams/resolution-frequency.pdf, id=798, 562.1pt x 264.99pt>
 File: diagrams/resolution-frequency.pdf Graphic file (type pdf)
 
-<use diagrams/resolution-frequency.pdf> [51 <./diagrams/resolution-frequency.pd
-f
+<use diagrams/resolution-frequency.pdf> [54] [55 <./diagrams/resolution-frequen
+cy.pdf
 
 pdfTeX warning: pdflatex (file ./diagrams/resolution-frequency.pdf): PDF inclus
 ion: Page Group detected which pdfTeX can't handle. Ignoring it.
->] [52] [53]
+>] [56] [57]
 Chapter 11.
-[54
+[58
 
-] [55] [56]
+] [59] [60]
 Chapter 12.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -656,16 +677,18 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[57
+[61
 
-] [58] [59
+] [62] [63
 
-] (./thesis.bbl [60
+] [64
+
+] (./thesis.bbl [65
 
 ]
 Missing character: There is no √ in font cmti10!
 Missing character: There is no ≥ in font cmti10!
- [61
+ [66
 
 ]
 Missing character: There is no ¬ in font cmr10!
@@ -680,37 +703,40 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [62]
+ [67]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-) [63]
-Overfull \hbox (61.74785pt too wide) in paragraph at lines 1202--1203
+) [68]
+Overfull \hbox (61.74785pt too wide) in paragraph at lines 1231--1232
 \OT1/cmr/m/n/10.95 Li-cense. To view a copy of this li-cense, visit http://crea
 tivecommons.org/licenses/by/3.0/
  []
 
-[64
+[69
 
-] (./thesis.aux) ) 
+] (./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4386 strings out of 256216
- 72399 string characters out of 1917073
+ 4405 strings out of 256216
+ 72763 string characters out of 1917073
  131518 words of memory out of 1500000
- 7390 multiletter control sequences out of 10000+200000
+ 7399 multiletter control sequences out of 10000+200000
  11182 words of font info for 39 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 33i,9n,36p,1394b,472s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/sha
-re/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesk
-y/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/
-texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm
-/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/
-fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt
-10.pfb>
-Output written on thesis.pdf (65 pages, 6988051 bytes).
+ 33i,9n,36p,1394b,470s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type
+1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr
+/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (70 pages, 8200828 bytes).
 PDF statistics:
- 977 PDF objects out of 1000 (max. 8388607)
- 241 named destinations out of 1000 (max. 131072)
- 941 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1005 PDF objects out of 1200 (max. 8388607)
+ 249 named destinations out of 1000 (max. 131072)
+ 951 words of extra memory for PDF output out of 10000 (max. 10000000)
 
