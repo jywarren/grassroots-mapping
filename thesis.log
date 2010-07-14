@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  14 JUL 2010 23:03
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  14 JUL 2010 23:25
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -660,29 +660,29 @@ Missing character: There is no ™ in font cmr10!
 Chapter 10.
 [54
 
-] [55] <images/knitter-mestia.jpg, id=788, 1027.84pt x 770.88pt>
+] [55] <images/knitter-mestia.jpg, id=789, 1027.84pt x 770.88pt>
 File: images/knitter-mestia.jpg Graphic file (type jpg)
 
 <use images/knitter-mestia.jpg>
-Overfull \hbox (4.95691pt too wide) in paragraph at lines 1036--1037
+Overfull \hbox (4.95691pt too wide) in paragraph at lines 1043--1044
 \OT1/cmr/m/n/10.95 tion, or-thorec-ti-fi-ca-tion tools, and dis-
  []
 
 
-Overfull \hbox (3.74023pt too wide) in paragraph at lines 1036--1037
+Overfull \hbox (3.74023pt too wide) in paragraph at lines 1043--1044
 \OT1/cmr/m/n/10.95 oped, the Carta-gen Knit-ter, is specif-
  []
 
 [56 <./images/knitter-mestia.jpg>]
-<images/black-mountain.jpg, id=795, 392.2655pt x 411.136pt>
+<images/black-mountain.jpg, id=796, 392.2655pt x 411.136pt>
 File: images/black-mountain.jpg Graphic file (type jpg)
 
 <use images/black-mountain.jpg> [57 <./images/black-mountain.jpg>]
 
 LaTeX Warning: Citation `solari2010cantagallo' on page 58 undefined on input li
-ne 1047.
+ne 1054.
 
-[58] [59] <diagrams/resolution-frequency.pdf, id=815, 562.1pt x 264.99pt>
+[58] [59] <diagrams/resolution-frequency.pdf, id=816, 562.1pt x 264.99pt>
 File: diagrams/resolution-frequency.pdf Graphic file (type pdf)
 
 <use diagrams/resolution-frequency.pdf> [60] [61 <./diagrams/resolution-frequen
@@ -754,7 +754,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 ) [74]
-Overfull \hbox (61.74785pt too wide) in paragraph at lines 1235--1236
+Overfull \hbox (61.74785pt too wide) in paragraph at lines 1242--1243
 \OT1/cmr/m/n/10.95 Li-cense. To view a copy of this li-cense, visit http://crea
 tivecommons.org/licenses/by/3.0/
  []
@@ -767,8 +767,8 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4448 strings out of 256216
- 74123 string characters out of 1917073
+ 4449 strings out of 256216
+ 74134 string characters out of 1917073
  131518 words of memory out of 1500000
  7430 multiletter control sequences out of 10000+200000
  11182 words of font info for 39 fonts, out of 1200000 for 2000
@@ -780,9 +780,9 @@ ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb>
 1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr
 /share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/fonts/type1/blue
 sky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (76 pages, 11674028 bytes).
+Output written on thesis.pdf (76 pages, 11675254 bytes).
 PDF statistics:
- 1023 PDF objects out of 1200 (max. 8388607)
- 252 named destinations out of 1000 (max. 131072)
+ 1026 PDF objects out of 1200 (max. 8388607)
+ 253 named destinations out of 1000 (max. 131072)
  956 words of extra memory for PDF output out of 10000 (max. 10000000)
 
