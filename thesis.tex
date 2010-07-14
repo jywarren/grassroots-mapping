@@ -843,8 +843,6 @@ Involving the students as full participants, or actors, in the process was also 
 
 On the 26th, after several more attempts with both balloons and kites, we captured several uesable images of the community, and together with Carla del Carpio and Ysabel Luisa of Manzanita `A' I stitched together the images into the best and most up-to-date map yet of Juan Pablo II.  
 
-\subsubsection{Situating mapping practice}
-
 \begin{figure}[h]
   \begin{center}
 	\includegraphics[width=1\textwidth]{images/juan-pablo-final.jpg}
@@ -852,47 +850,85 @@ On the 26th, after several more attempts with both balloons and kites, we captur
   \end{center}
 \end{figure}
 
-% see Face validity
+\subsubsection{Situating mapping practice}
 
-Throughout the flights, we made regular prints of the aerial imagery we were able to take and shared these with the participating students. Many of the most popular were taken from only a few dozen feet high, but showed the students and their immediate environment from a noel perspective.
+Establishing a rapid feedback loop with participants is of paramount importance, especially when they are dependent on external aid for part of the map-making process. In Juan Pablo II, the line between `researcher', `cartographer', and `participant' was blurred, as all parties were learning to create maps in a novel process. Throughout the flights, we made regular prints of the aerial imagery we were able to take and shared these with the participating students. Many of the most popular were taken from only a few dozen feet high, but showed the students and their immediate environment from a new perspective. 
 
-%                - Printing & review of images
-%                    - unanticipated interest in seeing selves from above
-%                - History & Future exercises
-%                    - Having seen community from above made representation easier
-%                    - interspersed with flights
-%                    - very specific information about construction/infrastructure from Frank & others
-%                    - maquette in 3D - unsolicited - wealth of specific information about goals
-%                        - 3 story buildings (sendero - stored wealth/bank accounts)
-%                        - explicit connection between mapping and urban planning
-%                        - real engaging activity as a corollary to mapmaking
-%                        - references to infant care (WaWaWasi), shops, flowers, soccer fields
-%                        - Project Morrinho maquettes in Brazil
+However, while we awaited a major success in capturing imagery (a success which took 14 days to achieve), the students were engaged in other projects. Beyond discussing and drawing maps of Juan Pablo II, students interviewed their parents and presented drawings and short reports on the history of the settlement. This resulted in some cases in very detailed accounts of how homes began as straw `caracoles' or tents, and progressed to wooden, metal, and even brick structures. One student named Frank recounted what year his family received electricity and when they began planting a garden. While these details may be exciting to hear from a historical, anthropological, or aid perspective (I had received specific requests from a cartographer from the World Bank for details on house construction), for myself and my fellow teachers, it served the more important role of contexualizing the current state of the settlement -- for the students -- in a years' long process of construction and reinvention. It also emphasized the time dimension of mapping, which is often neglected, but in areas of such rapid change, can render mapping efforts irrelevant within just a few years. Indeed, the maps we were beginning to produce from aerial imagery showed that those available on Google Maps were so old as to omit entire roads and buildings.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/juan-pablo-frank.jpg}
+		Frank .
+	\end{flushright}
+\end{wrapfigure}
+
+We then asked students to produce similar work -- drawings and written reports -- on how they imagined the community might look in the future. We asked in this case for a depiction of the entire settlement, and were surprised when two students brought back a three dimensional model of Juan Pablo II, set seven years in the future. While the early aerial images and mapping exercises had prompted many students to depict their community in a bird's-eye view, this maquette revealed a wealth of detail related to wealth, quality of life, and an awareness of family needs. Unlike in present-day Juan Pablo II, the model depicted many two or three-story buildings -- signs of long-term tenure and financial stability, or even rental income. The buildings were largely depicted as brick, and many had stores, such as a hair salon or a flower shop. An especially interesting feature was a `Wa wa wasi', or day care center, which did not exist in present-day Juan Pablo II, but which allows two parents to work normal hours while their youngest children are cared for. Paved roads, plantings, and a soccer field completed this ambitious plan for the settlement.
+
+\begin{figure}[h]
+  \begin{center}
+	\includegraphics[width=1\textwidth]{images/juan-pablo-maqueta.jpg}
+	\caption{3D paper model of the future of Juan Pablo II.}
+  \end{center}
+\end{figure}
+
+This kind of map-making recalls the 3D Model Mappipng or Ground Mapping traditions of PGIS practice, with an emphasis on community assets and the explicit link between mapping and urban planning. The ability to view the model both from above as we were doing with balloons in the \textbf{real} Juan Pablo II, as well as from a first-person perspective by planting one's head amongst the buildings, bridged the gap between the abstracted god's-eye view and the situated personal view of the settlement. The model was extremely popular amongst not only the rest of the students and teachers, but amongst the parents and community leaders who attended our final presentation. 
 
 \subsubsection{Stitching maps with Juan Pablo II}
-                - Stitching exercises
-                    - with kids - 'rubber sheets'
-                        - with teachers (secondary audience) - Map Warper, discussion of difficulties (see ahead)
+
+Throughout the balloon and kite flights, we employed various techniques to process the aerial imagery into maps. Starting with the Map Warper software available at \url{http://warper.geothings.net}, teachers from Manzanita `A', we switched to Adobe Photoshop after a few attempts. Designed for printed maps, Warper experienced difficulty successfully warping some of the more oblique or distorted imagery, and in order to compensate, GCPs had to be placed deliberately incorrectly in a laborious trial-and-error process. (See Chapter XX for an overview of Map Warper). Additionally, Warper uses OpenStreetMap tiles as a base layer, but in Juan Pablo II \begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/map-warper.png}
+		The Map Warper interface for identifying Ground Control Points. \cite{waters2009warper}
+	\end{flushright}
+\end{wrapfigure} and other areas we worked in around Lima, there was no data available, and we were forced to use a JavaScript hack to insert Google satellite imagery or another viable source. Even then, it proved difficult to successfully stitch a map, as multiple steps separated an assignment of GCPs with the feedback that an image was successfully warped. This is not to say that Map Warper is not a valued tool for its intended use, and in fact Shekhar Krishnan more recently applied it successfully in digitizing paper maps of Mumbai. However it was not suitable for much of the aerial imagery we gathered, and proved difficult for those with limited computer fluency.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/map-warper-hack.png}
+		Demonstration of JavaScript hack to insert Google satellite data for warping in areas with low feature density. \cite{waters2009warper}
+	\end{flushright}
+\end{wrapfigure}
+
+Our next tool was Adobe Photoshop CS4, which can yield impressive results for an experienced user (see GonzoEarth, Chapter XX). This proved to be a workable alternative, where we used the Distort and Warp tools to align images in separate layers over a base image taken from Google Maps or another source. The total process for stitching 12-15 images took approximately 2-3 hours. Though not a GIS tool, Photoshop has the benefit of being fairly easy to find, though in fact none of the teachers I spoke with had a copy. Still, the use a generalized tool has the benefit of encouraging the learning of generalizable skills, and can result in a more inclusive process. PGIS researcher Peter Poole notes that in order to build a map-making capacity in areas of low computer literacy, `tracing was chosen over digitisation, and simple graphics software over geographic information systems (GIS).' \cite{poole2006there}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/juan-pablo-rubbersheeting.jpg}
+		Students collaborate in a semi-imaginary `rubber sheeting' map stitching session. 
+	\end{flushright}
+\end{wrapfigure}
+
+Most of these tools were inaccessible to the students we worked with, who were either too young or without computer access, however in order to help them understand the process we organized an activity to try to fit together printed images in a kind of puzzle, suggesting that they imagine the images printed `on rubber sheets'. This was so readily understood by all that it inspired the choice of a `rubbersheeting' interface paradigm for the Cartagen Knitter software I developed after the Lima project concluded. 
 
 \subsection{Mapping with San Ignacio Loyola}
-% (have title and survey)
-            - Manzanita "A"
-            - usage of Photoshop primarily; fast mapping; 2-3 hrs flight, 1-2 hrs stitching
-            - Hector: ideal user: 
-                - lives in an informal settlement
-                - teacher, interested in using this in curriculum
-                - community leader
-                - interest in tech, willing to try map warping
-                    - difficulty in trackpad/menu usage, took notes
-                - engaged despite workload
-                - sees applicability for mapping tools in settlements
+
+With Carla del Carpio, I began working with a second community called San Ignacio Loyola, approximately 1 mile southeast of Juan Pablo II. Our local partner was a teacher named Hector, who had a class of very young students, aged 5-10. Though we had limited success in mapping exercises with the class, Hector proved to be an ideal collaborator, and actively sought to internalize the skills needed to produce balloon maps, with the intention of teaching the techniques to his fall class of older students. While members of San Ignacio Loyola already have both title to their land and a completed survey of their plots, Hector saw the applicability of low-cost aerial mapping to informal settlements, and showed a lot of enthusiasm and energy in organizing flights with us despite his heavy workload as both a teacher and the community leader in charge of public works. 
+
+Hector experienced similar if more pronounced difficulty in using Photoshop to stitch maps, but the imagery we captured with him over two 3-hour flights was superior to that of our Juan Pablo II flights. This may have been due to more favorable local wind conditions or our greater experience, but the result was a highly detailed and largely complete aerial map of the San Ignacio Loyola settlement. It became clear to us that building alliances and friendships with interested and energetic local partners was key to successful mapping.
+
+\begin{figure}[h]
+  \begin{center}
+	\includegraphics[width=1\textwidth]{images/san-ignacio-loyola-map.jpg}
+	\caption{A balloon and kite map of San Ignacio Loyola, produced with Prof. Hector and Carla del Carpio. The map is overlaid on the existing Google Maps imagery for comparison, and also includes the surveyed plots of which Hector had a printed copy.}
+  \end{center}
+\end{figure}
 
 \subsection{Mapping with Cantagallo}
-            - Escuelab - technology, art, society
-            - engaged with a creative group, Shuawa
-\subsubsection{The Shipibo in Lima}
-            - narrative of 10 year stay, claim to land, contested claims, and riverbank site
-            - Escuelab sought political neutrality, but obviously interested in political situations: ex: shipibo language            - Drawing exercises
+
+It soon seemed as if `word was getting out' about our mapping efforts, as we were soon invited by Lima-based art, technology, and society foundation Escuelab, to collaborate on a mapping project with their partners in a central Lima community called Canta Gallo. Escuelab's work, led by Barcelona artist Daniel Miracle, consisted of a series of animation, filmmaking, and live television broadcasting with a Canta Gallo artist collective known as Shuawa. Canta Gallo is a community of Amazonian Shipibo who have invaded a plot of land along the bank of the Rimac river; a breathtaking site in the center of metropolitan Lima. Made up of several distinct groups, the settlement comprises Shipibo and mixed heritage members who did not move to the site together, but have slowly migrated from around Lima. They have spent the last 10 years seeking legal title to the land, and different factions are at different points in the process. 
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/canta-gallo-setame.jpg}
+		The standard street map of Lima shows only a vacant lot owned by the city's roads administration, SETAME. The reality is a community of hundreds of people who have sought legal title for the last 10 years. 
+	\end{flushright}
+\end{wrapfigure}
+
+
+
+            - Escuelab sought political neutrality, but obviously interested in political situations: ex: shipibo language
+            - Drawing exercises
                 - 'amazon' home vs current home
                 - non-literal mapping - related to issues of veracity re: Wherecamp sugg. of children mapping with stickers
 \subsubsection{Flying balloons with Cantagallo}
@@ -908,30 +944,6 @@ Throughout the flights, we made regular prints of the aerial imagery we were abl
             - entry into SETAME site; playfulness seen as neutrality? Or just no resistance at low levels to mapping activity?
                 - not perceived as claim-related?
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/map-warper.png}
-		The Map Warper interface for identifying Ground Control Points. \cite{waters2009warper}
-	\end{flushright}
-\end{wrapfigure}
-
-\subsection{Computing literacy challenges with orthorectification}
-	- map warper
-        - designed for printed maps
-        - large loop of interaction - overcorrection easy, no immediate feedback upon assigning GCPs
-        - difficulty in explaining GCPs, and necessity of javascript hack for areas without base data
-        - amazing for intended use, even note application in Mumbai
-
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/map-warper-hack.png}
-		Demonstration of JavaScript hack to insert Google satellite data for warping in areas with low feature density. \cite{waters2009warper}
-	\end{flushright}
-\end{wrapfigure}
-
-    - Photoshop better, but barely
-	- stuart long uses photoshop, maybe bruce owen (see emails)
-	- ``For example, tracing was chosen over digitisation, and simple graphics software over geographic information systems (GIS)." \cite{poole2006there}
 \subsection{Evaluation}
 - based on criteria
         - Interviews!!!!!!! transcribe them
