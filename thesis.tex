@@ -7,10 +7,13 @@
             pdfkeywords={Cartography},
             pdfproducer={Latex with hyperref},
             pdfcreator={pdflatex,colorlinks}]{hyperref}
-\usepackage{graphicx,wrapfig,color,pdfcomment}
+\usepackage{graphicx,wrapfig,color,pdfcomment,booktabs,ctable,textcomp,tabularx,array}
+\newcommand{\otoprule}{\midrule[\heavyrulewidth]}
 \definecolor{linkblue}{rgb}{0.2,0.2,1}
 \hypersetup{colorlinks=true,
 	    urlcolor=linkblue}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{W}{>{\raggedleft\arraybackslash}X}
 
 \title{Grassroots Mapping: a toolkit for participatory and politically engaged cartography}
 \author{Jeffrey Warren}
@@ -577,6 +580,13 @@ previous BAP/KAP for mapping: Eric Wolf, others
 
 1858, Gaspard Felix Tournachon near Paris (Newhall, 1969) \cite{vierling2006short}
 
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/maron-spy-satellite.jpg}
+		\cite{maron2008former}
+	\end{flushright}
+\end{wrapfigure}
+
 Stewart Long/GonzoEarth Burning Man map
 
 Eric Wolf, necrogeography
@@ -585,12 +595,6 @@ Kiteography (Warner, 1996) - KAP for `making large-scale topographic maps, based
 
 Mikel Maron suggested
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/maron-spy-satellite.jpg}
-		\cite{maron2008former}
-	\end{flushright}
-\end{wrapfigure}
 
 This considerably better resolution than is typically available makes it possible to produce maps that relate to the human scale; 
 
@@ -638,35 +642,25 @@ Illustration of the process and average timeline of the Grassroots Mapping tool 
 
 As discussed in Chapter 5, Section 1, prior works in kite and balloon mapping make it redundant to discuss the advantages of such techniques beyond to say that they are easier and less expensive than aircraft or satellite-based imagery sources. However, the particulars of the equipment design developed for use in Grassroots Mapping projects emphasized yet lower cost, ease of use, and ease of reproduction than many existing designs, and a discussion of these decisions and the resulting designs is relevant. 
 
-%\begin{wrapfigure}{r}{0.5\textwidth}
-\begin{table}
-\begin{tabular}{|l|l|l|}
-\hline
-Type&Kite&Balloon\\
-\hline
-Altitude{\footnotesize (highest flown during project)}&\~{}1500ft&\~{}4000ft\\
-\hline
-Control&difficult above 45kph or below 10kph&difficult above 10kph\\
-\hline
-Payload&up to 1-2 kg&up to 300g\\
-\hline
+\begin{table}[tp] 
+\caption{Comparison of balloon and kite mapping techniques. Despite the challenges and higher costs of balloon mapping, typical extents of a balloon map are far greater due to the higher altitude of flight, and due to a balloon's tendency to fly vertically in low winds, it is much easier to image the correct area. In the largest Grassroots Mapping project in the Gulf of Mexico, more than 80\% of maps were made with balloons, and kite flights have typically had a much lower success rate.}
+
+\label{aggiungi}\centering %
+\begin{tabularx}{\textwidth}{>{\bfseries}rYY}
+\toprule
+Type&Kite&Balloon\\\otoprule
+Altitude&300m&1400m\\
+Extent&several hundred meters&\textgreater1km is common\\
+Control&hard to target imagery - difficult in winds \textless45kph or \textless10kph&very fine control on windless days - difficult in winds \textgreater10kph\\
+Payload&\textless2 kg&\textless300g\\
 Time constraints&best winds in early afternoon&lowest winds at dawn\\
-\hline
 Portability&foil kites pack down to 1 liter size&helium tank and fragility of balloon limit portability, access\\
-\hline
-Tether angle&often flies at low angle; camera altitude as low as 1/5 of tether length&in close to zero wind, flies essentially vertically; in $>$10kph wind can fly near horizontally\\
-\hline
-Camera stability&inversely related to wind turbulence&steady when not reeling in or out\\
-\hline
-Durability&high reuseability&very poor; balloons pop regularly\\
-\hline
-Cost per flight&none&\$15-35 per flight\\
-\hline
-Initial total cost of kit&\$60-400 depending on kite and tether material (see Appendix C for budgets)&\$100-500 depending on choice of balloon and tether material\\
-\hline
-\end{tabular}
+Tether angle&poor, camera altitude as low as 1/5 of tether length&in windless conditions, flies vertically; very sensitive to wind\\
+Durability&excellent, no consumables&very poor; balloons pop regularly\\
+Cost per flight&none&\$15-35 per flight dependent on helium costs\\
+Initial total cost of kit&\$60-400 depending on kite and tether material&\$100-500 depending on choice of balloon and tether material\\\bottomrule
+\end{tabularx}
 \end{table}
-%\end{wrapfigure}
 
 Due to the distinct compromises of each technique, I recommend that those attempting to capture aerial imagery equip themselves for both scenarios. Luckily, the techniques share much of the same equipment, and it is possible in many places in the world to assemble a basic but complete kit for under \$150. I have done so in surprisingly unlikely locales, such as the West Bank in Palestine, Lima, Peru, and Kutaisi, Georgia. 
 

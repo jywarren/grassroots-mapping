@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  14 JUL 2010 23:25
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  15 JUL 2010 09:57
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -196,36 +196,173 @@ Package: marginnote 2006/10/26 v1.1 non floating margin notes for LaTeX
 Package hyperref Warning: Option `pdftex' has already been used,
 (hyperref)                setting the option has no effect on input line 2677.
 
+) (/usr/share/texmf/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/03/16 v1.6180 publication quality tables
+\heavyrulewidth=\dimen112
+\lightrulewidth=\dimen113
+\cmidrulewidth=\dimen114
+\belowrulesep=\dimen115
+\belowbottomsep=\dimen116
+\aboverulesep=\dimen117
+\abovetopsep=\dimen118
+\cmidrulesep=\dimen119
+\cmidrulekern=\dimen120
+\defaultaddspace=\dimen121
+\@cmidla=\count104
+\@cmidlb=\count105
+\@aboverulesep=\dimen122
+\@belowrulesep=\dimen123
+\@thisruleclass=\count106
+\@lastruleclass=\count107
+\@thisrulewidth=\dimen124
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 13.
+(/usr/share/texmf/tex/latex/ctable/ctable.sty
+Package: ctable 2006/10/12 v1.8 ctable package
+
+(/usr/share/texmf/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+\col@sep=\dimen125
+\extrarowheight=\dimen126
+\NC@list=\toks19
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+(/usr/share/texmf/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen127
+\TX@old@table=\dimen128
+\TX@old@col=\dimen129
+\TX@target=\dimen130
+\TX@delta=\dimen131
+\TX@cols=\count108
+\TX@ftn=\toks20
+)
+(/usr/share/texmf/tex/latex/rotating/rotating.sty
+Package: rotating 1997/09/26, v2.13 Rotation package
+\c@r@tfl@t=\count109
+\rot@float@box=\box27
+)
+\@ctblframesep=\dimen132
+\@ctblframerule=\dimen133
+\@ctblwidth=\dimen134
+\@ctblcaptionskip=\dimen135
+\@ctblmaxwidth=\dimen136
+\@ctblmincapwidth=\dimen137
+\@ctblw=\dimen138
+\@ctblww=\dimen139
+\@ctbloldsep=\dimen140
+\@ctbloldrule=\dimen141
+\ctbl@tabelx=\box28
+\ctbl@tabel=\box29
+\ctbl@t=\box30
+)
+(/usr/share/texmf/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texmf/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 14.
  (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-Package hyperref Info: Link coloring ON on input line 30.
- (/usr/share/texmf/tex/latex/hyperref/nameref.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
+
+(/usr/share/texmf/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 33.
+Package hyperref Info: Link coloring ON on input line 33.
+
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
 (/usr/share/texmf/tex/latex/oberdiek/refcount.sty
 Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
-\c@section@level=\count104
+\c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
  (./thesis.out)
 (./thesis.out)
 \@outlinefile=\write3
@@ -234,57 +371,57 @@ LaTeX Info: Redefining \pageref on input line 30.
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended possition detection mode activated.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
+(Font)              <6> on input line 35.
  [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Chapter 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 40.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 40.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 
+l.45 
       [1
 
 ] [2]
-<images/100-dollar-satellite-poster.jpg, id=439, 1480.0896pt x 987.2082pt>
+<images/100-dollar-satellite-poster.jpg, id=443, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
 <use images/100-dollar-satellite-poster.jpg>
-Underfull \hbox (badness 2521) in paragraph at lines 81--81
+Underfull \hbox (badness 2521) in paragraph at lines 84--84
 [][]\OT1/cmr/bx/n/10.95 Printed guides and sup-port
  []
 
 
-Overfull \hbox (26.35045pt too wide) in paragraph at lines 84--84
+Overfull \hbox (26.35045pt too wide) in paragraph at lines 87--87
 []\OT1/cmr/bx/n/10.95 Documentation, case stud-ies, Grass-
  []
 
 
-Overfull \hbox (8.86475pt too wide) in paragraph at lines 86--86
+Overfull \hbox (8.86475pt too wide) in paragraph at lines 89--89
 []\OT1/cmr/bx/n/14.4 Novel Con-tri-bu-tions 
  []
 
 
-Overfull \hbox (13.96529pt too wide) in paragraph at lines 87--87
+Overfull \hbox (13.96529pt too wide) in paragraph at lines 90--90
 []\OT1/cmr/bx/n/12 Novel ap-pli-ca-tion of low-
  []
 
 
-Overfull \hbox (16.15141pt too wide) in paragraph at lines 90--90
+Overfull \hbox (16.15141pt too wide) in paragraph at lines 93--93
 []\OT1/cmr/bx/n/12 Novel ap-proaches to map
  []
 
 
-Overfull \hbox (6.31944pt too wide) in paragraph at lines 91--91
+Overfull \hbox (6.31944pt too wide) in paragraph at lines 94--94
 []\OT1/cmr/bx/n/12 Central merit: tech-nol-
  []
 
@@ -293,100 +430,100 @@ Chapter 2.
 [5
 
 ] [6] [7] [8]
-<images/osm-missing-parts.png, id=484, 1024.82875pt x 576.1525pt>
+<images/osm-missing-parts.png, id=488, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
-Underfull \hbox (badness 3884) in paragraph at lines 171--171
+Underfull \hbox (badness 3884) in paragraph at lines 174--174
 []\OT1/cmr/m/n/10.95 Figure 2.1: [][][]$\OT1/cmtt/m/n/10 http : / / www . reedh
 ome .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
 \OT1/cmtt/m/n/10 org . uk / Documents / osmembed . html ?
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 184--184
+Underfull \hbox (badness 1748) in paragraph at lines 187--187
 []\OT1/cmr/bx/n/14.4 Maps as a 'win-
  []
 
-<images/iraq-image-16.jpg, id=487, 602.25pt x 451.6875pt>
+<images/iraq-image-16.jpg, id=491, 602.25pt x 451.6875pt>
 File: images/iraq-image-16.jpg Graphic file (type jpg)
 
 <use images/iraq-image-16.jpg>
-Underfull \hbox (badness 8189) in paragraph at lines 193--193
+Underfull \hbox (badness 8189) in paragraph at lines 196--196
 []\OT1/cmr/m/n/10.95 Figure 2.2: [][][]$\OT1/cmtt/m/n/10 http : / / www . gwu .
  edu /
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 193--193
+Underfull \hbox (badness 4168) in paragraph at lines 196--196
 []\OT1/cmtt/m/n/10 nsarchiv / NSAEBB / NSAEBB88/$[][]\OT1/cmr/m/n/10.95 , Im-ag
 e
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 201--202
+Underfull \hbox (badness 2384) in paragraph at lines 204--205
 []\OT1/cmr/m/n/10.95 ``Let me say a word
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 201--202
+Underfull \hbox (badness 2582) in paragraph at lines 204--205
 \OT1/cmr/m/n/10.95 about satel-lite im-ages
  []
 
 [9 <./images/osm-missing-parts.png (PNG copy)> <./images/iraq-image-16.jpg>]
-Overfull \hbox (7.2268pt too wide) in paragraph at lines 205--206
+Overfull \hbox (7.2268pt too wide) in paragraph at lines 208--209
 []\OT1/cmr/m/n/10.95 How do I know that? How
  []
 
 
-Overfull \hbox (14.16307pt too wide) in paragraph at lines 205--206
+Overfull \hbox (14.16307pt too wide) in paragraph at lines 208--209
 \OT1/cmr/m/n/10.95 give you a closer look. Look
  []
 
 
-Overfull \hbox (1.81384pt too wide) in paragraph at lines 205--206
+Overfull \hbox (1.81384pt too wide) in paragraph at lines 208--209
 \OT1/cmr/m/n/10.95 chem-i-cal mu-ni-tions. The
  []
 
 
-Overfull \hbox (4.47028pt too wide) in paragraph at lines 205--206
+Overfull \hbox (4.47028pt too wide) in paragraph at lines 208--209
 \OT1/cmr/m/n/10.95 ar-row at the top that says
  []
 
 
-Overfull \hbox (1.30692pt too wide) in paragraph at lines 205--206
+Overfull \hbox (1.30692pt too wide) in paragraph at lines 208--209
 \OT1/cmr/m/n/10.95 and spe-cial equip-ment to
  []
 
 
-Overfull \hbox (1.27655pt too wide) in paragraph at lines 205--206
+Overfull \hbox (1.27655pt too wide) in paragraph at lines 208--209
 \OT1/cmr/m/n/10.95 mon-i-tor any leak-age that
  []
 
-<images/iraq-image-13.jpg, id=500, 602.25pt x 451.6875pt>
+<images/iraq-image-13.jpg, id=504, 602.25pt x 451.6875pt>
 File: images/iraq-image-13.jpg Graphic file (type jpg)
 
 <use images/iraq-image-13.jpg>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 21
-9.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 22
+2.
 
 [10]
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 22
-1.
+4.
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 227--228
+Underfull \hbox (badness 2189) in paragraph at lines 230--231
 \OT1/cmr/m/n/10.95 im-agery is that it rep-re-sents a
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 227--228
+Underfull \hbox (badness 1527) in paragraph at lines 230--231
 \OT1/cmr/m/n/10.95 in-volve-ment of hu-man tes-ti-mony
  []
 
@@ -396,7 +533,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
  [12]
 Chapter 3.
-<images/two-worlds-mapping.png, id=521, 901.9296pt x 360.8682pt>
+<images/two-worlds-mapping.png, id=525, 901.9296pt x 360.8682pt>
 File: images/two-worlds-mapping.png Graphic file (type png)
 
 <use images/two-worlds-mapping.png>
@@ -404,7 +541,7 @@ File: images/two-worlds-mapping.png Graphic file (type png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (0.73915pt too wide) in paragraph at lines 285--286
+Overfull \hbox (0.73915pt too wide) in paragraph at lines 288--289
 []\OT1/cmr/m/n/10.95 Many are sur-prised when they view places such as Lima, Pe
 ru, a metropo-
  []
@@ -416,19 +553,19 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
 
-Overfull \hbox (12.93013pt too wide) in paragraph at lines 334--336
+Overfull \hbox (12.93013pt too wide) in paragraph at lines 337--339
 \OT1/cmtt/m/n/10 prospectmagazine . co . uk / 2009 / 11 / how-[]dictators-[]wat
 ch-[]us-[]on-[]the-[]web/$[][] [][]$http :
  []
 
 
-Overfull \hbox (15.2854pt too wide) in paragraph at lines 334--336
+Overfull \hbox (15.2854pt too wide) in paragraph at lines 337--339
 \OT1/cmtt/m/n/10 / / irevolution . wordpress . com / 2010 / 01 / 07 / morozov-[
 ]vs-[]shirky/$[][] \OT1/cmr/m/n/10.95 (Patrick Meier) 
  []
 
 
-Overfull \hbox (1.56036pt too wide) in paragraph at lines 340--341
+Overfull \hbox (1.56036pt too wide) in paragraph at lines 343--344
 []\OT1/cmr/m/n/10.95 "empowerment":(great ar-ti-cle on def-i-ni-tions for em-po
 w-er-ment and frame-
  []
@@ -438,7 +575,7 @@ Chapter 4.
 [19
 
 ] [20]
-Overfull \hbox (11.8138pt too wide) in paragraph at lines 442--443
+Overfull \hbox (11.8138pt too wide) in paragraph at lines 445--446
 \OT1/cmr/m/n/10.95 Some de-gree of map-mak-ing has be-come com-mon-place to the
  internet-connected
  []
@@ -446,7 +583,7 @@ Overfull \hbox (11.8138pt too wide) in paragraph at lines 442--443
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[21] <images/osm-composition.png, id=588, 526.96875pt x 427.5975pt>
+[21] <images/osm-composition.png, id=592, 526.96875pt x 427.5975pt>
 File: images/osm-composition.png Graphic file (type png)
 
 <use images/osm-composition.png>
@@ -460,31 +597,31 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 
-Underfull \hbox (badness 2846) in paragraph at lines 458--459
+Underfull \hbox (badness 2846) in paragraph at lines 461--462
 [][]\OT1/cmr/m/n/10.95 Open data projects such as
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 458--459
+Underfull \hbox (badness 2469) in paragraph at lines 461--462
 \OT1/cmr/m/n/10.95 StreetMap, any-one with enough
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 458--459
+Underfull \hbox (badness 2050) in paragraph at lines 461--462
 \OT1/cmr/m/n/10.95 200 gi-ga-bytes when loaded into
  []
 
 [22 <./images/osm-composition.png (PNG copy)>]
-<images/osm-diagram.png, id=596, 803.0pt x 493.845pt>
+<images/osm-diagram.png, id=600, 803.0pt x 493.845pt>
 File: images/osm-diagram.png Graphic file (type png)
 
 <use images/osm-diagram.png>
-Overfull \hbox (1.34666pt too wide) in paragraph at lines 476--477
+Overfull \hbox (1.34666pt too wide) in paragraph at lines 479--480
  [] 
  []
 
 [23 <./images/osm-diagram.png (PNG copy)>]
-<images/kibera-gpx.png, id=603, 946.53625pt x 472.76625pt>
+<images/kibera-gpx.png, id=608, 946.53625pt x 472.76625pt>
 File: images/kibera-gpx.png Graphic file (type png)
 
 <use images/kibera-gpx.png>
@@ -496,62 +633,45 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¶ in font cmr10!
  [25 <./images/kibera-gpx.png (PNG copy)>]
-Overfull \hbox (1.98926pt too wide) in paragraph at lines 509--509
+Overfull \hbox (1.98926pt too wide) in paragraph at lines 512--512
 \OT1/cmr/m/n/10.95 For in-stance, all the United Na-tions agen-cies act-ing on 
 the ground
  []
 
 [26]
-Overfull \hbox (1.77283pt too wide) in paragraph at lines 543--543
+Overfull \hbox (1.77283pt too wide) in paragraph at lines 546--546
 []\OT1/cmr/bx/n/14.4 Additional po-lit-i-cally and so-cially en-gaged car-
  []
 
 [27]
 Chapter 5.
-<images/maron-spy-satellite.jpg, id=632, 2601.72pt x 1951.29pt>
+<images/maron-spy-satellite.jpg, id=636, 2601.72pt x 1951.29pt>
 File: images/maron-spy-satellite.jpg Graphic file (type jpg)
 
-<use images/maron-spy-satellite.jpg> [28
-
- <./images/maron-spy-satellite.jpg>]
-Underfull \hbox (badness 1087) in paragraph at lines 602--604
-\OT1/cmr/m/n/10.95 could read-ily in-ter-pret
+<use images/maron-spy-satellite.jpg>
+Overfull \hbox (3.96542pt too wide) in paragraph at lines 590--591
+[][]\OT1/cmr/m/n/10.95 Stewart Long/GonzoEarth Burn-
  []
 
+[28
 
-Underfull \hbox (badness 2521) in paragraph at lines 602--604
-\OT1/cmr/m/n/10.95 pho-tographs, of-ten at
- []
-
-
-Underfull \hbox (badness 4995) in paragraph at lines 602--604
-\OT1/cmr/m/n/10.95 1:5000 (De-wees 1989;
- []
-
-[29]
+ <./images/maron-spy-satellite.jpg>] [29]
 Chapter 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 643.
-
-Overfull \hbox (633.19754pt too wide) in paragraph at lines 643--668
-[][] 
- []
-
-[30
+(/usr/share/texmf/tex/latex/base/omlcmr.fd) [30
 
 ] [31] [32] [33]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-Overfull \hbox (1.92838pt too wide) in paragraph at lines 737--738
+ [34]
+Overfull \hbox (1.92838pt too wide) in paragraph at lines 731--732
 \OT1/cmr/m/n/10.95 data, Carta-gen pro-vides an op-por-tu-nity to cre-ate your 
 own map from scratch,
  []
 
-[34] [35] [36]
+[35] [36] [37]
 Chapter 7.
-<images/kids-canta-gallo.jpg, id=682, 1027.84pt x 770.88pt>
+<images/kids-canta-gallo.jpg, id=691, 1027.84pt x 770.88pt>
 File: images/kids-canta-gallo.jpg Graphic file (type jpg)
 
 <use images/kids-canta-gallo.jpg>
@@ -562,88 +682,88 @@ Missing character: There is no ≥ in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
 
-Underfull \hbox (badness 1540) in paragraph at lines 800--801
+Underfull \hbox (badness 1540) in paragraph at lines 794--795
 \OT1/cmr/m/n/10.95 ed-u-ca-tors from Lima-based Cen-
  []
 
-[37
+[38
 
- <./images/kids-canta-gallo.jpg>] [38] [39]
-<images/juan-pablo-measuring.jpg, id=697, 1027.84pt x 770.88pt>
+ <./images/kids-canta-gallo.jpg>] [39] [40]
+<images/juan-pablo-measuring.jpg, id=706, 1027.84pt x 770.88pt>
 File: images/juan-pablo-measuring.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-measuring.jpg>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 82
-3.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 81
+7.
 
-[40 <./images/juan-pablo-measuring.jpg>]
-<images/juan-pablo-first-flight.jpg, id=702, 1027.84pt x 770.88pt>
+[41 <./images/juan-pablo-measuring.jpg>]
+<images/juan-pablo-first-flight.jpg, id=711, 1027.84pt x 770.88pt>
 File: images/juan-pablo-first-flight.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-first-flight.jpg>
-<images/juan-pablo-final.jpg, id=703, 370.0224pt x 290.5254pt>
+<images/juan-pablo-final.jpg, id=712, 370.0224pt x 290.5254pt>
 File: images/juan-pablo-final.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-final.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41 <./images/juan-pablo-first-flight.jpg>] [42 <./images/juan-pablo-final.jpg>
-] <images/juan-pablo-frank.jpg, id=716, 770.88pt x 1027.84pt>
+[42 <./images/juan-pablo-first-flight.jpg>] [43 <./images/juan-pablo-final.jpg>
+] <images/juan-pablo-frank.jpg, id=725, 770.88pt x 1027.84pt>
 File: images/juan-pablo-frank.jpg Graphic file (type jpg)
 
-<use images/juan-pablo-frank.jpg> [43 <./images/juan-pablo-frank.jpg>]
-<images/juan-pablo-maqueta.jpg, id=721, 1027.84pt x 770.88pt>
+<use images/juan-pablo-frank.jpg> [44 <./images/juan-pablo-frank.jpg>]
+<images/juan-pablo-maqueta.jpg, id=730, 1027.84pt x 770.88pt>
 File: images/juan-pablo-maqueta.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-maqueta.jpg>
-<images/map-warper.png, id=723, 971.63pt x 651.43375pt>
+<images/map-warper.png, id=732, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
-<use images/map-warper.png> [44 <./images/juan-pablo-maqueta.jpg>]
-Underfull \hbox (badness 3312) in paragraph at lines 884--885
+<use images/map-warper.png> [45 <./images/juan-pablo-maqueta.jpg>]
+Underfull \hbox (badness 3312) in paragraph at lines 878--879
 []\OT1/cmr/m/n/10.95 and other ar-eas we worked in
  []
 
-<images/map-warper-hack.png, id=730, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=739, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
 <use images/map-warper-hack.png>
-Underfull \hbox (badness 2334) in paragraph at lines 893--894
+Underfull \hbox (badness 2334) in paragraph at lines 887--888
 \OT1/cmr/m/n/10.95 (see GonzoEarth, Chap-ter XX).
  []
 
-[45 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG cop
-y)>] <images/juan-pablo-rubbersheeting.jpg, id=738, 1027.84pt x 770.88pt>
+[46 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG cop
+y)>] <images/juan-pablo-rubbersheeting.jpg, id=747, 1027.84pt x 770.88pt>
 File: images/juan-pablo-rubbersheeting.jpg Graphic file (type jpg)
 
-<use images/juan-pablo-rubbersheeting.jpg> [46 <./images/juan-pablo-rubbersheet
-ing.jpg>] <images/san-ignacio-loyola-map.jpg, id=743, 411.136pt x 308.352pt>
+<use images/juan-pablo-rubbersheeting.jpg> [47 <./images/juan-pablo-rubbersheet
+ing.jpg>] <images/san-ignacio-loyola-map.jpg, id=752, 411.136pt x 308.352pt>
 File: images/san-ignacio-loyola-map.jpg Graphic file (type jpg)
 
-<use images/san-ignacio-loyola-map.jpg> [47 <./images/san-ignacio-loyola-map.jp
-g>] <images/canta-gallo-setame.jpg, id=749, 1027.84pt x 770.88pt>
+<use images/san-ignacio-loyola-map.jpg> [48 <./images/san-ignacio-loyola-map.jp
+g>] <images/canta-gallo-setame.jpg, id=759, 1027.84pt x 770.88pt>
 File: images/canta-gallo-setame.jpg Graphic file (type jpg)
 
 <use images/canta-gallo-setame.jpg>
-Underfull \hbox (badness 1629) in paragraph at lines 934--934
+Underfull \hbox (badness 1629) in paragraph at lines 928--928
 []\OT1/cmr/bx/n/10.95 Flying bal-loons with Can-ta-
  []
 
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
-[48 <./images/canta-gallo-setame.jpg>]
-Overfull \hbox (95.94647pt too wide) in paragraph at lines 956--964
+[49 <./images/canta-gallo-setame.jpg>]
+Overfull \hbox (95.94647pt too wide) in paragraph at lines 950--958
 \OT1/cmr/m/n/10.95 lead-ing to Carta-gen Knit-ter (see later dis-cus-sion) - ht
 tp://en.wikipedia.org/wiki/Rubbersheeting
  []
 
-[49]
+[50]
 Chapter 8.
-[50
+[51
 
-] [51]
+] [52]
 Chapter 9.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -654,47 +774,47 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[52
+[53
 
-] [53]
+] [54]
 Chapter 10.
-[54
+[55
 
-] [55] <images/knitter-mestia.jpg, id=789, 1027.84pt x 770.88pt>
+] [56] <images/knitter-mestia.jpg, id=797, 1027.84pt x 770.88pt>
 File: images/knitter-mestia.jpg Graphic file (type jpg)
 
 <use images/knitter-mestia.jpg>
-Overfull \hbox (4.95691pt too wide) in paragraph at lines 1043--1044
+Overfull \hbox (4.95691pt too wide) in paragraph at lines 1037--1038
 \OT1/cmr/m/n/10.95 tion, or-thorec-ti-fi-ca-tion tools, and dis-
  []
 
 
-Overfull \hbox (3.74023pt too wide) in paragraph at lines 1043--1044
+Overfull \hbox (3.74023pt too wide) in paragraph at lines 1037--1038
 \OT1/cmr/m/n/10.95 oped, the Carta-gen Knit-ter, is specif-
  []
 
-[56 <./images/knitter-mestia.jpg>]
-<images/black-mountain.jpg, id=796, 392.2655pt x 411.136pt>
+[57 <./images/knitter-mestia.jpg>]
+<images/black-mountain.jpg, id=804, 392.2655pt x 411.136pt>
 File: images/black-mountain.jpg Graphic file (type jpg)
 
-<use images/black-mountain.jpg> [57 <./images/black-mountain.jpg>]
+<use images/black-mountain.jpg> [58 <./images/black-mountain.jpg>]
 
-LaTeX Warning: Citation `solari2010cantagallo' on page 58 undefined on input li
-ne 1054.
+LaTeX Warning: Citation `solari2010cantagallo' on page 59 undefined on input li
+ne 1048.
 
-[58] [59] <diagrams/resolution-frequency.pdf, id=816, 562.1pt x 264.99pt>
+[59] [60] <diagrams/resolution-frequency.pdf, id=825, 562.1pt x 264.99pt>
 File: diagrams/resolution-frequency.pdf Graphic file (type pdf)
 
-<use diagrams/resolution-frequency.pdf> [60] [61 <./diagrams/resolution-frequen
+<use diagrams/resolution-frequency.pdf> [61] [62 <./diagrams/resolution-frequen
 cy.pdf
 
 pdfTeX warning: pdflatex (file ./diagrams/resolution-frequency.pdf): PDF inclus
 ion: Page Group detected which pdfTeX can't handle. Ignoring it.
->] [62] [63]
+>] [63] [64]
 Chapter 11.
-[64
+[65
 
-] [65] [66]
+] [66] [67]
 Chapter 12.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -723,18 +843,18 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[67
+[68
 
-] [68] [69
+] [69] [70
 
-] [70
+] [71
 
-] (./thesis.bbl [71
+] (./thesis.bbl [72
 
 ]
 Missing character: There is no √ in font cmti10!
 Missing character: There is no ≥ in font cmti10!
- [72
+ [73
 
 ]
 Missing character: There is no ¬ in font cmr10!
@@ -749,17 +869,17 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [73]
+ [74]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-) [74]
-Overfull \hbox (61.74785pt too wide) in paragraph at lines 1242--1243
+) [75]
+Overfull \hbox (61.74785pt too wide) in paragraph at lines 1236--1237
 \OT1/cmr/m/n/10.95 Li-cense. To view a copy of this li-cense, visit http://crea
 tivecommons.org/licenses/by/3.0/
  []
 
-[75
+[76
 
 ] (./thesis.aux)
 
@@ -767,22 +887,23 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4449 strings out of 256216
- 74134 string characters out of 1917073
- 131518 words of memory out of 1500000
- 7430 multiletter control sequences out of 10000+200000
- 11182 words of font info for 39 fonts, out of 1200000 for 2000
+ 5197 strings out of 256216
+ 85044 string characters out of 1917073
+ 141572 words of memory out of 1500000
+ 8145 multiletter control sequences out of 10000+200000
+ 11224 words of font info for 39 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 33i,9n,36p,1535b,470s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
-ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb>
-</usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type
-1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr
-/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/fonts/type1/blue
-sky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (76 pages, 11675254 bytes).
+ 33i,10n,38p,1535b,470s stack positions out of 5000i,500n,6000p,200000b,15000s
+ </home/warren/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.60
+0pk></usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts
+/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pf
+b></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/ty
+pe1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb></u
+sr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/
+bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (77 pages, 11671824 bytes).
 PDF statistics:
- 1026 PDF objects out of 1200 (max. 8388607)
- 253 named destinations out of 1000 (max. 131072)
- 956 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1035 PDF objects out of 1200 (max. 8388607)
+ 255 named destinations out of 1000 (max. 131072)
+ 964 words of extra memory for PDF output out of 10000 (max. 10000000)
 
