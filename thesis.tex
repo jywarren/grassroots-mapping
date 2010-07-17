@@ -68,7 +68,7 @@ The tools developed as part of the Grassroots Mapping project address the needs 
 
 \subsubsection{Interfaces for participatory cartography}
 
-This section focuses on the framing, intent, and audience of the tools. A technical discussion of the tools can be found in Chapter 8. 
+This section focuses on the framing, intent, and audience of the tools. A technical discussion of the tools can be found in Chapter \ref{chap:toolchain}. 
 
 \subsubsection{The Cartagen framework}
 \subsubsection*{Rendering architecture}
@@ -127,11 +127,15 @@ A more recent offshoot of GIS is the Participatory GIS, or PGIS movement, which 
 
 \subsection{Neogeography}
 
-With the rise of web-based data and display systems came a group composed primarily of entrepreneurs, programmers and web designers, who have adopted the name \emph{neogeographers}. This group positions itself in contrast to traditional approaches such as GIS, and favors open data sharing, standards-based data formats. Neogeographers advocate a kind of ``people's GIS", and has have worked to develop a set of free and open source software tools to replace proprietary solutions. The neogeographic movement, though it might have found its roots in the opening of the Google Maps API (see Chapter 4 section 2), focuses today on largely web-based software such as OpenLayers, Mapnik, and GeoDjango. Some downloadable map viewing and editing packages such as QGIS or JOSM are also available, though even these are often used to produce data for web publication. The availability of a relatively complete open-source toolchain for authoring and publishing maps is a result of the gradual shift away from easy-to-use commercial APIs. \cite{rana2009neogeography} However, some services such as Google's geocoding API, Yahoo's Placemaker API, and a variety of commercial satellite imagery sources, are still relied upon -- generally because they outperform open-source alternatives. In some cases, equivalent open alternatives are nonexistent or not widely known.
+With the rise of web-based data and display systems came a group composed primarily of entrepreneurs, programmers and web designers, who have adopted the name \emph{neogeographers}. This group positions itself in contrast to traditional approaches such as GIS, and favors open data sharing, standards-based data formats. Neogeographers advocate a kind of ``people's GIS", and has have worked to develop a set of free and open source software tools to replace proprietary solutions. The neogeographic movement, though it might have found its roots in the opening of the Google Maps API (see Section \ref{sec:webmapping}), focuses today on largely web-based software such as OpenLayers, Mapnik, and GeoDjango. Some downloadable map viewing and editing packages such as QGIS or JOSM are also available, though even these are often used to produce data for web publication. The availability of a relatively complete open-source toolchain for authoring and publishing maps is a result of the gradual shift away from easy-to-use commercial APIs. \cite{rana2009neogeography} However, some services such as Google's geocoding API, Yahoo's Placemaker API, and a variety of commercial satellite imagery sources, are still relied upon -- generally because they outperform open-source alternatives. In some cases, equivalent open alternatives are nonexistent or not widely known.
 
 One identifying theme in the neogeography movement is the shift of users from consumers to producers of maps. \cite{oconnor2008maps} The ability to create and publish map data using simple and free tools has dramatically broadened participation in map making, and Rana and Joliveau suggest that neogeography rejects the 'prescribed role/interaction between the four main components, namely the audience, the information, the presenter and the subject...'. \cite{rana2009neogeography} Neogeographers prefer `crowdsourced' data, contributed by collaboration and volunteerism, to proprietary data, which they have come to distrust due to copyright, access, and format limitations. Data produced by the public and liberally licensed for public use, may be translated, republished, remixed, and repurposed without parasitic reliance upon large and often uninterested organizations and governments. 
 
-Another important aspect of the movement is that the creators of neogeographic software tools typically do have a formal or academic background in geography or GIS, but from a programming and software engineering background. This has some technical benefits, in that the solutions they promote and develop are often conceived of from a novel perspective, sometimes resulting in higher performance, broader applications, and reconcetualizations of both what and \textbf{for whom} maps are for. It has also resulted in an `outsider' attitude amongst neogeographers, and even some resentment from traditional GIS practitioners; this has played an important role in how the movement presents itself to the rest of the world, and what choices it makes in the development of tools. For example, the OpenStreetMap project, discussed at length in Chapter 4, was developed in response to the restrictive copyright policies of the British ......... This has also led neogeography to share many of the goals of the PGIS movement, though relatively little communication exists between these two factions due to their different origins and mutually isolated venues for publication. (An exception is Mikel Maron's efforts in Kibera, among other places, which makes explicit reference to PGIS practices..... reference)
+Another important aspect of the movement is that the creators of neogeographic software tools typically do have a formal or academic background in geography or GIS, but from a programming and software engineering background. This has some technical benefits, in that the solutions they promote and develop are often conceived of from a novel perspective, sometimes resulting in higher performance, broader applications, and reconcetualizations of both what and \textbf{for whom} maps are for. It has also resulted in an `outsider' attitude amongst neogeographers, and even some resentment from traditional GIS practitioners; this has played an important role in how the movement presents itself to the rest of the world, and what choices it makes in the development of tools. For example, the OpenStreetMap project, discussed at length in Section \ref{sec:openstreetmap}, was developed in response to the restrictive copyright policies of the British ......... 
+
+Land Ordinance
+
+This has also led neogeography to share many of the goals of the PGIS movement, though relatively little communication exists between these two factions due to their different origins and mutually isolated venues for publication. (An exception is Mikel Maron's efforts in Kibera, among other places, which makes explicit reference to PGIS practices..... reference)
 
 % also need reference for origins of OSM in crown copyrights
 % the above needs reference... mikel maron
@@ -141,15 +145,22 @@ Another important aspect of the movement is that the creators of neogeographic s
 % Andrew Turner: Introduction to Neogeography
 % http://books.google.com/books?id=oHgDv4feV-8C&dq=neogeography+turner&printsec=frontcover&source=bn&hl=en&ei=gmDLS6_-KYj98AaY_KWXDA&sa=X&oi=book_result&ct=result&resnum=5&ved=0CBwQ6AEwBA#v=onepage&q&f=false
 
-Rana et all describe neogeography as an `outcome of the increasingly close integration of our lives with geocomputational and World Wide Web technology.' That statement may be more accurate if `our lives' refers to the lives of neogeographers, or at most refers to that thin slice of the global population which knows what an API is, or owns an iPhone. As discussed in Chapter 3, most of the world has little or no access to digital geospatial services and information, and this may account for the mounting interest in such tools' application in areas of crisis or humanitarian need. In the last few years, we see an increasing number of neogeographers engaging in socially or politically engaged work -- groups such as the Humanitarian OpenStreetMap Team, Washington-based firm DevelopmentSeed, NiJeL, Ushahidi, and many more. Many of these have formed partnerships with larger and older organizations such as the World Bank and even the United Nations. 
+Rana et all describe neogeography as an `outcome of the increasingly close integration of our lives with geocomputational and World Wide Web technology.' That statement may be more accurate if `our lives' refers to the lives of neogeographers, or at most refers to that thin slice of the global population which knows what an API is, or owns an iPhone. As discussed in Chapter \ref{chap:need}, most of the world has little or no access to digital geospatial services and information, and this may account for the mounting interest in such tools' application in areas of crisis or humanitarian need. In the last few years, we see an increasing number of neogeographers engaging in socially or politically engaged work -- groups such as the Humanitarian OpenStreetMap Team, Washington-based firm DevelopmentSeed, NiJeL, Ushahidi, and many more. Many of these have formed partnerships with larger and older organizations such as the World Bank and even the United Nations. 
 
 \section{The mythical `complete map'}
 
 One common sentiment often heard in contemporary map literature is that the earth is more or less completely mapped. The availability of satellite imagery in tools like Google Earth, and the ability to zoom shockingly far into a dizzying array of places, from power plants in North Korea to the top of Macchu Pichu, gives the casual user the impression that we have indeed created a complete map of the world. However, if one attempts to find imagery of places which are removed \textbf{socioeconomically}, it becomes clear that while there may not be many \textbf{blank} spots on the map, there are an abundace of \textbf{blurry} spots. 
 
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/kutaisi.png}
+	\caption{Kutaisi, the second largest city in Georgia. Google Maps, July 2010}
+	\end{flushright}
+\end{wrapfigure}
+
 Illustration: Cities in Georgia, or Cameroon, or Bhagalpur, India.
 
-This of course sidesteps the fact that an aerial image does not a map make -- in order to take advantage of the many applications of geographic data, vector maps, with labels, metadata, and routable relations must exist. These are almost entirely absent from many areas of the world (see Chapter 3). However, the fantasy that we have 'finished' is relevant to the attitudes....
+This of course sidesteps the fact that an aerial image does not a map make -- in order to take advantage of the many applications of geographic data, vector maps, with labels, metadata, and routable relations must exist. These are almost entirely absent from many areas of the world (see Chapter \ref{chap:need}). However, the fantasy that we have 'finished' is relevant to the attitudes....
 
 A fictional version of this fantasy is mentioned in Lewis Carroll's \textbf{Sylvie and Bruno Concluded} on page 169. ... 'a mile to the mile!'
 'So we now use the country itself, as its own map, and I assure you it does nearly as well.' p.169
@@ -276,6 +287,7 @@ Outline of history and benefits of PGIS, but also of ethics and beneficiaries
 %        - mapping as testimony of use/presence/ownership by Abed's farm
 
 \chapter{The Need for Geospatial Data}
+\label{chap:need}
 \section{Two worlds of mapping}
 
 Present-day users of web-based mapping products such as Google Maps are presented with an extremely rich cartographic landscape when they view maps of first-world urban centers such as New York and San Francisco. Real-time traffic data is often overlaid in lines of shifting red and green, and many buildings appear in orthographic '3D'. Well-known restaurants are interspersed with subway stops whose schedules may be called up with a few clicks. Routing algorithms offer turn-by-turn directions, optimized for pedestrians, bicyclists, and motorists. 
@@ -444,7 +456,7 @@ As a result, many PGIS map projects outsource the final processing of map data t
 Beyond these pragmatic difficulties presented by outsourcing,  
 
 \section{Web mapping}
-
+\label{sec:webmapping}
 Some degree of mapmaking has become commonplace to the internet-connected public since the advent of highly user-friendly `slippy map' interfaces such as Google Maps. This has been especially true since the release of the Google Maps Application Programmer's Interface (API) in the summer of 2004, allowing programmers to modify and repurpose Google's web map services.  Early examples of reuse included the GMaps Pedometer, which would output the linear distance of a path you walked, along with how many calories you burnt. \cite{gibson2006google} From the frivolous to the essential, this means of mapmaking has become widespread and relatively easy. However, many would argue that this is not mapmaking at all; most of the users of Google maps do not edit the underlying map data, but overlay points, lines, and polygons \textbf{on top of} Google's proprietary data.
 
 \subsection{Google Maps and proprietary data}
@@ -464,7 +476,7 @@ Distributing the underlying data used to generate these tiles conflicts with the
 Open data projects such as OpenStreetMap, the 'wiki map of the world', do just the opposite – like the open source software projects they took inspiration from, they share the entire dataset as coordinates, semantic tags, polygons, and most importantly, time and authorship data. In the case of OpenStreetMap, anyone with enough disk space can download the entire planet's worth of data (over 200 gigabytes when loaded into a database) and create their own maps. In that dataset in particular, authorship data actually outweighs its geometric counterpart. Perhaps even more tellingly, historical data – for areas of the map which have been overwritten – occupies more storage space than current data. This suggests that authors have challenged each others' data more than they've added new data to unmapped areas. \cite{warren2009composition}
 
 \section{OpenStreetMap}
-
+\label{sec:openstreetmap}
 OpenStreetMap.org, taken as an open-source software project, a database of open geodata, and a community of volunteer mappers, represents one of the best examples in recent years of the \textbf{neogeographic} response to PGIS. That is, without explicit ties to the PGIS movement, or even a high degree of literacy in the movements 2 decades of literature and research, OpenStreetMap (or OSM, as it has become known in neogeographic circles) has attempted to meet many of the same goals. OSM encourages volunteers around the world to contribute to a single, shared digital map and corresponding map database. 
 
 In many ways it has met with wild success, and the size and detail of the OSM map database is formidable. 
@@ -638,7 +650,7 @@ Reference chapter 4.2 discussion on current geostack
 %    - this work could only be done by working with communities in cartographic dispute. See Lima case study.
 
 \chapter{The Grassroots Mapping tool chain}
-
+\label{chap:toolchain}
 Illustration of the process and average timeline of the Grassroots Mapping tool chain
 
 \section{Balloon/kite Aerial Mapping (BAM/KAM)}
@@ -962,10 +974,10 @@ Producing a combined map was a potentially controversial decision, as the two se
 \begin{table}[tp] 
 \caption{Comparison of maps produced in January 2010 project in Lima, Peru with those available in Google Maps for same period.} 
 
-\label{aggiungi}\centering %
+\label{fig:limaevaltable}\centering %
 \rowcolors{1}{tableShade}{white}
 \renewcommand{\arraystretch}{1.4}
-\begin{tabularx}{\textwidth}{>{\bfseries}rYYY}
+\begin{tabularx}{\textwidth}{>{\bfseries}rlYYY}
 \toprule\hiderowcolors
 Site&Criteria&Grassroots Mapping&Google Maps&Percent change\\\otoprule\showrowcolors
 Juan Pablo II&Resolution&&&\\
@@ -974,7 +986,7 @@ Juan Pablo II&Resolution&&&\\
 San Ignacio Loyola&Resolution&&&\\
 &Recency&&&\\
 &Roof count&&&\\\hline
-Canta Gallo&Resolution&29cm&7cm&411\%\\
+Canta Gallo&Resolution&29cm&7cm&+411\%\\
 &Recency&&&\\
 &Roof count&&&\\
 \bottomrule
@@ -985,31 +997,12 @@ Canta Gallo&Resolution&29cm&7cm&411\%\\
 
 Any comprehensive evaluation of the map-making work I and my local partners performed would need to include a long-term examination of the maps' uses; legal, urban planning, educational, and political applications were among our hopes, but many of these processes occur on a timeline of years or even decades. Still, in the half year since their creation, the maps of Canta Gallo have been used for subsequent projects by Shuawa, and Helder Solari, one of the activists involved in the original map-making, asserts that `in fact even now there is none better than yours. In other maps Canta Gallo simply doesn't exist.' While I look forward to hearing of as well as advocating further uses of these maps, the immediate evaluation I can attempt will have to rely upon the maps' reception among participating community members and in the qualitative and quantitative measures which can be made today.
 
-On a resolution basis, these maps are far superior to any which have been made before (see Figure X). However their most important quantitative advantage is in their recency; in comparison, those available on Google Maps are hopelessly obsolete, sometimes showing only a small percentage of the buildings which exist today.
+On a resolution basis, these maps are far superior to any which have been made before (see Figure \ref{fig:limaevaltable}). However their most important quantitative advantage is in their recency; in comparison, those available on Google Maps are hopelessly obsolete, sometimes showing only a small percentage of the buildings which exist today.
 
-Due to the distinct compromises of each technique, I recommend that those attempting to capture aerial imagery equip themselves for both scenarios. Luckily, the techniques share much of the same equipment, and it is possible in many places in the world to assemble a basic but complete kit for under \$150. I have done so in surprisingly unlikely locales, such as the West Bank in Palestine, Lima, Peru, and Kutaisi, Georgia. 
+Finally, and far more importantly than the technical evaluation, I was careful to record the reception and discussion of this project amongst its participants, and especially amongst the residents of the areas we mapped.\footnote{For a more thorough discussion of my evaluation strategy, see Section \ref{sec:lather}.} This took the form of informal interviews with partner organizations and residents, as well as my notes and observations, but due to the extremely speculative nature of the project, it followed no specific plan. I want to be clear that this is by no means an attempt to develop a formal scientific or ethnographic study. Rather, it represents the information with which I developed a more comprehensive and measured approach in subsequent case studies.   
 
-Illustration of `complete kit'
-
-\subsection{Balloon mapping}
-
-Helium is a limited and non-renewable resource, and obtaining it in the quantities necessary for aerial photography can prove challenging in the more remote parts of the world. 250 cubic foot tanks are most common, but are too heavy to carry without a wheeled dolly, and do not easily fit into cars or buses. They are also excessive, providing enough helium for between six and ten flights with a typical payload. If available, 80 or 120 cubic foot tanks are preferable, typically available in the United States for approximately \$45 and \$60, respectively. Those constructed from aluminum are especially convenient, being far lighter and easier to transport. Costs vary, depending on the distance from major helium sources such as the United States and Russia, but I have found large, 250 cubic foot tanks available for rental at approximately \$250 each in Bethlehem, in the West Bank, and for approximately \$300 in Lima, Peru, both at party stores. Gas supply vendors may offer somewhat lower prices, but sometimes require a permanent customer account, and can be reluctant to rent to non-industrial customers. 
-
-Illustration: Tetrahedral balloon instructions
-
-To further reduce costs, it is possible to use large high density polyethelene trash bags, of the kind typical worldwide. Two extra-large ninety-nine gallon bags suffice to lift a small camera and string to thousands of feet. Bags may be sealed shut with tape and filled without modification, or cut open and reassembled into tetrahedral shapes to minimize the surface area to volume ratio, providing greater lift. In addition, trash bags may be left inflated for several days without stretching or damaging the plastic, unlike latex balloons. However, helium leaks slowly through the plastic, and even relatively thick 2.7 mil plastic bags will lose most of their lifting power after a day or two. Trash bags are available for less than a dollar anywhere in the world, as is the clear plastic packing tape which may be used to seal them closed.  
-
-Illustration of 3 types durability/cost comparison
-
-Shannon's quote about `80\% kites'
-
-\subsection{Kite mapping}
-
-Table of kite pros/cons: Flowform, locally produced, portability, Sled on a Thread
- 
-
-- based on criteria
-        - Interviews!!!!!!! transcribe them
+        
+- Interviews!!!!!!! transcribe them
 
 
 
@@ -1033,6 +1026,7 @@ Table of kite pros/cons: Flowform, locally produced, portability, Sled on a Thre
         History/future assignments make explicit the value of mapping as an activity
 
 \chapter{Case Study: Citizen mapping of the BP oil spill}
+\label{chap:gulf}
 \section{Grassroots mapping in crisis response}
 
 In late April 2010, the Deepwater Horizon oil rig exploded and sank, initiating what may be one of the worst environmental disasters in US history. As the spill grew in size, the author contacted Stewart Long of GonzoEarth.org and Oliver Yeh of 1337arts.com. Long has used remote control aircraft to produce maps, and Yeh specializes in high-altitude photography using weather balloons, having captured imagery from a balloon at altitudes of over 90,000 feet. The three decided to travel to the Gulf Coast area to spearhead a citizen effort to map the oil spill's effects. After making phone contact with Anne Rolfes of the Louisiana Bucket Brigade (LABB), a New Orleans-based environmental activist group, Yeh and the author flew to New Orleans on May 5th 2010, followed by Long on May 6th. 
@@ -1088,6 +1082,7 @@ Were the maps uesd in legal processes? Did they help participants advance an age
 Critique of quantitative GIS - Marianna Pavlovskaya, Non-Quantitative GIS, Qualitative GIS
 
 \section{Validity in openly ideological research}
+\label{sec:lather}
 
 Many of my research questions are qualitative in nature, such as `Did the maps cause participants to re-evaluate their understanding of their environment in political or environmental terms?' or `Did mapmaking change participants' assumptions about what information they could access or utilize to further their interests?' The answers to these questions are profoundly affected by my advocacy of these tools and techniques in the communities with whom I collaborated -- and the degree to which I was able to convince participants to adopt these tools and the beliefs about cartography which they embody. In order to better understand the outcomes of my research, given such an ideological investment by myself and other participants, a degree of reflexivity is required. I therefore look to Patti Lather in her esssay entitled `Reconceptualizing Validity' (p.67) where she outlines a framework for assessing validity in the context of openly ideological research.  
 
@@ -1194,7 +1189,7 @@ camera distortion = 4\% in miyamoto
 
 \subsection{Temporal resolution}
 
-Though \textbf{some} satellite imagery is publicly available for virtually every place in the world, and often at useful resolution, even those areas which are mapped at better than 1 meter resolution are often years out of date. There is simply no business case for many satellite imagery providers to capture imagery of many places in the world, and it is impossible to know when the next available dataset will be published, or under what terms. \cite{oconnor2008maps} The ability to \textbf{repeatedly} image an area at intervals of one's choosing makes balloon and kite mapping techniques useful for time-sensitive purposes such as periodically monitoring the effects of the Gulf oil spill (see Chapter 10) or measuring vegetative regrowth in mountaintop removal mining sites undergoing reclamation (see Chapter 12). 
+Though \textbf{some} satellite imagery is publicly available for virtually every place in the world, and often at useful resolution, even those areas which are mapped at better than 1 meter resolution are often years out of date. There is simply no business case for many satellite imagery providers to capture imagery of many places in the world, and it is impossible to know when the next available dataset will be published, or under what terms. \cite{oconnor2008maps} The ability to \textbf{repeatedly} image an area at intervals of one's choosing makes balloon and kite mapping techniques useful for time-sensitive purposes such as periodically monitoring the effects of the Gulf oil spill (see Chapter \ref{chap:gulf}) or measuring vegetative regrowth in mountaintop removal mining sites undergoing reclamation (see Section \ref{sec:ongoinguses}). 
 
 \subsection{Spectral resolution}
 
@@ -1204,12 +1199,12 @@ Aerial imagery taken from low altitutdes (under 4000 ft) typically has better co
 % histogram illustrations
 % Stewart Long's Chandeleur imagery vs balloon imagery, spectra
 
-Spectral resolution is important for identification of vegetation, and Miyamoto et al have achieved classification of vegetation into 27 different types such as `moss with alpine plants' and 'moss bogs with pools', using 15 cm imagery. They also assert their belief that balloon aerial photography may be used to allow classification to the genus and species level. \cite{miyamoto2004use} Their work has obvious relevance to both the citizen mapping of the BP oil spill (Chapter 9) and Coal River Mountain Watch's mapping of mountaintop removal mining reclamation sites (Chapter 12, Section 1.1).
+Spectral resolution is important for identification of vegetation, and Miyamoto et al have achieved classification of vegetation into 27 different types such as `moss with alpine plants' and 'moss bogs with pools', using 15 cm imagery. They also assert their belief that balloon aerial photography may be used to allow classification to the genus and species level. \cite{miyamoto2004use} Their work has obvious relevance to both the citizen mapping of the BP oil spill (see Chapter \ref{chap:gulf}) and Coal River Mountain Watch's mapping of mountaintop removal mining reclamation sites (see Section \ref{sec:ongoinguses}).
 
 \chapter{Project sustainability and ongoing work}
 
 \section{Additional ongoing uses of Grassroots Mapping tools}
-
+\label{sec:ongoinguses}
 \subsection{Coal River Mountain Watch}
 
 A variety of new projects have been initiated both with and without my prompting or intervention, in order to apply Grassroots Mapping tools towards different goals. One which I had the pleasure of collaborating on directly was a mapmaking pilot project with the Coal River Mountain Watch (CRMW) community, an activist and advocacy organization based in Rock Creek, West Virginia. CRMW works to educate and disseminate information about mountaintop removal mining (MTR) practices in Appalachia, in which companies such as Massey Energy remove entire mountaintops to access coal seams, depositing the `waste' rock in nearby valleys. What results is extreme environmental degradation and a variey of health hazards from water table contamination, landslides, and particulate air pollution. CRMW was interested in using balloons, kites, and remote controlled airplanes. 
@@ -1260,8 +1255,6 @@ There has been a great deal of interest from both technology enthusiasts (kite, 
 \href{http://www.iapad.org/pgis2005/}{Mapping for Change} - 2005 International Conference on Participatory Spatial Information Management and Communication
 
 Weiner, D. and T. Harris, 2003. ''{}\href{http://www.rri.wvu.edu/pdffiles/gisweiner.pdf}{Community-Integrated GIS for Land Reform in South Africa}.''{} URISA Journal. 15(2): 61-73.
-
-\href{http://books.google.com/books?hl=en&lr=&id=_VK-ABCKlVgC&oi=fnd&pg=PA3&dq=Nino+Bariola&ots=_r1wMwjiou&sig=TH0Gn1P27Xtsdq2Oc0Up5D6HLzg#v=onepage&q=Nino%20Bariola&f=false}{Bilingualism and identity: Spanish at the crossroads with other languages} - Geographic dispute in Canta Gallo, in Lima, \href{http://books.google.com/books?id=_VK-ABCKlVgC&lpg=PA3&ots=_r1wMwjiou&dq=Nino%20Bariola&lr=&pg=PA153#v=onepage&q=&f=true}{Chapter 7}
 
 \href{http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VG2-4XHJX4B-1&_user=10&_coverDate=08/31/2009&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1186930669&_rerunOrigin=google&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=a9327ffa62e089e863f892a4551c1717}{Intervention: Mapping is critical!} - This intervention targets the much heralded demise of the map in geography and the recently proposed “rethinking” of maps. It comprises contributions from two political geographers, a military geographer, a political scientist, and two activist cartographers and argues that there is not so much a need to “rethink” maps, but to “re-engage” with the material practices of mapping, and above all to “re-make” maps.
 
