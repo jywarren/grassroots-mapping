@@ -8,12 +8,15 @@
             pdfproducer={Latex with hyperref},
             pdfcreator={pdflatex,colorlinks}]{hyperref}
 \usepackage{graphicx,wrapfig,color,pdfcomment,booktabs,ctable,textcomp,tabularx,array}
+\usepackage[table]{xcolor}
+\usepackage[hang,small,bf,margin=0.5cm,tableposition=top]{caption}
 \newcommand{\otoprule}{\midrule[\heavyrulewidth]}
 \definecolor{linkblue}{rgb}{0.2,0.2,1}
 \hypersetup{colorlinks=true,
 	    urlcolor=linkblue}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcolumntype{W}{>{\raggedleft\arraybackslash}X}
+\definecolor{tableShade}{HTML}{EEEEEE}
 
 \title{Grassroots Mapping: a toolkit for participatory and politically engaged cartography}
 \author{Jeffrey Warren}
@@ -646,9 +649,11 @@ As discussed in Chapter 5, Section 1, prior works in kite and balloon mapping ma
 \caption{Comparison of balloon and kite mapping techniques. Despite the challenges and higher costs of balloon mapping, typical extents of a balloon map are far greater due to the higher altitude of flight, and due to a balloon's tendency to fly vertically in low winds, it is much easier to image the correct area. In the largest Grassroots Mapping project in the Gulf of Mexico, more than 80\% of maps were made with balloons, and kite flights have typically had a much lower success rate.}
 
 \label{aggiungi}\centering %
+\rowcolors{1}{tableShade}{white}
+\renewcommand{\arraystretch}{1.4}
 \begin{tabularx}{\textwidth}{>{\bfseries}rYY}
-\toprule
-Type&Kite&Balloon\\\otoprule
+\toprule\hiderowcolors
+Type&Kite&Balloon\\\otoprule\showrowcolors
 Altitude&300m&1400m\\
 Extent&several hundred meters&\textgreater1km is common\\
 Control&hard to target imagery - difficult in winds \textless45kph or \textless10kph&very fine control on windless days - difficult in winds \textgreater10kph\\
@@ -870,19 +875,17 @@ This kind of map-making recalls the 3D Model Mappipng or Ground Mapping traditio
 
 \subsubsection{Stitching maps with Juan Pablo II}
 
-Throughout the balloon and kite flights, we employed various techniques to process the aerial imagery into maps. Starting with the Map Warper software available at \url{http://warper.geothings.net}, teachers from Manzanita `A', we switched to Adobe Photoshop after a few attempts. Designed for printed maps, Warper experienced difficulty successfully warping some of the more oblique or distorted imagery, and in order to compensate, GCPs had to be placed deliberately incorrectly in a laborious trial-and-error process. (See Chapter XX for an overview of Map Warper). Additionally, Warper uses OpenStreetMap tiles as a base layer, but in Juan Pablo II \begin{wrapfigure}{r}{0.5\textwidth}
+Throughout the balloon and kite flights, we employed various techniques to process the aerial imagery into maps. Starting with the \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/map-warper.png}
 		The Map Warper interface for identifying Ground Control Points. \cite{waters2009warper}
 	\end{flushright}
-\end{wrapfigure} and other areas we worked in around Lima, there was no data available, and we were forced to use a JavaScript hack to insert Google satellite imagery or another viable source. Even then, it proved difficult to successfully stitch a map, as multiple steps separated an assignment of GCPs with the feedback that an image was successfully warped. This is not to say that Map Warper is not a valued tool for its intended use, and in fact Shekhar Krishnan more recently applied it successfully in digitizing paper maps of Mumbai. However it was not suitable for much of the aerial imagery we gathered, and proved difficult for those with limited computer fluency.
-
-\begin{wrapfigure}{r}{0.5\textwidth}
+\end{wrapfigure} Map Warper software available at \url{http://warper.geothings.net}, teachers from Manzanita `A', we switched to Adobe Photoshop after a few attempts. Designed for printed maps, Warper experienced difficulty successfully warping some of the more oblique or distorted imagery, and in order to compensate, GCPs had to be placed deliberately incorrectly in a laborious trial-and-error process. (See Chapter XX for an overview of Map Warper). \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/map-warper-hack.png}
 		Demonstration of JavaScript hack to insert Google satellite data for warping in areas with low feature density. \cite{waters2009warper}
 	\end{flushright}
-\end{wrapfigure}
+\end{wrapfigure}Additionally, Warper uses OpenStreetMap tiles as a base layer, but in Juan Pablo II and other areas we worked in around Lima, there was no data available, and we were forced to use a JavaScript hack to insert Google satellite imagery or another viable source. Even then, it proved difficult to successfully stitch a map, as multiple steps separated an assignment of GCPs with the feedback that an image was successfully warped. This is not to say that Map Warper is not a valued tool for its intended use, and in fact Shekhar Krishnan more recently applied it successfully in digitizing paper maps of Mumbai. However it was not suitable for much of the aerial imagery we gathered, and proved difficult for those with limited computer fluency.
 
 Our next tool was Adobe Photoshop CS4, which can yield impressive results for an experienced user (see GonzoEarth, Chapter XX). This proved to be a workable alternative, where we used the Distort and Warp tools to align images in separate layers over a base image taken from Google Maps or another source. The total process for stitching 12-15 images took approximately 2-3 hours. Though not a GIS tool, Photoshop has the benefit of being fairly easy to find, though in fact none of the teachers I spoke with had a copy. Still, the use a generalized tool has the benefit of encouraging the learning of generalizable skills, and can result in a more inclusive process. PGIS researcher Peter Poole notes that in order to build a map-making capacity in areas of low computer literacy, `tracing was chosen over digitisation, and simple graphics software over geographic information systems (GIS).' \cite{poole2006there}
 
@@ -910,49 +913,122 @@ Hector experienced similar if more pronounced difficulty in using Photoshop to s
 
 \subsection{Mapping with Cantagallo}
 
-It soon seemed as if `word was getting out' about our mapping efforts, as we were soon invited by Lima-based art, technology, and society foundation Escuelab, to collaborate on a mapping project with their partners in a central Lima community called Canta Gallo. Escuelab's work, led by Barcelona artist Daniel Miracle, consisted of a series of animation, filmmaking, and live television broadcasting with a Canta Gallo artist collective known as Shuawa. Canta Gallo is a community of Amazonian Shipibo who have invaded a plot of land along the bank of the Rimac river; a breathtaking site in the center of metropolitan Lima. Made up of several distinct groups, the settlement comprises Shipibo and mixed heritage members who did not move to the site together, but have slowly migrated from around Lima. They have spent the last 10 years seeking legal title to the land, and different factions are at different points in the process. 
+It soon seemed as if `word was getting out' about our mapping efforts, as we were soon invited by Lima-based art, technology, and society foundation Escuelab, to collaborate on a mapping project with their partners in a central Lima community called Canta Gallo. Escuelab's work, led by Barcelona artist Daniel Miracle, consisted of a series of animation, filmmaking, and live television broadcasting with a Canta Gallo artist collective known as Shuawa\footnote{An interesting choice of names given that Shuawa is the name of the bird from Shipibo legend which links `maestros' in a kind of global communications network. Members of Esceulab referred to it as the `satellite bird'.}. Canta Gallo is a community of Amazonian Shipibo who have invaded a plot of land along the bank of the Rimac river; a breathtaking site in the center of metropolitan Lima. Made up of several distinct groups, the settlement comprises Shipibo and mixed heritage members who did not move to the site together, but have slowly migrated from around Lima. They have spent the last 10 years seeking legal title to the land, and different factions are at different points in the process. 
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/canta-gallo-setame.jpg}
-		The standard street map of Lima shows only a vacant lot owned by the city's roads administration, SETAME. The reality is a community of hundreds of people who have sought legal title for the last 10 years. 
+		\caption{The standard street map of Lima shows only a vacant lot owned by the city's roads administration, SETAME. The reality is a community of hundreds of people who have sought legal title for the last 10 years.} 
 	\end{flushright}
 \end{wrapfigure}
 
+The group we began working with was situated on a large hill of rubble -- a landfill which leaked methane and around which residents had strewn concrete blocks to stop further dumping. Despite their difficult situation, the settlement seemed cheerful and was brightly painted with murals. An electric guitar and keyboard played in a local hangout, while posters on the communal meeting house indicated each family's dues toward land registration fees. 
 
+In the midst of this, Escuelab had sought to establish a more neutral space by working with local artists to develop a series of arts workshops and activities for the children of Canta Gallo. Based from a state-funded school in the settlement, Daniel Miracle and others collaborated with residents such as Layner Mori to lead students in the production of digital films, animations, and incredibly, a live broadcasting news show (in the Shipibo language, no less) using a low-cost analog television transmitter. Escuelab's interests tended towards the political, as evidenced by their engagement in Shipibo/Spanish langauge issues amongst their students\footnote{The desire of some families to preserve the Shipibo language and others to raise their children with only the Castilian Spanish language was one facet of a larger ethnic division between full-blooded Shipibo and mixed-heritage members of the community. See also Zavala and Bariola's study of Cantagallo in `Enra kopiai, non kopiai: Gender, ethnicity, and language use in a Shipibo community in Lima'.\cite{bariola2008gender}}, as well as their close attention and sensitivity to the complex tenure situation and other sources of tension. However, their preference for an implicit treatment of these topics and their exploration through educational and artistic works was well matched with my own approach.
 
-            - Escuelab sought political neutrality, but obviously interested in political situations: ex: shipibo language
-            - Drawing exercises
-                - 'amazon' home vs current home
-                - non-literal mapping - related to issues of veracity re: Wherecamp sugg. of children mapping with stickers
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/canta-gallo-drawn-map.jpg}
+		\caption{Paper map-making activities with children in Canta Gallo, Lima}
+	\end{flushright}
+\end{wrapfigure}
+
+On my first day in Canta Gallo, we repeated some of the exercises I had used in Juan Pablo II, though in a shorter format. With help from Layner, we drew a large map of the settlement in rough outlines, and asked the students to draw their homes and place them on the map. The group, aged 6-12 and approximately 20 in number, produced a quantity of highly detailed drawings, though some students drew two or even three copies of their houses. One student drew one picture of his home in Canta Gallo and a second of his home in `la selva' -- presumably the home in the Amazonian region of Peru from which he had moved to Lima. While the non-literal nature of this kind of mapping presents challenges for data veracity, it is clear that children can produce a wealth of physical, historical, and culturally relevant detail, and I caution map-makers not to sacrifice this in favor of purely quantifiable information. 
+
 \subsubsection{Flying balloons with Cantagallo}
-- fastest yet
-                - total images
-                - usage of hugin/SIFT/Photoshop
-	- ``De hecho hasta ahora no hay uno mejor que el tuyo. En los demás mapas simplemente Canta Gallo no existe." - Helder Solari, one of the activists participating in the Escuelab/Canta Gallo collaboration
 
-\subsubsection{Lower Cantagallo and local geographic dispute}
-            - Escuelab and Sara/CEDRO
-	- two cantagallos (three?)
-            - Sr. Ricardo - possible political engagement/entanglement
-            - entry into SETAME site; playfulness seen as neutrality? Or just no resistance at low levels to mapping activity?
-                - not perceived as claim-related?
+After our sketching activities, we attempted to fly kites, as there was a light breeze. While the students were very assiduous and talented kite flyers, we eventually opted for a balloon flight, which resulted in a complete imaging of the settlement in less than two hours, from about 400 feet. To attempt a faster and more automated stitching technique, I used the open source program \textbf{hugin} and the \textbf{Autopano-SIFT} algorithm to stitch the images together, and overlaid the result on existing Google Maps imagery as well as a copy of the settlement boundaries supplied by one of the community leaders. This was our fastest time yet for the completion of a map, and was the first map -- of any kind -- of the settlement. 
+
+\begin{figure}[h]
+  \begin{center}
+	\includegraphics[width=1\textwidth]{images/cantagallo-initial.jpg}
+	\caption{A balloon map of Canta Gallo, produced with Shuawa, Escuelab, and Carla del Carpio. The map is overlaid on the existing Google Maps imagery for comparison, and also includes the settlement boundaries, taken from a printed copy contributed by community leaders.}
+  \end{center}
+\end{figure}
+
+\subsubsection{The rest of Canta Gallo and local geographic dispute}
+
+Following the completion of the initial map of Canta Gallo, Sara Gomez of CEDRO suggested that we attempt to map the adjacent settlement, which I was surprised to find was also part of Canta Gallo. Collaborating again with Daniel Miracle and Escuelab, we met with Sr. Ricardo, the leader of the lower part of Canta Gallo and spent a day mapping that area as well. I worked with Layner Mori using Photoshop to stitch the resulting imagery over a map supplied by Sr. Ricardo, and we printed a paper copy. In a discussion with Sara, Layner, and Daniel, we decided to combine the two maps -- which showed some overlap -- and distribute the combined map. 
+
+\begin{figure}[h]
+  \begin{center}
+	\includegraphics[width=1\textwidth]{images/cantagallo-combined.jpg}
+	\caption{A balloon kite map of all of Canta Gallo, produced with Shuawa, Escuelab, Sara Gomez, Carla del Carpio, and residents of Canta Gallo. The map is overlaid on the existing Google Maps imagery for comparison, and also includes printed maps contributed by community leaders. Note that a small area is missing; unfortunately the balloons popped near the end of the day and we lacked enough helium to continue.}
+  \end{center}
+\end{figure}
+
+Producing a combined map was a potentially controversial decision, as the two settlements were experiencing some tension due to both ethnic and territorial issues. The lower settlement, spread over a much flatter and larger area, was presumably further advanced in its bid for land title, as they had a surveyed map with well-defined plots, whereas the upper settlement with whom we had first worked had only a map of its outer boundaries. However, in an attempt to avoid involving ourselves in local political issues, we deemed it more fair to provide maps and mapping tools to both communities equally. In retrospect, I feel that to attempt to position ourselves as neutral parties may have been misguided, as producing maps and teaching map-making workshops are by no means a neutral acts. However, I do believe that providing open access to these tools and techniques, as well as to the geographic information they can produce, is a positive goal. One aspect of maps which I value highly is their ability to reconcile differing mental models of a geography, and to make explicit the differences between those models. My hope is that we helped to do so in an inclusive manner. 
+
+\begin{table}[tp] 
+\caption{Comparison of maps produced in January 2010 project in Lima, Peru with those available in Google Maps for same period.} 
+
+\label{aggiungi}\centering %
+\rowcolors{1}{tableShade}{white}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{>{\bfseries}rYYY}
+\toprule\hiderowcolors
+Site&Criteria&Grassroots Mapping&Google Maps&Percent change\\\otoprule\showrowcolors
+Juan Pablo II&Resolution&&&\\
+&Recency&&&\\
+&Roof count&107&66&+62\%\\\hline
+San Ignacio Loyola&Resolution&&&\\
+&Recency&&&\\
+&Roof count&&&\\\hline
+Canta Gallo&Resolution&29cm&7cm&411\%\\
+&Recency&&&\\
+&Roof count&&&\\
+\bottomrule
+\end{tabularx}
+\end{table}
 
 \subsection{Evaluation}
+
+Any comprehensive evaluation of the map-making work I and my local partners performed would need to include a long-term examination of the maps' uses; legal, urban planning, educational, and political applications were among our hopes, but many of these processes occur on a timeline of years or even decades. Still, in the half year since their creation, the maps of Canta Gallo have been used for subsequent projects by Shuawa, and Helder Solari, one of the activists involved in the original map-making, asserts that `in fact even now there is none better than yours. In other maps Canta Gallo simply doesn't exist.' While I look forward to hearing of as well as advocating further uses of these maps, the immediate evaluation I can attempt will have to rely upon the maps' reception among participating community members and in the qualitative and quantitative measures which can be made today.
+
+On a resolution basis, these maps are far superior to any which have been made before (see Figure X). However their most important quantitative advantage is in their recency; in comparison, those available on Google Maps are hopelessly obsolete, sometimes showing only a small percentage of the buildings which exist today.
+
+Due to the distinct compromises of each technique, I recommend that those attempting to capture aerial imagery equip themselves for both scenarios. Luckily, the techniques share much of the same equipment, and it is possible in many places in the world to assemble a basic but complete kit for under \$150. I have done so in surprisingly unlikely locales, such as the West Bank in Palestine, Lima, Peru, and Kutaisi, Georgia. 
+
+Illustration of `complete kit'
+
+\subsection{Balloon mapping}
+
+Helium is a limited and non-renewable resource, and obtaining it in the quantities necessary for aerial photography can prove challenging in the more remote parts of the world. 250 cubic foot tanks are most common, but are too heavy to carry without a wheeled dolly, and do not easily fit into cars or buses. They are also excessive, providing enough helium for between six and ten flights with a typical payload. If available, 80 or 120 cubic foot tanks are preferable, typically available in the United States for approximately \$45 and \$60, respectively. Those constructed from aluminum are especially convenient, being far lighter and easier to transport. Costs vary, depending on the distance from major helium sources such as the United States and Russia, but I have found large, 250 cubic foot tanks available for rental at approximately \$250 each in Bethlehem, in the West Bank, and for approximately \$300 in Lima, Peru, both at party stores. Gas supply vendors may offer somewhat lower prices, but sometimes require a permanent customer account, and can be reluctant to rent to non-industrial customers. 
+
+Illustration: Tetrahedral balloon instructions
+
+To further reduce costs, it is possible to use large high density polyethelene trash bags, of the kind typical worldwide. Two extra-large ninety-nine gallon bags suffice to lift a small camera and string to thousands of feet. Bags may be sealed shut with tape and filled without modification, or cut open and reassembled into tetrahedral shapes to minimize the surface area to volume ratio, providing greater lift. In addition, trash bags may be left inflated for several days without stretching or damaging the plastic, unlike latex balloons. However, helium leaks slowly through the plastic, and even relatively thick 2.7 mil plastic bags will lose most of their lifting power after a day or two. Trash bags are available for less than a dollar anywhere in the world, as is the clear plastic packing tape which may be used to seal them closed.  
+
+Illustration of 3 types durability/cost comparison
+
+Shannon's quote about `80\% kites'
+
+\subsection{Kite mapping}
+
+Table of kite pros/cons: Flowform, locally produced, portability, Sled on a Thread
+ 
+
 - based on criteria
         - Interviews!!!!!!! transcribe them
+
+
+
         - Applications of maps we made
             - legal role
             - import to OSM?
             - World Bank mandate to map every home? do we support that goal?
             - education, urban planning, NGO planning support, demonstration project
+
 \subsection{Needs (Re)assessment}
+
 - Goals for a true 'pilot' that goes beyond information gathering and use of existing State of the art tools
    - planning of new, easier interfaces and techniques
                 - Map Warper difficulties, speed
             - discussion and 'designing with' leading to Cartagen Knitter (see later discussion)
 		- http://en.wikipedia.org/wiki/Rubbersheeting
             - needs assessment - user-centric design, appropriate design
+
+
     - Possibility of mapping a fast-changing community
         History/future assignments make explicit the value of mapping as an activity
 
@@ -1233,6 +1309,6 @@ Lots of work by Proboscis: \href{http://urbantapestries.net/}{Social Tapestries/
 
 \chapter*{License}
 
-This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by/3.0/} or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
 
 \end{document}
