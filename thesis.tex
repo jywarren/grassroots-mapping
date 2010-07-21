@@ -158,38 +158,54 @@ One common sentiment often heard in contemporary map literature is that the eart
 	\end{flushright}
 \end{wrapfigure}
 
-Illustration: Cities in Georgia, or Cameroon, or Bhagalpur, India.
-
-This of course sidesteps the fact that an aerial image does not a map make -- in order to take advantage of the many applications of geographic data, vector maps, with labels, metadata, and routable relations must exist. These are almost entirely absent from many areas of the world (see Chapter \ref{chap:need}). However, the fantasy that we have 'finished' is relevant to the attitudes....
-
-A fictional version of this fantasy is mentioned in Lewis Carroll's \textbf{Sylvie and Bruno Concluded} on page 169. ... 'a mile to the mile!'
-'So we now use the country itself, as its own map, and I assure you it does nearly as well.' p.169
-
-This idea was later elaborated in a short story by Jorge Luis Borges and Adolfo Bioy Casares, called On Exactitude in Science:
-
-\begin{quote}
-...In that Empire, the craft of Cartography attained such Perfection that the Map of a Single province covered the space of an entire City, and the Map of the Empire itself an entire Province. In the course of Time, these Extensive maps were found somehow wanting, and so the College of Cartographers evolved a Map of the Empire that was of the same Scale as the Empire and that coincided with it point for point. Less attentive to the Study of Cartography, succeeding Generations came to judge a map of such Magnitude cumbersome, and, not without Irreverence, they abandoned it to the Rigours of sun and Rain. In the western Deserts, tattered Fragments of the Map are still to be found, Sheltering an occasional Beast or beggar; in the whole Nation, no other relic is left of the Discipline of Geography.
-\cite{borges1946exactitude}
-\end{quote}
-
-Did I write this: The idea that maps accurately, or even completely depict a location is not entertained in a literal sense, yet amongst
-
-Critique of quantitative GIS - Marianna Pavlovskaya, Non-Quantitative GIS, Qualitative GIS
-
-GroundTruth; B'Tselem, -- mapping contested land
-
-% Title: UK Motorways 100% Complete
-% I'm pleased to announce that the main carriageways of all mainland UK motorways have been completed.  Over 3,000 km of roadway.
-% Etienne Cherdlu Sat Jan 7 10:45:05 UTC 2006
+This of course sidesteps the fact that an aerial image does not a map make -- that is to say, in order to take advantage of the many applications of geographic data, vector maps which geometrically and semantically describe features must exist, including labels, tags, metadata, and even parseable relations -- from which driving routes may be calculated. These are almost entirely absent from many areas of the world (see Chapter \ref{chap:need}). Amongst cartographers, the idea that maps accurately, or even completely depict a location is not entertained in a literal sense, yet there persists a sense that complete maps are possible. Within certain realms, communities such as OpenStreetMap have declared completion, as in an email by Etienne Cherdlu to the project's developer mailing list in 2006, entitled `UK Motorways 100\% Complete': \begin{quote}I'm pleased to announce that the main carriageways of all mainland UK motorways have been completed. Over 3,000 km of roadway.\end{quote}
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/osm-missing-parts.png}
-	\caption{\url{http://www.reedhome.org.uk/Documents/osmembed.html?kml=KML/osmcategory.kml}}
+	\caption{A map depicting all `incomplete' areas of OpenStreetMap in the UK. (\url{http://www.reedhome.org.uk/Documents/osmembed.html?kml=KML/osmcategory.kml})}
 	\end{flushright}
 \end{wrapfigure}
 
-Chris Anderson 
+Still, OpenStreetMap's tagline describes the project as an 'editable map of the whole world', and the scope of the project is growing. The inclusion of increasingly subjective data has transformed the project, from road conditions to contested political boundaries such as the borders of Palestine or the existence of Western Sahara as a sovereign nation, to the possibilities of including indoor features such as rooms and hallways. Yet the premise of mapping the entire planet should remain an obvious fantasy; in fact, the fiction of such a complete map has been explored by several authors, most notably in a short story by Jorge Luis Borges and Adolfo Bioy Casares, called `On Exactitude in Science':
+
+\begin{quote}
+...In that Empire, the craft of Cartography attained such Perfection that the Map of a Single province covered the space of an entire City, and the Map of the Empire itself an entire Province. In the course of Time, these Extensive maps were found somehow wanting, and so the College of Cartographers evolved a Map of the Empire that was of the same Scale as the Empire and that coincided with it point for point. Less attentive to the Study of Cartography, succeeding Generations came to judge a map of such Magnitude cumbersome, and, not without Irreverence, they abandoned it to the Rigours of sun and Rain. In the western Deserts, tattered Fragments of the Map are still to be found, Sheltering an occasional Beast or beggar; in the whole Nation, no other relic is left of the Discipline of Geography.
+\cite{borges1946exactitude} \footnote{The idea of a 1:1 map of a whole country was originally mentioned in Lewis Carroll's novel \textbf{Sylvie and Bruno Concluded}.} 
+\end{quote}
+
+Beyond the technical impossibility of total mapping lies the trend towards increasingly individualistic, subjective, and divergent models of the world, which inevitably occur as maps become more universal and more detailed. Rather than pursuing the goal of a single canonical representation of the planet and all of its conflicting interpretations, participatory map-making should embrace diversity, and allow separate but related data stores. \footnote{My belief in the value of a divergent paradigm for digital mapmaking was also the impetus for my development of the Cartagen web mapping framework, which shifts the interpretation and rendering of map feature data to the client side (rather than generating a single canonical server-side rendering), allowing for endless variety of representation.} 
+
+\subsection{Privacy and mapping, privacy and open geodata}
+
+Privacy is of course yet another reason to shy away from total mapping. Indeed, for any publicly available map to include such details as the positioning of my coffee table or wifi router \footnote{A discussion of Google's collection of WiFi data can be found here: \url{http://bits.blogs.nytimes.com/2010/05/14/google-admits-to-snooping-on-personal-data/}} offers a more clear view into my personal space than I care to allow. The further Google Street View and similar services invade that space, the more many people feel uncomfortable with such cartographic enthusiasm. On the other hand, there is a considerbly different meaning to the ability to make maps for oneself as analytic tools, or to publish selective geographic information to a specific audience.  
+
+This is one of the most difficult aspects of participatory map-making, in that I am often asked questions such as, `Why would a community allow you to come take aerial pictures of them?' A fair question, but one which misunderstands what I do. My work is intended to teach and assist communities and individuals in mapping themselves, and to make good choices about how to publish the resulting information -- if at all. The maps I have published here are ones for which I have requested specific permission to reproduce for purposes of education and research, and the decision of a community to publish their work is one which I am very cautious to encourage, as another question I am asked is, `Isn't mapping just a means for the state to exert influence and control over geography?' 
+
+\subsection{Mapping: a tool of empowerment or control?}
+
+The idea that map-making is a kind of cartographic rapine of the most vulnerable places and people on the planet is a valid fear, however it is based on a relatively one-sided reading of history. Maps can just as effectively be used to defend as to conquer, as a wide variety of cartographic activists have demonstrated. B'Tselem, a progressive Israeli human rights group based in Jerusalem, has used maps of Israeli settlements in the West Bank to further their the critique of those settlements as the illegal annexation of land. Jai Sen, a political organizer in Calcutta in the 1980's, used maps of urban slums as a form of testimony, effectively proving that people lived on the land before authorities bulldozed it and claimed that it was uninhabited from the start. 
+
+GroundTruth, a project by Josh Levinger, published narratives by victims of the 2008 war in Gaza, linking the cartographic representation(one reason for the conflict) with the human stories and images it caused. For the same conflict, Mikel Maron  
+
+\begin{quote}
+...it's frankly the same security through obscurity argument peddled for centuries, brought out most recently in Mumbai, a strategy on the verge of finally dissolving in a world of openness and transparency. The IDF access to much better intelligence and imagery than we'd ever have, they fly drones over Gaza, there's a 2m resolution commercial limit in all satellite imagery over Israel — guess who gets to see the sub-meter imagery? Gazans have nothing to gain by trying keep secrets, the asymmetry of that game is overwhelmingly not in their favor.\cite{maron2009misconceptions}
+\end{quote}
+
+\begin{quote}
+In general, I view these edge cases as a question of power. Hiding information protects those already in power, but not those that are already marginalized. Legitimate cases to me is only information that puts dis-empowered people at risk, such as refugee routes along the Burmese-Indian border.\cite{maron2010freedom}
+\end{quote}
+
+Evgeny Morozov, "How dictators watch us on the web" - \url{http://www.prospectmagazine.co.uk/2009/11/how-dictators-watch-us-on-the-web/}
+\url{http://irevolution.wordpress.com/2010/01/07/morozov-vs-shirky/} (Patrick Meier)
+
+It is easy for activist cartographers who do not live in a community to advocate the use of tools which may put that community at risk.
+
+"empowerment":(great article on definitions for empowerment and framework for discussing empowerment in the PGIS context)
+
+Corbett, Jon M., and C. Peter Keller. 2005. An Analytical Framework to Examine Empowerment Associated with Participatory Geographic Information Systems (PGIS). Cartographica 40 (4):91-102.
+Critique of quantitative GIS - Marianna Pavlovskaya, Non-Quantitative GIS, Qualitative GIS
+
 
 %We often imagine 'complete maps'
 % Epistomology and mapping: maps are a form of technology, and of power      
@@ -340,25 +356,6 @@ Brief outline of fulfilled needs: chambers-who-empowered-disempowered-gains-lose
 %            - graph of informal settlement percentages
 %        - COFOPRI
 
-\subsection{Mapping: a tool of empowerment or control?}
-
-\begin{quote}
-...it's frankly the same security through obscurity argument peddled for centuries, brought out most recently in Mumbai, a strategy on the verge of finally dissolving in a world of openness and transparency. The IDF access to much better intelligence and imagery than we'd ever have, they fly drones over Gaza, there's a 2m resolution commercial limit in all satellite imagery over Israel — guess who gets to see the sub-meter imagery? Gazans have nothing to gain by trying keep secrets, the asymmetry of that game is overwhelmingly not in their favor.\cite{maron2009misconceptions}
-\end{quote}
-
-\begin{quote}
-In general, I view these edge cases as a question of power. Hiding information protects those already in power, but not those that are already marginalized. Legitimate cases to me is only information that puts dis-empowered people at risk, such as refugee routes along the Burmese-Indian border.\cite{maron2010freedom}
-\end{quote}
-
-Evgeny Morozov, "How dictators watch us on the web" - \url{http://www.prospectmagazine.co.uk/2009/11/how-dictators-watch-us-on-the-web/}
-\url{http://irevolution.wordpress.com/2010/01/07/morozov-vs-shirky/} (Patrick Meier)
-
-many criticisms may represent limited experience mapping... circular?
-It is easy for activist cartographers who do not live in a community to advocate the use of tools which may put that community at risk.
-
-"empowerment":(great article on definitions for empowerment and framework for discussing empowerment in the PGIS context)
-
-Corbett, Jon M., and C. Peter Keller. 2005. An Analytical Framework to Examine Empowerment Associated with Participatory Geographic Information Systems (PGIS). Cartographica 40 (4):91-102.
 
 \section{Environmental assessment}
 
