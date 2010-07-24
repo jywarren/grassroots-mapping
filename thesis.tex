@@ -7,9 +7,10 @@
             pdfkeywords={Cartography},
             pdfproducer={Latex with hyperref},
             pdfcreator={pdflatex,colorlinks}]{hyperref}
-\usepackage{graphicx,wrapfig,color,pdfcomment,booktabs,ctable,textcomp,tabularx,array}
+\usepackage{graphicx,wrapfig,color,pdfcomment,booktabs,ctable,textcomp,tabularx,array,acronym}
 \usepackage[table]{xcolor}
 \usepackage[hang,small,bf,margin=0.5cm,tableposition=top]{caption}
+\usepackage[ragged]{footmisc}
 \newcommand{\otoprule}{\midrule[\heavyrulewidth]}
 \definecolor{linkblue}{rgb}{0.2,0.2,1}
 \hypersetup{colorlinks=true,
@@ -48,7 +49,7 @@ The core of the Grassroots Mapping project is the \textbf{application} of a nove
 
 \subsection{Grassroots Mapping as Pedagogy}
 
-To make this widespread adoption possible, the project also evolved to include a variety of teaching materials, printed guides, online videos, and workshops, both by the author and by the diverse collaborators who took ownership of the tools. These materials spanned a broad range of audiences, from 10-15 year old Spanish-speaking students to environmental activists in West Virginia and Kentucky. 
+To make this widespread adoption possible, the project also evolved to include a variety of teaching materials, printed guides, online videos, and workshops, both by the author and by the diverse collaborators who took ownership of the tools. These materials spanned a broad range of audiences, from 10-15 year olds in Lima, Peru to environmental activists in West Virginia and Kentucky. 
 
 This documentation evolved as the author collaborated with and instructed participants in dozens of workshops over the past year. These occurred in diverse contexts, from a two week high school workshop at Beaver Country Day School in Chestnut Hill, outside of Boston, to an hour-long teaching session in City Park, New Orleans, for volunteers mapping the April 2010 BP Oil Spill. 
 
@@ -62,54 +63,33 @@ Building tools is unlike developing more abstract technologies in that to be suc
 
 \subsection{Audience}
 
-The tools developed as part of the Grassroots Mapping project address the needs of both committed enthusiasts who need powerful and efficient mapping technology, as well as those who have little experience and expertise but need simple and direct tools to make maps. Therefore, some of the tools, while being simple to use, are intended for 'power users' or those technically fluent in writing and editing code. The Cartagen framework falls under this category. Other tools, such as the balloon- and kite-based platforms for capturing aerial imagery, are intended for a wider audience, as is the Cartagen Knitter, a specific use of the Cartagen framework. A description of the various tools follows.
+The tools developed as part of the Grassroots Mapping project address the needs of both committed enthusiasts who need powerful and efficient mapping technology, as well as those who have little experience and expertise but need simple and direct tools to make maps. Therefore, some of the tools, while being simple to use, are intended for `power users' or those technically fluent in writing and editing code. The Cartagen framework falls under this category. Other tools, such as the balloon and kite platforms for capturing aerial imagery, are intended for a wider audience, as is the Cartagen Knitter, a specific use of the Cartagen framework. A description of the various tools follows.
 
-\subsection{Software}
+\subsection{Overview}
 
-\subsubsection{Interfaces for participatory cartography}
+The Grassroots Mapping Kit can be used to capture original aerial imagery, process and stitch the results, and publish digital and print maps. This section focuses on the framing, intent, and audience of the necessary tools. A technical discussion of the tools can be found in Chapter \ref{chap:toolchain}. 
 
-This section focuses on the framing, intent, and audience of the tools. A technical discussion of the tools can be found in Chapter \ref{chap:toolchain}. 
+Briefly, map-makers visit the site they intend to map, bringing with them a kite, a balloon, a helium tank, a digital camera, and a minimum of 200 meters of string, along with an assortment of other materials. Attaching the camera to the tethered balloon or kite, they capture imagery by setting the camera to automatically take pictures at a 1-10 second cycle and raising it to between 200 and 2000 meters in altitude. The map-makers reel in the tether to recover the imagery and, retiring to a web-enabled computer, upload the best imagery to the Cartagen Knitter web site.\footnote{\url{http://cartagen.org/maps/}} There they create a new online map, and using either OpenStreetMap vector data or a tiled map base layer for reference, each imagery is orthorectified. The resulting map can be embedded in another website for online viewing, exported as a \ac{TMS} service, or printed from a \ac{GeoTIFF}, depending on the intended use. 
 
-\subsubsection{The Cartagen framework}
-\subsubsection*{Rendering architecture}
-\subsection{Hardware}
-\subsubsection{Balloon Aerial Photography}
-\subsubsection{Photography from Kites and Unmanned Aerial Vehicles}
-\subsection{Practice, Community, Support structure}
-\subsubsection{GrassrootsMapping.org}
-\subsubsection*{The Grassroots Mapping Wiki}
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/100-dollar-satellite-poster.jpg}
-	\end{flushright}
-\end{wrapfigure}
-
-\subsubsection*{Printed guides and support materials}
-\subsubsection*{Curricular guides and teaching notes}
-
-\subsubsection*{Documentation, case studies, Grassroots Map Collection}
-\subsubsection*{The Grassroots Mapping community and mailing list}
-\section{Novel Contributions}
-\subsection{Novel application of low-cost tools to well-established need for raster imagery}
-%\pdfcomment{do we discuss existing systems here? no, just mention paradigms of tiles, reference later section}
-
-\subsection{Novel approaches to map rendering}
-\subsection{Central merit: technology or culture?}
-%both, duh: technology is only relevant in a context, and I make no attempt to separate this technology from its intended sociopolitical meaning
+The Grassroots Mapping Kit and associated techniques are thoroughly documented at the project wiki, at \url{http://wiki.grassrootsmapping.org}, and additional support and discussion is available at the project mailing list and blog, which can be found at \url{http://grassrootsmapping.org} along with extensive documentation of past and in-progress mapping efforts around the world. Printed documentation is also available in the form of available in the form of a 5-page illustrated guide and several checklists designed to accompany each kit.\footnote{See \ref{sec:guide}}
 
 \chapter{Subjectivity in Mapping}
 
-% text here, why is this chapter necessary:
-
 The need for a more participatory cartography is predicated on the exclusion of many from the practice of map-making as it stands today. Even more importantly, it depends on the point of view that mapping is an inherently non-neutral practice, and that for maps to serve wider and more democratic interests, it must accommodate diverse viewpoints. Maps serve interests, and understanding their role not as documentation of what makes up the world, but as rhetorical, tactical, and \emph{subjective} tools is an important prerequisite to what this document argues.
 
-\section{Revising cartography: Neogeographers, Psychogeographers, and GIS}
+\section{Revising cartography: Neogeographers, radical cartographers, and GIS}
 
-A brief description of three distinct groups of practitioners is worthwhile, as each embodies a distinct conception of mapmaking. Each new 'generation' of mapmakers and mapping tools has positioned itself as a challenge to existing forms of cartography, and as such, the following will help to situate Grassroots Mapping and the Cartagen framework as another successive attempt to broaden participation and reconceptualize the practice. 
+A brief description of three distinct groups of practitioners is worthwhile, as each embodies a distinct conception of mapmaking. Each new `generation' of mapmakers and mapping tools has positioned itself as a challenge to existing forms of cartography, and as such, the following will help to situate Grassroots Mapping and the Cartagen framework as another successive attempt to broaden participation and reconceptualize the practice. 
 
-\subsection{Psychogeography}
+\subsection{Radical cartography}
 
-Today, a variety of artists identify with the psychogeography movement, and continue to advance a contemporary take on the practice with new digital tools. These artists have in many cases successfully appropriated or even subverted geographic tools for a variety of causes. 
+A growing movement toward a cartographically literate art practice has emerged which seeks to use cartographic tools and attitudes in a critical and activist manner. Some groups, such as Proboscis, take explicit inspiration from Guy Debord's psychogeographic movement of the 1950s. Others such as the Center for Urban Pedagogy, use map-making as a means to explore social and environmental ills in a participatory manner. What these practitioners have in common is that they have begun to appropriate tools and techniques from professional cartography, but to apply them towards new, and often more socially and politically engaged ends. 
+
+Artists such as  
+
+Proboscis in particular has produced a number of works with urban communities with the goal 
+
+These works take the form of map-making activities, both on paper and using mobile phones, and focus on recording the historical narratives of participants while relating the stories to geographic positions and routes. Proboscis uses the term `bodystorming' to describe their methodology, wherein `the transformation of abstract ideas and concepts into physical experiences, a tactile approach allowing us to investigate different qualities that ideas may have when applied to physical settings – part of a dynamic and continuous process of trial and error.' \url{http://research.urbantapestries.net/bodystorming.html} 
 
 Examples from Radical Cartography and Experimental Cartography -- Proboscis, bodystorming, maps of indian territories, CUP, Sarai 
 
@@ -189,7 +169,7 @@ The idea that map-making is a kind of cartographic harvesting of the most vulner
 VirtualGaza, a project by Josh Levinger, published narratives by victims of the 2008 war in Gaza, linking the cartographic representation(one reason for the conflict) with the human stories and images it caused. The OpenLayers-based map, available at \url{http://virtualgaza.media.mit.edu}, protected participants' locations by purposely categorizing them by region instead of displaying more precise coordinates. Levinger's second project in the area, GroundTruth, demonstrated a routing algorithm which could, given a user's legal status, create a travel plan which would avoid IDF checkpoints, actively seeking to disrupt the balance of power in the region by using cartographic information.\footnote{The routing system was disabled when it became clear that up-to-date checkpoint information was unavailable, and that users might be presented with obsolete data.} Other cartographers have during the same conflict in Gaza, Mikel Maron defended his work towards the participatory creation of a free and open map of Gaza:  
 
 \begin{quote}
-...it's frankly the same security through obscurity argument peddled for centuries, brought out most recently in Mumbai, a strategy on the verge of finally dissolving in a world of openness and transparency. The IDF access to much better intelligence and imagery than we'd ever have, they fly drones over Gaza, there's a 2m resolution commercial limit in all satellite imagery over Israel — guess who gets to see the sub-meter imagery? Gazans have nothing to gain by trying keep secrets, the asymmetry of that game is overwhelmingly not in their favor.\cite{maron2009misconceptions}
+...it's frankly the same security through obscurity argument peddled for centuries... a strategy on the verge of finally dissolving in a world of openness and transparency. The IDF access to much better intelligence and imagery than we'd ever have, they fly drones over Gaza, there's a 2m resolution commercial limit in all satellite imagery over Israel — guess who gets to see the sub-meter imagery? Gazans have nothing to gain by trying keep secrets, the asymmetry of that game is overwhelmingly not in their favor.\cite{maron2009misconceptions}
 \end{quote}
 
 Maron later refined his position to except certain highly vulnerable groups \footnote{See Section \ref{sec:ethics} for a discussion of PGIS ethics}:
@@ -198,31 +178,21 @@ Maron later refined his position to except certain highly vulnerable groups \foo
 In general, I view these edge cases as a question of power. Hiding information protects those already in power, but not those that are already marginalized. Legitimate cases to me is only information that puts dis-empowered people at risk, such as refugee routes along the Burmese-Indian border.\cite{maron2010freedom}
 \end{quote}
 
-However the gist of his argument is sound -- that cartography is necessarily a losing game only for those who are unable to participate in its creation. Those who are unable to communicate in the relevant cartographic language of power -- be it GeoJSON, TMS or just paper -- never even know they are being mapped, or what that might mean for their well being or safety.\footnote{A common criticism by PGIS practitioners of so-called `remote sensing'. See Section \ref{subsec:pgis}}
+However the gist of his argument is sound -- that cartography is necessarily a losing game only for those who are unable to participate in its creation. Those who are unable to communicate in the relevant cartographic language of power -- be it GeoJSON, \ac{TMS} or just paper -- never even know they are being mapped, or what that might mean for their well being or safety.\footnote{A common criticism by PGIS practitioners of so-called `remote sensing'. See Section \ref{subsec:pgis}} In some ways, this is a subset of the debate championed by Evgeny Morozov, Clay Shirky, and Patrick Meier\footnote{See \url{http://www.prospectmagazine.co.uk/2009/11/how-dictators-watch-us-on-the-web/} for the Morozov/Shirky debate, and \url{http://irevolution.wordpress.com/2010/01/07/morozov-vs-shirky/} for Patrick Meier's analysis.} over whether new media is a force for democracy, or at least whether it supports `popular resistance against repressive rule' as Meier puts it.\cite{meier2010popular} Morozov even mentions mapping repeatedly, for example when he ridicules the sappiest anecdotes of the technological freedom fighters: 
+ 
+\begin{quote}
+...Burmese monks defying an evil junta with digital cameras; Filipino teenagers using SMS to create a “textual revolution;” Egyptian activists using encryption to hide from the all-seeing-eye of the Mukhabarat; even Brazilian ecologists using Google maps to show deforestation in the Amazon delta. \cite{morozov2009dictators}
+\end{quote}
 
-Evgeny Morozov, "How dictators watch us on the web" - \url{http://www.prospectmagazine.co.uk/2009/11/how-dictators-watch-us-on-the-web/}
-\url{http://irevolution.wordpress.com/2010/01/07/morozov-vs-shirky/} (Patrick Meier)
+In Morozov's opinion, the belief that such technologies can disrupt power relations `...requires certainty that only pro-western and pro-democracy forces will participate.' His examples, though anecdotal, are sobering: `In Russia, the internet has given a boost to extreme right-wing groups like the Movement Against Illegal Immigration, which has been using Google Maps to visualise the location of ethnic minorities in Russian cities and encouraging its members to hound them out.' 
 
-It is easy for activist cartographers who do not live in a community to advocate the use of tools which may put that community at risk.
-
-"empowerment":(great article on definitions for empowerment and framework for discussing empowerment in the PGIS context)
+The problem with this debate is that it is too abstract. We cannot say universally that map-making (or any other technology) will support local needs over those of the state, but by working closely with local participants in a sensitive manner, we can invert the flow of information and affect power relations. Balloon and kite mapping is not a scalable technology -- it would be impractical for Google or governments to use these techniques to map entire countries. However it is well adapted for small-scale use, and has important advantages in cost, repeatability, resolution, and speed, in that context. My attempts to apply these tools and techniques have focused on these benefits, and in the specific settings in which I have worked, they have allowed local groups to produce better maps than anyone else, for a limited but \textbf{highly relevant} area. In a time when many in the crisis community were struggling to get large organizations such as Google, the United Nations, etc. to release satellite imagery\footnote{See Section \ref{subsec:satelliterelease}}, the Louisiana Bucket Brigade actually licensed map data to Google -- data gathered using Grassroots Mapping tools and techniques.\footnote{See Chapter \ref{chap:gulf}} 
 
 Corbett, Jon M., and C. Peter Keller. 2005. An Analytical Framework to Examine Empowerment Associated with Participatory Geographic Information Systems (PGIS). Cartographica 40 (4):91-102.
-Critique of quantitative GIS - Marianna Pavlovskaya, Non-Quantitative GIS, Qualitative GIS
 
+\section{Maps as truth}
 
-%We often imagine 'complete maps'
-% Epistomology and mapping: maps are a form of technology, and of power      
-%  - OSM reference to a 'complete map of UK'
-%        - Chris Anderson's Wired article of complete dataset
-% "At the petabyte scale, information is not a matter of simple three- and four-dimensional taxonomy and order but of dimensionally agnostic statistics. It calls for an entirely different approach, one that requires us to lose the tether of data as something that can be visualized in its totality. It forces us to view data mathematically first and establish a context for it later."
-% Read More http://www.wired.com/science/discoveries/magazine/16-07/pb_theory#ixzz0lTiRSTXp
-% rebuttal: http://www.edge.org/documents/archive/edge248.html#hillis
-\section{Maps as a 'window' onto the world}
-
-% essentially epistemological issue.
-
-For a variety of reasons, maps carry the weight of authority in a way that few other forms of evidence do; the main driver being the widely held belief that satellite or aerial maps are a kind of 'window' into the world. In photography the editorial role of the author is accepted, not to mention the damage which 'photoshopping' has inflicted on the perceived truth or even objectivity of the photographic image. Maps, however, continue to be taken as direct representations of reality, desipte the inherent subjectivity of image selection, color, brightness, and contrast processing, and the editorial eye necessary in reading and interpreting such imagery. 
+Maps carry a sense of authority that few other forms of evidence share. This is in part due to an understanding of satellite or aerial maps as a kind of `window into the world', depicting the planet `the way it really looks'. In photography, by contrast, the editorial and subjective role of the author is accepted, despite the damage which `photoshopping' has inflicted on the perceived truth or objectivity of the photographic image. Maps, however, continue to be taken as direct representations of reality, desipte the inherent subjectivity of image selection, color, brightness, and contrast processing, and the editorial eye necessary in reading and interpreting such imagery. 
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
@@ -235,14 +205,14 @@ The best example of this attitude is of course the use of relatively low resolut
 % citation http://www.un.org/apps/news/storyAr.asp?NewsID=6079&Cr=iraq&Cr1=inspect
 
 \begin{quote}
-``Let me say a word about satellite images before I show a couple. The photos that I am about to show you are sometimes hard for the average person to interpret, hard for me. The painstaking work of photo analysis takes experts with years and years of experience, pouring for hours and hours over light tables. But as I show you these images, I will try to capture and explain what they mean, what they indicate to our imagery specialists.
+`Let me say a word about satellite images before I show a couple. The photos that I am about to show you are sometimes hard for the average person to interpret, hard for me. The painstaking work of photo analysis takes experts with years and years of experience, pouring for hours and hours over light tables. But as I show you these images, I will try to capture and explain what they mean, what they indicate to our imagery specialists.
 
 ...
 
 How do I know that? How can I say that? Let me give you a closer look. Look at the image on the left. On the left is a close-up of one of the four chemical bunkers. The two arrows indicate the presence of sure signs that the bunkers are storing chemical munitions. The arrow at the top that says security points to a facility that is the signature item for this kind of bunker. Inside that facility are special guards and special equipment to monitor any leakage that might come out of the bunker.
 
-The truck you also see is a signature item. It's a decontamination vehicle in case something goes wrong."
-	\cite{guardian2003powell}
+The truck you also see is a signature item. It's a decontamination vehicle in case something goes wrong.'
+\cite{guardian2003powell}
 \end{quote}
 
 \begin{wrapfigure}{r}{0.5\textwidth}
@@ -259,11 +229,12 @@ The truck you also see is a signature item. It's a decontamination vehicle in ca
 	\cite{senate2004report}
 \end{quote} 
 
-% Fallacy!!! Wood, p. 20,21 - centimeter accuracy gives false impression of 'scientific accuracy' and completeness
-
 What is most alarming about this kind of rhetorical use of map imagery is that it represents a means for those in a position of power to assert truths about places they have never been, without the involvement of human testimony from those who have.
 
 This aspect of the public perception of maps as an objective, quantitative measure may have a relationship with the difficulty and expense of producing map imagery, and the traditional monopoly of government and high-tech industry in the production of such imagery.
+
+Critique of quantitative GIS - Marianna Pavlovskaya, Non-Quantitative GIS, Qualitative GIS
+% Fallacy!!! Wood, p. 20,21 - centimeter accuracy gives false impression of 'scientific accuracy' and completeness
 
 \section{Maps: rhetorical, even tactical}
 %        - Endless variety of possible data: Wood, Power of Maps, p.1
@@ -281,12 +252,13 @@ This aspect of the public perception of maps as an objective, quantitative measu
 
 In light of this reassessment of the political and social roles of maps and their production, some from the PGIS community have called for a code of ethics in participatory mapping projects. This seems especially prudent given that the production of maps can have dramatic effects on the residents of the mapped area. Giacomo Rambaldi, Robert Chambers, Mike McCall, and Jefferson Fox proposed in 2006 a set of 33 guidelines entitled "Practical ethics for PGIS practitioners, facilitators, technology intermediaries and researchers". The following is a sampling:
 
-\begin{quote}
-- Do your best to recognise that you are working with socially differentiated communities and that your presence will not be politically neutral
-- Consider using spatial information technologies that can be mastered by local people (or local technology intermediaries) after being provided sufficient training
-- Be considerate in taking peoples' time
-- Stimulate spatial learning and information generation rather than mere data extraction for outsider’s analysis and interpretation
-- Ensure that the outputs of the mapping process are understood by all those concerned
+\begin{quote}\begin{itemize}
+\item Do your best to recognise that you are working with socially differentiated communities and that your presence will not be politically neutral
+\item Consider using spatial information technologies that can be mastered by local people (or local technology intermediaries) after being provided sufficient training
+\item Be considerate in taking peoples' time
+\item Stimulate spatial learning and information generation rather than mere data extraction for outsider’s analysis and interpretation
+\item Ensure that the outputs of the mapping process are understood by all those concerned
+\end{itemize}
 \cite{rambaldi2006practical}
 \end{quote}
 
@@ -398,6 +370,7 @@ Ushahidi has been successfully used to gather and publish very up-to-date inform
 
 
 \subsubsection{Satellite imagery}
+\label{subsec:satelliterelease}
 
 Public access to up-to-date imagery of crisis areas has become something of a hot-button issue in crisis mapping circles, as those companies and agencies in control of the imagery do not always elect to release it, or to license it freely for any use. Whethe due to an unwillingness to offer expensive imagery for unrestricted use, or due to the administrative burden of actually offering such data for download under a permissive license, access to satellite imagery has become a frequent bottleneck for aid organizations. 
 
@@ -551,11 +524,11 @@ While there are a diverse range of approaches to participatory mapping, several 
 
 Perhaps the most ambitious project of this type is the Map Warper software written by Tim Waters, Schuyler Erle, and Shekhar Krishnan, as part of their project to 'crowdsource' the digitization of the New York Public Library map archive. \cite{waters2009warper} The tool, built for the New York Public Library Map Archive to digitize their collection, invites volunteers to orthorectify maps by matching Ground Control Points, or GCPs, between a source image and a reference map. 
 
-While designed for warping archival maps onto a vector dataset, namely OpenStreetMap, the tool can be used to warp aerial imagery onto satellite data. This is achieved by inserting a new layer into the reference map pane, which is implemented in OpenLayers. The resulting warped image can be downloaded as a GeoTiff or accessed as a standards-compliant WMS layer. 
+While designed for warping archival maps onto a vector dataset, namely OpenStreetMap, the tool can be used to warp aerial imagery onto satellite data. This is achieved by inserting a new layer into the reference map pane, which is implemented in OpenLayers. The resulting warped image can be downloaded as a \ac{GeoTIFF} or accessed as a standards-compliant WMS layer. 
 
 \subsection{GonzoEarth and manual stitching with Adobe Photoshop}
 \label{subsec:gonzoearth}
-One of the main practitioners of low-cost mapmaking today is Stewart Long and his one-man company GonzoEarth. Stewart is responsible for such impressive maps as the 2009 map of Burning Man, published at a 3 cm resolution. This map was surprisingly warped onto a lower resolution base map, blended, and output as a BigTiff image using Adobe Photoshop CS4. The image was then reprojected and saved as a GeoTiff using the open source GDAL package.
+One of the main practitioners of low-cost mapmaking today is Stewart Long and his one-man company GonzoEarth. Stewart is responsible for such impressive maps as the 2009 map of Burning Man, published at a 3 cm resolution. This map was surprisingly warped onto a lower resolution base map, blended, and output as a BigTiff image using Adobe Photoshop CS4. The image was then reprojected and saved as a \ac{GeoTIFF} using the open source GDAL package.
 
 The imagery for the Burning Man map was taken from a balloon by ....... , but Stewart typically uses a lightweight and relatively inexpensive remote control airplane called the Easystar, sold by the German company Multiplex. A small canon camera is inserted into the cockpit and a hole is cut in the belly of the plane through which the pictures are taken. Stewart can fly the plane at up to a half-mile away, steering manually with a 2.4 Ghz transmitter and can capture imagery at hundreds of feet in the air. The plane can remain in the air for up to an hour. 
 
@@ -689,7 +662,11 @@ Initial total cost of kit&\$60-400 depending on kite and tether material&\$100-5
 
 Due to the distinct compromises of each technique, I recommend that those attempting to capture aerial imagery equip themselves for both scenarios. Luckily, the techniques share much of the same equipment, and it is possible in many places in the world to assemble a basic but complete kit for under \$150. I have done so in surprisingly unlikely locales, such as the West Bank in Palestine, Lima, Peru, and Kutaisi, Georgia. 
 
-Illustration of `complete kit'
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/100-dollar-satellite-poster.jpg}
+	\end{flushright}
+\end{wrapfigure}
 
 \subsection{Balloon mapping}
 
@@ -739,7 +716,7 @@ The Cartagen framework represents an alternative system which is optimized for u
 %                GSS (and OSM-JSON): appropriating the HTML/CSS paradigm for data legibility and open access
 %                    Format politics: XML, JSON, RSS
 
-Despite reinventing much of the typical geostack, Cartagen makes use of open standards such as JSON, OSM-XML, and GeoJSON, and can be used to generate GeoTiffs or even a TMS tile service. In addition, because it can store and display both raster and vector data, once images are rectified, the pen tool can be used to trace streets, buildings, and borders.   
+Despite reinventing much of the typical geostack, Cartagen makes use of open standards such as JSON, OSM-XML, and GeoJSON, and can be used to generate \ac{GeoTIFF}s or even a \ac{TMS} tile service. In addition, because it can store and display both raster and vector data, once images are rectified, the pen tool can be used to trace streets, buildings, and borders.   
 
 Another unique part about Cartagen is that it allows users to style vector map data using a stylesheet, in a syntax similar to that of CSS. This is intendd to mirror the content vs. style relationship between HTML and CSS, and in fact the map stylesheet format Cartagen uses is called GSS. This is intended to leverage the widespread literacy in web design and provide a scaffolding for those just beginning to make their own maps with these tools. 
 
@@ -765,7 +742,12 @@ Instead of just annotating a Google Map with pins representing your data, Cartag
 
 Important to the development of the Grassroots Mapping tools was a collaborative process of testing various tools in a variety of contexts. Various combinations of tools were tested with participants from Lima, Peru, New Orleans, and Rock Creek, West Virginia. Verbal and interview-prompted feedback was used to develop new tools which built on the strengths of existing and off-the-shelf systems such as Photoshop, Hugin, and Map Warper. The same is true for the physical tools such as the balloon and kite kits, including the camera housing, reel construction, and auto-triggering setup. 
 
-Shots from Pat Coyle's demonstration
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/pat-coyle-video.png}
+		\caption{Still frame from Pat Coyle's demonstration on YouTube\cite{coyle2010sodabottle}}
+	\end{flushright}
+\end{wrapfigure}
 
 In the case of the camera housing, Grassroots Mapping community members have iterated and improved upon the soda bottle enclosure, discussing and testing alternatives on the mailing list, and even posting videos of tests. Pat Coyle, a mailing list member, published a narrated demonstration of a soda bottle enclosure with improvements such as a window to access the camera controls and a small bungee cable to stabilize the camera against the inside of the bottle. In another example, Mathew Lippincott prototyped solar-powered hot air balloons constructed from painter's plastic sheeting, conducted pigmentation and lift tests to determine suitability for carrying cameras. The tests and builds were held at a public event in Portland, Oregon, and the resulting balloons were packaged and sent to New Orleans for use in the BP oil spill mapping (see Chapter \ref{chap:gulf}). 
 
@@ -1228,18 +1210,28 @@ Some community participants have gone to great lengths to document their design 
 % Check Pat's bio, BelizeOpenSource...?
 % Mathew Lippincott's blog post on helium and HDPE
 
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/mathew-lippincott-balloons.png}
+		\caption{Mathew Lippincott tests plastic sheeting for porosity to helium after a discussion on the Grassroots Mapping mailing list.\cite{lippincott2010helium}}
+	\end{flushright}
+\end{wrapfigure}
+
 %    UAV - DIYDrones and collaboration (see 'Future work')
 %        Leveraging both expert and 'amateur'/enthusiast expertise
 %        Connecting hobby/DIY communities with activist communities and agendas
 
 
 \section{Illustrated Guides}
+\label{sec:guide}
 
 Originally suggested on the Grassroots Mapping mailing list in ....... by list member Pat Coyle, the idea of an illustrated guide to provide a rich and cross-language instruction set has received some attention. Storyboarding, outlining, and initial sketches were begun in the spring of 2010 by Pay Coyle, Nathan Cooke of MIT's D-Lab, 
 
 Crispen Wilson or Peter Poole asked for a guide.... find the email
 
 The 4-page PDF guide developed for the Louisiana Bucket Brigade was a quick attempt to provide such instructions, but was primarily intended to serve as an organizational guide and checklist, with tips and reminders, rather than a complete start-to-finish guide. 
+
+For those interested in learning or teaching Grassroots Mapping techniques, there is also a five page illustrated guide in English, Spanish, Portuguese and Georgian.
 
 \section{Outreach}
 
@@ -1290,12 +1282,18 @@ Lots of work by Proboscis: \href{http://urbantapestries.net/}{Social Tapestries/
 \chapter*{Appendix C: Materials checklists and prices}
 
 
-
 \nocite{*}
 {\small
 \bibliographystyle{plain}
 \bibliography{thesis}
 }
+
+\chapter*{Acronyms}
+
+\begin{acronym}
+\acro{TMS}{Tiled Map Service}
+\acro{GeoTIFF}{Geographic TIFF, or Geographic Tiled Image File Format}
+\end{acronym}
 
 \chapter*{License}
 

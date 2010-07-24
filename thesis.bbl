@@ -88,6 +88,13 @@ M.~Goodchild.
   Website}.
 \newblock \url{http://www.guardian.co.uk/world/2003/feb/05/iraq.usa}.
 
+\bibitem{jensen1999remote}
+J.R. Jensen and D.C. Cowen.
+\newblock {Remote sensing of urban/suburban infrastructure and socio-economic
+  attributes}.
+\newblock {\em Photogrammetric Engineering and Remote Sensing}, 65:611--622,
+  1999.
+
 \bibitem{lather1986issues}
 P.~Lather.
 \newblock {Issues of validity in openly ideological research: Between a rock
@@ -118,11 +125,21 @@ Mikel Maron.
   Technology for Our Planet}.
 \newblock \url{http://brainoff.com/weblog/2010/01/14/1518}.
 
+\bibitem{meier2010popular}
+{Where I Disagree with Morozov vs Shirky on Digital Activism}.
+\newblock \url{http://irevolution.wordpress.com/2010/01/07/morozov-vs-shirky/}.
+
 \bibitem{miyamoto2004use}
 M.~Miyamoto, K.~Yoshino, T.~Nagano, T.~Ishida, and Y.~Sato.
 \newblock {Use of balloon aerial photography for classification of Kushiro
   wetland vegetation, northeastern Japan}.
 \newblock {\em Wetlands}, 24(3):701--710, 2004.
+
+\bibitem{morozov2009dictators}
+{How dictators watch us on the web}.
+\newblock
+  \url{http://www.prospectmagazine.co.uk/2009/11/how-dictators-watch-us-on-the%
+-web/}.
 
 \bibitem{oconnor2008maps}
 Sean O'Connor and the Tactical Technology~Collective.
@@ -202,6 +219,8 @@ Eric~B. Wolf.
 Virginia Zavala and Nino Bariola.
 \newblock {Enra kopiai, non kopiai: Gender, ethnicity and language use in a
   Shipibo community in Lima}.
-\newblock pages 151--174, 2008.
+\newblock In Mercedes Niño-Murcia and Jason Rothman, editors, {\em
+  {Bilingualism and identity: Spanish at the crossroads with other languages}},
+  pages 151--174. John Benjamins Publishing Company, 2008.
 
 \end{thebibliography}
