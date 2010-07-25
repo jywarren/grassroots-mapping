@@ -67,6 +67,17 @@ The tools developed as part of the Grassroots Mapping project address the needs 
 
 The Grassroots Mapping Kit can be used to capture original aerial imagery, process and stitch the results, and publish digital and print maps. This section focuses on the framing, intent, and audience of the necessary tools. A technical discussion of the tools can be found in Chapter \ref{chap:toolchain}. 
 
+\begin{table}[tp] 
+\caption{Grassroots Mapping workflow}
+\centering %
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{YYY}
+\toprule
+Capture&Orthorectification&Publication\\\otoprule
+2-3 people can map several square km in 1 day&Sorting photos can take \textgreater1 hour, stitching up to 1 day&Export from Cartagen Knitter generates a TMS or printable GeoTiff; all that's needed is web access.\\\bottomrule 
+\end{tabularx}
+\end{table}
+
 Briefly, map-makers visit the site they intend to map, bringing with them a kite, a balloon, a helium tank, a digital camera, and a minimum of 200 meters of string, along with an assortment of other materials. Attaching the camera to the tethered balloon or kite, they capture imagery by setting the camera to automatically take pictures at a 1-10 second cycle and raising it to between 200 and 2000 meters in altitude. The map-makers reel in the tether to recover the imagery and, retiring to a web-enabled computer, upload the best imagery to the Cartagen Knitter web site.\footnote{\url{http://cartagen.org/maps/}} There they create a new online map, and using either OpenStreetMap vector data or a tiled map base layer for reference, each imagery is orthorectified. The resulting map can be embedded in another website for online viewing, exported as a \ac{TMS} service, or printed from a \ac{GeoTIFF}, depending on the intended use. 
 
 The Grassroots Mapping Kit and associated techniques are thoroughly documented at the project wiki, at \url{http://wiki.grassrootsmapping.org}, and additional support and discussion is available at the project mailing list and blog, which can be found at \url{http://grassrootsmapping.org} along with extensive documentation of past and in-progress mapping efforts around the world. Printed documentation is also available in the form of available in the form of a 5-page illustrated guide and several checklists designed to accompany each kit.\footnote{See \ref{sec:guide}}
