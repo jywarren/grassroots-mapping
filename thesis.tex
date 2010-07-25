@@ -392,18 +392,18 @@ Ushahidi has been successfully used to gather and publish very up-to-date inform
 
 Public access to up-to-date imagery of crisis areas has become something of a hot-button issue in crisis mapping circles, as those companies and agencies in control of the imagery do not always elect to release it, or to license it freely for any use. Whethe due to an unwillingness to offer expensive imagery for unrestricted use, or due to the administrative burden of actually offering such data for download under a permissive license, access to satellite imagery has become a frequent bottleneck for aid organizations. 
 
-Specifically in the bottom-up response to the Haitian earthquake and subsequent humanitarian crisis of January 2010, access became more difficult within weeks of the crisis. While GeoEye and other vendors generously offered open access to satellite imagery in the initial weeks of the crisis, most did not elect to do so on an ongoing basis, or for subsequent crises such as the February 2010 earthquake in Chile.
+Specifically in the bottom-up response to the Haitian earthquake and subsequent humanitarian crisis of January 2010, access became more difficult within weeks of the crisis. While GeoEye and other vendors generously offered open access to satellite imagery in the initial weeks of the crisis, most did not elect to do so on an ongoing basis, or for subsequent crises such as the February 2010 earthquake in Chile. This has caused a great deal of frustration for those outside the largest and wealthiest organizations. Specifically, Google and GeoEye's decision to revert to their standard license for new satellite imagery of Port au Prince after January 2010 elicited questions from the broader crisis response community, as voiced by Mikel Maron on the Crisis Mappers mailing list in late April 2010:
 
+\begin{quote}
+Maybe you can explain why Google has not continued the extremely helpful position it had in January?
+Is the community of CrisisMappers doomed to lose that culture of sharing? Can't we do better?
+\end{quote}
 
+In the February 2010 earthquake in Chile, a similar plea for imagery was sent to the same list, prompting a reply from a UN-SPIDER representative. UN-SPIDER or the United Nations Platform for Space-based Information for Disaster Management and Emergency Response, is an organization whose self-described aim is in `providing universal access to all types of space-based information and services relevant to disaster management' which it fulfills by `serving as a bridge to connect the disaster management and space communities...'\cite{unspider2010aims}. However, the organization has been slow to adopt truly open data sharing policies, and to date makes relatively few data sets available to the public; most are reserved for Authorized Users --- typically government agencies and large disaster response organizations.\cite{charter2010brochure}  
 
-% Republishing Christiaan's response or UN-SPIDER's response may not be allowed, depending on the policies of the Crisis Mapping Network
+Ultimately, citizen-led mapping efforts present an opportunity to bypass this bottleneck by providing high-resolution, timely aerial imagery at low cost. Such an effort occurred during and after the 2010 BP oil spill in the Gulf of Mexico and is discussed at length in Chapter \ref{chap:gulf} 
 
 % who released data??? 
-
-Mikel Maron of the OpenStreetMap Humanitarian Team 
-
-%	- origin in political mapping, focus on natural disaster
-%        - UN-SPIDER/Google MapMaker response to Mikel Maron, Chile Earthquake
 
 \chapter{State of the Art}
 \section{PGIS: Participatory Geographic Information Systems}
@@ -1029,7 +1029,12 @@ Above all, I learned the importance of building capacity amongst local partners,
 
 \section{Grassroots mapping in crisis response}
 
-In late April 2010, the Deepwater Horizon oil rig exploded and sank, initiating what may be one of the worst environmental disasters in US history. As the spill grew in size, the author contacted Stewart Long of GonzoEarth.org and Oliver Yeh of 1337arts.com. Long has used remote control aircraft to produce maps, and Yeh specializes in high-altitude photography using weather balloons, having captured imagery from a balloon at altitudes of over 90,000 feet. The three decided to travel to the Gulf Coast area to spearhead a citizen effort to map the oil spill's effects. After making phone contact with Anne Rolfes of the Louisiana Bucket Brigade (LABB), a New Orleans-based environmental activist group, Yeh and the author flew to New Orleans on May 5th 2010, followed by Long on May 6th. 
+In late April 2010, the Deepwater Horizon oil rig exploded and sank, initiating what may be one of the worst environmental disasters in US history. As the spill grew in size, the author contacted Stewart Long of GonzoEarth.org and Oliver Yeh of 1337arts.com. \begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/labb-planning.jpg}
+		\caption{Volunteers at the Louisiana Bucket Brigade in New Orleans plan a mapping trip on May 7, 2010.}
+	\end{flushright}
+\end{wrapfigure}Long has used remote control aircraft to produce maps, and Yeh specializes in high-altitude photography using weather balloons, having captured imagery from a balloon at altitudes of over 90,000 feet. The three decided to travel to the Gulf Coast area to spearhead a citizen effort to map the oil spill's effects. After making phone contact with Anne Rolfes of the Louisiana Bucket Brigade (LABB), a New Orleans-based environmental activist group, Yeh and the author flew to New Orleans on May 5th 2010, followed by Long on May 6th. 
 % env. crisis in US history: http://www.npr.org/templates/story/story.php?storyId=126410895
 % http://www.nytimes.com/2010/04/25/us/25rig.html - Oil Leaking Underwater From Well in Rig Blast, By CAMPBELL ROBERTSON, April 24, 2010
 
@@ -1040,12 +1045,25 @@ With the cooperation and extensive support of the LABB and other interested New 
 The 2010 Gulf oil spill was seen as an opportunity to apply the low-cost mapping techniques refined and documented on GrassrootsMapping.org to a problem of immediate import. While many overflights were occurring, there was no publicly available, orthorectified imagery available in the initial weeks of the spill; up-to-date imagery was supplied mainly by the MODIS (Moderate Resolution Imaging Spectroradiometer) sensors aboard NASA's Terra and Aqua satellites. MODIS is limited to 1000 meter resolution for those bands which are used for ocean imaging, and while the daily images available were very useful in determining where along the coast was being hit by slicks and sheens, it was not of high enough detail to show any specific damage. 
 
 % http://modis.gsfc.nasa.gov/about/specifications.php
+\begin{figure}[h]
+  \begin{center}
+	\includegraphics[width=1\textwidth]{images/nasa-modis-small.jpg}
+	\caption{The BP oil spill on April 29th, 2010. The upper left corner shows the tip of Louisiana. Imagery from NASA's Terra satellite, using the MODIS sensor.}
+  \end{center}
+\end{figure}
 
 By contrast, the imagery collected by the LABB/Grassroots Mapping teams was up to 9 cm/px in resolution, and could be repeatedly captured over the course of days or weeks.  
 
 The disaster and the incredible support and diligence of the LABB mapping team also provided me with a chance to collect both qualitative and quantitative information on a volunteer-led effort to apply Grassroots Mapping tools toward a pressing need. Mapping team leaders filled out a form describing a variety of information from weather conditions at the site to the condition and performance of the gear. Leaders build deep experience in gathering data and teaching others, and many even wrote blog entries or spoke to the press about their experiences. Beyond serving as a valuable independent record of the spill, this case study lays solid groundwork for the application of these tools to other environmental, social, and political crises.
 
 \section{Building capacity, organization, funding}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/labb-bay-babtiste-trip.jpg}
+		\caption{A volunteer prepares a balloon for launch in Bay Babtiste, Louisiana, July 11, 2010. Photo courtesy Flickr user \textbf{guiltyplanet}, at \url{http://www.flickr.com/photos/guiltyplanet/4784059359/}}
+	\end{flushright}
+\end{wrapfigure}
 
 The most challenging aspect of organizing the oil mapping project was to train a group of inexperienced but committed volunteers to use Grassroots Mapping tools such as balloons and kites, in often adverse weather conditions up to 3 hours travel from New Orleans, our home base. That a number of volunteers have continued not only to make trips on their own, but to bring and train others to map, has been....
 
