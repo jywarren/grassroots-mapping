@@ -52,6 +52,18 @@ R.~Chambers.
 \newblock {\em The Electronic Journal of Information Systems in Developing
   Countries}, 25(0), 2006.
 
+\bibitem{chilton-crowdsourcing}
+S.~Chilton.
+\newblock {Crowdsourcing is radically changing the geodata landscape: case
+  study of OpenStreetMap}.
+\newblock In {\em Proceedings, 24th International Cartographic Congress}, 2009.
+
+\bibitem{coppock1991history}
+J.T. Coppock and D.W. Rhind.
+\newblock {The history of GIS}.
+\newblock {\em Geographical information systems: Principles and applications},
+  1:21--43, 1991.
+
 \bibitem{coyle2010sodabottle}
 {another prototype}.
 \newblock \url{http://www.youtube.com/watch?v=mnGjw0nJQ3Q}.
@@ -65,6 +77,12 @@ H.~De~Soto and M.V. Llosa.
 Hernando de~Soto.
 \newblock {\em {El otro sendero: la revolución informal}}.
 \newblock Instituto Libertad y Democracia, 1987.
+
+\bibitem{elwood2009qualitative}
+Sara Elwood and Meghan Cope.
+\newblock {\em {Introduction: Qualitative GIS: Forging mixed methods through
+  representations, analytical innovations, and conceptual engagements}}.
+\newblock SAGE Publications, Ltd, 2009.
 
 \bibitem{elwood2009representations}
 Sarah Elwood.
@@ -172,6 +190,15 @@ O.~Okolloh.
 \newblock \url{http://wiki.openstreetmap.org/wiki/Disputes#On_the_Ground_Rule},
   2007.
 
+\bibitem{osm2010stats}
+{OpenStreetMap statistics}.
+\newblock \url{http://www.openstreetmap.org/stats/data_stats.html}.
+
+\bibitem{pavlovskaya2009nonquantitative}
+Marianna Pavlovskaya.
+\newblock {\em {Non-Quantitative GIS}}.
+\newblock SAGE Publications, Ltd, 2009.
+
 \bibitem{poole2006there}
 P.~Poole.
 \newblock {Is there life after tenure mapping?}
@@ -240,6 +267,10 @@ es/}.
 \bibitem{waters2009warper}
 {Rectify Map San Ignacio Loyola on Map Warper, Project Website}.
 \newblock \url{http://warper.geothings.net/maps/preview/2018}.
+
+\bibitem{willis2007osm}
+{OpenStreetMap project imports US government maps}.
+\newblock \url{http://www.linux.com/archive/feature/119493}.
 
 \bibitem{wittens2008projective}
 {Projective Texturing with Canvas | Steven Wittens - Acko.net, Project
