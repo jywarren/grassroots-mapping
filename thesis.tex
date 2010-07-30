@@ -641,16 +641,26 @@ Shannon's quote about `80\% kites'
 
 Table of kite pros/cons: Flowform, locally produced, portability, Sled on a Thread
 
-\subsection{Camera, enclosures and suspensions}
+Kites present an opportunity to loft cameras at near-zero cost --- materials for making kites can be found for less than a dollar, or recycled from waste. However kites can be particularly challenging to fly stably and difficult wind conditions often make for a frustrating and exhausting day of attempted map-making. With this in mind, I have looked to the experience of \ac{KAP} enthusiasts in choosing a respected standard in highly portable, reliable, and flexible flight: the Sutton Flowform. This `sled kite' has no rigid spars and even its 16 square foot model can be packed down to fit in a small sack. Flowforms can be flown at a wide range of wind speeds and the Flowform 16 can lift tens of kilograms in ideal conditions. However, its ~\$100 cost makes it somewhat beyond the means of many map makers. Therefore, whenever possible I have encouraged my collaborators to apply local traditional kite designs, often with great success. In Lima, Peru and Ramallah, Palestine, local designs were cheap and effective, the only issue being that they had to be scaled up to a size which could lift the approximately 300 gram payload. Kite building makes for an engaging and fun activity while reyling on local means of production for an aerial platform. 
+
+(Photo of VBW team flying the kite they made) 
+
+(Photo of kite building in JP2)
+
+\subsection{Camera and intervalometer}
+
+Throughout the design of the Grassroots Mapping Kit I have emphasized low cost, therefore, taking a note from the page of low-cost aerial photographers like Oliver Yeh of \url{http://1337arts.com}, I recommend an inexpensive `point and shoot' camera, ideally of Canon's A or SD lines (the SD series is sold under the brand IXUS in Europe). While these tend to be in the 7-12 megapixel range, they are typically only 200-300 grams and are durable and compact. Such cameras can be found second-hand on \url{http://ebay.com} for as low as \$US 50. Despite resolution, lens choice and stabilization advantages of more expensive models, consumer-grade compact cameras of this sort are widely available, and their image quality is sufficiently high that they make a good balance of weight, image quality, and cost --- the latter being of especially high importance since we have occasionally lost entire kits due to accidents such as improperly tied knots or sudden immersion in water. 
+
+Canon consumer cameras also benefit from the active open-source hacking community's efforts to provide an alternative firmware with advanced features such as scripting. The \ac{CHDK}, which is stored on the camera's SD memory card, makes possible a script which I have adapted to trigger image capture every 5-10 seconds. The script, referred to as an intervalometer, is available for download at \url{http://wiki.grassrootsmapping.org/show/BalloonAerialPhotography}.  
+
+\subsection{Enclosures and suspensions}
 \label{subsec:cameraenclosures}
-Resolution/weight/cost compromise for cameras; CHDK, durability
 
-Picavet, S4, Soda bottle: 
-- tangling, difficulty of rigging picavet, 
-- simplicity \& durability of soda bottle rig
-- advantages to swinging
+In order to attach the camera to the balloon or kite, \ac{KAP} enthusiasts typically make use of a `Picavet suspension', or arrangement of one continuous string on a series of rings or pulleys. This has the exceptional ability to keep the camera level and relatively stable even in turbulent conditions. However, experience in Peru\footnote{See Chapter \ref{chap:peru}} showed that constructing a working Picavet and maintaining it without tangles can be difficult for many, especially under adverse conditions such as long crowded bus rides, limited construction materials, and excited young participants. In the light of these challenges I have developed a more basic but still serviceable alternative called the `Soda Bottle Rig' which as an added feature protects the camera from light impacts. The basic design can be seen in Figure \ref{fig:soda}, and includes a pair of `wings' placed approximately 30 degrees apart, which serve to stabilize the enclosure against the wind, reducing radial blurring in the aerial images.
 
-Weight issues
+(Figure showing Soda Bottle Rig \label{fig:soda})
+
+The soda bottle rig is convenient to carry, and makes immediate visual sense to observers, unlike the confusing array of crossed strings in the Picavet. The additional swaying of the Soda Bottle Rig in fact results in greater extent in the resulting maps, though resolution drops dramatically as photographs become more oblique. This does allow map-makers to decide whether to sacrifice consistent resolution in favor of a larger extent, however. In addition, while it works well for the typically horizontal tether of a kite, the Picavet suspension is rendered largely useless on a vertical tether, as the two mounting points are placed inline, one above the other. Still, experienced aerial photographers may achieve better results with the Picavet suspension in kite photography.  
 
 \section{Digital maps: reconceptualizing mapping interaction}
 
@@ -1316,6 +1326,8 @@ Capture&Orthorectification&Publication\\\otoprule
 \begin{acronym}
 \acro{TMS}{Tiled Map Service}
 \acro{GeoTIFF}{Geographic TIFF, or Geographic Tiled Image File Format}
+\acro{CHDK}{Canon Hacker Development Kit}
+\acro{KAP}{Kite Aerial Photography}
 \end{acronym}
 
 \chapter*{License}
