@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  29 JUL 2010 09:43
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  30 JUL 2010 12:17
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -396,7 +396,11 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 840
 .
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 19.
- (./thesis.aux)
+ (./thesis.aux
+
+LaTeX Warning: Label `fig:limaevaltable' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -489,55 +493,24 @@ l.51
 ] [2] (/usr/share/texmf/tex/latex/base/omlcmr.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 81.
-
-
-Package acronym Warning: Acronym `TMS' is not defined on input line 81.
-
-
-Package acronym Warning: Acronym `TMS' is not defined on input line 81.
-
-
-Package acronym Warning: Acronym `GeoTIFF' is not defined on input line 81.
-
-
-Package acronym Warning: Acronym `GeoTIFF' is not defined on input line 81.
-
-[3]
-
-LaTeX Warning: Reference `sec:guide' on page 4 undefined on input line 83.
-
-[4]
+ [3] [4]
 Chapter 2.
 [5
 
 ]
-
-LaTeX Warning: Citation `rankin2003reservations' on page 6 undefined on input l
-ine 96.
-
-
 Overfull \hbox (8.22462pt too wide) in paragraph at lines 96--97
 []\OT1/cmr/m/n/10.95 At stake here is the Eu-ro-pean def-i-ni-tion of nation-st
 ate sovereignty,
  []
 
-<images/newsflow.png, id=285, 1278.7775pt x 685.56125pt>
+<images/newsflow.png, id=410, 1278.7775pt x 685.56125pt>
 File: images/newsflow.png Graphic file (type png)
 
 <use images/newsflow.png>
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-
-LaTeX Warning: Citation `proboscis2003bodystorming' on page 6 undefined on inpu
-t line 108.
-
-[6 <./images/newsflow.png (PNG copy)>]
-
-LaTeX Warning: Citation `jeremijenko2008situated' on page 7 undefined on input 
-line 119.
-
+ [6 <./images/newsflow.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -562,49 +535,10 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-[7]
-
-LaTeX Warning: Citation `elwood2009qualitative' on page 8 undefined on input li
-ne 131.
-
-
-LaTeX Warning: Citation `pavlovskaya2009nonquantitative' on page 8 undefined on
- input line 131.
-
-
-LaTeX Warning: Citation `pavlovskaya2009nonquantitative' on page 8 undefined on
- input line 133.
-
-
-LaTeX Warning: Citation `pavlovskaya2009nonquantitative' on page 8 undefined on
- input line 133.
-
-[8]
-
-LaTeX Warning: Citation `rana2009neogeography' on page 9 undefined on input lin
-e 142.
-
-[9]
-
-LaTeX Warning: Citation `oconnor2008maps' on page 10 undefined on input line 14
-4.
-
-
-LaTeX Warning: Citation `rana2009neogeography' on page 10 undefined on input li
-ne 144.
-
-
-LaTeX Warning: Citation `chilton-crowdsourcing' on page 10 undefined on input l
-ine 146.
-
-[10]
-
-LaTeX Warning: Citation `oconnor2008maps' on page 11 undefined on input line 15
-8.
-
-[11]
+ [7] [8]
+[9] [10] [11]
 Chapter 3.
-<images/kutaisi.png, id=326, 521.95pt x 382.42876pt>
+<images/kutaisi.png, id=470, 521.95pt x 382.42876pt>
 File: images/kutaisi.png Graphic file (type png)
  <use images/kutaisi.png>
 Underfull \hbox (badness 1019) in paragraph at lines 168--168
@@ -623,7 +557,7 @@ Underfull \hbox (badness 1062) in paragraph at lines 174--175
 [12
 
  <./images/kutaisi.png (PNG copy)>]
-<images/osm-missing-parts.png, id=334, 1024.82875pt x 576.1525pt>
+<images/osm-missing-parts.png, id=478, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
@@ -661,12 +595,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/cmtt/m/n/10 html ? kml = KML /
  []
 
-[13 <./images/osm-missing-parts.png (PNG copy)>]
-
-LaTeX Warning: Citation `borges1946exactitude' on page 14 undefined on input li
-ne 189.
-
-[14] <images/levinger-groundtruth.png, id=359, 751.80875pt x 568.1225pt>
+[13 <./images/osm-missing-parts.png (PNG copy)>] [14]
+<images/levinger-groundtruth.png, id=506, 751.80875pt x 568.1225pt>
 File: images/levinger-groundtruth.png Graphic file (type png)
 
 <use images/levinger-groundtruth.png>
@@ -723,23 +653,7 @@ Underfull \hbox (badness 2460) in paragraph at lines 211--212
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
-
-
-LaTeX Warning: Citation `maron2009misconceptions' on page 16 undefined on input
- line 214.
-
-
-LaTeX Warning: Citation `maron2010freedom' on page 16 undefined on input line 2
-20.
-
-
-Package acronym Warning: Acronym `TMS' is not defined on input line 223.
-
-
-LaTeX Warning: Citation `meier2010popular' on page 16 undefined on input line 2
-23.
-
-[16]
+ [16]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -747,17 +661,12 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-
-LaTeX Warning: Citation `morozov2009dictators' on page 17 undefined on input li
-ne 226.
-
-
 Overfull \hbox (3.99669pt too wide) in paragraph at lines 229--230
 \OT1/cmr/m/n/10.95 re-la-tions `...re-quires cer-tainty that only pro-western a
 nd pro-democracy forces
  []
 
-[17] <images/iraq-image-16.jpg, id=396, 602.25pt x 451.6875pt>
+[17] <images/iraq-image-16.jpg, id=552, 602.25pt x 451.6875pt>
 File: images/iraq-image-16.jpg Graphic file (type jpg)
 
 <use images/iraq-image-16.jpg>
@@ -820,11 +729,7 @@ Overfull \hbox (1.27655pt too wide) in paragraph at lines 255--256
 \OT1/cmr/m/n/10.95 mon-i-tor any leak-age that
  []
 
-
-LaTeX Warning: Citation `guardian2003powell' on page 19 undefined on input line
- 258.
-
-<images/iraq-image-13.jpg, id=410, 602.25pt x 451.6875pt>
+<images/iraq-image-13.jpg, id=567, 602.25pt x 451.6875pt>
 File: images/iraq-image-13.jpg Graphic file (type jpg)
 
 <use images/iraq-image-13.jpg>
@@ -836,10 +741,6 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 26
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 27
 1.
 
-
-LaTeX Warning: Citation `senate2004report' on page 19 undefined on input line 2
-72.
-
 [19]
 Underfull \hbox (badness 2189) in paragraph at lines 275--276
 \OT1/cmr/m/n/10.95 im-agery is that it rep-re-sents a
@@ -849,10 +750,6 @@ Underfull \hbox (badness 2189) in paragraph at lines 275--276
 Underfull \hbox (badness 1527) in paragraph at lines 275--276
 \OT1/cmr/m/n/10.95 in-volve-ment of hu-man tes-ti-mony
  []
-
-
-LaTeX Warning: Citation `osm2007disputes' on page 20 undefined on input line 29
-3.
 
 [20 <./images/iraq-image-13.jpg>]
 Missing character: There is no ‚ in font cmr10!
@@ -864,13 +761,9 @@ Overfull \hbox (1.92847pt too wide) in paragraph at lines 304--305
 ion rather
  []
 
-
-LaTeX Warning: Citation `rambaldi2006practical' on page 21 undefined on input l
-ine 307.
-
 [21] [22]
 Chapter 4.
-<images/two-worlds-mapping.png, id=431, 901.9296pt x 360.8682pt>
+<images/two-worlds-mapping.png, id=595, 901.9296pt x 360.8682pt>
 File: images/two-worlds-mapping.png Graphic file (type png)
 
 <use images/two-worlds-mapping.png>
@@ -885,30 +778,7 @@ ru, a metropo-
 
 [23
 
-] [24 <./images/two-worlds-mapping.png>]
-
-LaTeX Warning: Reference `sec:ongoinguses' on page 25 undefined on input line 3
-79.
-
-
-LaTeX Warning: Citation `poole2006there' on page 25 undefined on input line 383
-.
-
-[25]
-
-LaTeX Warning: Citation `okolloh2009ushahidi' on page 26 undefined on input lin
-e 397.
-
-[26]
-
-LaTeX Warning: Citation `unspider2010aims' on page 27 undefined on input line 4
-22.
-
-
-LaTeX Warning: Citation `charter2010brochure' on page 27 undefined on input lin
-e 422.
-
-[27] [28]
+] [24 <./images/two-worlds-mapping.png>] [25] [26] [27] [28]
 Chapter 5.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -920,26 +790,9 @@ Overfull \hbox (4.38197pt too wide) in paragraph at lines 437--438
 patial-developing-
  []
 
-
-LaTeX Warning: Citation `elwood2009representations' on page 29 undefined on inp
-ut line 444.
-
 [29
 
 ]
-
-LaTeX Warning: Citation `chambers2006participatory' on page 30 undefined on inp
-ut line 457.
-
-
-LaTeX Warning: Citation `poole2006there' on page 30 undefined on input line 462
-.
-
-
-LaTeX Warning: Citation `gibson2006google' on page 30 undefined on input line 4
-68.
-
-
 Overfull \hbox (11.8138pt too wide) in paragraph at lines 468--469
 \OT1/cmr/m/n/10.95 Some de-gree of map-mak-ing has be-come com-mon-place to the
  internet-connected
@@ -949,7 +802,7 @@ Overfull \hbox (11.8138pt too wide) in paragraph at lines 468--469
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- <images/osm-composition.png, id=472, 526.96875pt x 427.5975pt>
+ <images/osm-composition.png, id=651, 526.96875pt x 427.5975pt>
 File: images/osm-composition.png Graphic file (type png)
 
 <use images/osm-composition.png>
@@ -962,11 +815,6 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-
-LaTeX Warning: Citation `warren2009composition' on page 31 undefined on input l
-ine 484.
-
 
 Underfull \hbox (badness 2846) in paragraph at lines 484--485
 [][]\OT1/cmr/m/n/10.95 Open data projects such as
@@ -982,27 +830,8 @@ Underfull \hbox (badness 2050) in paragraph at lines 484--485
 \OT1/cmr/m/n/10.95 200 gi-ga-bytes when loaded into
  []
 
-[31 <./images/osm-composition.png (PNG copy)>]
-
-LaTeX Warning: Citation `chilton-crowdsourcing' on page 32 undefined on input l
-ine 489.
-
-
-LaTeX Warning: Citation `osm2010stats' on page 32 undefined on input line 491.
-
-
-LaTeX Warning: Citation `willis2007osm' on page 32 undefined on input line 493.
-
-
-
-LaTeX Warning: Citation `maron2010openstreetmap' on page 32 undefined on input 
-line 493.
-
-
-LaTeX Warning: Citation `chilton-crowdsourcing' on page 32 undefined on input l
-ine 493.
-
-[32] <images/osm-diagram.png, id=481, 803.0pt x 493.845pt>
+[31 <./images/osm-composition.png (PNG copy)>] [32]
+<images/osm-diagram.png, id=670, 803.0pt x 493.845pt>
 File: images/osm-diagram.png Graphic file (type png)
 
 <use images/osm-diagram.png>
@@ -1011,11 +840,7 @@ Overfull \hbox (1.34666pt too wide) in paragraph at lines 501--502
  []
 
 [33 <./images/osm-diagram.png (PNG copy)>]
-
-LaTeX Warning: Citation `chilton-crowdsourcing' on page 34 undefined on input l
-ine 519.
-
-<images/kibera-gpx.png, id=487, 946.53625pt x 472.76625pt>
+<images/kibera-gpx.png, id=678, 946.53625pt x 472.76625pt>
 File: images/kibera-gpx.png Graphic file (type png)
 
 <use images/kibera-gpx.png>
@@ -1027,59 +852,26 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 
-
-LaTeX Warning: Citation `maron2010haiti' on page 35 undefined on input line 532
-.
-
-
 Overfull \hbox (1.98926pt too wide) in paragraph at lines 534--534
 \OT1/cmr/m/n/10.95 For in-stance, all the United Na-tions agen-cies act-ing on 
 the ground
  []
 
-[35 <./images/kibera-gpx.png (PNG copy)>]
-
-LaTeX Warning: Citation `glennon2010grassrootscrisis' on page 36 undefined on i
-nput line 534.
-
-
-LaTeX Warning: Citation `waters2009warper' on page 36 undefined on input line 5
-54.
-
-
-Package acronym Warning: Acronym `GeoTIFF' is not defined on input line 556.
-
-
-Package acronym Warning: Acronym `GeoTIFF' is not defined on input line 560.
-
-[36]
-
-LaTeX Warning: Citation `vierling2006short' on page 37 undefined on input line 
-577.
-
-<images/maron-spy-satellite.jpg, id=504, 2601.72pt x 1951.29pt>
+[35 <./images/kibera-gpx.png (PNG copy)>] [36]
+<images/maron-spy-satellite.jpg, id=704, 2601.72pt x 1951.29pt>
 File: images/maron-spy-satellite.jpg Graphic file (type jpg)
 
 <use images/maron-spy-satellite.jpg>
-
-LaTeX Warning: Citation `maron2008former' on page 37 undefined on input line 58
-2.
-
-
 Overfull \hbox (3.96542pt too wide) in paragraph at lines 586--587
 [][]\OT1/cmr/m/n/10.95 Stewart Long/GonzoEarth Burn-
  []
-
-
-LaTeX Warning: Citation `vierling2006short' on page 37 undefined on input line 
-590.
 
 [37 <./images/maron-spy-satellite.jpg>]
 Chapter 6.
 
 LaTeX Warning: Float too large for page by 3.98843pt on input line 620.
 
-<images/100-dollar-satellite-poster.jpg, id=510, 1480.0896pt x 987.2082pt>
+<images/100-dollar-satellite-poster.jpg, id=714, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
 <use images/100-dollar-satellite-poster.jpg>
@@ -1094,14 +886,7 @@ Underfull \hbox (badness 4366) in paragraph at lines 632--633
 
 [38
 
- <./images/100-dollar-satellite-poster.jpg>] [39] [40] [41]
-
-Package acronym Warning: Acronym `GeoTIFF' is not defined on input line 678.
-
-
-Package acronym Warning: Acronym `TMS' is not defined on input line 678.
-
-[42]
+ <./images/100-dollar-satellite-poster.jpg>] [39] [40] [41] [42]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
@@ -1111,40 +896,22 @@ Overfull \hbox (1.92838pt too wide) in paragraph at lines 692--693
 own map from scratch,
  []
 
-[43] <images/pat-coyle-video.png, id=539, 856.19875pt x 481.8pt>
+[43] <images/pat-coyle-video.png, id=745, 856.19875pt x 481.8pt>
 File: images/pat-coyle-video.png Graphic file (type png)
 
 <use images/pat-coyle-video.png>
-
-LaTeX Warning: Citation `coyle2010sodabottle' on page 44 undefined on input lin
-e 729.
-
-
-LaTeX Warning: Citation `coyle2010sodabottle' on page 44 undefined on input lin
-e 729.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 729--729
 \OT1/cmr/m/n/10 Coyle's demon-stra-
  []
 
-[44 <./images/pat-coyle-video.png (PNG copy)>]
-
-LaTeX Warning: Citation `wittens2008projective' on page 45 undefined on input l
-ine 752.
-
-[45]
-
-LaTeX Warning: Citation `wolf2006lowcost' on page 46 undefined on input line 75
-8.
-
+[44 <./images/pat-coyle-video.png (PNG copy)>] [45]
 
 LaTeX Warning: Citation `white1985piecewise' on page 46 undefined on input line
  771.
 
 [46]
 Chapter 7.
-<images/kids-canta-gallo.jpg, id=557, 1027.84pt x 770.88pt>
+<images/kids-canta-gallo.jpg, id=770, 1027.84pt x 770.88pt>
 File: images/kids-canta-gallo.jpg Graphic file (type jpg)
 
 <use images/kids-canta-gallo.jpg>
@@ -1161,12 +928,8 @@ Underfull \hbox (badness 1540) in paragraph at lines 787--788
 
 [47
 
- <./images/kids-canta-gallo.jpg>] [48]
-
-LaTeX Warning: Citation `desoto1987sendero' on page 49 undefined on input line 
-801.
-
-[49] <images/juan-pablo-measuring.jpg, id=575, 1027.84pt x 770.88pt>
+ <./images/kids-canta-gallo.jpg>] [48] [49]
+<images/juan-pablo-measuring.jpg, id=790, 1027.84pt x 770.88pt>
 File: images/juan-pablo-measuring.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-measuring.jpg>
@@ -1175,31 +938,26 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 81
 4.
 
 [50 <./images/juan-pablo-measuring.jpg>]
-<images/juan-pablo-first-flight.jpg, id=581, 1027.84pt x 770.88pt>
+<images/juan-pablo-first-flight.jpg, id=796, 1027.84pt x 770.88pt>
 File: images/juan-pablo-first-flight.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-first-flight.jpg> [51 <./images/juan-pablo-first-flight.
-jpg>] <images/juan-pablo-final.jpg, id=587, 370.0224pt x 290.5254pt>
+jpg>] <images/juan-pablo-final.jpg, id=802, 370.0224pt x 290.5254pt>
 File: images/juan-pablo-final.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-final.jpg> [52 <./images/juan-pablo-final.jpg>]
-<images/juan-pablo-frank.jpg, id=594, 770.88pt x 1027.84pt>
+<images/juan-pablo-frank.jpg, id=809, 770.88pt x 1027.84pt>
 File: images/juan-pablo-frank.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-frank.jpg> [53 <./images/juan-pablo-frank.jpg>]
-<images/juan-pablo-maqueta.jpg, id=599, 1027.84pt x 770.88pt>
+<images/juan-pablo-maqueta.jpg, id=814, 1027.84pt x 770.88pt>
 File: images/juan-pablo-maqueta.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-maqueta.jpg> [54 <./images/juan-pablo-maqueta.jpg>]
-<images/map-warper.png, id=606, 971.63pt x 651.43375pt>
+<images/map-warper.png, id=821, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
 <use images/map-warper.png>
-
-LaTeX Warning: Citation `waters2009warper' on page 55 undefined on input line 8
-73.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 870--875
 \OT1/cmr/m/n/10.95 pro-cess the aerial im-agery into maps. Start-ing with the
  []
@@ -1208,15 +966,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 870--875
 Package wrapfig Warning: Collision between wrapping environments on input line 
 875.
 
-<images/map-warper-hack.png, id=609, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=825, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
 <use images/map-warper-hack.png>
-
-LaTeX Warning: Citation `waters2009warper' on page 55 undefined on input line 8
-78.
-
-
 Underfull \hbox (badness 5726) in paragraph at lines 875--880
 []\OT1/cmr/m/n/10.95 Map Warper soft-ware avail-able
  []
@@ -1236,20 +989,16 @@ Underfull \hbox (badness 1308) in paragraph at lines 875--880
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 88
 0.
 
-
-LaTeX Warning: Citation `poole2006there' on page 55 undefined on input line 882
-.
-
 [55 <./images/map-warper.png (PNG copy)> <./images/map-warper-hack.png (PNG cop
-y)>] <images/juan-pablo-rubbersheeting.jpg, id=616, 1027.84pt x 770.88pt>
+y)>] <images/juan-pablo-rubbersheeting.jpg, id=834, 1027.84pt x 770.88pt>
 File: images/juan-pablo-rubbersheeting.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-rubbersheeting.jpg> [56 <./images/juan-pablo-rubbersheet
-ing.jpg>] <images/san-ignacio-loyola-map.jpg, id=621, 411.136pt x 308.352pt>
+ing.jpg>] <images/san-ignacio-loyola-map.jpg, id=839, 411.136pt x 308.352pt>
 File: images/san-ignacio-loyola-map.jpg Graphic file (type jpg)
 
 <use images/san-ignacio-loyola-map.jpg> [57 <./images/san-ignacio-loyola-map.jp
-g>] <images/canta-gallo-setame.jpg, id=628, 1027.84pt x 770.88pt>
+g>] <images/canta-gallo-setame.jpg, id=846, 1027.84pt x 770.88pt>
 File: images/canta-gallo-setame.jpg Graphic file (type jpg)
 
 <use images/canta-gallo-setame.jpg>
@@ -1268,16 +1017,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 913--913
  []
 
 
-LaTeX Warning: Citation `bariola2008gender' on page 58 undefined on input line 
-919.
-
-
 Underfull \hbox (badness 1189) in paragraph at lines 919--920
 []\OT1/cmr/m/n/10.95 In the midst of this, Es-cue-
  []
 
 [58 <./images/canta-gallo-setame.jpg>]
-<images/canta-gallo-drawn-map.jpg, id=636, 1027.84pt x 770.88pt>
+<images/canta-gallo-drawn-map.jpg, id=855, 1027.84pt x 770.88pt>
 File: images/canta-gallo-drawn-map.jpg Graphic file (type jpg)
 
 <use images/canta-gallo-drawn-map.jpg>
@@ -1291,11 +1036,11 @@ Underfull \hbox (badness 1484) in paragraph at lines 924--924
  []
 
 [59 <./images/canta-gallo-drawn-map.jpg>]
-<images/cantagallo-initial.jpg, id=643, 370.0224pt x 218.2554pt>
+<images/cantagallo-initial.jpg, id=863, 370.0224pt x 218.2554pt>
 File: images/cantagallo-initial.jpg Graphic file (type jpg)
 
 <use images/cantagallo-initial.jpg> [60 <./images/cantagallo-initial.jpg>]
-<images/cantagallo-combined.jpg, id=652, 1027.84pt x 533.995pt>
+<images/cantagallo-combined.jpg, id=872, 1027.84pt x 533.995pt>
 File: images/cantagallo-combined.jpg Graphic file (type jpg)
 
 <use images/cantagallo-combined.jpg> [61 <./images/cantagallo-combined.jpg>]
@@ -1303,13 +1048,9 @@ Overfull \hbox (3.31258pt too wide) in paragraph at lines 973--973
 []|\OT1/cmr/m/n/10.95 Grassroots 
  []
 
-[62]
-
-LaTeX Warning: Reference `sec:lather' on page 63 undefined on input line 982.
-
-[63] [64]
+[62] [63] [64]
 Chapter 8.
-<images/labb-planning.jpg, id=675, 1027.84pt x 770.88pt>
+<images/labb-planning.jpg, id=897, 1027.84pt x 770.88pt>
 File: images/labb-planning.jpg Graphic file (type jpg)
 
 <use images/labb-planning.jpg>
@@ -1330,14 +1071,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1001--1006
 [65
 
  <./images/labb-planning.jpg>]
-<images/nasa-modis-small.jpg, id=681, 672.5125pt x 336.25626pt>
+<images/nasa-modis-small.jpg, id=903, 672.5125pt x 336.25626pt>
 File: images/nasa-modis-small.jpg Graphic file (type jpg)
 
 <use images/nasa-modis-small.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/labb-bay-babtiste-trip.jpg, id=682, 1027.84pt x 770.88pt>
+<images/labb-bay-babtiste-trip.jpg, id=904, 1027.84pt x 770.88pt>
 File: images/labb-bay-babtiste-trip.jpg Graphic file (type jpg)
 
 <use images/labb-bay-babtiste-trip.jpg>
@@ -1435,7 +1176,7 @@ Overfull \hbox (34.24194pt too wide) in paragraph at lines 1053--1053
 Chapter 9.
 [69
 
-] [70] <images/knitter-mestia.jpg, id=720, 1027.84pt x 770.88pt>
+] [70] <images/knitter-mestia.jpg, id=936, 1027.84pt x 770.88pt>
 File: images/knitter-mestia.jpg Graphic file (type jpg)
 
 <use images/knitter-mestia.jpg>
@@ -1459,7 +1200,7 @@ Overfull \hbox (3.74023pt too wide) in paragraph at lines 1097--1098
  []
 
 [71 <./images/knitter-mestia.jpg>]
-<images/black-mountain.jpg, id=727, 392.2655pt x 411.136pt>
+<images/black-mountain.jpg, id=943, 392.2655pt x 411.136pt>
 File: images/black-mountain.jpg Graphic file (type jpg)
 
 <use images/black-mountain.jpg>
@@ -1472,60 +1213,16 @@ Underfull \hbox (badness 1038) in paragraph at lines 1102--1102
 \OT1/cmr/m/n/10 at Black Moun-tain,
  []
 
-[72 <./images/black-mountain.jpg>]
-
-LaTeX Warning: Citation `solari2010cantagallo' on page 73 undefined on input li
-ne 1108.
-
-[73]
-
-LaTeX Warning: Citation `aber1999kite' on page 74 undefined on input line 1134.
-
-
-[74]
-
-LaTeX Warning: Citation `chambers2006participatory' on page 75 undefined on inp
-ut line 1146.
-
-
-LaTeX Warning: Citation `vierling2006short' on page 75 undefined on input line 
-1158.
-
-
-LaTeX Warning: Citation `aber2002unmanned' on page 75 undefined on input line 1
-158.
-
-[75] <diagrams/resolution-frequency.pdf, id=752, 562.1pt x 264.99pt>
+[72 <./images/black-mountain.jpg>] [73] [74] [75]
+<diagrams/resolution-frequency.pdf, id=971, 562.1pt x 264.99pt>
 File: diagrams/resolution-frequency.pdf Graphic file (type pdf)
 
-<use diagrams/resolution-frequency.pdf>
-
-LaTeX Warning: Citation `miyamoto2004use' on page 76 undefined on input line 11
-69.
-
-[76 <./diagrams/resolution-frequency.pdf
+<use diagrams/resolution-frequency.pdf> [76 <./diagrams/resolution-frequency.pd
+f
 
 pdfTeX warning: pdflatex (file ./diagrams/resolution-frequency.pdf): PDF inclus
 ion: Page Group detected which pdfTeX can't handle. Ignoring it.
->]
-
-LaTeX Warning: Citation `oconnor2008maps' on page 77 undefined on input line 11
-91.
-
-
-LaTeX Warning: Reference `sec:ongoinguses' on page 77 undefined on input line 1
-191.
-
-[77]
-
-LaTeX Warning: Citation `miyamoto2004use' on page 78 undefined on input line 12
-01.
-
-
-LaTeX Warning: Reference `sec:ongoinguses' on page 78 undefined on input line 1
-201.
-
-[78]
+>] [77] [78]
 Chapter 10.
 [79
 
@@ -1540,19 +1237,10 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
  [80]
-<images/mathew-lippincott-balloons.png, id=795, 581.17125pt x 324.21124pt>
+<images/mathew-lippincott-balloons.png, id=1014, 581.17125pt x 324.21124pt>
 File: images/mathew-lippincott-balloons.png Graphic file (type png)
 
 <use images/mathew-lippincott-balloons.png>
-
-LaTeX Warning: Citation `lippincott2010helium' on page 81 undefined on input li
-ne 1242.
-
-
-LaTeX Warning: Citation `lippincott2010helium' on page 81 undefined on input li
-ne 1242.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1242--1242
 \OT1/cmr/m/n/10 ing for poros-ity
  []
@@ -1631,14 +1319,14 @@ Missing character: There is no ± in font cmr10!
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6511 strings out of 256216
- 105155 string characters out of 1917073
+ 6541 strings out of 256216
+ 105624 string characters out of 1917073
  173271 words of memory out of 1500000
- 9364 multiletter control sequences out of 10000+200000
+ 9394 multiletter control sequences out of 10000+200000
  13046 words of font info for 45 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  52i,11n,89p,1535b,505s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -1700,9 +1388,9 @@ esky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/
 texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
 cmssbx10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/te
 xmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (93 pages, 15938325 bytes).
+Output written on thesis.pdf (93 pages, 15959157 bytes).
 PDF statistics:
- 1073 PDF objects out of 1200 (max. 8388607)
+ 1236 PDF objects out of 1440 (max. 8388607)
  298 named destinations out of 1000 (max. 131072)
- 651 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 891 words of extra memory for PDF output out of 10000 (max. 10000000)
 
