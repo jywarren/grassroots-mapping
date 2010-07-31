@@ -2,14 +2,14 @@ Chapters:
 
 X intro
 X history
-- subjectivity 
-0 need
+- subjectivity - clean powell section, read over
+- need - cleanup peru section, add conclusiong
+- state of the art - haiti section, local expertise and empowerment
 0 toolkit
 - peru
 0 gulf
 0 evaluation
-0 future work
-0 conclusion
+0 future work & conclusion
 
 http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V6V-4K4PSSP-1&_user=501045&_coverDate=08%2F15%2F2006&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1362065813&_rerunOrigin=scholar.google&_acct=C000022659&_version=1&_urlVersion=0&_userid=501045&md5=027fdf38652927b93b249b41495cd20f
 

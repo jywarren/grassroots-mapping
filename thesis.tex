@@ -7,7 +7,7 @@
             pdfkeywords={Cartography},
             pdfproducer={Latex with hyperref},
             pdfcreator={pdflatex,colorlinks}]{hyperref}
-\usepackage{graphicx,wrapfig,color,pdfcomment,booktabs,ctable,textcomp,tabularx,array,acronym}
+\usepackage{graphicx,wrapfig,color,pdfcomment,booktabs,ctable,textcomp,tabularx,array,acronym,threeparttable}
 \usepackage[table]{xcolor}
 \usepackage[hang,small,bf,margin=0.5cm,tableposition=top]{caption}
 \usepackage[ragged]{footmisc}
@@ -19,6 +19,7 @@
 	    linkcolor=linkblue}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcolumntype{W}{>{\raggedleft\arraybackslash}X}
+
 \definecolor{tableShade}{HTML}{EEEEEE}
 
 \title{Grassroots Mapping: a toolkit for participatory and politically engaged cartography}
@@ -323,7 +324,7 @@ Present-day users of web-based mapping products such as Google Maps are presente
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{images/two-worlds-mapping.png}
-		Views of Manhattan, left, and a settlement in Lima, Peru, right, as seen in Google Maps \url{http://maps.google.com}
+		\caption{Views of Manhattan, left, and a settlement in Lima, Peru, right, as seen in Google Maps \url{http://maps.google.com}}
 		% could add Cameroon, where towns are missing
 	\end{center}
 \end{figure}
@@ -502,9 +503,7 @@ This belief is supported by the `on the ground' policy stated explicitly in the 
 
 \subsection{The modern open-source geostack}
 
-Another interesting aspect of OpenStreetMap is that it represents a deployed and working combination of many of the premier open-source mapping tools available today. It makes use of OpenLayers, a web browser-based framework for displaying raster map tiles using JavaScript. Tiles are produced using Mapnik, the popular open-source tile renderer. An array of other open-source utilities are used to create, edit, translate, import, and export the data. 
-
-...
+Another interesting aspect of OpenStreetMap is that it represents a deployed and working combination of many of the premier open-source mapping tools available today. It makes use of OpenLayers, a web browser-based framework for displaying raster map tiles using JavaScript. Tiles are produced using Mapnik, the popular open-source tile renderer. An array of other open-source utilities are used to create, edit, translate, import, and export the data. The Grassroots Mapping project, and especially the Cartagen Knitter, can be seen as an opportunity to augment this geostack with an equally open means of capturing source imagery and integrating such data into the open-source workflow. 
 
 \subsection{Humanitarian OSM Team}
  
@@ -519,7 +518,7 @@ HOT's first project, a volunteer effort to map the Gaza Strip during the 2008-20
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/kibera-gpx.png}
-    GPX traces collected from GPS units over three weeks of mapping in Kibera. \url{http://www.flickr.com/photos/mikel_maron/4143021346/}
+    \caption{GPX traces collected from GPS units over three weeks of mapping in Kibera. \url{http://www.flickr.com/photos/mikel_maron/4143021346/}}
   \end{center}
 \end{figure}
 
@@ -551,19 +550,18 @@ While there are a diverse range of approaches to participatory mapping, several 
 
 Perhaps the most ambitious project of this type is the Map Warper software written by Tim Waters, Schuyler Erle, and Shekhar Krishnan, as part of their project to 'crowdsource' the digitization of the New York Public Library map archive. \cite{waters2009warper} The tool, built for the New York Public Library Map Archive to digitize their collection, invites volunteers to orthorectify maps by matching Ground Control Points, or GCPs, between a source image and a reference map. 
 
-While designed for warping archival maps onto a vector dataset, namely OpenStreetMap, the tool can be used to warp aerial imagery onto satellite data. This is achieved by inserting a new layer into the reference map pane, which is implemented in OpenLayers. The resulting warped image can be downloaded as a \ac{GeoTIFF} or accessed as a standards-compliant WMS layer. 
+While designed for warping archival maps onto a vector dataset, namely OpenStreetMap, the tool can be used to warp aerial imagery onto satellite data. This is achieved by inserting a new layer into the reference map pane, which is implemented in OpenLayers. The resulting warped image can be downloaded as a \ac{GeoTIFF} or accessed as a standards-compliant WMS layer. A more complete discussion of this tool and its applicability toward grassroots aerial mapping can be found in Section \ref{subsec:stitchingjp2}.
 
 \subsection{GonzoEarth and manual stitching with Adobe Photoshop}
 \label{subsec:gonzoearth}
-One of the main practitioners of low-cost mapmaking today is Stewart Long and his one-man company GonzoEarth. Stewart is responsible for such impressive maps as the 2009 map of Burning Man, published at a 3 cm resolution. This map was surprisingly warped onto a lower resolution base map, blended, and output as a BigTiff image using Adobe Photoshop CS4. The image was then reprojected and saved as a \ac{GeoTIFF} using the open source GDAL package.
 
-The imagery for the Burning Man map was taken from a balloon by ....... , but Stewart typically uses a lightweight and relatively inexpensive remote control airplane called the Easystar, sold by the German company Multiplex. A small canon camera is inserted into the cockpit and a hole is cut in the belly of the plane through which the pictures are taken. Stewart can fly the plane at up to a half-mile away, steering manually with a 2.4 Ghz transmitter and can capture imagery at hundreds of feet in the air. The plane can remain in the air for up to an hour. 
+One of the main practitioners of low-cost mapmaking today is Stewart Long and his one-man company GonzoEarth, which provides `applied neogeographical techniques for on-demand mapping'\cite{long2010process}. Stewart is responsible for such impressive maps as the 2009 map of Burning Man, published at a 2 cm/pixel resolution\footnote{View the map online at GigaPan.org: \url{http://gigapan.org/gigapans/46290/}}. This map was surprisingly warped onto a lower resolution base map, blended, and output as a BigTiff image using Adobe Photoshop CS4. The image was then reprojected and saved as a \ac{GeoTIFF} using the open source GDAL package. Stewart's use of Photoshop extends to all his mapping work, due to its ability to `make dynamic selections, transformations, and stitching' including layer merging and flattening.\cite{long2010process} While observing his process, I noted that he would repeatedly return to earlier images in order to adjust them iteratively, treating the map imagery almost like paint rather than data. GonzoEarth maps are among the best available in that they are seamless and consistent, and Stewart has a unique intuitive grasp of the process, as well as a great deal of patience. Careful observations of his work have played a major role in the design of the Cartagen Knitter, described in Section \ref{subsubsec:knitter}. 
 
-Reasons... get quotation
+The imagery for the Burning Man map was taken from a helium balloon by Jack Alderson, but Stewart also captures imagery by using a lightweight and relatively inexpensive remote control airplane called the Easystar, sold by the German company Multiplex. A small canon camera is inserted into the cockpit and a hole is cut in the belly of the plane through which the pictures are taken. Stewart can fly the plane at up to a half-mile away, steering manually with a 2.4 Ghz transmitter and can capture imagery at hundreds of feet in the air. The plane can remain in the air for up to an hour.  
 
-DIYDrones T3
+\subsection{DIYDrones.com and the T3 competition}
 
-% mention DIYDrones, kite aerial photography guy with hugin/big Xs on the ground 
+One notable use of remote controlled aircraft which holds much promise for the future of low-cost mapping is the 2009 DIY Drones Trust Time Trial (T3) event, where enthusiasts of autonomously piloted model aircraft were put through a series of successively more difficult tasks such as flying a complex route. The competition's Round 4 event, entitled `Map a quarter-kilometer!' challenged participants to photograph a 500 meter square from their aircraft, and to submit a KML of the route as well as a stitched map of the target area. Seven entrants completed the round from five countries, using a variety of autopilot boards and airframes.\cite{anderson2010winners} The complete costs of such kits ranges from approximately \$US 1,000 upwards, but as the cost of this type of equipment drops, this may be an increasingly viable means of capturing aerial imagery. At the same time, it bears remembering that these are essentially adaptations of military technology, and local context must be taken into account --- in many places, such as the West Bank, remote controlled aircraft may be unwelcome or perceived as threatening both by local communities and regional military or law-enforcement agencies. 
 
 \section{Aerial imaging with low-cost tools}
 \label{sec:aeriallowcost}
@@ -589,14 +587,21 @@ Kiteography (Warner, 1996) - KAP for `making large-scale topographic maps, based
 
 \chapter{The Grassroots Mapping tool chain}
 \label{chap:toolchain}
-Illustration of the process and average timeline of the Grassroots Mapping tool chain
 
 \section{Balloon/kite Aerial Mapping (BAM/KAM)}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/100-dollar-satellite-poster.jpg}
+	\end{flushright}
+\end{wrapfigure}
 
 As discussed in Section \ref{sec:aeriallowcost}, prior works in kite and balloon mapping make it redundant to discuss the advantages of such techniques beyond to say that they are easier and less expensive than aircraft or satellite-based imagery sources. However, the particulars of the equipment design developed for use in Grassroots Mapping projects emphasized yet lower cost, ease of use, and ease of reproduction than many existing designs, and a discussion of these decisions and the resulting designs is relevant. 
 
 \begin{table}[tp] 
 \caption{Comparison of balloon and kite mapping techniques. Despite the challenges and higher costs of balloon mapping, typical extents of a balloon map are far greater due to the higher altitude of flight, and due to a balloon's tendency to fly vertically in low winds, it is much easier to image the correct area. In the largest Grassroots Mapping project in the Gulf of Mexico, more than 80\% of maps were made with balloons, and kite flights have typically had a much lower success rate.}
+
+(compile reference to 80\% from latest gulf data at time of publication)
 
 \label{aggiungi}\centering %
 \rowcolors{1}{tableShade}{white}
@@ -619,33 +624,48 @@ Initial total cost of kit&\$60-400 depending on kite and tether material&\$100-5
 
 Due to the distinct compromises of each technique, I recommend that those attempting to capture aerial imagery equip themselves for both scenarios. Luckily, the techniques share much of the same equipment, and it is possible in many places in the world to assemble a basic but complete kit for under \$150. I have done so in surprisingly unlikely locales, such as the West Bank in Palestine, Lima, Peru, and Kutaisi, Georgia. 
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/100-dollar-satellite-poster.jpg}
-	\end{flushright}
-\end{wrapfigure}
-
 \subsection{Balloon mapping}
 
 Helium is a limited and non-renewable resource, and obtaining it in the quantities necessary for aerial photography can prove challenging in the more remote parts of the world. 250 cubic foot tanks are most common, but are too heavy to carry without a wheeled dolly, and do not easily fit into cars or buses. They are also excessive, providing enough helium for between six and ten flights with a typical payload. If available, 80 or 120 cubic foot tanks are preferable, typically available in the United States for approximately \$45 and \$60, respectively. Those constructed from aluminum are especially convenient, being far lighter and easier to transport. Costs vary, depending on the distance from major helium sources such as the United States and Russia, but I have found large, 250 cubic foot tanks available for rental at approximately \$250 each in Bethlehem, in the West Bank, and for approximately \$300 in Lima, Peru, both at party stores. Gas supply vendors may offer somewhat lower prices, but sometimes require a permanent customer account, and can be reluctant to rent to non-industrial customers. 
 
-Illustration: Tetrahedral balloon instructions
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/trash-bag-ballooning.jpg}
+		\caption{Testing trash bag balloons with the Department of Play working group on the MIT campus in Cambridge, Massachusetts.}
+	\end{flushright}
+\end{wrapfigure}
 
 To further reduce costs, it is possible to use large high density polyethelene trash bags, of the kind typical worldwide. Two extra-large ninety-nine gallon bags suffice to lift a small camera and string to thousands of feet. Bags may be sealed shut with tape and filled without modification, or cut open and reassembled into tetrahedral shapes to minimize the surface area to volume ratio, providing greater lift. In addition, trash bags may be left inflated for several days without stretching or damaging the plastic, unlike latex balloons. However, helium leaks slowly through the plastic, and even relatively thick 2.7 mil plastic bags will lose most of their lifting power after a day or two. Trash bags are available for less than a dollar anywhere in the world, as is the clear plastic packing tape which may be used to seal them closed.  
 
-Illustration of 3 types durability/cost comparison
-
-Shannon's quote about `80\% kites'
+\begin{table}[tp] 
+\begin{threeparttable}[b]
+\caption{Comparison of balloon type options}
+\centering %
+\rowcolors{1}{tableShade}{white}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{>{\bfseries}WYYY}
+\toprule\hiderowcolors
+Type&Cost&Typical \# of uses&Permeability\\\otoprule\showrowcolors
+5-foot polyurethane advertising balloon\tnote{1}&\$US 140&hundreds?&\\
+8-foot\tnote{2} latex weather balloon&\$US 25&up to 10 if careful&remains inflated for several hours; this weakens the balloon\\
+Trash bags&~\$US 2&2-3&1-2 days if thicker (3 mil) plastic is used\\\bottomrule 
+\end{tabularx}
+\begin{tablenotes}
+\item [1] Available from Southern Balloon Works, \url{southernballoonworks.com}
+\item [2] `8-foot' denotes burst diameter, actual filled diameter during use is approximately 4 feet
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
 
 \subsection{Kite mapping}
 
-Table of kite pros/cons: Flowform, locally produced, portability, Sled on a Thread
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/kite-cesar.jpg}
+	\end{flushright}
+\end{wrapfigure}
 
 Kites present an opportunity to loft cameras at near-zero cost --- materials for making kites can be found for less than a dollar, or recycled from waste. However kites can be particularly challenging to fly stably and difficult wind conditions often make for a frustrating and exhausting day of attempted map-making. With this in mind, I have looked to the experience of \ac{KAP} enthusiasts in choosing a respected standard in highly portable, reliable, and flexible flight: the Sutton Flowform. This `sled kite' has no rigid spars and even its 16 square foot model can be packed down to fit in a small sack. Flowforms can be flown at a wide range of wind speeds and the Flowform 16 can lift tens of kilograms in ideal conditions. However, its ~\$100 cost makes it somewhat beyond the means of many map makers. Therefore, whenever possible I have encouraged my collaborators to apply local traditional kite designs, often with great success. In Lima, Peru and Ramallah, Palestine, local designs were cheap and effective, the only issue being that they had to be scaled up to a size which could lift the approximately 300 gram payload. Kite building makes for an engaging and fun activity while reyling on local means of production for an aerial platform. 
-
-(Photo of VBW team flying the kite they made) 
-
-(Photo of kite building in JP2)
 
 \subsection{Camera and intervalometer}
 
@@ -674,7 +694,14 @@ Diagram of Cartagen vs. Existing geostack
 
 To sidestep many of these requirements, and to allow users to participate fully in the authoring of maps, I created the Cartagen framework. Using new techniques made possible by widespread browser support for HTML5 and specifically the Canvas element, Cartagen can create maps which are not pre-rendered, but generated on-the-fly. This frees the map from a single projection or representation, and enables a more dynamic, interactive, and narrative cartographic style. Discrete vector data (made up of points, lines, and areas) can be downloaded in JSON format just once, and displayed at any scale and in any style. Recent increases in JavaScript execution speed [JavaScript speed stats] make possible relatively high framerates (~15fps on a typical machine), obviate the need for browser plugins like Flash or Java, and make dynamic HTML5 mapping accessible even on mobile devices such as on the iPhone, Android, and Windows Mobile platforms. As an added advantage, Cartagen performs much of the work of map display locally, reducing dependence on high-latency internet connectivity. It also allows users to easily download data and view or edit it offline. These features make it particularly appropriate for use in developing countries or in crisis situations. 
 
-Wiley's Last Resort image
+(usage restrictions in Google Maps and similar services)
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/knitter-wileys.png}
+		\caption{A map of Wiley's Last Resort in Kentucky, produced in Cartagen Knitter with imagery captured from a remote controlled aircraft by Stewart Long.}
+	\end{flushright}
+\end{wrapfigure}
 
 The Cartagen framework represents an alternative system which is optimized for user-created content, rather than one-to-many broadcast publishing. As a fully scriptable cartographic environment, however, it was also uniquely suited for building an image orthorectification tool. The Canvas element is essentially a pixel raster, but because Cartagen's primitives are vector objects stored as points and polygons, it there is no need to store resampled source imagery while performing distortions or transforms. While in Photoshop, a powerful computer is required to store, manipulate, and export a map of any considerable size (maps made for the BP oil spill project were over 50,000 px in each dimension), Cartagen can be used to orthorectify using a laptop or even a low-power netbook. Users in effect see a lower-resolution preview rendered only at the size of their browser window, and a final, high-resolution composite image is created using ImageMagick on the server side. This lowers the cost of the equipment to process and orthorectify aerial imagery by thousands of dollars. 
 
@@ -703,6 +730,8 @@ Instead of just annotating a Google Map with pins representing your data, Cartag
 \section{Cartagen: an alternative architecture for digital maps}
 
 However, in order to orthorectify or `stitch' aerial imagery into a flat, geographically referenced map requires a system to display and manipulate raster imagery. The ability to label, trace, and otherwise annotate the resulting rectified map requires a system to display and manipulate vector data. In order to meet these needs the author created a map authoring and display framework called Cartagen. Written in JavaScript, it enables users to edit and publish discrete map data (points, lines, polygons) using a text editor, and to view and manipulate that data in a modern web browser such as Safari, Chrome, or Firefox. Maps may be published in just a few flat files, rather than relying upon a tile caching system or a backend database.
+
+(concurrent client ability)
 
 raster abilities of Cartagen
 
@@ -744,7 +773,13 @@ Illustration of Mathew Lippincott's workshop
 
 Regular testing of new tools at the MIT campus, as well as repeated attempts to orthorectify the resulting imagery, grounded the software development in concrete usage and experience, and a workshop at the Google campus in Mountain View in April 2010 included a collaborative hacking session aimed at identifying and resolving bugs and adding new features in direct response to the day's mapping efforts. 
 
-Imagery from Google hacking session
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/asynchronous-editing.jpg}
+		\caption{Collaborative editing of a map of the Google campus using Cartagen Knitter at the WhereCamp 2010 unconference. User feedback was incorporated into the tool and re-deployed in real time.}
+	\end{flushright}
+\end{wrapfigure}
+
 
  - requests made via list: stewart long asks for masking, Crispen asks for entry of lat/lon pairs, WhereCamp folks asked for locking, Pat Coyle asked for 'natural size' feature
 
@@ -752,7 +787,7 @@ Imagery from Google hacking session
 
 In response to the collaborative design process and interviews conducted in Lima, Peru (Chapter \ref{chap:peru}), it was determined that the primary barrier to producing map imagery was the orthorectification process. While in Lima, participants made use of Adobe Photoshop CS3 as well as the Map Warper software discussed in Subsection \ref{subsec:mapwarper}. Attempts were made to instruct residents of the subject areas in the use of these tools. These techniques met with limited success due to factors such as availability of computers powerful enough to run Photoshop, latency in internet access, and most of all, the obscure interfaces which users were required to learn (see discussion in 9.1.9).  
 
-Using Adobe Photoshop to manually disort and warp imagery over an imported base map was a more direct and easier to explain process, but the low availability of the software and the need for a powerful computer to perform large image transformations were additional challenges. The need for a lightweight, easy to use system became clear. The additional ability to run such a program in any standard web browser would put such tools within reach of anyone with access to an internet cafe.
+Using Adobe Photoshop to manually disort and warp imagery over an imported base map was more direct and an easier process to explain, but the low availability of the software and the need for a powerful computer to perform large image transformations were additional challenges. The need for a lightweight, easy to use system became clear. The additional ability to run such a program in any standard web browser would put such tools within reach of anyone with access to an internet cafe.
 
 \subsubsection{Cartagen Knitter}
 \label{subsubsec:knitter}
@@ -788,7 +823,7 @@ In the interest of basing tool development and design on real-world applications
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/kids-canta-gallo.jpg}
-		Children capturing aerial imagery in Canta Gallo, Lima, Peru.
+		\caption{Children capturing aerial imagery in Canta Gallo, Lima, Peru.}
 	\end{flushright}
 \end{wrapfigure}
 
@@ -815,7 +850,7 @@ Additionally, we identified a number of more immediate applications for an up-to
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/juan-pablo-measuring.jpg}
-		Measuring homes with a paper measuring tape in Juan Pablo II, Lima, Peru.
+		\caption{Measuring homes with a paper measuring tape in Juan Pablo II, Lima, Peru.}
 	\end{flushright}
 \end{wrapfigure}
 
@@ -834,7 +869,7 @@ Interested in quickly capturing aerial imagery and moving on to analysis, we beg
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/juan-pablo-first-flight.jpg}
-		Initial balloon flights in Juan Pablo II.
+		\caption{Initial balloon flights in Juan Pablo II.}
 	\end{flushright}
 \end{wrapfigure}
 
@@ -858,7 +893,7 @@ However, while we awaited a major success in capturing imagery (a success which 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/juan-pablo-frank.jpg}
-		Frank .
+		\caption{Frank, a student from Juan Pablo II, presents a detailed history of infrastructural improvements to his home.}
 	\end{flushright}
 \end{wrapfigure}
 
@@ -874,16 +909,17 @@ We then asked students to produce similar work --- drawings and written reports 
 This kind of map-making recalls the 3D Model Mappipng or Ground Mapping traditions of PGIS practice, with an emphasis on community assets and the explicit link between mapping and urban planning. The ability to view the model both from above as we were doing with balloons in the \textbf{real} Juan Pablo II, as well as from a first-person perspective by planting one's head amongst the buildings, bridged the gap between the abstracted god's-eye view and the situated personal view of the settlement. The model was extremely popular amongst not only the rest of the students and teachers, but amongst the parents and community leaders who attended our final presentation. 
 
 \subsubsection{Stitching maps with Juan Pablo II}
+\label{subsec:stitchingjp2}
 
 Throughout the balloon and kite flights, we employed various techniques to process the aerial imagery into maps. Starting with the \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/map-warper.png}
-		The Map Warper interface for identifying Ground Control Points. \cite{waters2009warper}
+		\caption{The Map Warper interface for identifying Ground Control Points. \cite{waters2009warper}}
 	\end{flushright}
 \end{wrapfigure} Map Warper software available at \url{http://warper.geothings.net}, teachers from Manzanita `A', we switched to Adobe Photoshop after a few attempts. Designed for printed maps, Warper experienced difficulty successfully warping some of the more oblique or distorted imagery, and in order to compensate, GCPs had to be placed deliberately incorrectly in a laborious trial-and-error process. (See Subsection \ref{subsec:cameraenclosures} for an overview of Map Warper). \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/map-warper-hack.png}
-		Demonstration of JavaScript hack to insert Google satellite data for warping in areas with low feature density. \cite{waters2009warper}
+		\caption{Demonstration of JavaScript hack to insert Google satellite data for warping in areas with low feature density. \cite{waters2009warper}}
 	\end{flushright}
 \end{wrapfigure}Additionally, Warper uses OpenStreetMap tiles as a base layer, but in Juan Pablo II and other areas we worked in around Lima, there was no data available, and we were forced to use a JavaScript hack to insert Google satellite imagery or another viable source. Even then, it proved difficult to successfully stitch a map, as multiple steps separated an assignment of GCPs with the feedback that an image was successfully warped. This is not to say that Map Warper is not a valued tool for its intended use, and in fact Shekhar Krishnan more recently applied it successfully in digitizing paper maps of Mumbai. However it was not suitable for much of the aerial imagery we gathered, and proved difficult for those with limited computer fluency.
 
@@ -892,7 +928,7 @@ Our next tool was Adobe Photoshop CS4, which can yield impressive results for an
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/juan-pablo-rubbersheeting.jpg}
-		Students collaborate in a semi-imaginary `rubber sheeting' map stitching session. 
+		\caption{Students collaborate in a semi-imaginary `rubber sheeting' map stitching session.}
 	\end{flushright}
 \end{wrapfigure}
 
@@ -1044,6 +1080,15 @@ The disaster and the incredible support and diligence of the LABB mapping team a
 
 The most challenging aspect of organizing the oil mapping project was to train a group of inexperienced but committed volunteers to use Grassroots Mapping tools such as balloons and kites, in often adverse weather conditions up to 3 hours travel from New Orleans, our home base. That a number of volunteers have continued not only to make trips on their own, but to bring and train others to map, has been....
 
+\section{Integration with Ushahidi}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/labb-ushahidi.png}
+		\caption{Data collected and processed by the Grassroots Mapping team, displayed as tiles in the LABB Ushahidi instance.}
+	\end{flushright}
+\end{wrapfigure}
+
 \section{Analysis of data collected}
 
 \begin{table}[tp] 
@@ -1145,7 +1190,12 @@ Image of birds on Chandeleur islands, and helicopter scaring them away.
 
 Compared to the alternatives, of hiring pilots and paying for fuel and aircraft, or purchasing satellite imagery, balloon and kite mapping seemed not only inexpensive, but more legible and participatory. The idea that one would have to send a camera into space to photograph things which are right next to oneself seems strange, especially when the area of interest is on the scale of a small community. Imagery taken from only 2-4000 feet preserves a sense of the human scale; mappers can often see themselves or their boat or car in the images, and the occasional photograph shows the balloon or kite string leading down from the camera to the ground. This leaves a powerful impression on mappers, who are literally holding the camera in their hand at thousands of feet in the air... albeit at the end of a string. To them, the millimeter-thick string is both a literal and symbolic link to the camera, a reminder of their control over the image and the authorship they have in the resulting map.  
 
-Image of people looking up at a balloon - Fourchon, or Chandeleur, or Lima... all three
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/labb-bay-jimmy.jpg}
+		\caption{Grassroots mappers in a fanboat at Bay Jimmy, LA on July 22. Photo courtesy Cesar Harada/LABB.}
+	\end{flushright}
+\end{wrapfigure}
 
 In pragmatic terms, rather than relying on an outside source of expertise, members of participating communities felt that they could perform the image collection themselves, at times of their choosing, and could repeat the imaging at higher intervals than what would be possible with aircraft or satellites. After performing several 'trips' with members of the Louisiana Bucket Brigade and members of Coal River Mountain Watch, participants from those organizations felt comfortable launching their own balloons under observation by myself or Stewart Long, another grassroots cartographer. Several of these participants went on to lead their own trips and bring back their own imagery.
 

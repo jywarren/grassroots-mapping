@@ -33,6 +33,7 @@
 \BOOKMARK [1][-]{section.5.3}{Existing techniques for low-cost orthorectification}{chapter.5}
 \BOOKMARK [2][-]{subsection.5.3.1}{Map Warper}{section.5.3}
 \BOOKMARK [2][-]{subsection.5.3.2}{GonzoEarth and manual stitching with Adobe Photoshop}{section.5.3}
+\BOOKMARK [2][-]{subsection.5.3.3}{DIYDrones.com and the T3 competition}{section.5.3}
 \BOOKMARK [1][-]{section.5.4}{Aerial imaging with low-cost tools}{chapter.5}
 \BOOKMARK [0][-]{chapter.6}{The Grassroots Mapping tool chain}{}
 \BOOKMARK [1][-]{section.6.1}{Balloon/kite Aerial Mapping \(BAM/KAM\)}{chapter.6}
@@ -57,7 +58,8 @@
 \BOOKMARK [0][-]{chapter.8}{Case Study: Citizen mapping of the BP oil spill}{}
 \BOOKMARK [1][-]{section.8.1}{Grassroots mapping in crisis response}{chapter.8}
 \BOOKMARK [1][-]{section.8.2}{Building capacity, organization, funding}{chapter.8}
-\BOOKMARK [1][-]{section.8.3}{Analysis of data collected}{chapter.8}
+\BOOKMARK [1][-]{section.8.3}{Integration with Ushahidi}{chapter.8}
+\BOOKMARK [1][-]{section.8.4}{Analysis of data collected}{chapter.8}
 \BOOKMARK [0][-]{chapter.9}{Evaluation}{}
 \BOOKMARK [1][-]{section.9.1}{Participants vs. collaborators}{chapter.9}
 \BOOKMARK [1][-]{section.9.2}{Validity in openly ideological research}{chapter.9}
