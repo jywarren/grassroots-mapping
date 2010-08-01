@@ -4,7 +4,7 @@ X intro
 X history
 X subjectivity - pgis mailing list stuff at the end, conclude the chapter
 X need - Env. mapping - use readings
-x state of the art - initial PGIS section, haiti section, local expertise and empowerment, kite aerial prev. work
+x state of the art - initial PGIS section, haiti section, local expertise and empowerment
 - toolkit - thorough cleanup of Cartagen presentation
 x peru - interviews
 0 gulf - ushahidi, funding/kickstarter, independent pickups, 

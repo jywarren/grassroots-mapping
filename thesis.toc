@@ -38,69 +38,69 @@
 \contentsline {subsection}{\numberline {5.3.2}GonzoEarth and manual stitching with Adobe Photoshop}{41}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}DIYDrones.com and the T3 competition}{41}{subsection.5.3.3}
 \contentsline {section}{\numberline {5.4}Aerial imaging with low-cost tools}{42}{section.5.4}
-\contentsline {chapter}{\numberline {6}The Grassroots Mapping tool chain}{43}{chapter.6}
-\contentsline {section}{\numberline {6.1}Balloon/kite Aerial Mapping (BAM/KAM)}{43}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Balloon mapping}{45}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Kite mapping}{47}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Camera and intervalometer}{47}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Enclosures and suspensions}{48}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Digital maps: reconceptualizing mapping interaction}{49}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Cartagen dynamic rendering}{49}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Why an entirely new mapping system?}{51}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Cartagen: an alternative architecture for digital maps}{52}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}An iterative toolchain development process}{52}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Web-based orthorectification and warping}{53}{subsection.6.3.2}
-\contentsline {subsubsection}{Cartagen Knitter}{54}{section*.6}
-\contentsline {chapter}{\numberline {7}Case Study: Grassroots Mapping in Lima, Peru}{56}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{56}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}The Other Path: Lima's history of informal settlement}{58}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Mapping with Juan Pablo II}{59}{subsection.7.1.2}
-\contentsline {subsubsection}{First flights in Juan Pablo II}{60}{section*.7}
-\contentsline {subsubsection}{Situating mapping practice}{62}{section*.8}
-\contentsline {subsubsection}{Stitching maps with Juan Pablo II}{63}{section*.9}
-\contentsline {subsection}{\numberline {7.1.3}Mapping with San Ignacio Loyola}{66}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}Mapping with Cantagallo}{66}{subsection.7.1.4}
-\contentsline {subsubsection}{Flying balloons with Cantagallo}{69}{section*.10}
-\contentsline {subsubsection}{The rest of Canta Gallo and local geographic dispute}{69}{section*.11}
-\contentsline {subsection}{\numberline {7.1.5}Evaluation}{71}{subsection.7.1.5}
-\contentsline {subsection}{\numberline {7.1.6}Needs (Re)assessment}{73}{subsection.7.1.6}
-\contentsline {chapter}{\numberline {8}Case Study: Citizen mapping of the BP oil spill}{74}{chapter.8}
-\contentsline {section}{\numberline {8.1}Grassroots mapping in crisis response}{74}{section.8.1}
-\contentsline {section}{\numberline {8.2}Building capacity, organization, funding}{76}{section.8.2}
-\contentsline {section}{\numberline {8.3}Integration with Ushahidi}{77}{section.8.3}
-\contentsline {section}{\numberline {8.4}Analysis of data collected}{77}{section.8.4}
-\contentsline {chapter}{\numberline {9}Evaluation}{80}{chapter.9}
-\contentsline {section}{\numberline {9.1}Participants vs. collaborators}{81}{section.9.1}
-\contentsline {section}{\numberline {9.2}Validity in openly ideological research}{81}{section.9.2}
-\contentsline {subsubsection}{Construct validity}{81}{section*.12}
-\contentsline {subsubsection}{Face validity}{82}{section*.13}
-\contentsline {subsubsection}{Catalytic Validity}{84}{section*.14}
-\contentsline {subsubsection}{Triangulation}{85}{section*.15}
-\contentsline {subsection}{\numberline {9.2.1}Interviews with local partners}{85}{subsection.9.2.1}
-\contentsline {section}{\numberline {9.3}Comparison with existing techniques}{85}{section.9.3}
-\contentsline {section}{\numberline {9.4}Quantitative evaluation}{87}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}Spatial resolution}{87}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}Precision and accuracy in low-altitude aerial imaging}{89}{subsection.9.4.2}
-\contentsline {subsection}{\numberline {9.4.3}Temporal resolution}{89}{subsection.9.4.3}
-\contentsline {subsection}{\numberline {9.4.4}Spectral resolution}{89}{subsection.9.4.4}
-\contentsline {chapter}{\numberline {10}Conclusion and future work}{91}{chapter.10}
-\contentsline {section}{\numberline {10.1}Ongoing uses of Grassroots Mapping tools}{91}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Activist mapping with Coal River Mountain Watch}{91}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}A Grassroots Mapping curriculum in Georgia}{92}{subsection.10.1.2}
-\contentsline {section}{\numberline {10.2}Wiki, blog and mailing list}{93}{section.10.2}
-\contentsline {section}{\numberline {10.3}Illustrated Guides}{93}{section.10.3}
-\contentsline {section}{\numberline {10.4}Outreach}{94}{section.10.4}
-\contentsline {chapter}{\numberline {A}Maps}{95}{appendix.A}
-\contentsline {section}{\numberline {A.1}Maps from Lima, Peru}{95}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Juan Pablo II}{95}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}San Ignacio Loyola}{95}{subsection.A.1.2}
-\contentsline {subsection}{\numberline {A.1.3}Canta Gallo I}{95}{subsection.A.1.3}
-\contentsline {subsection}{\numberline {A.1.4}Canta Gallo II}{95}{subsection.A.1.4}
-\contentsline {section}{\numberline {A.2}Maps from the 2010 BP Oil Spill}{95}{section.A.2}
-\contentsline {section}{\numberline {A.3}Maps from Appalachia}{95}{section.A.3}
-\contentsline {subsection}{\numberline {A.3.1}Black Mountain, Virginia}{95}{subsection.A.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Cherry Pond Mountain, West Virginia}{95}{subsection.A.3.2}
-\contentsline {section}{\numberline {A.4}Maps from Georgia}{95}{section.A.4}
-\contentsline {chapter}{\numberline {B}Guides and curricular materials}{96}{appendix.B}
-\contentsline {chapter}{\numberline {C}Materials checklists and prices}{97}{appendix.C}
-\contentsline {section}{\numberline {C.1}Price lists for balloon, kite, and RC plane mapping kits}{97}{section.C.1}
+\contentsline {chapter}{\numberline {6}The Grassroots Mapping tool chain}{44}{chapter.6}
+\contentsline {section}{\numberline {6.1}Balloon and Kite Aerial Mapping}{44}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Balloon mapping}{46}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Kite mapping}{48}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Camera and intervalometer}{48}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Enclosures and suspensions}{49}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Digital maps: reconceptualizing mapping interaction}{50}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Cartagen dynamic rendering}{50}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Why an entirely new mapping system?}{52}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Cartagen: an alternative architecture for digital maps}{53}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}An iterative toolchain development process}{53}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Web-based orthorectification and warping}{54}{subsection.6.3.2}
+\contentsline {subsubsection}{Cartagen Knitter}{55}{section*.6}
+\contentsline {chapter}{\numberline {7}Case Study: Grassroots Mapping in Lima, Peru}{57}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{57}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}The Other Path: Lima's history of informal settlement}{59}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Mapping with Juan Pablo II}{60}{subsection.7.1.2}
+\contentsline {subsubsection}{First flights in Juan Pablo II}{61}{section*.7}
+\contentsline {subsubsection}{Situating mapping practice}{63}{section*.8}
+\contentsline {subsubsection}{Stitching maps with Juan Pablo II}{64}{section*.9}
+\contentsline {subsection}{\numberline {7.1.3}Mapping with San Ignacio Loyola}{67}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Mapping with Cantagallo}{67}{subsection.7.1.4}
+\contentsline {subsubsection}{Flying balloons with Cantagallo}{70}{section*.10}
+\contentsline {subsubsection}{The rest of Canta Gallo and local geographic dispute}{70}{section*.11}
+\contentsline {subsection}{\numberline {7.1.5}Evaluation}{72}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Needs (Re)assessment}{74}{subsection.7.1.6}
+\contentsline {chapter}{\numberline {8}Case Study: Citizen mapping of the BP oil spill}{75}{chapter.8}
+\contentsline {section}{\numberline {8.1}Grassroots mapping in crisis response}{75}{section.8.1}
+\contentsline {section}{\numberline {8.2}Building capacity, organization, funding}{77}{section.8.2}
+\contentsline {section}{\numberline {8.3}Integration with Ushahidi}{78}{section.8.3}
+\contentsline {section}{\numberline {8.4}Analysis of data collected}{78}{section.8.4}
+\contentsline {chapter}{\numberline {9}Evaluation}{81}{chapter.9}
+\contentsline {section}{\numberline {9.1}Participants vs. collaborators}{82}{section.9.1}
+\contentsline {section}{\numberline {9.2}Validity in openly ideological research}{82}{section.9.2}
+\contentsline {subsubsection}{Construct validity}{82}{section*.12}
+\contentsline {subsubsection}{Face validity}{83}{section*.13}
+\contentsline {subsubsection}{Catalytic Validity}{85}{section*.14}
+\contentsline {subsubsection}{Triangulation}{86}{section*.15}
+\contentsline {subsection}{\numberline {9.2.1}Interviews with local partners}{86}{subsection.9.2.1}
+\contentsline {section}{\numberline {9.3}Comparison with existing techniques}{86}{section.9.3}
+\contentsline {section}{\numberline {9.4}Quantitative evaluation}{88}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Spatial resolution}{88}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Precision and accuracy in low-altitude aerial imaging}{90}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.3}Temporal resolution}{90}{subsection.9.4.3}
+\contentsline {subsection}{\numberline {9.4.4}Spectral resolution}{90}{subsection.9.4.4}
+\contentsline {chapter}{\numberline {10}Conclusion and future work}{92}{chapter.10}
+\contentsline {section}{\numberline {10.1}Ongoing uses of Grassroots Mapping tools}{92}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Activist mapping with Coal River Mountain Watch}{92}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}A Grassroots Mapping curriculum in Georgia}{93}{subsection.10.1.2}
+\contentsline {section}{\numberline {10.2}Wiki, blog and mailing list}{94}{section.10.2}
+\contentsline {section}{\numberline {10.3}Illustrated Guides}{94}{section.10.3}
+\contentsline {section}{\numberline {10.4}Outreach}{95}{section.10.4}
+\contentsline {chapter}{\numberline {A}Maps}{96}{appendix.A}
+\contentsline {section}{\numberline {A.1}Maps from Lima, Peru}{96}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Juan Pablo II}{96}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}San Ignacio Loyola}{96}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.3}Canta Gallo I}{96}{subsection.A.1.3}
+\contentsline {subsection}{\numberline {A.1.4}Canta Gallo II}{96}{subsection.A.1.4}
+\contentsline {section}{\numberline {A.2}Maps from the 2010 BP Oil Spill}{96}{section.A.2}
+\contentsline {section}{\numberline {A.3}Maps from Appalachia}{96}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Black Mountain, Virginia}{96}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Cherry Pond Mountain, West Virginia}{96}{subsection.A.3.2}
+\contentsline {section}{\numberline {A.4}Maps from Georgia}{96}{section.A.4}
+\contentsline {chapter}{\numberline {B}Guides and curricular materials}{97}{appendix.B}
+\contentsline {chapter}{\numberline {C}Materials checklists and prices}{98}{appendix.C}
+\contentsline {section}{\numberline {C.1}Price lists for balloon, kite, and RC plane mapping kits}{98}{section.C.1}
