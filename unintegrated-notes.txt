@@ -2,13 +2,13 @@ Chapters:
 
 X intro
 X history
-- subjectivity - clean powell section, read over
-- need - cleanup peru section
-- state of the art - haiti section, local expertise and empowerment
+X subjectivity - pgis mailing list stuff at the end, conclude the chapter
+x need - Env. mapping - use readings, Asset allocation - peter poole
+- state of the art - haiti section, local expertise and empowerment, kite aerial prev. work
 0 toolkit - thorough cleanup of Cartagen presentation
-- peru - interviews
-0 gulf - ushahidi, funding/kickstarter, independent pickups
-0 evaluation
+x peru - interviews
+0 gulf - ushahidi, funding/kickstarter, independent pickups, 
+0 evaluation - answer initial questions
 0 future work & conclusion
 
 ### more data on legal use of maps
