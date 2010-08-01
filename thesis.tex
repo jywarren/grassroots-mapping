@@ -58,6 +58,10 @@ To make this widespread adoption possible, the project also evolved to include a
 
 This documentation evolved as the author collaborated with and instructed participants in dozens of workshops over the past year. These occurred in diverse contexts, from a two week high school workshop at Beaver Country Day School in Chestnut Hill, outside of Boston, to an hour-long teaching session in City Park, New Orleans, for volunteers mapping the April 2010 BP Oil Spill. 
 
+\subsection{Needs fulfillment}
+
+(Brief summary of needs, `dead assets', direct raster imaging for environmental needs, crisis mapping, put power to map in hands of those `on the ground' rather than treating it as remote sensing. )
+
 \subsection{Grassroots Mapping as a community}
 
 Ultimately, even the digital tools, including the Cartagen map rendering framework and the Cartagen Knitter, a tool for orthorectifying aerial imagery, were built with assistance and support of UROPs, colleagues, and contributors in the broader mapping community. That this has become the norm in technology projects does not detract from the fact that much of this work would have been impossible without such contributions. 
@@ -839,7 +843,7 @@ Additionally, we identified a number of more immediate applications for an up-to
 
 \subsection{Mapping with Juan Pablo II}
 
-Both Manzanita `A' and CEDRO were enthusiastic about the potential of a mapping project from the outset, and Carla del Carpio coordinated with CEDRO's Ernesto Fernandez to set up a 6-day program, or `Projecto Integral' with a group of approximately a dozen students in the Juan Pablo II settlement in Lima's Villa el Salvador district at the south end of the city. Each day of activities, held between January 12 through 28th, lasted from 11am until approximately 3pm. 4-6 CEDRO instructors and 2 from Manzanita `A' attended, and the twelve of so students ranged from 8 through 14 years old. The Juan Pablo II community consists of \# blocks of homes arranged in a loose grid, though this was not apparent from the Google Maps imagery, which we dated to approximately 2006, or 4 years earlier. The community was 5-6 years old, and many but not all of the students remembered when their families had first come to the site. 
+Both Manzanita `A' and CEDRO were enthusiastic about the potential of a mapping project from the outset, and Carla del Carpio coordinated with CEDRO's Ernesto Fernandez to set up a 6-day program, or `Projecto Integral' with a group of approximately a dozen students in the Juan Pablo II settlement in Lima's Villa el Salvador district at the south end of the city. Each day of activities, held between January 12 through 28th, lasted from 11am until approximately 3pm. 4-6 CEDRO instructors and 2 from Manzanita `A' attended, and the twelve of so students ranged from 8 through 14 years old. The Juan Pablo II community consists of approximately 6 blocks of homes arranged in a loose grid, though this was not apparent from the Google Maps imagery, which we dated to approximately 2006, or 4 years earlier. The community was 5-6 years old, and many but not all of the students remembered when their families had first come to the site. 
 
 We began the workshop with an introduction to map making, by asking students to work together to draw their community. This resulted in a variety of means of representation, though through prompting, they tended increasingly toward birds-eye view. Even then, some experienced difficulty with collaborating at a common scale, with some adjustments and redrawings occurring once each student's map intersected their neighbor's. Next, students enthusiastically constructed measuring tapes and we broke into groups to literally measure the homes. 
 
@@ -1038,6 +1042,8 @@ With the cooperation and extensive support of the LABB and other interested New 
 
 % fishery closings: http://sero.nmfs.noaa.gov/deepwater_horizon_oil_spill.htm 
 
+\section{Comparing Grassroots Maps of the spill to other sources}
+
 The 2010 Gulf oil spill was seen as an opportunity to apply the low-cost mapping techniques refined and documented on GrassrootsMapping.org to a problem of immediate import. While many overflights were occurring, there was no publicly available, orthorectified imagery available in the initial weeks of the spill; up-to-date imagery was supplied mainly by the MODIS (Moderate Resolution Imaging Spectroradiometer) sensors aboard NASA's Terra and Aqua satellites. MODIS is limited to 1000 meter resolution for those bands which are used for ocean imaging, and while the daily images available were very useful in determining where along the coast was being hit by slicks and sheens, it was not of high enough detail to show any specific damage. 
 
 % http://modis.gsfc.nasa.gov/about/specifications.php
@@ -1050,9 +1056,11 @@ The 2010 Gulf oil spill was seen as an opportunity to apply the low-cost mapping
 
 By contrast, the imagery collected by the LABB/Grassroots Mapping teams was up to 9 cm/px in resolution, and could be repeatedly captured over the course of days or weeks.  
 
+\section{Documentation}
+
 The disaster and the incredible support and diligence of the LABB mapping team also provided me with a chance to collect both qualitative and quantitative information on a volunteer-led effort to apply Grassroots Mapping tools toward a pressing need. Mapping team leaders filled out a form describing a variety of information from weather conditions at the site to the condition and performance of the gear. Leaders build deep experience in gathering data and teaching others, and many even wrote blog entries or spoke to the press about their experiences. Beyond serving as a valuable independent record of the spill, this case study lays solid groundwork for the application of these tools to other environmental, social, and political crises.
 
-\section{Building capacity, organization, funding}
+\section{Sustainability \& funding}
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
@@ -1062,6 +1070,18 @@ The disaster and the incredible support and diligence of the LABB mapping team a
 \end{wrapfigure}
 
 The most challenging aspect of organizing the oil mapping project was to train a group of inexperienced but committed volunteers to use Grassroots Mapping tools such as balloons and kites, in often adverse weather conditions up to 3 hours travel from New Orleans, our home base. That a number of volunteers have continued not only to make trips on their own, but to bring and train others to map, has been....
+
+Between May 7th and July 22nd, dozens of participants made 36 trips to gather mapping data, or almost one every other day. While only one trip has failed to return with imagery, 56\% of trips returned with `excellent' or `useable' data, indicating that some quality control mechanisms might result in a higher success rate. Still, over 11,000 images have been taken, with plans and funding in place to continue mapping through January 2011. 
+
+Pie chart: Map datasets: (Long/GonzoEarth)
+15 - excellent
+5 - usable
+8 - poor
+3 - unusable
+
+(timeline of ratings to show improvement over time - color code leaders)
+
+
 
 \section{Integration with Ushahidi}
 
@@ -1185,6 +1205,8 @@ Perhaps the greatest change has been the application of Grassroots Mapping tools
 
 The importance of creating a feedback loop wherein research output is reviewed and interpreted in collaboration with participants cannot be overstated, and this is the focus of `face validity' as described by Lather. In Grassroots Mapping case studies, I have made every effort to process, analyze, and publish data in a participatory manner --- teaching and demonstrating image selection, orthorectification tools, and discussing the pros and cons of output formats such as printed or digital maps. One of the major components of the toolkit I have developed, the Cartagen Knitter, is specifically intended to aid in the production of maps and to be a sustainable and reproducible means of creating maps with aerial imagery. I have been lucky enough to be able to iteratively test Knitter with participants of varying levels of technical literacy, and to make incremental improvements on the tool's interface and abilities.  
 
+(distribution and analysis of maps themselves, illustration of presentation of maps at JP2)
+
 \begin{wrapfigure}{r}{0.5\textwidth}
   \begin{flushright}
 	\includegraphics[width=0.5\textwidth]{images/black-mountain.jpg}
@@ -1196,7 +1218,7 @@ Ultimately, the use of maps to further the interests of participant communities 
 
 Specific wording employed by participants has hinted at the degree to which participants took ownership of the process and the resulting maps. Helder Solari, a member of the Escuelab team I worked with in Canta Gallo in Lima, Peru, tellingly referred to the map as `tuyo', or yours, when he wrote to ask for a digital version. I had left only paper copies with leaders of Canta Gallo. He did make reference to the fact that our map (as I describe it) is the only one which shows the Canta Gallo community, pointing out that `in other maps, it simply doesn't exist' \cite{solari2010cantagallo}
 
-... some data here... interviews, tables, etc?
+(face validity in the Gulf project. draw on writings of participants: lauren craig, shannon, LABB blog, cesar harada)
 
 \subsubsection{Catalytic Validity}
 
