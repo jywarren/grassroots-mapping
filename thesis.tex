@@ -646,7 +646,7 @@ Kites present an opportunity to loft cameras at near-zero cost --- materials for
 
 \subsection{Camera and intervalometer}
 
-Throughout the design of the Grassroots Mapping Kit I have emphasized low cost, therefore, taking a note from the page of low-cost aerial photographers like Oliver Yeh of \url{http://1337arts.com}, I recommend an inexpensive `point and shoot' camera, ideally of Canon's A or SD lines (the SD series is sold under the brand IXUS in Europe). While these tend to be in the 7-12 megapixel range, they are typically only 200-300 grams and are durable and compact. Such cameras can be found second-hand on \url{http://ebay.com} for as low as \$US 50. Despite resolution, lens choice and stabilization advantages of more expensive models, consumer-grade compact cameras of this sort are widely available, and their image quality is sufficiently high that they make a good balance of weight, image quality, and cost --- the latter being of especially high importance since we have occasionally lost entire kits due to accidents such as improperly tied knots or sudden immersion in water. 
+Throughout the design of the Grassroots Mapping Kit I have emphasized low cost, therefore, taking a note from the page of low-cost aerial photographers like Oliver Yeh of \href{http://1337arts.com}{1337arts.com}, I recommend an inexpensive `point and shoot' camera, ideally of Canon's A or SD lines (the SD series is sold under the brand IXUS in Europe). While these tend to be in the 7-12 megapixel range, they are typically only 200-300 grams and are durable and compact. Such cameras can be found second-hand on \href{http://ebay.com}{eBay.com} for as low as \$US 50. Despite resolution, lens choice and stabilization advantages of more expensive models, consumer-grade compact cameras of this sort are widely available, and their image quality is sufficiently high that they make a good balance of weight, image quality, and cost --- the latter being of especially high importance since we have occasionally lost entire kits due to accidents such as improperly tied knots or sudden immersion in water. 
 
 Canon consumer cameras also benefit from the active open-source hacking community's efforts to provide an alternative firmware with advanced features such as scripting. The \ac{CHDK}, which is stored on the camera's SD memory card, makes possible a script which I have adapted to trigger image capture every 5-10 seconds. The script, referred to as an intervalometer, is available for download at \url{http://wiki.grassrootsmapping.org/show/BalloonAerialPhotography}.  
 
@@ -668,103 +668,6 @@ The soda bottle rig is convenient to carry, and makes immediate visual sense to 
 \section{Digital maps: reconceptualizing mapping interaction}
 
 Once aerial imagery is captured, software must be used to distort or 'warp' the photos and combine them to fit a projection. This essentially maps every pixel of the source imagery to a position on the earth's surface, allowing for correlation to other maps and geodata sources. As no existing tool met all of the design requirements, such as cost, ease of use, low barrier to entry, and performance (see Section \ref{sec:existingtechniques}), I developed a unique tool and associated mapping framework with the goal of making DIY cartography simpler, cheaper, and more inclusive.
-
-\subsection{Cartagen dynamic rendering}
-
-As discussed in Section \ref{sec:webmapping}, most digital maps today employ a server-side caching mechanism providing a tiled image collection. The tiles are assembled seamlessly in the user's browser, and zooming is accomplished by maintaining multiple tilesets --- one for each zoom level. The resulting system scales predictably, as tiles do not vary dramatically in file size, and can be served using Apache or even stored locally. While this works well for a single dataset such as terrain contours, it commits the map to a single representation. Multiple tile sets can be stacked, and polygons can be overlaid, but most importantly, the user cannot edit the tiles or manipulate the data they contain. Compressing data into tiles strips them of their metadata and authorship information in favor of scalability and consistency. 
-
-Diagram of Cartagen vs. Existing geostack
-
-To sidestep many of these requirements, and to allow users to participate fully in the authoring of maps, I created the Cartagen framework. Using new techniques made possible by widespread browser support for HTML5 and specifically the Canvas element, Cartagen can create maps which are not pre-rendered, but generated on-the-fly. This frees the map from a single projection or representation, and enables a more dynamic, interactive, and narrative cartographic style. Discrete vector data (made up of points, lines, and areas) can be downloaded in JSON format just once, and displayed at any scale and in any style. Recent increases in JavaScript execution speed [JavaScript speed stats] make possible relatively high framerates (~15fps on a typical machine), obviate the need for browser plugins like Flash or Java, and make dynamic HTML5 mapping accessible even on mobile devices such as on the iPhone, Android, and Windows Mobile platforms. As an added advantage, Cartagen performs much of the work of map display locally, reducing dependence on high-latency internet connectivity. It also allows users to easily download data and view or edit it offline. These features make it particularly appropriate for use in developing countries or in crisis situations. 
-
-(usage restrictions in Google Maps and similar services)
-
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/knitter-wileys.png}
-		\caption{A map of Wiley's Last Resort in Kentucky, produced in Cartagen Knitter with imagery captured from a remote controlled aircraft by Stewart Long.}
-	\end{flushright}
-\end{wrapfigure}
-
-The Cartagen framework represents an alternative system which is optimized for user-created content, rather than one-to-many broadcast publishing. As a fully scriptable cartographic environment, however, it was also uniquely suited for building an image orthorectification tool. The Canvas element is essentially a pixel raster, but because Cartagen's primitives are vector objects stored as points and polygons, it there is no need to store resampled source imagery while performing distortions or transforms. While in Photoshop, a powerful computer is required to store, manipulate, and export a map of any considerable size (maps made for the BP oil spill project were over 50,000 px in each dimension), Cartagen can be used to orthorectify using a laptop or even a low-power netbook. Users in effect see a lower-resolution preview rendered only at the size of their browser window, and a final, high-resolution composite image is created using ImageMagick on the server side. This lowers the cost of the equipment to process and orthorectify aerial imagery by thousands of dollars. 
-
-%            Existing vector systems (Chris Schmitt's email on geowanking)
-
-%                GSS (and OSM-JSON): appropriating the HTML/CSS paradigm for data legibility and open access
-%                    Format politics: XML, JSON, RSS
-
-Despite reinventing much of the typical geostack, Cartagen makes use of open standards such as JSON, OSM-XML, and GeoJSON, and can be used to generate \ac{GeoTIFF}s or even a \ac{TMS} tile service. In addition, because it can store and display both raster and vector data, once images are rectified, the pen tool can be used to trace streets, buildings, and borders.   
-
-Another unique part about Cartagen is that it allows users to style vector map data using a stylesheet, in a syntax similar to that of CSS. This is intendd to mirror the content vs. style relationship between HTML and CSS, and in fact the map stylesheet format Cartagen uses is called GSS. This is intended to leverage the widespread literacy in web design and provide a scaffolding for those just beginning to make their own maps with these tools. 
-
-Illustration of GSS
-
-\subsection{Why an entirely new mapping system?}
-
-needs rewrite for thesis style:
-
-In a sense, rendering is at the heart of the argument for critical cartography. If mapping is to be a means to advance an agenda, or develop a narrative, or create a communal self-image, it must allow for diverse forms of representation. We have the divergent data and the means to collect, collate, and publish it – what we lack is a way to represent it in layered, interactive, and radically unique ways. 
-
-Cartagen is distributed solution to the problem of generating complete world maps with minimal resources, which describe a constantly changing data set. This turned out to be both technologically advantageous and epistemologically transformative. Once maps are rendered in your browser window instead of by Google or Yahoo, you are empowered to design, manipulate, and use that data in new and compelling ways. 
-
-Instead of just annotating a Google Map with pins representing your data, Cartagen provides an opportunity to create your own map from scratch, using both open geodata and data you've collected from your environment. Mapmaking with Cartagen is a form of cartographic narrative. 
-
-% must be integrated into above sections:
-\section{Cartagen: an alternative architecture for digital maps}
-
-However, in order to orthorectify or `stitch' aerial imagery into a flat, geographically referenced map requires a system to display and manipulate raster imagery. The ability to label, trace, and otherwise annotate the resulting rectified map requires a system to display and manipulate vector data. In order to meet these needs the author created a map authoring and display framework called Cartagen. Written in JavaScript, it enables users to edit and publish discrete map data (points, lines, polygons) using a text editor, and to view and manipulate that data in a modern web browser such as Safari, Chrome, or Firefox. Maps may be published in just a few flat files, rather than relying upon a tile caching system or a backend database.
-
-(concurrent client ability)
-
-raster abilities of Cartagen
-
-Beyond the ability to orthorectify imagery, Cartagen is a fully-fledged cartographic scripting environment and renderer. It can draw vector data onto a pixel grid - not just fast enough to generate tiles, but at over 10 frames per second on most computers. As the user interacts with a Cartagen map, features are drawn continuously, as in an animation. This negates the need to cache or otherwise store raster representations of map data, and sidesteps many of the assumptions and limitations of the modern mapping technology stack.
-
-This alternative `geostack' is one of the most unique aspects of the Grassroots Mapping tool chain. Far from an unnecessary reinvention of the wheel, the abilities it affords make it suitable for deploying original data without placing a high demand on technical skills or resources. 
-
-Reference chapter 4.2 discussion on current geostack 
-
-%        - existing solutions based around cloud systems
-%            - this move opposite - closer to client
-%            - needs: data under no connectivity
-%            - multiple devices
-%            - ownership of data/infrastructure
-%                - FrontlineSMS, 'local' is a feature, opposite of corporate/commercial strategy
-%        - low-AI approach; technical literacy, flexibility, admits 'misuse'
-%            - examples: USGS overlay at WhereCamp 2010
-%            - additon of non-map features with Warper tool
-%            - difficulty of use of hugin, etc
-%                - DIYDrones thread: "3 days stitching and tweaking images" (http://diydrones.com/profiles/blog/show?id=705844:BlogPost:134855&page=1#comments)
-%            - Stewart Long uses Photoshop for most stitches (get him on record)
-%Emphasis on building in response to end-user needs
-%    - this work could only be done by working with communities in cartographic dispute. See Lima case study.
-
-\subsection{An iterative toolchain development process}
-
-Important to the development of the Grassroots Mapping tools was a collaborative process of testing various tools in a variety of contexts. Various combinations of tools were tested with participants from Lima, Peru, New Orleans, and Rock Creek, West Virginia. Verbal and interview-prompted feedback was used to develop new tools which built on the strengths of existing and off-the-shelf systems such as Photoshop, Hugin, and Map Warper. The same is true for the physical tools such as the balloon and kite kits, including the camera housing, reel construction, and auto-triggering setup. 
-
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/pat-coyle-video.png}
-		\caption{Still frame from Pat Coyle's demonstration on YouTube \cite{coyle2010sodabottle}}
-	\end{flushright}
-\end{wrapfigure}
-
-In the case of the camera housing, Grassroots Mapping community members have iterated and improved upon the soda bottle enclosure, discussing and testing alternatives on the mailing list, and even posting videos of tests. Pat Coyle, a mailing list member, published a narrated demonstration of a soda bottle enclosure with improvements such as a window to access the camera controls and a small bungee cable to stabilize the camera against the inside of the bottle. In another example, Mathew Lippincott prototyped solar-powered hot air balloons constructed from painter's plastic sheeting, conducted pigmentation and lift tests to determine suitability for carrying cameras. The tests and builds were held at a public event in Portland, Oregon, and the resulting balloons were packaged and sent to New Orleans for use in the BP oil spill mapping (see Chapter \ref{chap:gulf}). 
-
-Illustration of Mathew Lippincott's workshop 
-
-Regular testing of new tools at the MIT campus, as well as repeated attempts to orthorectify the resulting imagery, grounded the software development in concrete usage and experience, and a workshop at the Google campus in Mountain View in April 2010 included a collaborative hacking session aimed at identifying and resolving bugs and adding new features in direct response to the day's mapping efforts. 
-
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/asynchronous-editing.jpg}
-		\caption{Collaborative editing of a map of the Google campus using Cartagen Knitter at the WhereCamp 2010 unconference. User feedback was incorporated into the tool and re-deployed in real time.}
-	\end{flushright}
-\end{wrapfigure}
-
-
- - requests made via list: stewart long asks for masking, Crispen asks for entry of lat/lon pairs, WhereCamp folks asked for locking, Pat Coyle asked for 'natural size' feature
 
 \subsection{Web-based orthorectification and warping}
 
@@ -795,6 +698,103 @@ The second design decision which may seem curious is the emphasis on a completel
 
 Discussion of rubbersheeting:
 \cite{white1985piecewise}
+
+% must be integrated into above sections:
+\section{Cartagen: an alternative architecture for digital maps}
+
+Beyond the ability to orthorectify imagery, Cartagen is a fully-fledged cartographic scripting environment and renderer. It can draw vector data onto a pixel grid - not just fast enough to generate tiles, but at over 10 frames per second on most computers. As the user interacts with a Cartagen map, features are drawn continuously, as in an animation. This negates the need to cache or otherwise store raster representations of map data, and sidesteps many of the assumptions and limitations of the modern mapping technology stack.
+
+This alternative `geostack' is one of the most unique aspects of the Grassroots Mapping tool chain. The abilities it affords make it suitable for deploying original data without placing a high demand on technical skills or resources. 
+
+(concurrent client ability)
+
+Reference chapter 4.2 discussion on current geostack 
+
+%        - existing solutions based around cloud systems
+%            - this move opposite - closer to client
+%            - needs: data under no connectivity
+%            - multiple devices
+%            - ownership of data/infrastructure
+%                - FrontlineSMS, 'local' is a feature, opposite of corporate/commercial strategy
+%        - low-AI approach; technical literacy, flexibility, admits 'misuse'
+%            - examples: USGS overlay at WhereCamp 2010
+%            - additon of non-map features with Warper tool
+%            - difficulty of use of hugin, etc
+%                - DIYDrones thread: "3 days stitching and tweaking images" (http://diydrones.com/profiles/blog/show?id=705844:BlogPost:134855&page=1#comments)
+%            - Stewart Long uses Photoshop for most stitches (get him on record)
+%Emphasis on building in response to end-user needs
+%    - this work could only be done by working with communities in cartographic dispute. See Lima case study.
+
+
+\subsection{Cartagen dynamic rendering}
+
+As discussed in Section \ref{sec:webmapping}, most digital maps today employ a server-side caching mechanism providing a tiled image collection. The tiles are assembled seamlessly in the user's browser, and zooming is accomplished by maintaining multiple tilesets --- one for each zoom level. The resulting system scales predictably, as tiles do not vary dramatically in file size, and can be served using Apache or even stored locally. While this works well for a single dataset such as terrain contours, it commits the map to a single representation. Multiple tile sets can be stacked, and polygons can be overlaid, but most importantly, the user cannot edit the tiles or manipulate the data they contain. Compressing data into tiles strips them of their metadata and authorship information in favor of scalability and consistency. 
+
+Diagram of Cartagen vs. Existing geostack
+
+To sidestep many of these requirements, and to allow users to participate fully in the authoring of maps, I created the Cartagen framework. Using new techniques made possible by widespread browser support for HTML5 and specifically the Canvas element, Cartagen can create maps which are not pre-rendered, but generated on-the-fly. This frees the map from a single projection or representation, and enables a more dynamic, interactive, and narrative cartographic style. Discrete vector data (made up of points, lines, and areas) can be downloaded in JSON format just once, and displayed at any scale and in any style. Recent increases in JavaScript execution speed [JavaScript speed stats] make possible relatively high framerates (~15fps on a typical machine), obviate the need for browser plugins like Flash or Java, and make dynamic HTML5 mapping accessible even on mobile devices such as on the iPhone, Android, and Windows Mobile platforms. As an added advantage, Cartagen performs much of the work of map display locally, reducing dependence on high-latency internet connectivity. It also allows users to easily download data and view or edit it offline. These features make it particularly appropriate for use in developing countries or in crisis situations. 
+
+(usage restrictions in Google Maps and similar services)
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/knitter-wileys.png}
+		\caption{A map of Wiley's Last Resort in Kentucky, produced in Cartagen Knitter with imagery captured from a remote controlled aircraft by Stewart Long.}
+	\end{flushright}
+\end{wrapfigure}
+
+The Cartagen framework represents an alternative system which is optimized for user-created content, rather than one-to-many broadcast publishing. As a fully scriptable cartographic environment, however, it was also uniquely suited for building an image orthorectification tool. The Canvas element is essentially a pixel raster, but because Cartagen's primitives are vector objects stored as points and polygons, it there is no need to store resampled source imagery while performing distortions or transforms. While in Photoshop, a powerful computer is required to store, manipulate, and export a map of any considerable size (maps made for the BP oil spill project were over 50,000 px in each dimension), Cartagen can be used to orthorectify using a laptop or even a low-power netbook. Users in effect see a lower-resolution preview rendered only at the size of their browser window, and a final, high-resolution composite image is created using ImageMagick on the server side. This lowers the cost of the equipment to process and orthorectify aerial imagery by thousands of dollars. 
+
+%            Existing vector systems (Chris Schmitt's email on geowanking)
+
+%                GSS (and OSM-JSON): appropriating the HTML/CSS paradigm for data legibility and open access
+%                    Format politics: XML, JSON, RSS
+
+Cartagen makes use of open standards such as JSON, OSM-XML, and GeoJSON, and can be used to generate \ac{GeoTIFF}s or even a \ac{TMS} tile service. In addition, because it can store and display both raster and vector data, once images are rectified, the pen tool can be used to trace streets, buildings, and borders.   
+
+Another unique part about Cartagen is that it allows users to style vector map data using a stylesheet, in a syntax similar to that of CSS. This is intendd to mirror the content vs. style relationship between HTML and CSS, and in fact the map stylesheet format Cartagen uses is called GSS. This is intended to leverage the widespread literacy in web design and provide a scaffolding for those just beginning to make their own maps with these tools. 
+
+Illustration of GSS
+
+\subsection{Why an entirely new mapping system?}
+
+(needs style rewrite)
+
+In a sense, rendering is at the heart of the argument for critical cartography. If mapping is to be a means to advance an agenda, or develop a narrative, or create a communal self-image, it must allow for diverse forms of representation. We have the divergent data and the means to collect, collate, and publish it – what we lack is a way to represent it in layered, interactive, and radically unique ways. 
+
+Cartagen is distributed solution to the problem of generating complete world maps with minimal resources, which describe a constantly changing data set. This turned out to be both technologically advantageous and epistemologically transformative. Once maps are rendered in your browser window instead of by Google or Yahoo, you are empowered to design, manipulate, and use that data in new and compelling ways. 
+
+Instead of just annotating a Google Map with pins representing your data, Cartagen provides an opportunity to create your own map from scratch, using both open geodata and data you've collected from your environment. Mapmaking with Cartagen is a form of cartographic narrative. 
+
+\subsection{An iterative toolchain development process}
+
+(correct passive voice)
+
+Important to the development of the Grassroots Mapping tools was a collaborative process of testing various tools in a variety of contexts. Various combinations of tools were tested with participants from Lima, Peru, New Orleans, and Rock Creek, West Virginia. Verbal and interview-prompted feedback was used to develop new tools which built on the strengths of existing and off-the-shelf systems such as Photoshop, Hugin, and Map Warper. The same is true for the physical tools such as the balloon and kite kits, including the camera housing, reel construction, and auto-triggering setup. 
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/pat-coyle-video.png}
+		\caption{Still frame from Pat Coyle's demonstration on YouTube \cite{coyle2010sodabottle}}
+	\end{flushright}
+\end{wrapfigure}
+
+In the case of the camera housing, Grassroots Mapping community members have iterated and improved upon the soda bottle enclosure, discussing and testing alternatives on the mailing list, and even posting videos of tests. Pat Coyle, a mailing list member, published a narrated demonstration of a soda bottle enclosure with improvements such as a window to access the camera controls and a small bungee cable to stabilize the camera against the inside of the bottle. In another example, Mathew Lippincott prototyped solar-powered hot air balloons constructed from painter's plastic sheeting, conducted pigmentation and lift tests to determine suitability for carrying cameras. The tests and builds were held at a public event in Portland, Oregon, and the resulting balloons were packaged and sent to New Orleans for use in the BP oil spill mapping (see Chapter \ref{chap:gulf}). 
+
+Illustration of Mathew Lippincott's workshop 
+
+Regular testing of new tools at the MIT campus, as well as repeated attempts to orthorectify the resulting imagery, grounded the software development in concrete usage and experience, and a workshop at the Google campus in Mountain View in April 2010 included a collaborative hacking session aimed at identifying and resolving bugs and adding new features in direct response to the day's mapping efforts. 
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/asynchronous-editing.jpg}
+		\caption{Collaborative editing of a map of the Google campus using Cartagen Knitter at the WhereCamp 2010 unconference. User feedback was incorporated into the tool and re-deployed in real time.}
+	\end{flushright}
+\end{wrapfigure}
+
+
+ - requests made via list: stewart long asks for masking, Crispen asks for entry of lat/lon pairs, WhereCamp folks asked for locking, Pat Coyle asked for 'natural size' feature
+
 
 \chapter{Case Study: Grassroots Mapping in Lima, Peru}
 \label{chap:peru}
