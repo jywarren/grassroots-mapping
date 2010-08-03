@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  3 AUG 2010 15:00
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  3 AUG 2010 16:18
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -1333,179 +1333,183 @@ Underfull \hbox (badness 2103) in paragraph at lines 1087--1088
 
 LaTeX Warning: Reference `app:donors' on page 80 undefined on input line 1116.
 
-<images/labb-ushahidi.png, id=1247, 1108.14pt x 908.39375pt>
+[80] <images/labb-ushahidi.png, id=1254, 1108.14pt x 908.39375pt>
 File: images/labb-ushahidi.png Graphic file (type png)
 
 <use images/labb-ushahidi.png>
-Underfull \hbox (badness 2735) in paragraph at lines 1128--1128
+Underfull \hbox (badness 2735) in paragraph at lines 1129--1129
 [] []|[]\OT1/cmr/m/n/10 Data col-lected and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1129
 \OT1/cmr/m/n/10 pro-cessed by the
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 1128--1128
+Underfull \hbox (badness 3068) in paragraph at lines 1129--1129
 \OT1/cmr/m/n/10 team, dis-played as
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 1128--1128
+Underfull \hbox (badness 2269) in paragraph at lines 1129--1129
 \OT1/cmr/m/n/10 tiles in the LABB
  []
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
-32.
+33.
 
-[80 <./images/labb-ushahidi.png (PNG copy)>]
-Overfull \hbox (8.84406pt too wide) in paragraph at lines 1207--1207
+[81 <./images/labb-ushahidi.png (PNG copy)>]
+Overfull \hbox (8.84406pt too wide) in paragraph at lines 1218--1218
 []|\OT1/cmr/m/n/10.95 Date 
  []
 
 
-Overfull \hbox (5.95445pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (5.95445pt too wide) in paragraph at lines 1218--1218
 \OT1/cmr/m/n/10.95 cap- 
  []
 
 
-Overfull \hbox (5.37656pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (5.37656pt too wide) in paragraph at lines 1218--1218
 \OT1/cmr/m/n/10.95 ture|  
  []
 
 
-Overfull \hbox (36.58409pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (36.58409pt too wide) in paragraph at lines 1218--1218
 []|\OT1/cmr/m/n/10.95 Resolution|  
  []
 
 
-Overfull \hbox (8.72238pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (8.72238pt too wide) in paragraph at lines 1218--1218
 []|\OT1/cmr/m/n/10.95 Area|  
  []
 
 
-Overfull \hbox (6.28903pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (6.28903pt too wide) in paragraph at lines 1218--1218
 []|\OT1/cmr/m/n/10.95 Trip 
  []
 
 
-Overfull \hbox (18.30365pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (18.30365pt too wide) in paragraph at lines 1218--1218
 \OT1/cmr/m/n/10.95 Leader|  
  []
 
 
-Overfull \hbox (34.7591pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (34.7591pt too wide) in paragraph at lines 1218--1218
 []|\OT1/cmr/m/n/10.95 Estimated 
  []
 
 
-Overfull \hbox (7.17114pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (7.17114pt too wide) in paragraph at lines 1218--1218
 \OT1/cmr/m/n/10.95 tude|  
  []
 
 
-Overfull \hbox (34.24194pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (34.24194pt too wide) in paragraph at lines 1218--1218
 []|\OT1/cmr/m/n/10.95 Technique|  
  []
 
-[81] [82] [83]
-Chapter 9.
-[84
 
-] [85] <images/knitter-mestia.jpg, id=1281, 1027.84pt x 770.88pt>
+LaTeX Warning: Citation `griffith2010isle' on page 82 undefined on input line 1
+225.
+
+[82] [83] [84]
+Chapter 9.
+[85
+
+] [86] <images/knitter-mestia.jpg, id=1293, 1027.84pt x 770.88pt>
 File: images/knitter-mestia.jpg Graphic file (type jpg)
 
 <use images/knitter-mestia.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 1253--1253
+Underfull \hbox (badness 10000) in paragraph at lines 1270--1270
 [] []|[]\OT1/cmr/m/n/10 Austin Cow-ley of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1253--1253
+Underfull \hbox (badness 10000) in paragraph at lines 1270--1270
 \OT1/cmr/m/n/10 Open-Map-sCau-ca-sus
  []
 
 
-Overfull \hbox (4.95691pt too wide) in paragraph at lines 1259--1260
+Overfull \hbox (4.95691pt too wide) in paragraph at lines 1276--1277
 \OT1/cmr/m/n/10.95 tion, or-thorec-ti-fi-ca-tion tools, and dis-
  []
 
 
-Overfull \hbox (3.74023pt too wide) in paragraph at lines 1259--1260
+Overfull \hbox (3.74023pt too wide) in paragraph at lines 1276--1277
 \OT1/cmr/m/n/10.95 oped, the Carta-gen Knit-ter, is specif-
  []
 
-[86 <./images/knitter-mestia.jpg>]
-Overfull \hbox (6.049pt too wide) in paragraph at lines 1261--1262
+[87 <./images/knitter-mestia.jpg>]
+Overfull \hbox (6.049pt too wide) in paragraph at lines 1278--1279
 []\OT1/cmr/m/n/10.95 (distribution and anal-y-sis of maps
  []
 
-<images/black-mountain.jpg, id=1288, 392.2655pt x 411.136pt>
+<images/black-mountain.jpg, id=1300, 392.2655pt x 411.136pt>
 File: images/black-mountain.jpg Graphic file (type jpg)
 
 <use images/black-mountain.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 1266--1266
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1283
 [] []|[]\OT1/cmr/m/n/10 Roadside plant-ings
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 1266--1266
+Underfull \hbox (badness 1038) in paragraph at lines 1283--1283
 \OT1/cmr/m/n/10 at Black Moun-tain,
  []
 
-[87 <./images/black-mountain.jpg>]
+[88 <./images/black-mountain.jpg>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
- [88] [89]
-<images/labb-bay-jimmy.jpg, id=1307, 770.88pt x 1027.84pt>
+ [89] [90]
+<images/labb-bay-jimmy.jpg, id=1320, 770.88pt x 1027.84pt>
 File: images/labb-bay-jimmy.jpg Graphic file (type jpg)
 
 <use images/labb-bay-jimmy.jpg>
-Underfull \hbox (badness 2856) in paragraph at lines 1311--1311
+Underfull \hbox (badness 2856) in paragraph at lines 1328--1328
 [] []|[]\OT1/cmr/m/n/10 Grassroots map-pers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1311--1311
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1328
 \OT1/cmr/m/n/10 in a fan-boat at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1311--1311
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1328
 \OT1/cmr/m/n/10 Bay Jimmy, LA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1311--1311
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1328
 \OT1/cmr/m/n/10 cour-tesy Ce-sar
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 1318--1320
+Underfull \hbox (badness 2521) in paragraph at lines 1335--1337
 \OT1/cmr/m/n/10.95 pret black and white
  []
 
-[90 <./images/labb-bay-jimmy.jpg>]
-<diagrams/resolution-frequency.pdf, id=1317, 562.1pt x 264.99pt>
+[91 <./images/labb-bay-jimmy.jpg>]
+<diagrams/resolution-frequency.pdf, id=1329, 562.1pt x 264.99pt>
 File: diagrams/resolution-frequency.pdf Graphic file (type pdf)
 
 <use diagrams/resolution-frequency.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[91] [92 <./diagrams/resolution-frequency.pdf
+[92] [93 <./diagrams/resolution-frequency.pdf
 
 pdfTeX warning: pdflatex (file ./diagrams/resolution-frequency.pdf): PDF inclus
 ion: Page Group detected which pdfTeX can't handle. Ignoring it.
->] [93] [94]
+>] [94] [95]
 Chapter 10.
-[95
+[96
 
 ]
 Missing character: There is no â in font cmr10!
@@ -1517,66 +1521,66 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [96]
-<images/mathew-lippincott-balloons.png, id=1362, 581.17125pt x 324.21124pt>
+ [97]
+<images/mathew-lippincott-balloons.png, id=1374, 581.17125pt x 324.21124pt>
 File: images/mathew-lippincott-balloons.png Graphic file (type png)
 
 <use images/mathew-lippincott-balloons.png>
-Underfull \hbox (badness 10000) in paragraph at lines 1416--1416
+Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
 \OT1/cmr/m/n/10 ing for poros-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1416--1416
+Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
 \OT1/cmr/m/n/10 to he-lium af-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1416--1416
+Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
 \OT1/cmr/m/n/10 a dis-cus-sion on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1416--1416
+Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
 \OT1/cmr/m/n/10 the Grass-roots
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1416--1416
+Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
 \OT1/cmr/m/n/10 Map-ping mail-ing
  []
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 14
-25.
+42.
 
-[97 <./images/mathew-lippincott-balloons.png>]
-Underfull \hbox (badness 4205) in paragraph at lines 1432--1433
+[98 <./images/mathew-lippincott-balloons.png>]
+Underfull \hbox (badness 4205) in paragraph at lines 1449--1450
 []\OT1/cmr/m/n/10.95 The 4-page PDF guide de-
  []
 
-[98]
+[99]
 Appendix A.
-[99
-
-]
-Appendix B.
 [100
 
 ]
-Appendix C.
+Appendix B.
 [101
 
-] [102]
-Appendix D.
-[103
+]
+Appendix C.
+[102
 
-] (./thesis.bbl [104] [105
+] [103]
+Appendix D.
+[104
+
+] (./thesis.bbl [105] [106
 
 ]
 Missing character: There is no Ã in font cmti10!
 Missing character: There is no ³ in font cmti10!
- [106]
+ [107]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no » in font cmr10!
 Missing character: There is no Â in font cmr10!
@@ -1595,16 +1599,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--237
 map . org / wiki / Disputes # On _ the _
  []
 
-[107]
+[108]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [108]
+ [109]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ± in font cmr10!
-) [109] [110
+) [110] [111
 
-] [111
+] [112
 
 ] (./thesis.aux)
 
@@ -1612,15 +1616,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6756 strings out of 256216
- 108970 string characters out of 1917073
- 192369 words of memory out of 1500000
- 9522 multiletter control sequences out of 10000+200000
+ 6759 strings out of 256216
+ 109008 string characters out of 1917073
+ 191369 words of memory out of 1500000
+ 9523 multiletter control sequences out of 10000+200000
  13355 words of font info for 46 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  52i,17n,89p,1571b,507s stack positions out of 5000i,500n,6000p,200000b,15000s
-pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.27} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1708,9 +1715,9 @@ esky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share
 /cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/tex
 mf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/c
 mtt10.pfb>
-Output written on thesis.pdf (112 pages, 19260582 bytes).
+Output written on thesis.pdf (113 pages, 19266003 bytes).
 PDF statistics:
- 1624 PDF objects out of 1728 (max. 8388607)
- 371 named destinations out of 1000 (max. 131072)
+ 1637 PDF objects out of 1728 (max. 8388607)
+ 373 named destinations out of 1000 (max. 131072)
  1038 words of extra memory for PDF output out of 10000 (max. 10000000)
 
