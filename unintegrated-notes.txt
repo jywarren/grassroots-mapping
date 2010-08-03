@@ -7,8 +7,8 @@ X need - Env. mapping - use readings
 x state of the art - initial PGIS section, haiti section, local expertise and empowerment
 - toolkit - thorough cleanup of Cartagen presentation
 x peru - interviews
-0 gulf - ushahidi, funding/kickstarter, independent pickups, 
-- evaluation - answer initial questions
-- future work & conclusion
+x gulf - ushahidi, funding/kickstarter, independent pickups, 
+- evaluation - answer initial questions, Triangulation (ask for help!)
+- future work & conclusion - conclusion, `pushing envelope' in additional projs. and illustrated guide (another product of ...)
 
 ### more data on legal use of maps
