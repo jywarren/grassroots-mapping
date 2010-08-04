@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Cartagen Knitter</TITLE>
+<META NAME="description" CONTENT="Cartagen Knitter">
+<META NAME="keywords" CONTENT="thesis">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="thesis.css">
+
+<LINK REL="previous" HREF="node50.html">
+<LINK REL="up" HREF="node50.html">
+<LINK REL="next" HREF="node52.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html1015"
+  HREF="node52.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html1011"
+  HREF="node50.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html1007"
+  HREF="node50.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A> 
+<A NAME="tex2html1013"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents"
+ SRC="file:/usr/share/latex2html/icons/contents.png"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html1016"
+  HREF="node52.html">Cartagen: an alternative architecture</A>
+<B> Up:</B> <A NAME="tex2html1012"
+  HREF="node50.html">Web-based orthorectification and warping</A>
+<B> Previous:</B> <A NAME="tex2html1008"
+  HREF="node50.html">Web-based orthorectification and warping</A>
+ &nbsp; <B>  <A NAME="tex2html1014"
+  HREF="node1.html">Contents</A></B> 
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H3><A NAME="SECTION00721100000000000000"></A>
+<A NAME="subsubsec:knitter"></A>
+<BR>
+Cartagen Knitter
+</H3>
+
+<P>
+The Cartagen Knitter software, developed in the months following the Lima, Peru mapping project, makes this possible. Using the Cartagen Framework along with an HTML 5 distortion technique prototyped by Steven Wittens of acko.net [<A
+ HREF="node120.html#wittens2008projective">61</A>], the author created an interface for users to upload images as overlays on an existing base map (typically OpenStreetMap vector data) and to manually distort an image by dragging the corners with the cursor. Tools for rotating, scaling, and adjusting the transparency of images were created, and the tool was tested and refined in a variety of workshops and mapping projects over several months. 
+
+<P>
+Cartagen Knitter makes several unique choices about how users rectify imagery. The first is that it emphasises orthorectification of individual images against a base map, rather than initial stitching of images into a larger composite image, then subsequent orthorectification and warping of that larger image. This decision was based on the relatively high computing resource requirements of manipulating a single higher-resolution image, given Knitter's emphasis on low-resource usage. Additionally, Eric Wolf of the US Geological Survey has found experimentally that the composite, or mosaic, technique suffers from a loss of accuracy: 
+
+<P>
+<BLOCKQUOTE>
+"The process of creating a single mosaic from the images and then geo-referencing wholly to the USGS High Resolution Imagery resulted in a reduction in accuracy of nearly 100% in both location and orientation"
+[<A
+ HREF="node120.html#wolf2006lowcost">62</A>]
+
+</BLOCKQUOTE>
+
+<P>
+The second design decision which may seem curious is the emphasis on a completely manual orthorectification interface: no automated interest point finding or matching is used, despite the availability of such software (i.e. Hugin, Photosynth, Vision Workbench, etc.). Even Map Warper (reference) automatically warps images, though it asks users to identify common Ground Control Points to determine how to perform the warping. In practice, however, the use of such automated techniques did not result in good mosaic images, nor was the process of stitching, warping, and orthorectifying easy to understand or troubleshoot. Hugin provides for rectilinear warping, which does not assume a fixed camera position, but in order to successfully apply this configuration is essentially a `hack' and existing documentation is either unclear or no longer correct.
+
+<P>
+- didn't do a good job
+- very difficult to configure
+- high resource requirements
+- tended to exclude participants from process
+
+<P>
+Discussion of rubbersheeting:
+[<A
+ HREF="node120.html#white1985piecewise">59</A>]
+
+<P>
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html1015"
+  HREF="node52.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html1011"
+  HREF="node50.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html1007"
+  HREF="node50.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A> 
+<A NAME="tex2html1013"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents"
+ SRC="file:/usr/share/latex2html/icons/contents.png"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html1016"
+  HREF="node52.html">Cartagen: an alternative architecture</A>
+<B> Up:</B> <A NAME="tex2html1012"
+  HREF="node50.html">Web-based orthorectification and warping</A>
+<B> Previous:</B> <A NAME="tex2html1008"
+  HREF="node50.html">Web-based orthorectification and warping</A>
+ &nbsp; <B>  <A NAME="tex2html1014"
+  HREF="node1.html">Contents</A></B> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Jeffrey Warren
+2010-08-03
+</ADDRESS>
+</BODY>
+</HTML>

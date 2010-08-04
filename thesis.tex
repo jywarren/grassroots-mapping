@@ -679,7 +679,7 @@ In order to attach the camera to the balloon or kite, \ac{KAP} enthusiasts typic
 
 The soda bottle rig is convenient to carry, and makes immediate visual sense to observers, unlike the confusing array of crossed strings in the Picavet. The additional swaying of the Soda Bottle Rig in fact results in greater extent in the resulting maps, though resolution drops dramatically as photographs become more oblique. This does allow map-makers to decide whether to sacrifice consistent resolution in favor of a larger extent, however. In addition, while it works well for the typically horizontal tether of a kite, the Picavet suspension is rendered largely useless on a vertical tether, as the two mounting points are placed inline, one above the other. Still, experienced aerial photographers may achieve better results with the Picavet suspension in kite photography.  
 
-\section{Digital maps: reconceptualizing mapping interaction}
+\section{Reconceptualizing mapping interaction}
 
 Once aerial imagery is captured, software must be used to distort or 'warp' the photos and combine them to fit a projection. This essentially maps every pixel of the source imagery to a position on the earth's surface, allowing for correlation to other maps and geodata sources. As no existing tool met all of the design requirements, such as cost, ease of use, low barrier to entry, and performance (see Section \ref{sec:existingtechniques}), I developed a unique tool and associated mapping framework with the goal of making DIY cartography simpler, cheaper, and more inclusive.
 
@@ -701,52 +701,27 @@ Cartagen Knitter makes several unique choices about how users rectify imagery. T
 \cite{wolf2006lowcost}
 \end{quote}
 
-The second design decision which may seem curious is the emphasis on a completely manual orthorectification interface: no automated interest point finding or matching is used, despite the availability of such software (i.e. Hugin, Photosynth, Vision Workbench, etc.). Even Map Warper (reference) automatically warps images, though it asks users to identify common Ground Control Points to determine how to perform the warping. In practice, however, the use of such automated techniques did not result in good mosaic images, nor was the process of stitching, warping, and orthorectifying easy to understand or troubleshoot. Hugin provides for rectilinear warping, which does not assume a fixed camera position, but in order to successfully apply this configuration is essentially a `hack' and existing documentation is either unclear or no longer correct.
+The second design decision which may seem curious is the emphasis on a completely manual orthorectification interface: no automated interest point finding or matching is used, despite the availability of such software (i.e. Hugin, Photosynth, Vision Workbench, etc.). Even Map Warper automatically warps images using the \textbf{gdalwarp} utility, though it asks users to identify common Ground Control Points to determine how to perform the warping. In practice, however, the use of such automated techniques did not result in good mosaic images, nor was the process of stitching, warping, and orthorectifying easy to understand or troubleshoot for non-technical users. Hugin provides for rectilinear warping, which does not assume a fixed camera position, but in order to successfully apply this configuration is essentially a `hack' and existing documentation is either unclear or no longer correct. Additionally, desktop programs such as hugin or Photosynth may be difficult to install in an internet cafe, which users in Lima might find necessary.
 
+Discussion of rubbersheeting. \cite{white1985piecewise}
 
-
-- didn't do a good job
-- very difficult to configure
-- high resource requirements
-- tended to exclude participants from process
-
-Discussion of rubbersheeting:
-\cite{white1985piecewise}
-
-% must be integrated into above sections:
 \section{Cartagen: an alternative architecture for digital maps}
 
-Beyond the ability to orthorectify imagery, Cartagen is a fully-fledged cartographic scripting environment and renderer. It can draw vector data onto a pixel grid - not just fast enough to generate tiles, but at over 10 frames per second on most computers. As the user interacts with a Cartagen map, features are drawn continuously, as in an animation. This negates the need to cache or otherwise store raster representations of map data, and sidesteps many of the assumptions and limitations of the modern mapping technology stack.
+Beyond the ability to orthorectify imagery, Cartagen is a fully-fledged cartographic scripting environment and renderer. It can draw vector data onto a pixel grid at over 10 frames per second on most computers, and follows the conventions of an animation framework rather than the more static assumptions of the typical mapping system. As the user interacts with a Cartagen map, features are drawn continuously. This negates the need to cache or otherwise store raster representations of map data, and sidesteps many of the assumptions and limitations of the modern mapping technology stack. This is also what makes possible the rapid feedback loop of the Cartagen Knitter, as there is no `render' or `warp' step --- the effect of the user's orthorectification is visible in real time. 
 
 This alternative `geostack' is one of the most unique aspects of the Grassroots Mapping tool chain. The abilities it affords make it suitable for deploying original data without placing a high demand on technical skills or resources. 
 
 (concurrent client ability)
 
-Reference chapter 4.2 discussion on current geostack 
-
-%        - existing solutions based around cloud systems
-%            - this move opposite - closer to client
-%            - needs: data under no connectivity
-%            - multiple devices
-%            - ownership of data/infrastructure
-%                - FrontlineSMS, 'local' is a feature, opposite of corporate/commercial strategy
-%        - low-AI approach; technical literacy, flexibility, admits 'misuse'
-%            - examples: USGS overlay at WhereCamp 2010
-%            - additon of non-map features with Warper tool
-%            - difficulty of use of hugin, etc
-%                - DIYDrones thread: "3 days stitching and tweaking images" (http://diydrones.com/profiles/blog/show?id=705844:BlogPost:134855&page=1#comments)
-%            - Stewart Long uses Photoshop for most stitches (get him on record)
-%Emphasis on building in response to end-user needs
-%    - this work could only be done by working with communities in cartographic dispute. See Lima case study.
-
+- DIYDrones thread: "3 days stitching and tweaking images" \url{http://diydrones.com/profiles/blog/show?id=705844:BlogPost:134855&page=1#comments}
 
 \subsection{Cartagen dynamic rendering}
 
-As discussed in Section \ref{sec:webmapping}, most digital maps today employ a server-side caching mechanism providing a tiled image collection. The tiles are assembled seamlessly in the user's browser, and zooming is accomplished by maintaining multiple tilesets --- one for each zoom level. The resulting system scales predictably, as tiles do not vary dramatically in file size, and can be served using Apache or even stored locally. While this works well for a single dataset such as terrain contours, it commits the map to a single representation. Multiple tile sets can be stacked, and polygons can be overlaid, but most importantly, the user cannot edit the tiles or manipulate the data they contain. Compressing data into tiles strips them of their metadata and authorship information in favor of scalability and consistency. 
+As discussed in Section \ref{sec:webmapping}, most digital maps today employ a server-side caching mechanism providing a tiled image collection. The tiles are assembled seamlessly in the user's browser, and zooming is accomplished by maintaining multiple tilesets --- one for each zoom level. The resulting system scales predictably, as tiles do not vary dramatically in file size, and can be served using Apache or even stored locally. While this works well for a single dataset such as terrain contours, it commits the map to a single representation. Multiple tile sets can be stacked, and polygons can be overlaid, but most importantly, the user cannot edit the tiles or manipulate the data they contain. Compressing data into tiles strips them of their metadata and authorship information in favor of scalability and consistency. For companies such as Google or Yahoo, this represents a form of control over the map data; instead of distributing the source data, their use of tiles protects their intellectual property from re-use or adaptation. 
 
 Diagram of Cartagen vs. Existing geostack
 
-To sidestep many of these requirements, and to allow users to participate fully in the authoring of maps, I created the Cartagen framework. Using new techniques made possible by widespread browser support for HTML5 and specifically the Canvas element, Cartagen can create maps which are not pre-rendered, but generated on-the-fly. This frees the map from a single projection or representation, and enables a more dynamic, interactive, and narrative cartographic style. Discrete vector data (made up of points, lines, and areas) can be downloaded in JSON format just once, and displayed at any scale and in any style. Recent increases in JavaScript execution speed [JavaScript speed stats] make possible relatively high framerates (~15fps on a typical machine), obviate the need for browser plugins like Flash or Java, and make dynamic HTML5 mapping accessible even on mobile devices such as on the iPhone, Android, and Windows Mobile platforms. As an added advantage, Cartagen performs much of the work of map display locally, reducing dependence on high-latency internet connectivity. It also allows users to easily download data and view or edit it offline. These features make it particularly appropriate for use in developing countries or in crisis situations. 
+I designed Cartagen to sidestep many of these requirements, and to allow users to participate fully in the authoring of maps. Using new techniques made possible by widespread browser support for HTML5 and specifically the Canvas element, Cartagen can create maps which are not pre-rendered, but generated on-the-fly. This frees the map from a single projection or representation, and enables a more dynamic, interactive, and narrative cartographic style. Discrete vector data (made up of points, lines, and areas) can be downloaded in JSON format just once, and displayed at any scale and in any style. Recent increases in JavaScript execution speed [JavaScript speed stats] make possible relatively high framerates (~15fps on a typical machine), obviate the need for browser plugins like Flash or Java, and make dynamic HTML5 mapping accessible even on mobile devices such as on the iPhone, Android, and Windows Mobile platforms. As an added advantage, Cartagen performs much of the work of map display locally, reducing dependence on high-latency internet connectivity. It also allows users to easily download data and view or edit it offline. These features make it particularly appropriate for use in developing countries or in crisis situations. 
 
 (usage restrictions in Google Maps and similar services)
 
@@ -757,18 +732,22 @@ To sidestep many of these requirements, and to allow users to participate fully 
 	\end{flushright}
 \end{wrapfigure}
 
-The Cartagen framework represents an alternative system which is optimized for user-created content, rather than one-to-many broadcast publishing. As a fully scriptable cartographic environment, however, it was also uniquely suited for building an image orthorectification tool. The Canvas element is essentially a pixel raster, but because Cartagen's primitives are vector objects stored as points and polygons, it there is no need to store resampled source imagery while performing distortions or transforms. While in Photoshop, a powerful computer is required to store, manipulate, and export a map of any considerable size (maps made for the BP oil spill project were over 50,000 px in each dimension), Cartagen can be used to orthorectify using a laptop or even a low-power netbook. Users in effect see a lower-resolution preview rendered only at the size of their browser window, and a final, high-resolution composite image is created using ImageMagick on the server side. This lowers the cost of the equipment to process and orthorectify aerial imagery by thousands of dollars. 
+\section{Unique abilities}
 
-%            Existing vector systems (Chris Schmitt's email on geowanking)
+Though other mapping frameworks such as OpenLayers have made use of the canvas element as well as other alternatives such as \ac{SVG}, Cartagen was among the first to appropriate the `content vs. display' paradigm of HTML/CSS, in order to allow users to style maps using a simple CSS-like syntax, known as \ac{GSS}. This took advantage of Cartagen's live-rendering ability to render features in response to simply defined, tag-based style definitions. Cartagen is one of the most easily customizable map rendering frameworks, and is specifically designed to leverage literacy in HTML/CSS, thereby lowering barriers for those interested in using geospatial design tools. 
 
-%                GSS (and OSM-JSON): appropriating the HTML/CSS paradigm for data legibility and open access
-%                    Format politics: XML, JSON, RSS
+(GSS illustrations)
 
-Cartagen makes use of open standards such as JSON, OSM-XML, and GeoJSON, and can be used to generate \ac{GeoTIFF}s or even a \ac{TMS} tile service. In addition, because it can store and display both raster and vector data, once images are rectified, the pen tool can be used to trace streets, buildings, and borders.   
+As a fully scriptable cartographic environment, Cartagen was also uniquely suited for building an image orthorectification tool. The Canvas element is essentially a pixel raster, but because Cartagen's primitives are vector objects stored as points and polygons, it there is no need to store resampled source imagery while performing distortions or transforms. While in Photoshop, a powerful computer is required to store, manipulate, and export a map of any considerable size (maps made for the BP oil spill project were over 50,000 px in each dimension), Cartagen can be used to orthorectify using a laptop or even a low-power netbook. Users in effect see a lower-resolution preview rendered only at the size of their browser window, and a final, high-resolution composite image is created using ImageMagick on the server side. This lowers the cost of the equipment to process and orthorectify aerial imagery by thousands of dollars. 
 
-Another unique part about Cartagen is that it allows users to style vector map data using a stylesheet, in a syntax similar to that of CSS. This is intendd to mirror the content vs. style relationship between HTML and CSS, and in fact the map stylesheet format Cartagen uses is called GSS. This is intended to leverage the widespread literacy in web design and provide a scaffolding for those just beginning to make their own maps with these tools. 
+Cartagen makes use of open standards such as JSON, OSM-XML, and GeoJSON, and can be used to generate \ac{GeoTIFF}s or even a \ac{TMS} tile service. In addition, because it can store and display both raster and vector data, once images are rectified, the pen tool can be used to trace streets, buildings, and borders. However, for those interested in using Cartagen Knitter to produce data for OpenStreetMap, the non-standard TMS required for map editors such as JOSM is also available.
 
-Illustration of GSS
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/knitter-josm.png}
+		\caption{Viewing output from the Cartagen Knitter in \ac{JOSM} for contribution to the OpenMapCaucasus project in Georgia. Read more in Section \ref{subsec:georgia}}
+	\end{flushright}
+\end{wrapfigure}
 
 \subsection{Why an entirely new mapping system?}
 
@@ -776,11 +755,9 @@ Illustration of GSS
 
 In a sense, rendering is at the heart of the argument for critical cartography. If mapping is to be a means to advance an agenda, or develop a narrative, or create a communal self-image, it must allow for diverse forms of representation. We have the divergent data and the means to collect, collate, and publish it – what we lack is a way to represent it in layered, interactive, and radically unique ways. 
 
-Cartagen is distributed solution to the problem of generating complete world maps with minimal resources, which describe a constantly changing data set. This turned out to be both technologically advantageous and epistemologically transformative. Once maps are rendered in your browser window instead of by Google or Yahoo, you are empowered to design, manipulate, and use that data in new and compelling ways. 
+Cartagen's unique architecture allows it to describe a constantly changing data set, an ability which is both technologically advantageous and epistemologically transformative. Once maps are rendered in the browser window instead of by Google or Yahoo, users are empowered to design, interpret, manipulate, and publish that data in new and compelling ways. 
 
-Instead of just annotating a Google Map with pins representing your data, Cartagen provides an opportunity to create your own map from scratch, using both open geodata and data you've collected from your environment. Mapmaking with Cartagen is a form of cartographic narrative. 
-
-\subsection{An iterative toolchain development process}
+\section{An iterative toolchain development process}
 
 (correct passive voice)
 
@@ -1068,9 +1045,7 @@ By contrast, the imagery collected by the LABB/Grassroots Mapping teams was up t
 
 \section{Independent monitoring and media blackout}
 
-Press told to leave beach... cite from press
-
-Workers at Pass Christian were not allowed to say what they were doing. \cite{labb2010heywhat}
+As the crisis progressed, it became clear that BP was attempting to restrict access to affected areas by means of airspace restrictions, closing public beaches, and preventing boats from entering some areas. The Breton Sound was closed to the public in mid May, and flyovers were restricted to a minimum of 4,000 feet, making it difficult to photograph or identify features on the ground. \cite{peters2010efforts} With reduced public and media access, many became concerned that because of the close collaboration between BP, the Coast Guard, and NOAA, the government was becoming complicit in the media blackout. Even on the ground \ac{LABB} mappers found that many cleanup workers were prohibited from talking about what they were doing. \cite{labb2010heywhat} This gave our mapping effort new meaning, as our imagery was among the best available for many areas, and the support we received from local fishermen in getting to sites helped us to sidestep issues of access which limited many in the mainstream press.
 
 \section{Sustainability}
 
@@ -1082,10 +1057,6 @@ Workers at Pass Christian were not allowed to say what they were doing. \cite{la
 \end{wrapfigure}
 
 The most challenging aspect of organizing the oil mapping project was to train a group of inexperienced but committed volunteers to use Grassroots Mapping tools such as balloons and kites, in often adverse weather conditions up to 3 hours travel from New Orleans, our home base. That a number of volunteers have continued not only to make trips on their own, but to bring and train others to map, has been both exciting and impressive.
-
-\begin{quote}
-The simplicity of this project is what initially sparked my interest in it. The kits are assembled from relatively inexpensive materials, and almost anyone can perform the basic tasks of attaching the camera and letting out the kite or balloon. --- Lauren Craig
-\end{quote}
 
 Between May 7th and July 22nd, dozens of participants made 36 trips to gather mapping data, or almost one every other day. While only one trip has failed to return with imagery, 56\% of trips returned with `excellent' or `useable' data, indicating that some quality control mechanisms might result in a higher success rate. Still, over 11,000 images have been taken, with plans and funding in place to continue mapping through January 2011. 
 
@@ -1101,27 +1072,33 @@ Pie chart: Map datasets: (Long/GonzoEarth)
 
 \subsection{Workshops and trainings}
 
-One factor that likely played a major role in the rapid adoption of Grassroots Mapping techniques was the early emphasis on training. With \ac{LABB}, we organized a workshop in the first week of mapping for potential volunteers, where we demonstrated the use of the tools in a hands-on manner, flying kites and capturing a sample data set. In addition, trips to mapping sites have continued to attract new volunteers, and the teaching of aerial mapping techniques to newcomers has been a priority throughout the project. We have been lucky that \ac{LABB} has combined their outreach programming with aerial mapping trips (Lauren Craig, but spec. source?)
+One factor that likely played a major role in the rapid adoption of Grassroots Mapping techniques was the early emphasis on training. With \ac{LABB}, we organized a workshop in the first week of mapping for potential volunteers, where we demonstrated the use of the tools in a hands-on manner, flying kites and capturing a sample data set. In addition, trips to mapping sites have continued to attract new volunteers, and the teaching of aerial mapping techniques to newcomers has been a priority throughout the project. We have been lucky that \ac{LABB} has combined their outreach programming with aerial mapping trips, resulting in a steady flow of new mappers. (Lauren Craig, but spec. source?) 
 
-(Independent uses and submissions of data)
+Particularly encouraging was the participation of two mappers who had seen just a single presentation about the project, and were inspired to begin balloon mapping on their own. Assembling their own kit based on information available on the Grassroots Mapping website, Don and Justin Blancher contacted us with hundreds of photos of Perdido Point, Alabama. Delighted, we arranged a transfer of files and Stewart Long created a map within a few days. The two continue to contribute new data.  
 
-...
+\subsection{Collaborations}
 
-\subsection{Media attention}
+From the start of the project, the Grassroots Mapping mailing list and wiki were a focal point for collaboration, and members of the wider Grassroots Mapping community helped identify local helium sources, coordinate volunteers, and even paid for plane tickets. On the ground, there was also considerable ad-hoc collaboration, with Oliver Yeh of 1337arts and Stewart Long of GonzoEarth leading trips and trainings on multiple occasions. However, over the first several weeks, Shannon Dosemagen of the Louisiana Bucket Brigade, and Kris Ansin of the University of Tulane's School of Public Health and Tropical Medicine emerged as leaders of local mapping trips, and their efforts have ensured that map-making has continued for close to three months since our initial efforts. Long and myself played a supporting technical role in managing, processing, and publishing stitched maps of the data, and advising the LABB team on equipment setup and maintenance. 
 
-`Mediagenic'
+Throughout the project, we made parterships with a variety of other organizastions to share boat trips, imagery, and to collaborate directly on capturing imagery --- among these were the Blue Seals, Greenpeace, Americorps, and many individuals who volunteered their time, money and abilities. This dense web of collaborations has formed a backbone of support for the effort, and ensured its regularity and sustainability. While the urgency of the disaster itself surely played a role in forging such a network of mutual support, such strong local participation must be an integral part of \textbf{any} participatory mapping effort which expects to be sustained beyond an initial burst of enthusiasm.
 
 \subsection{Funding model}
 
-Mapping the spill incurred a range of new costs; not only is there a virtually unlimited potential area to map, but the intention to repeatedly map each site meant that there is no completion criterion for the effort --- trips are led and imagery is captured as often as possible given the constraints of time and money. Travel turned out to be the most expensive part of the project. Not counting the hours of donated time and associated fuel costs on boats, planes, and in cars, a typical day in a chartered boat cost approximately \$US 400, and even teams visiting only the shoreline had to travel for upwards of 3 hours each way from \ac{LABB} headquarters in New Orleans. 
+Mapping the spill incurred a range of new costs; not only is there a virtually unlimited potential area to map, but the intention to repeatedly map each site meant that there is no completion criterion for the effort --- trips are led and imagery is captured as often as possible given the constraints of time and money. While the costs of equipment were still in the range of \$150-200 per kit, travel turned out to be the most expensive part of the project. Not counting the hours of donated time and associated fuel costs on boats, planes, and in cars, a typical day in a chartered boat cost approximately \$US 400, and even teams visiting only the shoreline had to travel for upwards of 3 hours each way from \ac{LABB} headquarters in New Orleans. 
 
-Various donors and institutions were generous in their support of the project, including the Center for Future Civic Media, the Lafourche Port Commission, the Washington Post, Development Seed, and many more.\footnote{For a full list of donors please see Appendix \ref{app:donors}} In order to meet these expenses, on May XX I created a proposal at \href{http://kickstarter.com}{Kickstarter.com} with help from filmmaker Kristian Hansen. Kickstarter is a site where individuals can elect to `back' a project financially, receiving rewards for different levels of support. For \$100, we offered to put backers' names on a balloon, for \$500, we promised to send backers a complete Grassroots Mapping Kit. However, the vast majority of donations were at the \$25 level, for a total of XXX contributors by June X
-
-(Work on numbers above)
+Various donors and institutions were generous in their support of the project, including the Center for Future Civic Media, the Lafourche Port Commission, the Washington Post, Development Seed, and many more.\footnote{For a full list of donors please see Appendix \ref{app:donors}} In order to meet these expenses, on May 29th I created a proposal at \href{http://kickstarter.com}{Kickstarter.com} with help from filmmaker Kristian Hansen. Kickstarter is a site where individuals can elect to `back' a project financially, receiving rewards for different levels of support. For \$50, we offered to put backers' names on a balloon, for \$1000, we promised to send backers a complete Grassroots Mapping Kit. However, the vast majority of donations were at the \$25 level, and a total of 145 contributors backed the project with \$8,285 by June 21, 2010.
 
 Funding the project in this manner rather than via larger institutional grants seemed appropriate for an already citizen-led, independent effort to document the oil spill's effects. For many, contributing a small amount or even simply spreading the word was the only means of participating. For these reasons the choice of Kickstarter as a means to financial sustainability is especially relevant to the project's mission. 
 
-(better integration here)
+\section{Image processing and map stitching}
+
+
+
+Lag time in producing maps, techniques, need for Knitter
+
+Format outputs
+
+Note: MapMill
 
 \section{Integration with Ushahidi}
 
@@ -1295,6 +1272,10 @@ Specific wording employed by participants has hinted at the degree to which part
 (face validity in the Gulf project. draw on writings of participants: lauren craig, shannon, LABB blog, cesar harada)
 
 \begin{quote}
+The simplicity of this project is what initially sparked my interest in it. The kits are assembled from relatively inexpensive materials, and almost anyone can perform the basic tasks of attaching the camera and letting out the kite or balloon. --- Lauren Craig
+\end{quote}
+
+\begin{quote}
 Even though we can’t all be paragliding aerial photographers, wildlife experts or boat captains, we still have a role to play in raising awareness about the effects of this disaster. The best thing that ordinary people can do for the community right now is stay informed, promote action and spread the word—this is the mission of the Louisiana Bucket Brigade in Grand Isle.
 --- Lauren Craig, Tulane
 \end{quote}
@@ -1413,10 +1394,11 @@ At the Marsh Fork Elementary school near CRMW headquarters, we launched a balloo
 An additional advantage to balloon imagery is that it can be captured inconspicuously from public roads upwind of target sites. These tools provide groups such as CRMW access to time-sensitive information about the progressive degradation of the environment, and CRMW hopes to use the data in court cases to prevent mining operations.
 
 \subsection{A Grassroots Mapping curriculum in Georgia}
+\label{subsec:georgia}
 
 In early 2010, Jeff Haack of JumpStart International, the nonprofit group which funded and operated the Free Map Palestine project with Mikel Maron in 2008-9, expressed interest in applying Grassroots Mapping tools and ideas to a nation-wide mapping project in the country of Georgia. With educational projects in 5 cities across the country, this was to be the first large explicitly educational application of the Grassroots Mapping concept. Beginning in June 2010 and lasting 6 weeks, the program consisted of a series of workshops and trainings with JumpStart-affiliated educators and activists using balloons, kites, and remote controlled airplanes.
 
-\begin{quote}The NGO structure JumpStart has built in Georgia is, in my opinion, an apt and sustainable way forward. After our experience in Palestine it became clear that impact requires a lasting effort in a community and the encouragement of local skills and ownership. It’s not merely about mapping a country, but about understanding where that, conceptually, meets societal needs, and building value therein. Sustainability for Open Maps Caucasus comes by understanding the convergence of digital technologies with community mapping, social fabric, governance, and civil society, and filling a need within that sphere. We’re not expecting OMC’s community mapping focus to last forever, but that concept, at the very heart of it is meaningful and sustainable, because accessing the tools for extracting and considering not oil or timber, but information, strengthens a society and can make it more prone to long term development.\end{quote} \url{http://brainoff.com/weblog/2010/04/28/1556}
+\begin{quote}The NGO structure JumpStart has built in Georgia is, in my opinion, an apt and sustainable way forward. After our experience in Palestine it became clear that impact requires a lasting effort in a community and the encouragement of local skills and ownership. It’s not merely about mapping a country, but about understanding where that, conceptually, meets societal needs, and building value therein. Sustainability for OpenMapsCaucasus comes by understanding the convergence of digital technologies with community mapping, social fabric, governance, and civil society, and filling a need within that sphere. We’re not expecting OMC’s community mapping focus to last forever, but that concept, at the very heart of it is meaningful and sustainable, because accessing the tools for extracting and considering not oil or timber, but information, strengthens a society and can make it more prone to long term development.\end{quote} \url{http://brainoff.com/weblog/2010/04/28/1556}
 
 
 \section{Wiki, blog and mailing list}
@@ -1540,11 +1522,14 @@ The following organizations offered generous support in the form of time, money,
 \begin{acronym}
 \acro{TMS}{Tiled Map Service}
 \acro{GeoTIFF}{Geographic TIFF, or Geographic Tiled Image File Format}
+\acro{GSS}{Geographic Stylesheets}
 \acro{CHDK}{Canon Hacker Development Kit}
 \acro{KAP}{Kite Aerial Photography}
 \acro{BAP}{Balloon Aerial Photography}
 \acro{COFOPRI}{Organization for the Formalization of Informal Property}
 \acro{LABB}{Louisiana Bucket Brigade}
+\acro{SVG}{Scalable Vector Graphics}
+\acro{JOSM}{Java OpenStreetMap Editor}
 \end{acronym}
 
 \chapter*{License}
