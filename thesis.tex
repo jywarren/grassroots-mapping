@@ -1,5 +1,5 @@
 \documentclass[11pt]{report}
-%\usepackage{fullpage}
+\usepackage{fullpage}
 \usepackage[pdftex,
             pdfauthor={Jeffrey Yoo Warren},
             pdftitle={Grassroots Mapping: a toolkit for participatory and activist cartography},
@@ -22,7 +22,7 @@
 
 \definecolor{tableShade}{HTML}{EEEEEE}
 
-\title{Grassroots Mapping: a toolkit for participatory and politically engaged cartography}
+\title{Grassroots Mapping: tools for participatory and activist cartography}
 \author{Jeffrey Warren}
 \date{May 8, 2010}
 
@@ -38,7 +38,113 @@
 % http://wiki.infosyncratic.nl/LaTeX
 
 \begin{document}
+
+\title{\begin{flushleft}\vspace{-80px}
+Grassroots Mapping: tools for participatory and activist cartography\\ \vspace{10px}
+\emph{by Jeffrey Yoo Warren}\\ \vspace{10px}
+\large{B.A. Yale University 2006}\\ \vspace{30px}
+\large{Submitted to the Program in Media Arts and Sciences,\\
+School of Architecture and Planning,\\
+in partial fulfilment of the requirements for the degree of\\
+Master of Science\\
+at the {\sc MASSACHUSETTS INSTITUTE OF TECHNOLOGY}\\
+September 2010\\ 
+\copyright Massachusetts Institute of Technology 2010. All rights reserved.}\\
+\vspace{40px}
+\large{\emph{author: }}\\ \vspace{2px}
+\hrule \vspace{10px}
+\begin{flushright}
+Program in Media Arts and Sciences
+September 2010
+\end{flushright}
+\vspace{20px}
+\large{\emph{certified by: }}\\ 
+\hrule \vspace{10px}
+\begin{flushright}
+Dr. David Small\\
+Associate Professor\\
+Program in Media Arts and Sciences\\
+Thesis supervisor
+\end{flushright}
+\vspace{20px}
+\large{\emph{accepted by: }}\\
+\hrule \vspace{10px}
+\begin{flushright}
+Chris Csikszentmihalyi\\
+Research Scientist\\
+Director, Center for Future Civic Media and Computing Culture Group\\
+MIT Media Lab\\
+\end{flushright}
+\vspace{20px}
+\hrule \vspace{10px}
+\begin{flushright}
+Dr. Mitchel Resnick\\
+Professor\\
+Program in Media Arts and Sciences
+\end{flushright}
+\end{flushleft}}
+\date{}
 \maketitle
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.3em}
+
+
+\Large{
+Grassroots Mapping: tools for participatory and activist cartography \vspace{10px} \\ 
+\emph{by Jeffrey Warren}\vspace{10px} \\ 
+B.A. Yale University 2006} \vspace{20px} \\ 
+\large{Submitted to the Program in Media Arts and Sciences,\\
+School of Architecture and Planning,\\
+in partial fulfilment of the requirements for the degree of\\
+Master of Science\\
+at the {\sc MASSACHUSETTS INSTITUTE OF TECHNOLOGY}\\
+September 2010\\ 
+\copyright Massachusetts Institute of Technology 2010. All rights reserved.}\\ \vspace{20px}
+
+\normalsize{
+\section*{Abstract}
+
+
+
+}
+
+\vspace{20px}
+\large{
+Thesis supervisor:\\
+Dr. David Small\\
+\emph{Associate Professor}\\
+Program in Media Arts and Sciences\\
+}
+
+\Large{
+Grassroots Mapping: tools for participatory and activist cartography  \vspace{10px} \\ 
+\emph{by Jeffrey Warren}} \vspace{10px} \\
+
+\normalsize{Thesis reader:\\
+\hrule \vspace{10px}
+\begin{flushright}
+Chris Csikszentmihalyi\\
+\emph{Research Scientist}\\
+\emph{Director, Center for Future Civic Media and Computing Culture Group}\\
+MIT Media Lab
+\end{flushright}
+}
+
+\normalsize{Thesis reader:\\
+\hrule \vspace{10px}
+\begin{flushright}
+Dr. Mitchel Resnick\\
+\emph{Professor}\\
+Program in Media Arts and Sciences\\
+\end{flushright}
+}
+
+\pagebreak
+
+\normalsize{
+\section*{Acknowledgements}
+}
 
 \tableofcontents
 
@@ -50,17 +156,17 @@ Exactly what makes up the Grassroots Mapping project? Is it a body of code, avai
 
 Fundamentally this project is intended to make the process of mapmaking easier for lay users, with the intent to broaden participation in cartography. Throughout much of the world, maps can be seen as a tool of the state and of industry to express control over world we live in. By simplifying the means to create maps, from the data gathering through the editing and publication of digital and print maps, the tools and techiques I have created are designed to further democratize cartography. In turn, it is hoped that the ability of a broader public to make maps at a reasonable cost will help to empower bottom-up cartographic activism and to circumvent the current power structure of map-making. 
 
-The core of the Grassroots Mapping project is the \textbf{application} of a novel combination of technology to specific communities. The technology consists of low-cost aerial imaging techniques using balloons and kites, and a novel online tool for stitching the resulting imagery into maps. The success of these tools is due to the effort and faith of the organizations and individuals who were willing to adopt these new and unfamiliar tools, and who saw their potential for use in their communities in Lima, Peru, and the oil spill crisis on the coast of the Gulf of Mexico. This includes Carla del Carpio of Manzanita "A" and Ernesto Fernandez of CEDRO, both in Lima, Peru, and Daniel Miracle and others from Escuelab, also in Lima. It includes Kris Ansin, Shannon Dosemagen, and Anne Rolfes of the Louisiana Bucket Brigade in New Orleans. It also includes the dozens of participants who tirelessly flew kites and balloons, and untangled and wound miles of string day after day. Perhaps most importantly, the tools grew and evolved in response to sustained use by participants, and with the input and collaboration of those who used them.
+The core of the Grassroots Mapping project is the \textbf{application} of a novel combination of technology to specific communities. The technology consists of low-cost aerial imaging techniques using balloons and kites to take photos from the air, and a novel online tool for stitching the resulting imagery into maps. The success of these tools is due to the effort and faith of the organizations and individuals who were willing to adopt these new and unfamiliar tools, and who saw their potential for use in their communities in Lima, Peru, and the oil spill crisis on the coast of the Gulf of Mexico. This includes Carla del Carpio of Manzanita "A" and Ernesto Fernandez of CEDRO, both in Lima, Peru, and Daniel Miracle and others from Escuelab, also in Lima. It includes Kris Ansin, Shannon Dosemagen, and Anne Rolfes of the Louisiana Bucket Brigade in New Orleans. It also includes the dozens of participants who tirelessly flew kites and balloons, and untangled and wound miles of string day after day. Perhaps most importantly, the tools grew and evolved in response to sustained use by participants, and with the input and collaboration of those who used them.
 
+\subsection{Uses of aerial imagery}
+
+Participants in the project have made maps for diverse purposes, including environmental monitoring, tenure rights, journalism, and commercial use. Many maps were created in the context of youth workshops emphasizing hands-on learning and community planning, and the tools' unique ability to produce on-demand maps was explored in crisis situations and areas of conflict. Due to their low cost, the techniques have potential for even broader use in asset mapping in low-income or developing areas, and local-level urban planning. The ability to see one's home from above can prompt thought and discussion about community, environment, and social issues. By engaging with and teaching local communities to use the tools, they have taken on a more personally relevant meaning than efforts which charactarize themselves as remote sensing. 
+ 
 \subsection{Grassroots Mapping as pedagogy}
 
-To make this widespread adoption possible, the project also evolved to include a variety of teaching materials, printed guides, online videos, and workshops, both by the author and by the diverse collaborators who took ownership of the tools. These materials spanned a broad range of audiences, from 10-15 year olds in Lima, Peru to environmental activists in West Virginia and Kentucky. 
+To enable widespread adoption, the project evolved to include a variety of teaching materials, printed guides, online videos, and workshops, both by the author and by the diverse collaborators who took ownership of the tools. These materials spanned a broad range of audiences, from 10-15 year olds in Lima, Peru to environmental activists in West Virginia and Kentucky. 
 
 This documentation evolved as the author collaborated with and instructed participants in dozens of workshops over the past year. These occurred in diverse contexts, from a two week high school workshop at Beaver Country Day School in Chestnut Hill, outside of Boston, to an hour-long teaching session in City Park, New Orleans, for volunteers mapping the April 2010 BP Oil Spill. 
-
-\subsection{Needs fulfillment}
-
-(Brief summary of needs, `dead assets', direct raster imaging for environmental needs, crisis mapping, put power to map in hands of those `on the ground' rather than treating it as remote sensing. )
 
 \subsection{Grassroots Mapping as a community}
 
@@ -112,7 +218,9 @@ The collective Hackitectura inverts a map of the Gibralter area with Morocco and
 	\end{center}
 \end{figure}
 
-Proboscis in particular has produced a number of works with urban communities with the goal of helping people `articulate and share their xperiences of inhabiting the city' and `become co-creators and not just consumers of information' --- the latter of which parallels the neogeographers' interest in making participants of their audience (See Section \ref{sec:neogeography}). Their projects take the form of map-making workshops and activities, using paper as well as GPS-enabled mobile phones. They focus on recording the historical narratives of participants while relating the stories to geographic positions and routes in a kind of city-wide game. Proboscis uses the term `bodystorming' to describe their methodology, wherein `the transformation of abstract ideas and concepts into physical experiences, a tactile approach allowing us to investigate different qualities that ideas may have when applied to physical settings – part of a dynamic and continuous process of trial and error.' \cite{proboscis2003bodystorming} 
+Proboscis in particular has produced a number of works with urban communities with the goal of helping people `articulate and share their xperiences of inhabiting the city' and `become co-creators and not just consumers of information' --- the latter of which parallels the neogeographers' interest in making participants of their audience (See Section \ref{sec:neogeography}). Their projects take the form of map-making workshops and activities, using paper as well as GPS-enabled mobile phones. They focus on recording the historical narratives of participants while relating the stories to geographic positions and routes in a kind of city-wide game. 
+
+Proboscis uses the term `bodystorming' to describe their methodology, wherein `the transformation of abstract ideas and concepts into physical experiences, a tactile approach allowing us to investigate different qualities that ideas may have when applied to physical settings --- part of a dynamic and continuous process of trial and error.' \cite{proboscis2003bodystorming} 
 
 %A People's Atlas of Chicago
 
