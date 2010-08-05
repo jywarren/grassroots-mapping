@@ -417,6 +417,8 @@ In the February 2010 earthquake in Chile, a similar plea for imagery was sent to
 
 Ultimately, citizen-led mapping efforts present an opportunity to bypass this bottleneck by providing high-resolution, timely aerial imagery at low cost. Such an effort occurred during and after the 2010 BP oil spill in the Gulf of Mexico and is discussed at length in Chapter \ref{chap:gulf} 
 
+(Cite Remote Sensing table)
+
 % who released data??? 
 
 \chapter{State of the Art}
@@ -751,17 +753,13 @@ Cartagen makes use of open standards such as JSON, OSM-XML, and GeoJSON, and can
 
 \subsection{Why an entirely new mapping system?}
 
-(needs style rewrite)
-
 In a sense, rendering is at the heart of the argument for critical cartography. If mapping is to be a means to advance an agenda, or develop a narrative, or create a communal self-image, it must allow for diverse forms of representation. We have the divergent data and the means to collect, collate, and publish it – what we lack is a way to represent it in layered, interactive, and radically unique ways. 
 
 Cartagen's unique architecture allows it to describe a constantly changing data set, an ability which is both technologically advantageous and epistemologically transformative. Once maps are rendered in the browser window instead of by Google or Yahoo, users are empowered to design, interpret, manipulate, and publish that data in new and compelling ways. 
 
 \section{An iterative toolchain development process}
 
-(correct passive voice)
-
-Important to the development of the Grassroots Mapping tools was a collaborative process of testing various tools in a variety of contexts. Various combinations of tools were tested with participants from Lima, Peru, New Orleans, and Rock Creek, West Virginia. Verbal and interview-prompted feedback was used to develop new tools which built on the strengths of existing and off-the-shelf systems such as Photoshop, Hugin, and Map Warper. The same is true for the physical tools such as the balloon and kite kits, including the camera housing, reel construction, and auto-triggering setup. 
+In order to develop tools which respond well to user needs, I followed a collaborative process, testing various tools in a variety of contexts. Various combinations of tools were tested with participants from Lima, Peru, New Orleans, and Rock Creek, West Virginia. Interviews and notes were used to develop new tools which built on the strengths of existing and off-the-shelf systems such as Photoshop, Hugin, and Map Warper. The same is true for the physical tools such as the balloon and kite kits, including the camera housing, reel construction, and auto-triggering setup. 
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
@@ -770,9 +768,14 @@ Important to the development of the Grassroots Mapping tools was a collaborative
 	\end{flushright}
 \end{wrapfigure}
 
-In the case of the camera housing, Grassroots Mapping community members have iterated and improved upon the soda bottle enclosure, discussing and testing alternatives on the mailing list, and even posting videos of tests. Pat Coyle, a mailing list member, published a narrated demonstration of a soda bottle enclosure with improvements such as a window to access the camera controls and a small bungee cable to stabilize the camera against the inside of the bottle. In another example, Mathew Lippincott prototyped solar-powered hot air balloons constructed from painter's plastic sheeting, conducted pigmentation and lift tests to determine suitability for carrying cameras. The tests and builds were held at a public event in Portland, Oregon, and the resulting balloons were packaged and sent to New Orleans for use in the BP oil spill mapping (see Chapter \ref{chap:gulf}). 
+In the case of the camera housing, Grassroots Mapping community members have iterated and improved upon the soda bottle enclosure, discussing and testing alternatives on the mailing list, and even posting videos of tests. Pat Coyle, a mailing list member, published a narrated demonstration of a soda bottle enclosure with improvements such as a window to access the camera controls and a small bungee cable to stabilize the camera against the inside of the bottle. In another example, Mathew Lippincott prototyped solar-powered hot air balloons constructed from painter's plastic sheeting, conducted pigmentation and lift tests to determine suitability for carrying cameras. The tests and builds were held at a public event in Portland, Oregon, and videos and instructions were posted online.
 
-Illustration of Mathew Lippincott's workshop 
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/lippincott-workshop.png}
+		\caption{Mathew Lippincott leads a workshop entitled `Grassroots Mapping PDX' where participants constructed and tested solar and helium balloons made of plastic sheeting, for use in the Gulf of Mexico.}
+	\end{flushright}
+\end{wrapfigure}
 
 Regular testing of new tools at the MIT campus, as well as repeated attempts to orthorectify the resulting imagery, grounded the software development in concrete usage and experience, and a workshop at the Google campus in Mountain View in April 2010 included a collaborative hacking session aimed at identifying and resolving bugs and adding new features in direct response to the day's mapping efforts. 
 
@@ -783,9 +786,7 @@ Regular testing of new tools at the MIT campus, as well as repeated attempts to 
 	\end{flushright}
 \end{wrapfigure}
 
-
- - requests made via list: stewart long asks for masking, Crispen asks for entry of lat/lon pairs, WhereCamp folks asked for locking, Pat Coyle asked for 'natural size' feature
-
+As development of the Cartagen Knitter software progressed, mailing list members with a variety of needs chipped in with suggestions, bug reports, and feature requests, including the ability to lock images when finished warping, revert to original image proportions, and use keyboard shortcuts for common commands. Combined with test flights and experimentation by active community members such as Pat Coyle and Mathew Lippincott, the tools have progressed from partially functioning prototypes to relatively mature technologies with known limitations and parameters. It was the multiple deployments of the tools in the Lima, Peru and BP oil spill case studies, however, which put them to the test in real-world applications, and forced us to push the tools' abilities to their limits. 
 
 \chapter{Case Study: Grassroots Mapping in Lima, Peru}
 \label{chap:peru}
@@ -804,6 +805,8 @@ In the interest of basing tool development and design on real-world applications
 The program was also explicitly educational in its goals, and with educators from Lima-based Centro de Información y Educación para la Prevención del Abuso de Drogas (CEDRO) and Manzanita "A", a curriculum was developed to involve local youth in the mapmaking process. We placed emphasis on examining the cartographic process with students not only in the sense of recording the present layout of students' communities, but with the intent to depict and discuss geography in the context of the history and future of the communities. A series of exercises were devised to situate mapping as a way to examine and reflect upon rapid urban growth and participatory urban planning such as occurs in the partner communities.
 
 This alignment of map-making with education and youth empowerment was not new, but for the first time it was one of the primary goals of the project. Mappers often ask me why I work with kids; educators, on the other hand, rarely ask why I focus on mapping. To answer the former, there are a variety of reasons, but one of the main reasons is that kids are good mappers. They represent a wealth of knowledge about the very details of a community which adults are likely to gloss over. They have the attention span, the patience, and the enthusiasm, and are often more open-minded and creative than their adult cartographic colleagues. They bring a unique point of view to map-making, taking less for granted about their geography, and stand to learn a great deal from such a combination of the physics of flight, the mathematics of cartography, the history of urban development, and the political implications of their physical world. Making maps of such quality and utility with school children highlights the ease with which such maps can be made to skeptical adults. Finally, pragmatically, it can be hard to use balloons and kites in any populated area \textbf{without} including kids, as they usually come out of the woodwork, eager to participate. There is a sense as well that everyone becomes a child when flying balloons and kites, and certainly the presence of a large group of eager kids tends to ease the inhibitions of curious adults, encouraging them to loosen up and take part in the fun. 
+
+`learn to see themselves as competent and confident members of their community. Children and adolescents appreciate the opportunity to feel that they can play a useful role in community or environmental improvement.'
 
 \href{http://www.unicef.org/teachers/researchers/intro.htm}{Curriculum on ``{}Children as Community Researchers''{}} - UNICEF, authored by \href{http://web.gc.cuny.edu/che/cerg/about_cerg/environmental_learning_index.htm}{Children'{}s Environment Research Group}
 
@@ -995,6 +998,8 @@ Canta Gallo&Resolution&29cm&7cm&+411\%\\
 
 Any comprehensive evaluation of the map-making work I and my local partners performed would need to include a long-term examination of the maps' uses; legal, urban planning, educational, and political applications were among our hopes, but many of these processes occur on a timeline of years or even decades. Still, in the half year since their creation, the maps of Canta Gallo have been used for subsequent projects by Shuawa, and Helder Solari, one of the activists involved in the original map-making, asserts that `in fact even now there is none better than yours. In other maps Canta Gallo simply doesn't exist.' While I look forward to hearing of as well as advocating further uses of these maps, the immediate evaluation I can attempt will have to rely upon the maps' reception among participating community members and in the qualitative and quantitative measures which can be made today.
 
+(Cite Remote Sensing table)
+
 On a resolution basis, these maps are far superior to any which have been made before (see Figure \ref{fig:limaevaltable}). However their most important quantitative advantage is in their recency; in comparison, those available on Google Maps are hopelessly obsolete, sometimes showing only a small percentage of the buildings which exist today. Due to these impressive numbers, a variety of individuals and organizations have suggested uses for the data, ranging from tracing and import into OpenStreetMap to use in World Bank needs assessment or municipal datasets. While I think these are generally good ideas, I also believe that the decision to publish any map data is one which community leaders and those involved in the creation of the data should make. My own publication of these maps for educational and research use was only after explicit permission was granted by all involved parties. 
 
 Finally, and far more importantly than the technical evaluation, I was careful to record the reception and discussion of this project amongst its participants, and especially amongst the residents of the areas we mapped.\footnote{For a more thorough discussion of my evaluation strategy, see Section \ref{sec:lather}.} This took the form of informal interviews with partner organizations and residents, as well as my notes and observations, but due to the extremely speculative nature of the project, it followed no specific plan. I want to be clear that this is by no means an attempt to develop a formal scientific or ethnographic study. Rather, it represents the information with which I developed a more comprehensive and measured approach in subsequent case studies.   
@@ -1042,6 +1047,8 @@ The 2010 Gulf oil spill was seen as an opportunity to apply the low-cost mapping
 \end{figure}
 
 By contrast, the imagery collected by the LABB/Grassroots Mapping teams was up to 9 cm/px in resolution, and could be repeatedly captured over the course of days or weeks. In addition, the unfolding nature of the oil spill crisis made it important to visit and map sites both before and after oil was sighted, and periodically afterwards. The potential for a set of maps of the same site, taken at intervals, to depict progressive damage to ecosystems and economies is a powerful new dimension to the project.
+
+(Cite Remote Sensing table and wetlands paper, miyamoto)
 
 \section{Independent monitoring and media blackout}
 
@@ -1092,13 +1099,18 @@ Funding the project in this manner rather than via larger institutional grants s
 
 \section{Image processing and map stitching}
 
+Throughout the project in the Gulf of Mexico we have relied heavily on Adobe Photoshop for manual orthorectification of maps, due to its proven track record and known limitations. Other tools such as Map Warper and Cartagen Knitter were limited by their dependence on OpenStreetMap base data, though Cartagen Knitter has since gained the ability to display a base layer of tiled satellite imagery, and may see increased usage for future map data sets. Photoshop produced \ac{TIFF} images which were processed into \ac{GeoTIFF} and cut into tiles using the \textbf{gdal2tiles.py} script. This generated both a \ac{TMS} and a \ac{KML} for viewing online. Maps were also uploaded to Flickr for public viewing, though at a lower resolution, since Flickr limits uploaded files to 10 megabytes in size. In addition, the most permissive license provided by Flickr was Creative Commons Attribution, so maps were annotated as Public Domain data in each image's description field. 
 
+Those in the project who were able to produce stitched maps, including myself and Stewart Long with some help from David Riallant and Cesar Harada, were challenged to keep up with the fast pace of map data submission. New data sets arrived as often as every other day, and a single set typically included hundreds of images to be sorted, processed for brightness and contrast, and stitched. A large monitor and a powerful computer were required, and even my own 8-core 3 GHz workstation took up to 10 minutes for each transform on larger maps. These issues, as well as the difficulty in including a broader group in the stitching effort, highlighted the need for a completed Cartagen Knitter tool, even as it took time away from its development. 
 
-Lag time in producing maps, techniques, need for Knitter
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/mapmill.png}
+		\caption{MapMill.org image sorting website developed in response to the high-volume data submission from the Gulf of Mexico during the BP oil spill.}
+	\end{flushright}
+\end{wrapfigure}
 
-Format outputs
-
-Note: MapMill
+One tool I developed in response to this overwhelming amount of data was called MapMill, available at \href{http://mapmill.org}{mapmill.org}. As sorting through images often took a substantial amount of time before orthorectification or stitching could begin, visitors of MapMill were presented with an aerial image, and asked to rank it as `really good', `just ok' or `not useful' in an adaptation of the interface to the well-known `HotOrNot' website. A one-page visual guide was offered to demonstrate what constitutes a `good' image, highlighting crispness, good exposure and downward-facing camera angle. In the 50 days following its launch on June 16th, 2010, images have been ranked more than 23,000 times, demonstrating that a voluntarily crowdsourced means of image processing may be feasible. 
 
 \section{Integration with Ushahidi}
 
@@ -1332,6 +1344,8 @@ Resolution can be measured in the spatial, temoral, and spectral axes; spatial r
  
 On a purely technical basis, there were several key benefits to to the techniques employed by the Grassroots Mapping project. In terms of spatial resolution, the typical balloon or kite map ranges from 2-150 cm in resolution, depending on the camera used, the camera altitude, and the desired output resolution. This bridges an important gap in publicly accessible aerial imagery, as commercial satellites today are limited by US law to 50 cm resolution, and the GeoEye 1 satellite, which offers the best current resolution, offers only 141 cm color imagery. This is especially important in environmental applications; Vierling et al emphasize in their use of balloon imagery that `...there still exists a gap between canopy scale processes and landscape level satellite remote sensing measurement.' \cite{vierling2006short} The resolution required to identify objects on the ground is typically three to five times smaller than the target objects, so to identify an object 10 cm wide, a resolution of 2-3 cm is required. \cite{aber2002unmanned} This is a reasonable target resolution for balloon and kite imagery. 
 
+(Cite Remote Sensing table)
+
 % cite GeoEye resolution
 
 \begin{figure}[h]
@@ -1393,19 +1407,20 @@ At the Marsh Fork Elementary school near CRMW headquarters, we launched a balloo
 
 An additional advantage to balloon imagery is that it can be captured inconspicuously from public roads upwind of target sites. These tools provide groups such as CRMW access to time-sensitive information about the progressive degradation of the environment, and CRMW hopes to use the data in court cases to prevent mining operations.
 
-\subsection{A Grassroots Mapping curriculum in Georgia}
+\subsection{A Grassroots Mapping collaboration in Georgia}
 \label{subsec:georgia}
 
-In early 2010, Jeff Haack of JumpStart International, the nonprofit group which funded and operated the Free Map Palestine project with Mikel Maron in 2008-9, expressed interest in applying Grassroots Mapping tools and ideas to a nation-wide mapping project in the country of Georgia. With educational projects in 5 cities across the country, this was to be the first large explicitly educational application of the Grassroots Mapping concept. Beginning in June 2010 and lasting 6 weeks, the program consisted of a series of workshops and trainings with JumpStart-affiliated educators and activists using balloons, kites, and remote controlled airplanes.
+In early 2010, Jeff Haack of JumpStart International, the nonprofit group which funded and operated the Free Map Palestine project with Mikel Maron in 2008-9, expressed interest in applying Grassroots Mapping tools and ideas to a nation-wide mapping project in the country of Georgia. With educational projects in 5 cities across the country, this was to be the first large explicitly educational application of the Grassroots Mapping concept. Beginning in June 2010 and lasting 6 weeks, the program consisted of a series of workshops and trainings with JumpStart-affiliated educators and activists using balloons and kites.
+
+emphasis on ownership, side effects of skills acquisition and culture of open-source/civil society
 
 \begin{quote}The NGO structure JumpStart has built in Georgia is, in my opinion, an apt and sustainable way forward. After our experience in Palestine it became clear that impact requires a lasting effort in a community and the encouragement of local skills and ownership. It’s not merely about mapping a country, but about understanding where that, conceptually, meets societal needs, and building value therein. Sustainability for OpenMapsCaucasus comes by understanding the convergence of digital technologies with community mapping, social fabric, governance, and civil society, and filling a need within that sphere. We’re not expecting OMC’s community mapping focus to last forever, but that concept, at the very heart of it is meaningful and sustainable, because accessing the tools for extracting and considering not oil or timber, but information, strengthens a society and can make it more prone to long term development.\end{quote} \url{http://brainoff.com/weblog/2010/04/28/1556}
 
+high altitude and extent records, Mestia
 
 \section{Wiki, blog and mailing list}
-        Incorporation of new needs through dialogue (see Evaluation Criteria .. Face validity/Construct validity)
-        Examples of community-based reformulation/innovation
-            Crispen's suggestion of lat/lon rectification points (mentioned above)
-            Pat Coyle's videos, bungee-cable design, and camera shutdown research
+
+(redundant with end of tool chain section)
 
 Some community participants have gone to great lengths to document their design iterations and innovations through video, still image, and textual publication. Pat Coyle of Belize Open Source produced several videos of variations on the soda bottle enclosure for cameras, narrating his proposed additions such as a bungee cord to hold the camera tightly against the bottle. Others have posted suggestions for improvements on the camera suspension to stabilize the camera platform, and Mathew Lippincott published an analysis of the permeability of different HDPE thicknesses and pigmentations, in order to identify which is most suitable for use in home-made helium balloons.
 
@@ -1419,10 +1434,6 @@ Some community participants have gone to great lengths to document their design 
 		\caption{Mathew Lippincott tests plastic sheeting for porosity to helium after a discussion on the Grassroots Mapping mailing list. \cite{lippincott2010helium}}
 	\end{flushright}
 \end{wrapfigure}
-
-%    UAV - DIYDrones and collaboration (see 'Future work')
-%        Leveraging both expert and 'amateur'/enthusiast expertise
-%        Connecting hobby/DIY communities with activist communities and agendas
 
 
 \section{Illustrated Guides}
