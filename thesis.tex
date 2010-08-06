@@ -1,4 +1,4 @@
-\documentclass[11pt]{report}
+\documentclass[11pt,oneside,notitlepage]{report}
 \usepackage{fullpage}
 \usepackage[pdftex,
             pdfauthor={Jeffrey Yoo Warren},
@@ -22,10 +22,6 @@
 
 \definecolor{tableShade}{HTML}{EEEEEE}
 
-\title{Grassroots Mapping: tools for participatory and activist cartography}
-\author{Jeffrey Warren}
-\date{May 8, 2010}
-
 %% Define a new 'jeff' style for the package that will use a smaller font.
 \makeatletter
 \def\url@jeffstyle{%
@@ -34,12 +30,12 @@
 %% Now actually use the newly defined style.
 \urlstyle{jeff}
 
-% Nadya's latex template:
-% http://wiki.infosyncratic.nl/LaTeX
-
 \begin{document}
+\hfuzz2pt % don't report overfull if within 2 pt
 
-\title{\begin{flushleft}\vspace{-80px}
+
+
+\title{\begin{flushleft}\vspace{-40px}
 Grassroots Mapping: tools for participatory and activist cartography\\ \vspace{10px}
 \emph{by Jeffrey Yoo Warren}\\ \vspace{10px}
 \large{B.A. Yale University 2006}\\ \vspace{30px}
@@ -49,7 +45,7 @@ in partial fulfilment of the requirements for the degree of\\
 Master of Science\\
 at the {\sc MASSACHUSETTS INSTITUTE OF TECHNOLOGY}\\
 September 2010\\ 
-\copyright Massachusetts Institute of Technology 2010. All rights reserved.}\\
+\copyright 2010 Massachusetts Institute of Technology. All rights reserved.}\\
 \vspace{30px}
 \large{\emph{author: }}\\ \vspace{2px}
 \hrule \vspace{10px}
@@ -76,6 +72,7 @@ Director, Center for Future Civic Media and Computing Culture Group\\
 MIT Media Lab\\
 \end{flushright}
 \vspace{20px}
+\large{\emph{accepted by: }}\\
 \hrule \vspace{10px}
 \begin{flushright}
 Dr. Mitchel Resnick\\
@@ -84,14 +81,15 @@ Program in Media Arts and Sciences
 \end{flushright}
 \end{flushleft}}
 \date{}
+\author{
+%Jeffrey Warren
+}
 \maketitle
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.3em}
+\setlength{\parskip}{0.8em}
 
-
-\Large{
-Grassroots Mapping: tools for participatory and activist cartography \vspace{10px} \\ 
+\Large{Grassroots Mapping: tools for participatory and activist cartography \vspace{10px} \\ 
 \emph{by Jeffrey Warren}\vspace{10px} \\ 
 B.A. Yale University 2006} \vspace{20px} \\ 
 \large{Submitted to the Program in Media Arts and Sciences,\\
@@ -115,29 +113,6 @@ Thesis supervisor:\\
 Dr. David Small\\
 \emph{Associate Professor}\\
 Program in Media Arts and Sciences\\
-}
-
-\Large{
-Grassroots Mapping: tools for participatory and activist cartography  \vspace{10px} \\ 
-\emph{by Jeffrey Warren}} \vspace{10px} \\
-
-\normalsize{Thesis reader:\\
-\hrule \vspace{10px}
-\begin{flushright}
-Chris Csikszentmihalyi\\
-\emph{Research Scientist}\\
-\emph{Director, Center for Future Civic Media and Computing Culture Group}\\
-MIT Media Lab
-\end{flushright}
-}
-
-\normalsize{Thesis reader:\\
-\hrule \vspace{10px}
-\begin{flushright}
-Dr. Mitchel Resnick\\
-\emph{Professor}\\
-Program in Media Arts and Sciences\\
-\end{flushright}
 }
 
 \pagebreak
