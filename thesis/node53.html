@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Cartagen dynamic rendering</TITLE>
+<META NAME="description" CONTENT="Cartagen dynamic rendering">
+<META NAME="keywords" CONTENT="thesis">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="thesis.css">
+
+<LINK REL="next" HREF="node54.html">
+<LINK REL="previous" HREF="node52.html">
+<LINK REL="up" HREF="node52.html">
+<LINK REL="next" HREF="node54.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html1040"
+  HREF="node54.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html1036"
+  HREF="node52.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html1030"
+  HREF="node52.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A> 
+<A NAME="tex2html1038"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents"
+ SRC="file:/usr/share/latex2html/icons/contents.png"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html1041"
+  HREF="node54.html">Why an entirely new</A>
+<B> Up:</B> <A NAME="tex2html1037"
+  HREF="node52.html">Cartagen: an alternative architecture</A>
+<B> Previous:</B> <A NAME="tex2html1031"
+  HREF="node52.html">Cartagen: an alternative architecture</A>
+ &nbsp; <B>  <A NAME="tex2html1039"
+  HREF="node1.html">Contents</A></B> 
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00731000000000000000">
+Cartagen dynamic rendering</A>
+</H2>
+
+<P>
+As discussed in Section <A HREF="node31.html#sec:webmapping">5.1</A>, most digital maps today employ a server-side caching mechanism providing a tiled image collection. The tiles are assembled seamlessly in the user's browser, and zooming is accomplished by maintaining multiple tilesets -- one for each zoom level. The resulting system scales predictably, as tiles do not vary dramatically in file size, and can be served using Apache or even stored locally. While this works well for a single dataset such as terrain contours, it commits the map to a single representation. Multiple tile sets can be stacked, and polygons can be overlaid, but most importantly, the user cannot edit the tiles or manipulate the data they contain. Compressing data into tiles strips them of their metadata and authorship information in favor of scalability and consistency. 
+
+<P>
+Diagram of Cartagen vs. Existing geostack
+
+<P>
+To sidestep many of these requirements, and to allow users to participate fully in the authoring of maps, I created the Cartagen framework. Using new techniques made possible by widespread browser support for HTML5 and specifically the Canvas element, Cartagen can create maps which are not pre-rendered, but generated on-the-fly. This frees the map from a single projection or representation, and enables a more dynamic, interactive, and narrative cartographic style. Discrete vector data (made up of points, lines, and areas) can be downloaded in JSON format just once, and displayed at any scale and in any style. Recent increases in JavaScript execution speed [JavaScript speed stats] make possible relatively high framerates (&nbsp;15fps on a typical machine), obviate the need for browser plugins like Flash or Java, and make dynamic HTML5 mapping accessible even on mobile devices such as on the iPhone, Android, and Windows Mobile platforms. As an added advantage, Cartagen performs much of the work of map display locally, reducing dependence on high-latency internet connectivity. It also allows users to easily download data and view or edit it offline. These features make it particularly appropriate for use in developing countries or in crisis situations. 
+
+<P>
+(usage restrictions in Google Maps and similar services)
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="453"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 6.3:</STRONG>
+A map of Wiley's Last Resort in Kentucky, produced in Cartagen Knitter with imagery captured from a remote controlled aircraft by Stewart Long.</CAPTION>
+<TR><TD>r0.5
+	<DIV ALIGN="RIGHT">
+<IMG
+  WIDTH="929" HEIGHT="692" ALIGN="BOTTOM" BORDER="0"
+ SRC="./knitter-wileys.png"
+ ALT="Image knitter-wileys">
+		
+</DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+The Cartagen framework represents an alternative system which is optimized for user-created content, rather than one-to-many broadcast publishing. As a fully scriptable cartographic environment, however, it was also uniquely suited for building an image orthorectification tool. The Canvas element is essentially a pixel raster, but because Cartagen's primitives are vector objects stored as points and polygons, it there is no need to store resampled source imagery while performing distortions or transforms. While in Photoshop, a powerful computer is required to store, manipulate, and export a map of any considerable size (maps made for the BP oil spill project were over 50,000 px in each dimension), Cartagen can be used to orthorectify using a laptop or even a low-power netbook. Users in effect see a lower-resolution preview rendered only at the size of their browser window, and a final, high-resolution composite image is created using ImageMagick on the server side. This lowers the cost of the equipment to process and orthorectify aerial imagery by thousands of dollars. 
+
+<P>
+Cartagen makes use of open standards such as JSON, OSM-XML, and GeoJSON, and can be used to generate GeoTIFFs or even a TMS tile service. In addition, because it can store and display both raster and vector data, once images are rectified, the pen tool can be used to trace streets, buildings, and borders.   
+
+<P>
+Another unique part about Cartagen is that it allows users to style vector map data using a stylesheet, in a syntax similar to that of CSS. This is intendd to mirror the content vs. style relationship between HTML and CSS, and in fact the map stylesheet format Cartagen uses is called GSS. This is intended to leverage the widespread literacy in web design and provide a scaffolding for those just beginning to make their own maps with these tools. 
+
+<P>
+Illustration of GSS
+
+<P>
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html1040"
+  HREF="node54.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html1036"
+  HREF="node52.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html1030"
+  HREF="node52.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A> 
+<A NAME="tex2html1038"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents"
+ SRC="file:/usr/share/latex2html/icons/contents.png"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html1041"
+  HREF="node54.html">Why an entirely new</A>
+<B> Up:</B> <A NAME="tex2html1037"
+  HREF="node52.html">Cartagen: an alternative architecture</A>
+<B> Previous:</B> <A NAME="tex2html1031"
+  HREF="node52.html">Cartagen: an alternative architecture</A>
+ &nbsp; <B>  <A NAME="tex2html1039"
+  HREF="node1.html">Contents</A></B> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Jeffrey Warren
+2010-08-03
+</ADDRESS>
+</BODY>
+</HTML>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="152" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="1" edit-time="1504" last-saved="1278009802" uid="05b0eb92-853d-11df-93fc-d2e8a1f3b94f">
+<version id="1" started="1278009802" uid="8693521a-8540-11df-93fc-d2e8a1f3b94f" auto="0" top-xid="152"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; font-weight:normal; margin-right:0pt; font-size:12pt; text-decoration:none; margin-bottom:0pt; line-height:1.0; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+<s type="C" name="Reference" props="font-size:10pt"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="151" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<table xid="1" props="list-tag:1; left-color:4d4d4d; bot-style:0; table-column-props:1.2500in/2.1875in/2.1250in/; background-color:eeeeee; right-color:4d4d4d; top-color:4d4d4d; bot-color:4d4d4d; left-style:0; table-column-leftpos:0.0000in; right-style:0; top-style:0">
+<cell xid="2" props="right-color:4d4d4d; left-color:eeeeee; bot-style:0; right-attach:1; background-color:eeeeee; top-color:4d4d4d; top-attach:0; left-attach:0; left-style:1; bot-attach:1; bot-color:eeeeee; right-style:0; top-style:0">
+<p style="Normal" xid="3"><c>Type</c></p>
+</cell>
+<cell xid="5" props="right-color:4d4d4d; left-color:eeeeee; bot-style:0; right-attach:2; background-color:eeeeee; top-color:4d4d4d; top-attach:0; left-attach:1; left-style:1; bot-attach:1; bot-color:eeeeee; right-style:0; top-style:0">
+<p style="Normal" xid="6"><c>Kite</c></p>
+</cell>
+<cell xid="8" props="right-color:4d4d4d; left-color:eeeeee; bot-style:0; right-attach:3; background-color:eeeeee; top-color:4d4d4d; top-attach:0; left-attach:2; left-style:1; bot-attach:1; bot-color:eeeeee; right-style:0; top-style:0">
+<p style="Normal" xid="9"><c>Balloon</c></p>
+</cell>
+<cell xid="17" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="18"><c>Altitude</c></p>
+<p style="Normal" xid="141"><c props="font-size:10pt"></c><c props="font-size:10pt">(highest flown during project)</c></p>
+</cell>
+<cell xid="20" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="21"><c>~1500ft</c></p>
+</cell>
+<cell xid="23" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="24"><c>~4000ft</c></p>
+</cell>
+<cell xid="51" props="bot-attach:3; left-attach:0; right-attach:1; top-attach:2">
+<p xid="52"><c>Control</c></p>
+<p xid="142"><c></c></p>
+</cell>
+<cell xid="54" props="bot-attach:3; left-attach:1; right-attach:2; top-attach:2">
+<p xid="55"><c>difficult above 45kph or below 10kph</c></p>
+</cell>
+<cell xid="57" props="bot-attach:3; left-attach:2; right-attach:3; top-attach:2">
+<p xid="58"><c>difficult above 10kph</c></p>
+</cell>
+<cell xid="68" props="bot-attach:4; left-attach:0; right-attach:1; top-attach:3">
+<p xid="69"><c>Payload</c></p>
+<p xid="143"><c></c></p>
+</cell>
+<cell xid="71" props="bot-attach:4; left-attach:1; right-attach:2; top-attach:3">
+<p xid="72"><c>up to 1-2 kg</c></p>
+</cell>
+<cell xid="74" props="bot-attach:4; left-attach:2; right-attach:3; top-attach:3">
+<p xid="75"><c>up to 300g</c></p>
+</cell>
+<cell xid="77" props="bot-attach:5; left-attach:0; right-attach:1; top-attach:4">
+<p xid="78"><c>Time constraints</c></p>
+<p xid="144"><c></c></p>
+</cell>
+<cell xid="80" props="bot-attach:5; left-attach:1; right-attach:2; top-attach:4">
+<p xid="81"><c>best winds in early afternoon</c></p>
+</cell>
+<cell xid="83" props="bot-attach:5; left-attach:2; right-attach:3; top-attach:4">
+<p xid="84"><c>lowest winds at dawn</c></p>
+</cell>
+<cell xid="86" props="bot-attach:6; left-attach:0; right-attach:1; top-attach:5">
+<p xid="87"><c>Portability</c></p>
+<p xid="145"><c></c></p>
+</cell>
+<cell xid="89" props="bot-attach:6; left-attach:1; right-attach:2; top-attach:5">
+<p xid="90"><c>foil kites pack down to 1 liter size</c></p>
+</cell>
+<cell xid="92" props="bot-attach:6; left-attach:2; right-attach:3; top-attach:5">
+<p xid="93"><c>helium tank and </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">fragility of balloon </c><c>limit portability, access</c></p>
+</cell>
+<cell xid="95" props="bot-attach:7; left-attach:0; right-attach:1; top-attach:6">
+<p xid="96"><c>Tether angle</c></p>
+<p xid="146"><c></c></p>
+</cell>
+<cell xid="98" props="bot-attach:7; left-attach:1; right-attach:2; top-attach:6">
+<p xid="99"><c>often flies at low angle; camera altitude as low as 1/5 of tether length</c></p>
+</cell>
+<cell xid="101" props="bot-attach:7; left-attach:2; right-attach:3; top-attach:6">
+<p xid="102"><c>in close to zero wind, flies essentially vertically; in &gt;10kph wind can fly near horizontally</c></p>
+</cell>
+<cell xid="105" props="bot-attach:8; left-attach:0; right-attach:1; top-attach:7">
+<p xid="106"><c>Camera stability</c></p>
+<p xid="147"><c></c></p>
+</cell>
+<cell xid="108" props="bot-attach:8; left-attach:1; right-attach:2; top-attach:7">
+<p xid="109"><c>inversely related to wind turbulence</c></p>
+</cell>
+<cell xid="111" props="bot-attach:8; left-attach:2; right-attach:3; top-attach:7">
+<p xid="112"><c>steady when not reeling in or out</c></p>
+</cell>
+<cell xid="114" props="bot-attach:9; left-attach:0; right-attach:1; top-attach:8">
+<p xid="115"><c>Durability</c></p>
+<p xid="148"><c></c></p>
+</cell>
+<cell xid="117" props="bot-attach:9; left-attach:1; right-attach:2; top-attach:8">
+<p xid="118"><c>high reuseability</c></p>
+</cell>
+<cell xid="120" props="bot-attach:9; left-attach:2; right-attach:3; top-attach:8">
+<p xid="121"><c>very poor; balloons pop regularly</c></p>
+</cell>
+<cell xid="123" props="bot-attach:10; left-attach:0; right-attach:1; top-attach:9">
+<p xid="124"><c>Cost per flight</c></p>
+<p xid="149"><c></c></p>
+</cell>
+<cell xid="126" props="bot-attach:10; left-attach:1; right-attach:2; top-attach:9">
+<p xid="127"><c>none</c></p>
+</cell>
+<cell xid="129" props="bot-attach:10; left-attach:2; right-attach:3; top-attach:9">
+<p xid="130"><c>$15-35 per flight</c></p>
+</cell>
+<cell xid="132" props="bot-attach:11; left-attach:0; right-attach:1; top-attach:10">
+<p xid="133"><c>Initial total cost of kit</c></p>
+<p xid="150"><c></c></p>
+</cell>
+<cell xid="135" props="bot-attach:11; left-attach:1; right-attach:2; top-attach:10">
+<p xid="136"><c>$60-400 depending on kite and tether material (see Appendix C for budgets)</c></p>
+</cell>
+<cell xid="138" props="bot-attach:11; left-attach:2; right-attach:3; top-attach:10">
+<p xid="139"><c>$100-500 depending on choice of balloon and tether material</c></p>
+</cell>
+</table>
+<p style="Normal" xid="152"><c> </c></p>
+</section>
+</abiword>

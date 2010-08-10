@@ -1,83 +1,104 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}
-\BOOKMARK [1][-]{section.1.1}{Overview}{chapter.1}
-\BOOKMARK [1][-]{section.1.2}{Defining Grassroots Mapping: Toolkit, Practices, or Community?}{chapter.1}
-\BOOKMARK [2][-]{subsection.1.2.1}{Grassroots Mapping as Pedagogy}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.2}{Grassroots Mapping as a Community}{section.1.2}
-\BOOKMARK [1][-]{section.1.3}{Tools \046 Technologies}{chapter.1}
-\BOOKMARK [2][-]{subsection.1.3.1}{Audience}{section.1.3}
-\BOOKMARK [2][-]{subsection.1.3.2}{Software}{section.1.3}
-\BOOKMARK [2][-]{subsection.1.3.3}{Hardware}{section.1.3}
-\BOOKMARK [2][-]{subsection.1.3.4}{Practice, Community, Support structure}{section.1.3}
-\BOOKMARK [1][-]{section.1.4}{Novel Contributions}{chapter.1}
-\BOOKMARK [2][-]{subsection.1.4.1}{Novel application of low-cost tools to well-established need for raster imagery}{section.1.4}
-\BOOKMARK [2][-]{subsection.1.4.2}{Novel approaches to map rendering}{section.1.4}
-\BOOKMARK [2][-]{subsection.1.4.3}{Central merit: technology or culture?}{section.1.4}
-\BOOKMARK [0][-]{chapter.2}{Subjectivity in Mapping}{}
-\BOOKMARK [1][-]{section.2.1}{Neogeographers, Psychogeographers, and GIS}{chapter.2}
-\BOOKMARK [2][-]{subsection.2.1.1}{Psychogeography}{section.2.1}
-\BOOKMARK [2][-]{subsection.2.1.2}{GIS practitioners}{section.2.1}
-\BOOKMARK [2][-]{subsection.2.1.3}{Neogeography}{section.2.1}
-\BOOKMARK [1][-]{section.2.2}{The mythical `complete map'}{chapter.2}
-\BOOKMARK [1][-]{section.2.3}{Maps as a 'window' onto the world}{chapter.2}
-\BOOKMARK [1][-]{section.2.4}{Maps: rhetorical, even tactical}{chapter.2}
-\BOOKMARK [1][-]{section.2.5}{Ground Truth, or maps as testimony}{chapter.2}
-\BOOKMARK [1][-]{section.2.6}{Cartographic ethics}{chapter.2}
-\BOOKMARK [2][-]{subsection.2.6.1}{Subjective cartography in practice}{section.2.6}
-\BOOKMARK [0][-]{chapter.3}{The Need for Geospatial Data}{}
-\BOOKMARK [1][-]{section.3.1}{Two worlds of mapping}{chapter.3}
-\BOOKMARK [2][-]{subsection.3.1.1}{Urban slums, informal settlements}{section.3.1}
-\BOOKMARK [2][-]{subsection.3.1.2}{Tenure mapping}{section.3.1}
-\BOOKMARK [2][-]{subsection.3.1.3}{Mapping: a tool of empowerment or control?}{section.3.1}
-\BOOKMARK [1][-]{section.3.2}{Environmental assessment}{chapter.3}
-\BOOKMARK [2][-]{subsection.3.2.1}{Asset allocation mapping and carbon cowboys}{section.3.2}
-\BOOKMARK [1][-]{section.3.3}{Open geodata and crisis mapping}{chapter.3}
-\BOOKMARK [2][-]{subsection.3.3.1}{Crisis mapping and Ushahidi}{section.3.3}
-\BOOKMARK [0][-]{chapter.4}{State of the Art}{}
-\BOOKMARK [1][-]{section.4.1}{PGIS: Participatory Geographic Information Systems}{chapter.4}
-\BOOKMARK [2][-]{subsection.4.1.1}{PPGIS}{section.4.1}
-\BOOKMARK [2][-]{subsection.4.1.2}{Participatory GIS for Development}{section.4.1}
-\BOOKMARK [2][-]{subsection.4.1.3}{Shortcomings of traditional PGIS practice}{section.4.1}
-\BOOKMARK [1][-]{section.4.2}{Web mapping}{chapter.4}
-\BOOKMARK [2][-]{subsection.4.2.1}{Google Maps and proprietary data}{section.4.2}
-\BOOKMARK [1][-]{section.4.3}{OpenStreetMap}{chapter.4}
-\BOOKMARK [2][-]{subsection.4.3.1}{The modern open-source geostack}{section.4.3}
-\BOOKMARK [2][-]{subsection.4.3.2}{Humanitarian OSM Team}{section.4.3}
-\BOOKMARK [1][-]{section.4.4}{Existing techniques for low-cost orthorectification}{chapter.4}
-\BOOKMARK [2][-]{subsection.4.4.1}{Map Warper}{section.4.4}
-\BOOKMARK [2][-]{subsection.4.4.2}{GonzoEarth and manual stitching with Adobe Photoshop}{section.4.4}
-\BOOKMARK [0][-]{chapter.5}{Grassroots Mapping as an alternative means of participatory cartography}{}
-\BOOKMARK [1][-]{section.5.1}{Aerial imaging with low-cost tools}{chapter.5}
-\BOOKMARK [1][-]{section.5.2}{Cartagen: an alternative architecture for digital maps}{chapter.5}
-\BOOKMARK [0][-]{chapter.6}{Related works}{}
-\BOOKMARK [1][-]{section.6.1}{Beyond symbolic mapping: Data-driven approaches to participatory mapping}{chapter.6}
-\BOOKMARK [0][-]{chapter.7}{Evaluation criteria}{}
-\BOOKMARK [1][-]{section.7.1}{Participants vs. collaborators}{chapter.7}
-\BOOKMARK [2][-]{subsection.7.1.1}{Interviews with local partners}{section.7.1}
-\BOOKMARK [0][-]{chapter.8}{The Grassroots Mapping tool chain}{}
-\BOOKMARK [1][-]{section.8.1}{Balloon/kite Aerial Mapping \(BAM/KAM\)}{chapter.8}
-\BOOKMARK [2][-]{subsection.8.1.1}{Accuracy and precision in kite and balloon imaging}{section.8.1}
-\BOOKMARK [1][-]{section.8.2}{Digital maps: reconceptualizing mapping interaction}{chapter.8}
-\BOOKMARK [2][-]{subsection.8.2.1}{Beyond raster mapping/Tile politics}{section.8.2}
-\BOOKMARK [2][-]{subsection.8.2.2}{Cartagen dynamic rendering}{section.8.2}
-\BOOKMARK [2][-]{subsection.8.2.3}{An iterative toolchain development process}{section.8.2}
-\BOOKMARK [2][-]{subsection.8.2.4}{Web-based orthorectification and warping}{section.8.2}
-\BOOKMARK [0][-]{chapter.9}{Case Study: Grassroots Mapping in Lima, Peru}{}
-\BOOKMARK [1][-]{section.9.1}{Introduction}{chapter.9}
-\BOOKMARK [2][-]{subsection.9.1.1}{The Other Path: Lima's history of informal settlement}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.2}{Designing tools with, not for, participants}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.3}{Valuation and 'grey' economies}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.4}{Limits of state-sanctioned mapping efforts}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.5}{A Grassroots Mapping curriculum}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.6}{Mapping with Juan Pablo II}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.7}{Mapping with San Ignacio Loyola}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.8}{Mapping with Cantagallo}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.9}{Computing literacy challenges with orthorectification}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.10}{Evaluation}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.11}{Needs \(Re\)assessment}{section.9.1}
-\BOOKMARK [0][-]{chapter.10}{Case Study: Citizen mapping of the BP oil spill}{}
-\BOOKMARK [1][-]{section.10.1}{Grassroots mapping in crisis response}{chapter.10}
-\BOOKMARK [0][-]{chapter.11}{Case Study: A Grassroots Mapping curriculum in Georgia}{}
-\BOOKMARK [0][-]{chapter.12}{Project sustainability and ongoing work}{}
-\BOOKMARK [1][-]{section.12.1}{Wiki, blog and mailing list}{chapter.12}
-\BOOKMARK [1][-]{section.12.2}{Illustrated Guide}{chapter.12}
-\BOOKMARK [0][-]{chapter.13}{ReadingList}{}
+\BOOKMARK [1][-]{section.1.1}{Defining Grassroots Mapping: tools, practices, or community?}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.1.1}{Uses of aerial imagery}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.2}{Grassroots Mapping as pedagogy}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.3}{Grassroots Mapping as a community}{section.1.1}
+\BOOKMARK [1][-]{section.1.2}{Tools, technologies, and audience}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{Movements towards a participatory and activist cartography}{}
+\BOOKMARK [1][-]{section.2.1}{Experimental geography, radical cartography}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{GIS practitioners}{chapter.2}
+\BOOKMARK [1][-]{section.2.3}{Neogeography}{chapter.2}
+\BOOKMARK [0][-]{chapter.3}{Subjectivity in Mapping}{}
+\BOOKMARK [1][-]{section.3.1}{The mythical `complete map'}{chapter.3}
+\BOOKMARK [1][-]{section.3.2}{A `ground truth' policy for collaborative map-making}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.2.1}{Privacy and mapping, privacy and open geodata}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.2}{Mapping: a tool of empowerment or control?}{section.3.2}
+\BOOKMARK [1][-]{section.3.3}{Maps as truth}{chapter.3}
+\BOOKMARK [1][-]{section.3.4}{Maps: rhetorical, even tactical}{chapter.3}
+\BOOKMARK [1][-]{section.3.5}{Cartographic ethics}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{The Need for Geospatial Data}{}
+\BOOKMARK [1][-]{section.4.1}{Two worlds of mapping}{chapter.4}
+\BOOKMARK [1][-]{section.4.2}{Environmental assessment}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.2.1}{Asset allocation mapping}{section.4.2}
+\BOOKMARK [1][-]{section.4.3}{Open geodata and crisis mapping}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.3.1}{Crisis mapping and Ushahidi}{section.4.3}
+\BOOKMARK [0][-]{chapter.5}{State of the Art}{}
+\BOOKMARK [1][-]{subsection.5.0.2}{Participatory GIS for Development}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.0.3}{Challenges of conventional PGIS practice}{subsection.5.0.2}
+\BOOKMARK [1][-]{section.5.1}{Web mapping}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.1.1}{Google Maps and proprietary data}{section.5.1}
+\BOOKMARK [1][-]{section.5.2}{OpenStreetMap}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.2.1}{The modern open-source geostack}{section.5.2}
+\BOOKMARK [2][-]{subsection.5.2.2}{Humanitarian OSM Team}{section.5.2}
+\BOOKMARK [1][-]{section.5.3}{Existing techniques for low-cost orthorectification}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.3.1}{Map Warper}{section.5.3}
+\BOOKMARK [2][-]{subsection.5.3.2}{GonzoEarth and manual stitching with Adobe Photoshop}{section.5.3}
+\BOOKMARK [2][-]{subsection.5.3.3}{DIYDrones.com and the T3 competition}{section.5.3}
+\BOOKMARK [1][-]{section.5.4}{Aerial imaging with low-cost tools}{chapter.5}
+\BOOKMARK [0][-]{chapter.6}{The Grassroots Mapping tool chain}{}
+\BOOKMARK [1][-]{section.6.1}{Balloon and Kite Aerial Mapping}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.1.1}{Balloon mapping}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.2}{Kite mapping}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.3}{Camera and intervalometer}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.4}{Enclosures and suspensions}{section.6.1}
+\BOOKMARK [1][-]{section.6.2}{Reconceptualizing mapping interaction}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.2.1}{Web-based orthorectification and warping}{section.6.2}
+\BOOKMARK [1][-]{section.6.3}{Cartagen: an alternative architecture for digital maps}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.3.1}{Cartagen dynamic rendering}{section.6.3}
+\BOOKMARK [1][-]{section.6.4}{Unique abilities}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.4.1}{Why an entirely new mapping system?}{section.6.4}
+\BOOKMARK [1][-]{section.6.5}{An iterative toolchain development process}{chapter.6}
+\BOOKMARK [0][-]{chapter.7}{Case Study: Grassroots Mapping in Lima, Peru}{}
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.1.1}{The Other Path: Lima's history of informal settlement}{section.7.1}
+\BOOKMARK [2][-]{subsection.7.1.2}{Mapping with Juan Pablo II}{section.7.1}
+\BOOKMARK [2][-]{subsection.7.1.3}{Mapping with San Ignacio Loyola}{section.7.1}
+\BOOKMARK [2][-]{subsection.7.1.4}{Mapping with Cantagallo}{section.7.1}
+\BOOKMARK [2][-]{subsection.7.1.5}{Evaluation}{section.7.1}
+\BOOKMARK [2][-]{subsection.7.1.6}{Needs \(Re\)assessment}{section.7.1}
+\BOOKMARK [0][-]{chapter.8}{Case Study: Citizen mapping of the BP oil spill}{}
+\BOOKMARK [1][-]{section.8.1}{Grassroots mapping in crisis response}{chapter.8}
+\BOOKMARK [1][-]{section.8.2}{Comparing Grassroots Maps of the spill to other sources}{chapter.8}
+\BOOKMARK [1][-]{section.8.3}{Independent monitoring and media blackout}{chapter.8}
+\BOOKMARK [1][-]{section.8.4}{Sustainability}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.4.1}{Workshops and trainings}{section.8.4}
+\BOOKMARK [2][-]{subsection.8.4.2}{Collaborations}{section.8.4}
+\BOOKMARK [2][-]{subsection.8.4.3}{Funding model}{section.8.4}
+\BOOKMARK [1][-]{section.8.5}{Image processing and map stitching}{chapter.8}
+\BOOKMARK [1][-]{section.8.6}{Integration with Ushahidi}{chapter.8}
+\BOOKMARK [1][-]{section.8.7}{Overflights and a broader data strategy}{chapter.8}
+\BOOKMARK [1][-]{section.8.8}{Documentation}{chapter.8}
+\BOOKMARK [1][-]{section.8.9}{Analysis of data collected}{chapter.8}
+\BOOKMARK [1][-]{section.8.10}{Licensing and data use}{chapter.8}
+\BOOKMARK [0][-]{chapter.9}{Evaluation}{}
+\BOOKMARK [1][-]{section.9.1}{Participants vs. collaborators}{chapter.9}
+\BOOKMARK [1][-]{section.9.2}{Validity in openly ideological research}{chapter.9}
+\BOOKMARK [2][-]{subsection.9.2.1}{Interviews with local partners}{section.9.2}
+\BOOKMARK [1][-]{section.9.3}{Comparison with existing techniques}{chapter.9}
+\BOOKMARK [1][-]{section.9.4}{Quantitative evaluation}{chapter.9}
+\BOOKMARK [2][-]{subsection.9.4.1}{Spatial resolution}{section.9.4}
+\BOOKMARK [2][-]{subsection.9.4.2}{Precision and accuracy in low-altitude aerial imaging}{section.9.4}
+\BOOKMARK [2][-]{subsection.9.4.3}{Temporal resolution}{section.9.4}
+\BOOKMARK [2][-]{subsection.9.4.4}{Spectral resolution}{section.9.4}
+\BOOKMARK [0][-]{chapter.10}{Conclusion and future work}{}
+\BOOKMARK [1][-]{section.10.1}{Ongoing uses of Grassroots Mapping tools}{chapter.10}
+\BOOKMARK [2][-]{subsection.10.1.1}{Activist mapping with Coal River Mountain Watch}{section.10.1}
+\BOOKMARK [2][-]{subsection.10.1.2}{A Grassroots Mapping collaboration in Georgia}{section.10.1}
+\BOOKMARK [1][-]{section.10.2}{Wiki, blog and mailing list}{chapter.10}
+\BOOKMARK [1][-]{section.10.3}{Illustrated Guides}{chapter.10}
+\BOOKMARK [1][-]{section.10.4}{Outreach}{chapter.10}
+\BOOKMARK [0][-]{appendix.A}{Maps}{}
+\BOOKMARK [1][-]{section.A.1}{Maps from Lima, Peru}{appendix.A}
+\BOOKMARK [2][-]{subsection.A.1.1}{Juan Pablo II}{section.A.1}
+\BOOKMARK [2][-]{subsection.A.1.2}{San Ignacio Loyola}{section.A.1}
+\BOOKMARK [2][-]{subsection.A.1.3}{Canta Gallo I}{section.A.1}
+\BOOKMARK [2][-]{subsection.A.1.4}{Canta Gallo II}{section.A.1}
+\BOOKMARK [1][-]{section.A.2}{Maps from the 2010 BP Oil Spill}{appendix.A}
+\BOOKMARK [1][-]{section.A.3}{Maps from Appalachia}{appendix.A}
+\BOOKMARK [2][-]{subsection.A.3.1}{Black Mountain, Virginia}{section.A.3}
+\BOOKMARK [2][-]{subsection.A.3.2}{Cherry Pond Mountain, West Virginia}{section.A.3}
+\BOOKMARK [1][-]{section.A.4}{Maps from Georgia}{appendix.A}
+\BOOKMARK [0][-]{appendix.B}{Guides and curricular materials}{}
+\BOOKMARK [0][-]{appendix.C}{Materials checklists and prices}{}
+\BOOKMARK [1][-]{section.C.1}{Price lists for balloon, kite, and RC plane mapping kits}{appendix.C}
+\BOOKMARK [0][-]{appendix.D}{Donors and supporters of the Citizen Mapping of the Oil Spill effort}{}

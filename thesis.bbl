@@ -2,10 +2,10 @@
 
 \bibitem{aber2002unmanned}
 J.S. Aber, S.W. Aber, and F.~Pavri.
-\newblock {UNMANNED SMALL FORMAT AERIAL PHOTOGRAPHY FROM KITES ACQUIRING
-  LARGE-SCALE, HIGH-RESOLUTION, MULTIVIEW-ANGLE IMAGERY}.
-\newblock {\em INTERNATIONAL ARCHIVES OF PHOTOGRAMMETRY REMOTE SENSING AND
-  SPATIAL INFORMATION SCIENCES}, 34(1):1--6, 2002.
+\newblock {Unmanned Samll Format Aerial Photography from Kites Acquiring
+  Large-Scale, High-Resolution, Multiview-Angle Imagery}.
+\newblock {\em International Archives of Photogrammetry Remote Sensing and
+  Spatial Information Sciences}, 34(1):1--6, 2002.
 
 \bibitem{aber1999kite}
 J.S. Aber, R.J. Sobieski, D.A. Distler, and M.C. Nowak.
@@ -13,6 +13,22 @@ J.S. Aber, R.J. Sobieski, D.A. Distler, and M.C. Nowak.
   Kansas}.
 \newblock {\em Transactions of the Kansas Academy of Science (1903)},
   102(1):57--67, 1999.
+
+\bibitem{anderson2009drones}
+{Announcing the official DIY Drones Trust Time Trial (T3) Contest}.
+\newblock
+  \url{http://diydrones.com/profiles/blog/show?id=705844:BlogPost:91103}.
+
+\bibitem{anderson2009round4}
+{T3, Round 4: Map a quarter-kilometer!}
+\newblock
+  \url{http://diydrones.com/profiles/blog/show?id=705844:BlogPost:123792}.
+
+\bibitem{anderson2010winners}
+{Congrats to the winners of T3-4!}
+\newblock
+  \url{http://diydrones.ning.com/profiles/blogs/congrats-to-the-winners-of-t34%
+}.
 
 \bibitem{boike2003mapping}
 J.~Boike and K.~Yoshikawa.
@@ -45,12 +61,35 @@ Claudia Canepa.
   in New Delhi, India}.
 \newblock Master's thesis, Massachusetts Institute of Technology, 2005.
 
+\bibitem{chambers2006whose}
+R.~Chambers.
+\newblock {Participatory mapping and geographic information systems: whose map?
+  Who is empowered and who disempowered? Who gains and who loses?}
+\newblock {\em The Electronic Journal of Information Systems in Developing
+  Countries}, 25(0), 2006.
+
 \bibitem{chambers2006participatory}
 R.~Chambers.
 \newblock {Participatory mapping and geographic information systems: whose map?
   Who is empowered and who disempowered? Who gains and who loses?}
 \newblock {\em The Electronic Journal of Information Systems in Developing
   Countries}, 25(0), 2006.
+
+\bibitem{chilton-crowdsourcing}
+S.~Chilton.
+\newblock {Crowdsourcing is radically changing the geodata landscape: case
+  study of OpenStreetMap}.
+\newblock In {\em Proceedings, 24th International Cartographic Congress}, 2009.
+
+\bibitem{coppock1991history}
+J.T. Coppock and D.W. Rhind.
+\newblock {The history of GIS}.
+\newblock {\em Geographical information systems: Principles and applications},
+  1:21--43, 1991.
+
+\bibitem{coyle2010sodabottle}
+{another prototype}.
+\newblock \url{http://www.youtube.com/watch?v=mnGjw0nJQ3Q}.
 
 \bibitem{de1989other}
 H.~De~Soto and M.V. Llosa.
@@ -61,6 +100,12 @@ H.~De~Soto and M.V. Llosa.
 Hernando de~Soto.
 \newblock {\em {El otro sendero: la revolución informal}}.
 \newblock Instituto Libertad y Democracia, 1987.
+
+\bibitem{elwood2009qualitative}
+Sara Elwood and Meghan Cope.
+\newblock {\em {Introduction: Qualitative GIS: Forging mixed methods through
+  representations, analytical innovations, and conceptual engagements}}.
+\newblock SAGE Publications, Ltd, 2009.
 
 \bibitem{elwood2009representations}
 Sarah Elwood.
@@ -73,6 +118,11 @@ Rich Gibson and Schuyler Erle.
 \newblock {\em {Google Maps Hacks}}.
 \newblock O'Reilly Media, 2006.
 
+\bibitem{glennon2010grassrootscrisis}
+Alan Glennon.
+\newblock Grassroots crisis mapping.
+\newblock In {\em spatial@UCSB}. Slideshare.com, 2010.
+
 \bibitem{goodchild2009neogeography}
 M.~Goodchild.
 \newblock {NeoGeography and the nature of geographic expertise}.
@@ -82,6 +132,38 @@ M.~Goodchild.
 {Full text of Colin Powell's speech | World news | guardian.co.uk, Project
   Website}.
 \newblock \url{http://www.guardian.co.uk/world/2003/feb/05/iraq.usa}.
+
+\bibitem{jensen1999remote}
+J.R. Jensen and D.C. Cowen.
+\newblock {Remote sensing of urban/suburban infrastructure and socio-economic
+  attributes}.
+\newblock {\em Photogrammetric Engineering and Remote Sensing}, 65:611--622,
+  1999.
+
+\bibitem{jeremijenko2008situated}
+{Jeremijenko, Natalie and Bratton, Benjamin}.
+\newblock {Suspicious Images, Latent Interfaces}.
+\newblock {\em The Situated Technology Pamphlet Series}, 3, 2008.
+
+\bibitem{lather1986issues}
+P.~Lather.
+\newblock {Issues of validity in openly ideological research: Between a rock
+  and a soft place}.
+\newblock {\em Interchange}, 17(4):63--84, 1986.
+
+\bibitem{lippincott2010helium}
+{Helium Dispersion Through HDPE}.
+\newblock
+  \url{http://www.headfullofair.com/2010/06/25/helium-dispersion-through-hdpe/%
+}.
+
+\bibitem{long2010process}
+Stewart Long.
+\newblock personal communication, 2010.
+
+\bibitem{maron2008former}
+Mikel Maron.
+\newblock \url{http://www.flickr.com/photos/mikel_maron/3081214323/}.
 
 \bibitem{maron2010openstreetmap}
 Mikel Maron.
@@ -98,11 +180,49 @@ Mikel Maron.
   Digital Technology for Our Planet}.
 \newblock \url{http://brainoff.com/weblog/2010/06/03/1620}.
 
+\bibitem{maron2010haiti}
+{Brain Off » Haiti OpenStreetMap Response :: Mikel Maron :: Building Digital
+  Technology for Our Planet}.
+\newblock \url{http://brainoff.com/weblog/2010/01/14/1518}.
+
+\bibitem{meier2010crowdsorcerors}
+{Here Come the Crowd-Sorcerers: How Technology is Disrupting the Humanitarian
+  Space and How Easy It Is}.
+\newblock
+  \url{http://irevolution.wordpress.com/2010/07/27/crowd-sorcerers-episode1/}.
+
+\bibitem{meier2010popular}
+{Where I Disagree with Morozov vs Shirky on Digital Activism}.
+\newblock \url{http://irevolution.wordpress.com/2010/01/07/morozov-vs-shirky/}.
+
+\bibitem{meier2010ushahidi}
+{Haiti: Taking Stock of How We Are Doing}.
+\newblock
+  \url{http://blog.ushahidi.com/index.php/2010/02/06/ushahidi-how-we-are-doing%
+/}.
+
+\bibitem{meier2010verification}
+{Twitter vs. Tyrants: Ushahidi and Data Verification}.
+\newblock
+  \url{http://irevolution.wordpress.com/2009/10/27/twitter-vs-tyrants-ushahidi%
+/}.
+
 \bibitem{miyamoto2004use}
 M.~Miyamoto, K.~Yoshino, T.~Nagano, T.~Ishida, and Y.~Sato.
 \newblock {Use of balloon aerial photography for classification of Kushiro
   wetland vegetation, northeastern Japan}.
 \newblock {\em Wetlands}, 24(3):701--710, 2004.
+
+\bibitem{morozov2009dictators}
+{How dictators watch us on the web}.
+\newblock
+  \url{http://www.prospectmagazine.co.uk/2009/11/how-dictators-watch-us-on-the%
+-web/}.
+
+\bibitem{oconnor2008maps}
+Sean O'Connor and the Tactical Technology~Collective.
+\newblock {Maps for advocacy: an Introduction to Geographical Mapping
+  Techniques}, 2008.
 
 \bibitem{okolloh2009ushahidi}
 O.~Okolloh.
@@ -110,11 +230,35 @@ O.~Okolloh.
   information}.
 \newblock {\em Change at Hand: Web 2.0 for Development}, page~65, 2009.
 
+\bibitem{osm2007disputes}
+{Disputes}.
+\newblock \url{http://wiki.openstreetmap.org/wiki/Disputes#On_the_Ground_Rule},
+  2007.
+
+\bibitem{osm2010stats}
+{OpenStreetMap statistics}.
+\newblock \url{http://www.openstreetmap.org/stats/data_stats.html}.
+
+\bibitem{pavlovskaya2009nonquantitative}
+Marianna Pavlovskaya.
+\newblock {\em {Non-Quantitative GIS}}.
+\newblock SAGE Publications, Ltd, 2009.
+
 \bibitem{poole2006there}
-P.~Poole.
+Peter Poole.
 \newblock {Is there life after tenure mapping?}
 \newblock {\em Participatory Learning and Action: Mapping for change: practice,
   technologies and communication}, page~41, 2006.
+
+\bibitem{poole2007belize}
+Peter Poole and First Peoples Worldwide/Local~Earth Observation.
+\newblock {Information: the First Conservation Asset: A Demonstration and
+  Training Project to Amplify Indigenous Community Capacities in Environmental
+  Information Management}, 2007.
+
+\bibitem{proboscis2003bodystorming}
+{Urban Tapestries: Bodystorming}.
+\newblock \url{http://research.urbantapestries.net/bodystorming.html}, 2003.
 
 \bibitem{rambaldi2006practical}
 G.~Rambaldi, R.~Chambers, M.~McCall, and J.~Fox.
@@ -136,11 +280,28 @@ S.~Rana and T.~Joliveau.
   by everyone?}
 \newblock {\em Journal of Location Based Services}, 3(2):75--81, 2009.
 
+\bibitem{rankin2003reservations}
+{The United States?}
+\newblock \url{http://www.radicalcartography.net/}, 2003.
+
 \bibitem{senate2004report}
 United States~Senate Select Committee~on Intelligence.
 \newblock {Report of the Select Committee on Intelligence on the U.S.
   Intelligence Community’s Prewar Intelligence Assessments on Iraq}.
 \newblock \url{http://www.gpoaccess.gov/serialset/creports/iraq.html}.
+
+\bibitem{solari2010cantagallo}
+Helder Solari.
+\newblock personal communication, 2010.
+
+\bibitem{charter2010brochure}
+The International~Charter Space and Major Disasters.
+\newblock The international charter space and major disasters.
+\newblock \url{www.disasterscharter.org}, 2010.
+
+\bibitem{unspider2010aims}
+{UN-SPIDER Knowledge Portal}.
+\newblock \url{http://www.un-spider.org/}.
 
 \bibitem{vierling2006short}
 L.A. Vierling, M.~Fersdahl, X.~Chen, Z.~Li, and P.~Zimmerman.
@@ -158,6 +319,16 @@ es/}.
 {Rectify Map San Ignacio Loyola on Map Warper, Project Website}.
 \newblock \url{http://warper.geothings.net/maps/preview/2018}.
 
+\bibitem{white1985piecewise}
+M.S. White and P.~Griffin.
+\newblock {Piecewise linear rubber-sheet map transformation}.
+\newblock {\em Cartography and Geographic Information Science}, 12(2):123--131,
+  1985.
+
+\bibitem{willis2007osm}
+{OpenStreetMap project imports US government maps}.
+\newblock \url{http://www.linux.com/archive/feature/119493}.
+
 \bibitem{wittens2008projective}
 {Projective Texturing with Canvas | Steven Wittens - Acko.net, Project
   Website}.
@@ -168,5 +339,13 @@ Eric~B. Wolf.
 \newblock Low-cost large scale aerial photography and the upland south folk
   cemetery.
 \newblock Master's thesis, Northwest Missouri State University, 2006.
+
+\bibitem{bariola2008gender}
+Virginia Zavala and Nino Bariola.
+\newblock {Enra kopiai, non kopiai: Gender, ethnicity and language use in a
+  Shipibo community in Lima}.
+\newblock In Mercedes Niño-Murcia and Jason Rothman, editors, {\em
+  {Bilingualism and identity: Spanish at the crossroads with other languages}},
+  pages 151--174. John Benjamins Publishing Company, 2008.
 
 \end{thebibliography}

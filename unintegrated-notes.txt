@@ -1,36 +1,14 @@
-more references:
+Chapters:
 
-http://www.jstor.org/stable/3628217?cookieSet=1
+X intro
+X history
+X subjectivity - pgis mailing list stuff at the end, conclude the chapter
+X need - Env. mapping - use readings
+x state of the art - initial PGIS section, haiti section, local expertise and empowerment
+- toolkit - thorough cleanup of Cartagen presentation
+x peru - interviews
+x gulf - ushahidi, funding/kickstarter, independent pickups, 
+- evaluation - answer initial questions, Triangulation (ask for help!)
+- future work & conclusion - conclusion, `pushing envelope' in additional projs. and illustrated guide (another product of ...)
 
-http://www.isprs.org/proceedings/XXXIV/part1/paper/00098.pdf
-
-http://www3.interscience.wiley.com/journal/104084579/abstract?CRETRY=1&SRETRY=0
-
-http://www.springerlink.com/content/eg1l327u688t7583/
-
-http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V6V-4K4PSSP-1&_user=501045&_coverDate=08%2F15%2F2006&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1362065813&_rerunOrigin=scholar.google&_acct=C000022659&_version=1&_urlVersion=0&_userid=501045&md5=027fdf38652927b93b249b41495cd20f
-
-http://www.springerlink.com/content/n24nj22n687r51l2/
-
-
-http://haiticrisismap.org/layers.html
-
-
-- possibility of failure made it more like collaboration and less like researcher/subject
-
-- slum mapping dissent
-	- mapping is tool of state control
-	- anti-technology
-	- Jai Sen/Mikel vs. Shekhar Krishnan
-	- 
-
-- release of imagery data in Haiti email thread
-	- bibliography/christiaan-adams-mikel-maron-thread.pdf
-
-
-
-ability to see self in image
-
-2 sources - GPS and imagery - both rely on satellites
-
-
+### more data on legal use of maps

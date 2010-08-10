@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Google Maps and proprietary data</TITLE>
+<META NAME="description" CONTENT="Google Maps and proprietary data">
+<META NAME="keywords" CONTENT="thesis">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="thesis.css">
+
+<LINK REL="previous" HREF="node31.html">
+<LINK REL="up" HREF="node31.html">
+<LINK REL="next" HREF="node33.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html773"
+  HREF="node33.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html769"
+  HREF="node31.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html765"
+  HREF="node31.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A> 
+<A NAME="tex2html771"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents"
+ SRC="file:/usr/share/latex2html/icons/contents.png"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html774"
+  HREF="node33.html">OpenStreetMap</A>
+<B> Up:</B> <A NAME="tex2html770"
+  HREF="node31.html">Web mapping</A>
+<B> Previous:</B> <A NAME="tex2html766"
+  HREF="node31.html">Web mapping</A>
+ &nbsp; <B>  <A NAME="tex2html772"
+  HREF="node1.html">Contents</A></B> 
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00611000000000000000">
+Google Maps and proprietary data</A>
+</H2>
+
+<P>
+In fact, not only Google Maps, but the vast majority of the online maps are based on the relatively static base maps made available by larger organizations. Google and other providers of map data publish these maps as collections of small image 'tiles'; JPG or PNG images of typically 256 by 256 pixels, which are rendered ahead of time and cached. These are served using Apache or another conventional web server. The main benefit of this technique is that it serves map data as a set of common image files; a standard and highly optimized means of distribution. These are re-assembled in the browser into a seemingly continuous map, and as the user pans or `slips' around, new tiles are transferred to maintain the illusion of a continous map.
+
+<P>
+A second reason for the use of map tiles is that it is quite difficult to reconstruct the original discrete vector data set from map tiles; in this respect they are similar to compiled code. Google and other commercial map vendors do not share their point, line, and polygon data, nor do they make metadata such as labels or land use markers available. Distributing tiles gives them a degree of control over what source data they choose to release, and allows them to maintain control of those assets.
+
+<P>
+Distributing the underlying data used to generate these tiles conflicts with these companies' business models: such data is valued intellectual property. The tile-based rendering system strips the map of its metadata, making a local, or personal, critical, or revisionist interpretation quite difficult. Tiles immutable – they contain no information about authorship, no hyperlinks, and in order not to crowd a given tile, each one displays only a selection of available data for that corresponding area of the world. 
+
+<P>
+
+<DIV ALIGN="CENTER">
+r0.5
+	<DIV ALIGN="LEFT">
+<IMG
+  WIDTH="525" HEIGHT="426" ALIGN="BOTTOM" BORDER="0"
+ SRC="./osm-composition.png"
+ ALT="Image osm-composition">
+	
+</DIV>
+</DIV>
+
+<P>
+Open data projects such as OpenStreetMap, the 'wiki map of the world', do just the opposite – like the open source software projects they took inspiration from, they share the entire dataset as coordinates, semantic tags, polygons, and most importantly, time and authorship data. In the case of OpenStreetMap, anyone with enough disk space can download the entire planet's worth of data (over 200 gigabytes when loaded into a database) and create their own maps. In that dataset in particular, authorship data actually outweighs its geometric counterpart. Perhaps even more tellingly, historical data – for areas of the map which have been overwritten – occupies more storage space than current data. This suggests that authors have challenged each others' data more than they've added new data to unmapped areas. [<A
+ HREF="node120.html#warren2009composition">57</A>]
+
+<P>
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html773"
+  HREF="node33.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html769"
+  HREF="node31.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html765"
+  HREF="node31.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A> 
+<A NAME="tex2html771"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents"
+ SRC="file:/usr/share/latex2html/icons/contents.png"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html774"
+  HREF="node33.html">OpenStreetMap</A>
+<B> Up:</B> <A NAME="tex2html770"
+  HREF="node31.html">Web mapping</A>
+<B> Previous:</B> <A NAME="tex2html766"
+  HREF="node31.html">Web mapping</A>
+ &nbsp; <B>  <A NAME="tex2html772"
+  HREF="node1.html">Contents</A></B> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Jeffrey Warren
+2010-08-03
+</ADDRESS>
+</BODY>
+</HTML>

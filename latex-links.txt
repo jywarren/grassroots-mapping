@@ -1,6 +1,0 @@
-http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/
-http://www.artofproblemsolving.com/LaTeX/AoPS_L_GuideLay.php
-http://en.wikibooks.org/wiki/LaTeX/Document_Structure#The_Bibliography
-http://www.andy-roberts.net/misc/latex/latextutorial6.html
-	(floating illustrations)
-

@@ -1,0 +1,19 @@
+Sent at 7:26 PM (GMT-06:00). Current time there: 12:36 PM. ✆
+to	Jeffrey Warren <jeff@unterbahn.com>
+date	Wed, Jun 16, 2010 at 7:26 PM
+subject	Re: [Geowanking] MapMill.org: "hot or not" for oil spill mapping imagery
+signed-by	gmail.com
+
+
+The basic workflow I decided on was:
+
+1. Scan through images and remove blurry or over exposed images.
+2. Clip outer 10% "frame" of each image (lens distortion is greatest out there
+3. Load each image, separately, into ArcGIS and geo-reference to 1ft imagery
+  a. ArcGIS geo-referencing uses a surface interpolation to rectify the image
+  b. Three points are required as a minimum
+  c. More points allow for higher degree polynomials for the surface
+
+I don't like to throw out any imagery until the very end. Sometimes, even the blurry stuff ends up being useful. I never worked it out, but I think I needed about 100 images per acre to get good coverage. Even then, the lighting differences across the images made it seem inconsistent.
+
+I tried using an autostitcher and manually stitching outside ArcGIS but the results weren't as good as treating each image individually. I realized that you could/should make a "flight plan" directing where to walk with the balloon and how long to wait in each spot to guarantee coverage.
