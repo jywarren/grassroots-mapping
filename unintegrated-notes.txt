@@ -9,7 +9,7 @@ X need - first section on UN-HABITAT, Jai sen, etc.
 x state of the art - initial PGIS section, haiti section, local expertise and empowerment/outsourcing section on PGIS/poole
 - toolkit - thorough readthrough of Cartagen presentation, rubbersheeting discussion, redo section names
 x peru - interviews? UNICEF/Roger Hart children as community researchers 
-- gulf - analysis section
+- gulf - graph of resolutions over time
 - evaluation - answer initial questions, Triangulation (ask for help!)
 - future work & conclusion - conclusion, `pushing envelope' in additional projs. and illustrated guide (another product of ...)
 

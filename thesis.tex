@@ -356,17 +356,13 @@ In Morozov's opinion, the belief that such technologies can disrupt power relati
 
 (rev. see following quote)
 
-The problem with this debate is that it is too abstract. We cannot say universally that mapmaking (or any other technology) will support local needs over those of the state, but by working closely with local participants in a sensitive manner, we can invert the flow of information and affect power relations. Balloon and kite mapping is not a scalable technology --- it would be impractical for Google or governments to use these techniques to map entire countries. However it is well adapted for small-scale use, and has important advantages in cost, repeatability, resolution, and speed, in that context. My attempts to apply these tools and techniques have focused on these benefits, and in the specific settings in which I have worked, they have allowed local groups to produce better maps than anyone else, for a limited but \textbf{highly relevant} area. In a time when many in the crisis community were struggling to get large organizations such as Google, the United Nations, etc. to release satellite imagery\footnote{See Section \ref{subsec:satelliterelease}}, the Louisiana Bucket Brigade actually licensed map data to Google -- data gathered using Grassroots Mapping tools and techniques.\footnote{See Chapter \ref{chap:gulf}} 
+The problem with this debate is that it is too abstract. We cannot say universally that mapmaking (or any other technology) will support local needs over those in positions of power, but by working closely with local participants in a sensitive manner, we can invert the flow of information and affect power relations. Balloon and kite mapping is not a scalable technology --- it would be impractical for Google or governments to use these techniques to map entire countries. However it is well adapted for small-scale use, and has important advantages in cost, repeatability, resolution, and speed, in that context. My attempts to apply these tools and techniques have focused on these benefits, and in the specific settings in which I have worked, they have allowed local groups to produce better maps than anyone else, for a limited but \textbf{highly relevant} area. In a time when many in the crisis community were struggling to get large organizations such as Google, the United Nations, etc. to release satellite imagery\footnote{See Section \ref{subsec:satelliterelease}}, the Louisiana Bucket Brigade actually licensed map data to Google -- data gathered using Grassroots Mapping tools and techniques.\footnote{See Chapter \ref{chap:gulf}} 
 
-(more to do with adoption, appropriation - hence focus on collaboration, pedagogy, by and with local groups, rather than boolean)
+Ultimately, the ability of mapmaking tools to empower local interests has more to do with the degree of adoption and appropriation of those tools by participants than it does with any technical aspect of the project. For this reason, I have focused on improving collaboration and building trust with the communities I work with, in addition to an aggressive program of workshops, demonstrations, and user-friendly guides to build a strong pedagogical platform. This approach builds upon the rejection of technological determinism in political processes advocated by Philip Agre, who argues: 
 
 \begin{quote}
-Research on the Internet’s role in politics has struggled to transcend technological determinism—the assumption, often inadvertent, that the technology simply imprints its own logic on social relationships. An alternative approach traces the ways, often numerous, in which an institution’s participants appropriate the technology in the service of goals, strategies, and relationships that the institution has already organized. --- Agre, Philip E. 2002. “Real-Time Politics: The Internet and the Political Process.” The Information Society 18:311-331.
+Research on the Internet’s role in politics has struggled to transcend technological determinism—the assumption, often inadvertent, that the technology simply imprints its own logic on social relationships. An alternative approach traces the ways, often numerous, in which an institution’s participants appropriate the technology in the service of goals, strategies, and relationships that the institution has already organized. \cite{agre2002realtime} 
 \end{quote}
-
-`Technology only magnifies human intent and capacity. It cannot substitute for them' --- Kentaro Toyama
-
-Corbett, Jon M., and C. Peter Keller. 2005. An Analytical Framework to Examine Empowerment Associated with Participatory Geographic Information Systems (PGIS). Cartographica 40 (4):91-102.
 
 \section{Maps as truth}
 \label{sec:truth}
@@ -642,7 +638,7 @@ An offshoot of the OpenStreetMap project known as the OpenStreetMap Humanitarian
 
 Two projects by \ac{HOT} stand out as their most ambitious and influential. The first, called simply Map Kibera, produced a map of the famous Kibera slum in Nairobi, Kenya, in collaboration with several local organizations. This project differed from earlier \ac{HOT} projects in that it relied primarily upon local participants using hand-held GPS units to produce the map, as well as with paper-based annotations using the Walking Papers system developed by Michal Migurski of Stamen Design. With a specific mission to engage with the sociopolitical aspects of cartography, Map Kibera is much more explicit than OSM Gaza in its agenda and the needs it addressed. It also represented a shift away from remote mapping by means of tracing, towards a model which relied more heavily on local expertise and familiarity with the site. In this sense it has much more in common with the Grassroots Mapping project; both attempt to empower local communities by buildling local capacity and ceding control over the mapping process to local individuals and organizations. 
 
-The second project of note is the map making work done in the aftermath of the January 2010 earthquake in Haiti.
+The second project of note is the mapmaking work done in the aftermath of the January 2010 earthquake in Haiti. 
 
 \begin{quote}The have been at least 400 OpenStreetMap editing sessions in Haiti since the quake hit. Mostly tracing Yahoo imagery, and gleaning information from old CIA maps. We also just received permission to use GeoEye imagery acquired post-event … that will allow us to tag collapsed buildings.\end{quote} \cite{maron2010haiti}
 
@@ -675,7 +671,7 @@ While designed for warping archival maps onto a vector dataset, namely OpenStree
 \subsection{GonzoEarth and manual stitching with Adobe Photoshop}
 \label{subsec:gonzoearth}
 
-One of the main practitioners of low-cost mapmaking today is Stewart Long and his one-man company GonzoEarth, which provides `applied neogeographical techniques for on-demand mapping' \cite{long2010process}. Long is responsible for such impressive maps as the 2009 map of Burning Man, published at a 2 cm/pixel resolution\footnote{View the map online at GigaPan.org: \url{http://gigapan.org/gigapans/46290/}}. This map was surprisingly warped onto a lower resolution base map, blended, and output as a BigTiff image using Adobe Photoshop CS4. The image was then reprojected and saved as a \ac{GeoTIFF} using the open source GDAL package. Long's use of Photoshop extends to all his mapping work, due to its ability to `make dynamic selections, transformations, and stitching' including layer merging and flattening. \cite{long2010process} While observing his process, I noted that he would repeatedly return to earlier images in order to adjust them iteratively, treating the map imagery almost like paint rather than data. GonzoEarth maps are among the best available in that they are seamless and consistent, and Long has a unique intuitive grasp of the process, as well as a great deal of patience. Careful observations of his work have played a major role in the design of the Cartagen Knitter, described in Section \ref{subsubsec:knitter}. 
+One of the main practitioners of low-cost mapmaking today is Stewart Long and his one-man company GonzoEarth, which provides `applied neogeographical techniques for on-demand mapping' \cite{long2010process}. Long is responsible for such impressive maps as the 2009 map of Burning Man, published at a 2 cm resolution\footnote{View the map online at GigaPan.org: \url{http://gigapan.org/gigapans/46290/}}. This map was surprisingly warped onto a lower resolution base map, blended, and output as a BigTiff image using Adobe Photoshop CS4. The image was then reprojected and saved as a \ac{GeoTIFF} using the open source GDAL package. Long's use of Photoshop extends to all his mapping work, due to its ability to `make dynamic selections, transformations, and stitching' including layer merging and flattening. \cite{long2010process} While observing his process, I noted that he would repeatedly return to earlier images in order to adjust them iteratively, treating the map imagery almost like paint rather than data. GonzoEarth maps are among the best available in that they are seamless and consistent, and Long has a unique intuitive grasp of the process, as well as a great deal of patience. Careful observations of his work have played a major role in the design of the Cartagen Knitter, described in Section \ref{subsubsec:knitter}. 
 
 The imagery for the Burning Man map was taken from a helium balloon by Jack Alderson, but Long also captures imagery by using a lightweight and relatively inexpensive remote control airplane called the Easystar, sold by the German company Multiplex. A small canon camera is inserted into the cockpit and a hole is cut in the belly of the plane through which the pictures are taken. Long can fly the plane at up to a half-mile away, steering manually with a 2.4 Ghz transmitter and can capture imagery at hundreds of feet in the air. The plane can remain in the air for up to an hour.  
 
@@ -1214,27 +1210,21 @@ By contrast, the imagery collected by the LABB/Grassroots Mapping teams was up t
 
 As the crisis progressed, it became clear that BP was attempting to restrict access to affected areas by means of airspace restrictions, closing public beaches, and preventing boats from entering some areas. The Breton Sound was closed to the public in mid May, and flyovers were restricted to a minimum of 4,000 feet, making it difficult to photograph or identify features on the ground. \cite{peters2010efforts} With reduced public and media access, many became concerned that because of the close collaboration between BP, the Coast Guard, and NOAA, the government was becoming complicit in the media blackout. Even on the ground \ac{LABB} mappers found that many cleanup workers were prohibited from talking about what they were doing. \cite{dosemagen2010heywhat} This gave our mapping effort even greater importance, as our imagery was among the best available for many areas, and the support we received from local fishermen in getting to sites helped us to sidestep issues of access which limited many in the mainstream press.
 
-\pagebreak
-
-\begin{figure}[h]
+\begin{figure}[p]
   \begin{center}
 	\includegraphics[width=1\textwidth]{images/grand-isle-terre.jpg}
 	\caption{}
   \end{center}
 \end{figure}
 
-\pagebreak
-
-\begin{figure}[h]
+\begin{figure}[p]
   \begin{center}
 	\includegraphics[width=1\textwidth]{images/chandeleur-island.jpg}
 	\caption{}
   \end{center}
 \end{figure}
 
-\pagebreak
-
-\section{Sustainability}
+\section{Adoption and sustainability}
 
 %\begin{wrapfigure}{r}{0.5\textwidth}
 %	\begin{flushright}
@@ -1243,16 +1233,9 @@ As the crisis progressed, it became clear that BP was attempting to restrict acc
 %	\end{flushright}
 %\end{wrapfigure}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/labb-adam-balloon.jpg}
-		\caption{Volunteers launch a balloon at Grand Isle, Louisiana. Photo courtesy Adam Griffith}
-	\end{flushright}
-\end{wrapfigure}
-
 The most challenging aspect of organizing the oil mapping project was to train a group of inexperienced but committed volunteers to use Grassroots Mapping tools such as balloons and kites, in often adverse weather conditions up to 3 hours travel from New Orleans, our home base. That a number of volunteers have continued not only to make trips on their own, but to bring and train others to map, has been both exciting and impressive.
 
-Between May 7th and July 22nd, over 47 participants made 36 trips to gather mapping data, or almost one every other day. While only one trip has failed to return with imagery, 56\% of trips returned with `excellent' or `useable' data, indicating that some quality control mechanisms might result in a higher success rate. Still, over 11,000 images have been taken, with plans and funding in place to continue mapping through January 2011. 
+Between May 7th and July 22nd, over 47 participants made 36 trips to gather mapping data, or almost one every other day. While only one trip has failed to return with any imagery at all, 64\% of trips returned with `excellent' or `useable' data, indicating that some quality control mechanisms might result in a higher success rate. Still, over 11,000 images have been taken, with plans and funding in place to continue mapping through January 2011. 
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
@@ -1268,16 +1251,23 @@ One factor that likely played a major role in the rapid adoption of Grassroots M
 Participation has followed several interesting trends. As shown in Figure \ref{fig:tripspermapper}, while over 30 people participated in a single mapping trip, far fewer were part of a second or third trip. However, a committed group of leaders have been participants in six or seven trips; these have ensured a continuous and regular mapping effort across the initial fifteen weeks of the project. 
 
 \begin{wrapfigure}{r}{0.5\textwidth}
-	\label{fig:tripspermapper}
 	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{diagrams/mappers-histogram.pdf}
-		\caption{Number of mapping trips per mapper}
+		\includegraphics[width=0.45\textwidth]{diagrams/gulf-trip-success.pdf}
+		\caption{Success of mapping trips, based on number of images captured}
 	\end{flushright}
 \end{wrapfigure}
 
 Particularly encouraging was the participation of two mappers who had seen just a single presentation about the project, and were inspired to begin balloon mapping on their own. Assembling their own kit based on information available on the Grassroots Mapping website, Don and Justin Blancher contacted us with hundreds of photos of Perdido Point, Alabama. Delighted, we arranged a transfer of files and Stewart Long created a map within a few days. The two continue to contribute new data.  
  
 \subsection{Collaborations}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\label{fig:tripspermapper}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{diagrams/mappers-histogram.pdf}
+		\caption{Number of mapping trips per mapper}
+	\end{flushright}
+\end{wrapfigure}
 
 From the start of the project, the Grassroots Mapping mailing list and wiki were a focal point for collaboration, and members of the wider Grassroots Mapping community helped identify local helium sources, coordinate volunteers, and even paid for plane tickets. On the ground, there was also considerable ad-hoc collaboration, with Oliver Yeh of 1337arts and Stewart Long of GonzoEarth leading trips and trainings on multiple occasions. However, over the first several weeks, Shannon Dosemagen of \ac{LABB}, and Kris Ansin of the University of Tulane's School of Public Health and Tropical Medicine emerged as leaders of local mapping trips, and their efforts have ensured that mapmaking has continued for close to three months since our initial efforts. Long and myself played a supporting technical role in managing, processing, and publishing stitched maps of the data, and advising the \ac{LABB} team on equipment setup and maintenance. 
 
@@ -1290,21 +1280,6 @@ Mapping the spill incurred a range of new costs; not only is there a virtually u
 
 Various donors and institutions were generous in their support of the project, including the Center for Future Civic Media, the Lafourche Port Commission, the Washington Post, Development Seed, and many more.\footnote{For a full list of contributors please see the Acknowledgements \ref{sec:donors}} In order to meet these expenses, on May 29th I created a proposal at \href{http://kickstarter.com}{Kickstarter.com} with help from filmmaker Kristian Hansen. Kickstarter is a site where individuals can elect to `back' a project financially, receiving rewards for different levels of support. For \$50, we offered to put backers' names on a balloon, for \$1000, we promised to send backers a complete Grassroots Mapping Kit. However, the vast majority of donations were at the \$25 level, and a total of 145 contributors backed the project with \$8,285 by June 21, 2010.
 
-Funding the project in this manner rather than via larger institutional grants seemed appropriate for an already citizen-led, independent effort to document the oil spill's effects. For many, contributing a small amount or even simply spreading the word was the only means of participating. For these reasons the choice of Kickstarter as a means to financial sustainability is especially relevant to the project's mission. 
-
-\pagebreak
-
-\begin{figure}[h]
-  \begin{center}
-	\includegraphics[width=1\textwidth]{images/perdido-point.jpg}
-	\caption{}
-  \end{center}
-\end{figure}
-
-\pagebreak
-
-\section{Image processing and map stitching}
-
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/mapmill.png}
@@ -1312,11 +1287,22 @@ Funding the project in this manner rather than via larger institutional grants s
 	\end{flushright}
 \end{wrapfigure}
 
-One tool I developed in response to this overwhelming amount of data was called MapMill, available at \href{http://mapmill.org}{mapmill.org}. As sorting through images often took a substantial amount of time before orthorectification or stitching could begin, visitors of MapMill were presented with an aerial image, and asked to rank it as `really good', `just ok' or `not useful' in an adaptation of the interface to the well-known `HotOrNot' website. A one-page visual guide was offered to demonstrate what constitutes a `good' image, highlighting crispness, good exposure and downward-facing camera angle. In the 50 days following its launch on June 16th, 2010, images have been ranked more than 23,000 times, demonstrating that a voluntarily crowdsourced means of image processing may be feasible. 
+Funding the project in this manner rather than via larger institutional grants seemed appropriate for an already citizen-led, independent effort to document the oil spill's effects. For many, contributing a small amount or even simply spreading the word was the only means of participating. For these reasons the choice of Kickstarter as a means to financial sustainability is especially relevant to the project's mission. 
+
+\begin{figure}[p]
+  \begin{center}
+	\includegraphics[width=1\textwidth]{images/perdido-point.jpg}
+	\caption{A stitched map of Perdido Point, Alabama, from imagery captured by Justin and Don Blancher.}
+  \end{center}
+\end{figure}
+
+\section{Image processing and map stitching}
 
 Throughout the project in the Gulf of Mexico we have relied heavily on Adobe Photoshop for manual orthorectification of maps, due to its proven track record and known limitations. Other tools such as Map Warper and Cartagen Knitter were limited by their dependence on OpenStreetMap base data, though Cartagen Knitter has since gained the ability to display a base layer of tiled satellite imagery, and may see increased usage for future map data sets. Photoshop produced \ac{TIFF} images which were processed into \ac{GeoTIFF} and cut into tiles using the \textbf{gdal2tiles.py} script. This generated both a \ac{TMS} and a \ac{KML} for viewing online. Maps were also uploaded to Flickr for public viewing, though at a lower resolution, since Flickr limits uploaded files to 10 megabytes in size. In addition, the most permissive license provided by Flickr was Creative Commons Attribution, so maps were annotated as Public Domain data in each image's description field. 
 
 Those in the project who were able to produce stitched maps, including myself and Stewart Long with some help from David Riallant and Cesar Harada, were challenged to keep up with the fast pace of map data submission. New data sets arrived as often as every other day, and a single set typically included hundreds of images to be sorted, processed for brightness and contrast, and stitched. A large monitor and a powerful computer were required, and even my own 8-core 3 GHz workstation took up to 10 minutes for each transform on larger maps. These issues, as well as the difficulty in including a broader group in the stitching effort, highlighted the need for a completed Cartagen Knitter tool, even as it took time away from its development. 
+
+One tool I developed in response to this overwhelming amount of data was called MapMill, available at \href{http://mapmill.org}{mapmill.org}. As sorting through images often took a substantial amount of time before orthorectification or stitching could begin, visitors of MapMill were presented with an aerial image, and asked to rank it as `really good', `just ok' or `not useful' in an adaptation of the interface to the well-known `HotOrNot' website. A one-page visual guide was offered to demonstrate what constitutes a `good' image, highlighting crispness, good exposure and downward-facing camera angle. In the 50 days following its launch on June 16th, 2010, images have been ranked more than 23,000 times, demonstrating that a voluntarily crowdsourced means of image processing may be feasible. 
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
@@ -1335,9 +1321,10 @@ As more organizations such as the Blue Seals and the Louisiana Environmental Act
 
 \section{Documentation}
 
-The disaster and the incredible support and diligence of the LABB mapping team also generated a wealth of both qualitative and quantitative information on the volunteer-led effort to apply Grassroots Mapping tools toward the collection of crisis information. Mapping team leaders filled out a form describing a variety of information from weather conditions at the site to the condition and performance of the gear. Leaders built deep experience in gathering data and teaching others, and many wrote blog entries or spoke to the press about their experiences. Beyond serving as a valuable independent record of the spill, this case study lays solid groundwork for the application of these tools to other environmental, social, and political crises.
+The disaster and the incredible support and diligence of the LABB mapping team also generated a wealth of both qualitative and quantitative information on the volunteer-led effort to apply Grassroots Mapping tools toward the collection of crisis information. Mapping team leaders filled out a form describing a variety of information from weather conditions at the site to the condition and performance of the gear. Leaders built deep experience in gathering data and teaching others, and many wrote blog entries or spoke to the press about their experiences. Beyond serving as a valuable independent record of the spill, this case study lays solid groundwork for the application of these tools to other environmental, social, and political crises. A similar online form for data submission should be an integral part of any future aerial mapping effort.
 
 \begin{figure}[h]
+  \label{fig:successmapping}
   \begin{center}
 	\includegraphics[width=1\textwidth]{diagrams/trip-success-leaders.pdf}
 	\caption{Success of mapping trips over first 100 days, based on evaluation of resulting imagery by GonzoEarth}
@@ -1348,26 +1335,11 @@ The disaster and the incredible support and diligence of the LABB mapping team a
 
 New imagery continues to arrive from mapping trips across the Gulf Coast, but the data we have so far is useful for examining what factors affect the success rate of mapping attempts, as well as to assess the increase in data quality as participants gain experience and the techniques mature. Of course, it is also of interest to quantify our results to date in terms of resolution, extent, and fidelity.  
 
+Trip results were rated on a percentage scale as imagery was reviewed, based on the image sharpness, continuity, and angle of capture, straight downwards being ideal. The average rating over the first 33 trips was 75\%; while I expected a correlation between experience mapping and success rate, as seen in Figure \ref{fig:successmapping}, no such relationship is apparent. Participants did use both kites and balloons regularly, with 45\% of trips using kites and 55\% balloons. Based on reported and best-guess estimates of altitude, 14 trips which used balloons reported an average altitude of 725 ft and 10 trips using kites reported an average altitude of 670 ft. Most participants preferred balloons, citing easier control given reasonable wind conditions. In general, difficulty with the tools was less of an obstacle to success than adverse weather conditions. (See Figure \ref{fig:weathertable}) 
 
+One challenge was to maintain good communication between those processing imagery and stitching maps, and those visiting sites and capturing images. The former were typically working remotely, and beyond the data submission form we asked each trip leader to complete, there was relatively poor communication between the two parties. This led to delays when map stitchers were unable to identify where images were taken, or when trip leaders did not understand the stitching process well enough to know what constitutes good source imagery. The use of the Cartagen Knitter in this process may address these problems by making the orthorectification and stitching process more intuitive and accessible to those who capture imagery. Reducing reliance on outside technical assistance promises not only to put local participants in greater control of the entire process, but to improve overall understanding of the stitching process and thus yield better source aerial imagery from mapping trips. In any case, future efforts should facilitate open communication between participants at different stages of the process to ensure good results.
 
-overall success rate 
-
-what works and doesn't
-
-correlations between experience and success in trips
-
-(days or weeks to process - need for Knitter)
-
-(attempt to establish tree - who taught whom?)
-
-feedback loop - from knitters to mappers
-
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{diagrams/gulf-trip-success.pdf}
-		\caption{Success of mapping trips, based on number of images captured}
-	\end{flushright}
-\end{wrapfigure}
+(Graph of resolutions acquired over time, 2 lines for balloons and kites)
 
 \begin{table}[tp] 
 \caption{Success of image capture in varying weather conditions during over 33 mapping trips led by \ac{LABB} and other Grassroots Mapping volunteers between May 7th and July 22nd, 2010.}
@@ -1415,33 +1387,18 @@ good wind&balloon&971&1000\\
 \end{tabularx}
 \end{table}
 
-45\% kite, 55\% balloon
-725 ft average balloon altitude over 14 reported
-670 ft average kite altitude over 10 reported
-
-
-\begin{table}[tp] 
-\caption{Comparison of maps produced in January 2010 project in Lima, Peru with those available in Google Maps for same period.} 
-
-\label{fig:gulfmapstable}\centering %
-\rowcolors{1}{tableShade}{white}
-\renewcommand{\arraystretch}{1.4}
-\begin{tabularx}{\textwidth}{>{\bfseries}rlYYYYYY}
-\toprule\hiderowcolors
-Site&Coordinates&Date of capture&Resolution&Area&Trip Leader&Estimated altitude&Technique\\\otoprule\showrowcolors
-Grand Isle State Park&&&&&&&\\\hline
-Grand Isle State Park&&&&&&&\\
-\bottomrule
-\end{tabularx}
-\end{table}
-
-(Metadata)
-
 \section{Licensing and data use}
 
 The assembly of a public domain archive of data, including \ac{GeoTIFF}s, \ac{TMS} and raw images, is a valuable goal in itself. Due to increased mapping activity after the Katrina disaster, much imagery of the coast already existed, however not at such good resolution. Our inclusion of pre-spill imagery will, as participant Adam Griffith put it, `remind us what the land should look like'. \cite{griffith2010isle} The post-spill maps will help to identify and assess the environmental and economic damage which coastal ecologies and communities have sustained.  
  
 The project is ongoing, and even after our current funding and timeline end in January, there is potential to perform ongoing mapping at longer intervals. While the immediate needs of providing imagery to the public and the media have been met, our longer term goals of using the data for litigation and environmental monitoring will require collaboration with those communities, and plans are already in motion to present the data at relevant venues. 
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/labb-adam-balloon.jpg}
+		\caption{Volunteers launch a balloon at Grand Isle, Louisiana. Photo courtesy Adam Griffith}
+	\end{flushright}
+\end{wrapfigure}
 
 Our choice of a blanket public domain policy has meant that with the exception of some donated imagery, all our data has been released into the public domain and may be downloaded and republished without permission. We expect this to facilitate its adoption by researchers, litigators, and other activists, just as it has amongst the media. Already, images have been republished by the Boston Globe, the New York Times, and many other news agencies. Much of the data has even be licensed to Google for use in the Google Earth and Google Maps products. This reversal --- small organizations providing imagery to Google instead of the opposite --- stands in contrast to the licensing bottleneck which caused so much trouble in the Haiti aid community, as discussed in Section \ref{subsec:satelliterelease}. 
 
@@ -1459,15 +1416,16 @@ In assessing the Grassroots Mapping project, I wanted to consider not only the t
 \item Were the maps uesd in legal processes? Did they help participants advance an agenda? Did they provide critical information?
 \end{itemize}
 
-\section{Participants vs. collaborators}
+In the first two questions, the answer is clearly yes for both the Peru and Gulf of Mexico case studies. Resolution and recency were dramatically better in the maps we produced, and especially in the oil spill mapping project, the tools have been enthusiastically adopted. Also in the oil spill mapping, \ac{LABB} participants have regularly posted to the \ac{LABB} blog as well as discussed the project on television and radio, demonstrating a good understanding of the goals of our effort and a strong belief in the maps' intended role and uses. 
 
-%        Role of Carla, Escuelab, Shuawa
-%        Hector as a fellow educator (interview)
+However, the final two questions remain to be fully answered, largely because the legal, environmental, and social processes upon which they are dependent may span many years, and a comprehensive assessment must address such a longer timeframe. Outreach efforts for the oil spill data to the ecology, environmental law, and cartographic communities has begun, with participants already submitting proposals to relevant conferences and publications to promote the use of our data. It remains to be seen whether the data sees wide adoption in academic and legal use in coming months and years. I plan to remain in contact with all participants across the several case studies discussed here to encourage and measure whether there were positive outcomes and uses for the data.  
+
+Corbett, Jon M., and C. Peter Keller. 2005. An Analytical Framework to Examine Empowerment Associated with Participatory Geographic Information Systems (PGIS). Cartographica 40 (4):91-102.
 
 \section{Validity in openly ideological research}
 \label{sec:lather}
 
-Many of my research questions are qualitative in nature, such as `Did the maps cause participants to re-evaluate their understanding of their environment in political or environmental terms?' or `Did mapmaking change participants' assumptions about what information they could access or utilize to further their interests?' The answers to these questions are profoundly affected by my advocacy of these tools and techniques in the communities with whom I collaborated --- and the degree to which I was able to convince participants to adopt these tools and the beliefs about cartography which they embody. In order to better understand the outcomes of my research, given such an ideological investment by myself and other participants, a degree of reflexivity is required. I therefore look to Patti Lather in her esssay entitled `Reconceptualizing Validity' (p.67) where she outlines a framework for assessing validity in the context of openly ideological research. Such an approach is especially appropriate for a discipline which is increasingly understood as a qualitative field; see Section \ref{sec:gis} for additional discussion on how maps are constructed and the importance of a mixed-methods approach. 
+Many of my research questions are qualitative in nature, such as `Did the maps cause participants to re-evaluate their understanding of their environment in political or environmental terms?' or `Did mapmaking change participants' assumptions about what information they could access or utilize to further their interests?' The answers to these questions are profoundly affected by my advocacy of these tools and techniques in the communities with whom I collaborated --- and the degree to which I was able to convince participants to adopt these tools and the beliefs about cartography which they embody. In order to better understand the outcomes of my research, given such an ideological investment by myself and other participants, a degree of reflexivity is required. I therefore look to Patti Lather in her esssay entitled `Reconceptualizing Validity' where she outlines a framework for assessing validity in the context of openly ideological research. Such an approach is especially appropriate for a discipline which is increasingly understood as a qualitative field; see Section \ref{sec:gis} for additional discussion on how maps are constructed and the importance of a mixed-methods approach. 
 
 Lather advocates a `vigorously self-aware' regimen of research techniques which she presents in contrast to `positivist' traditional practices which claim objectivity and neutrality. In the face of similar traditional cartographic claims, it is appropriate and productive to apply Lather's four major proposed evaluative methodologies: construct validity, face validity, catalytic validity, and triangulation. 
 
@@ -1477,9 +1435,9 @@ Construct validity refers to how theory was affected by gathered data and by the
 
 In Lima, Peru, we expected our claim that we could produce higher resolution imagery than available in Google Maps to inspire or incentivize participants; however most of the youth we were working with were unfamiliar with Google Maps, and comparisons did not resonate as strongly as we had hoped. However, the ability to see oneself in many of the aerial images resonated strongly with participants of all ages. The intent of our mapping work became more tactical, and more aggressive at times --- while these tools were originally designed to help communities map themselves, in Rock Creek, West Virginia, we used balloon mapping to gather data about a mining site operated by Massey Energy; a hostile organization. Members of Coal River Mountain Watch considered the land to be `theirs' in the sense that Massey had gained access to the site through a long history of permit and land ownership manipulations, and the mapmaking was intended to document what the company was doing `to Appalachia' and the communities surrounding the site.
 
-(redefinition of main challenges - collaboration and integration - move towards illustrated guides, workshops, collaborations)
+Another change has been the project's increase in scope, and the application of Grassroots Mapping tools to ever-broader needs, starting with land tenure claims, and growing to include street mapping in Georgia, youth curricula in Boston, Lima, and the West Bank, and environmental monitoring in a wide variety of sites. In the Gulf of Mexico following the 2010 BP oil spill, the realization that our maps were detailed enough to see individual animals and plants became one of the most compelling reasons for the mapmaking, as did the ability to see ourselves in many images, connected to the camera by the 2000-foot tether. These discoveries broadened the scope of the mapmaking and affected which sites were targeted. In general, Grassroots Mapping has been slowly repositioned as a source for both ecologically relevant information at a high frequency of capture, and symbolically relevant imagery of events at a human scale.
 
-Perhaps the greatest change has been the application of Grassroots Mapping tools to ever-broader needs, starting with land tenure claims, and growing to include street mapping in Georgia, youth curricula in Boston, Lima, and the West Bank, and environmental monitoring in a wide variety of sites. In the Gulf of Mexico following the 2010 BP oil spill, the realization that our maps were detailed enough to see individual animals and plants became one of the most compelling reasons for the mapmaking, as did the ability to see ourselves in many images, connected to the camera by the 2000-foot tether. These discoveries broadened the scope of the mapmaking and affected which sites were targeted. In general, Grassroots Mapping has been slowly repositioned as a source for both ecologically relevant information at a high frequency of capture, and symbolically relevant imagery of events at a human scale.
+In a broader sense, the project has changed most in its refocusing on collaboration and pedagogy. From the start, I have worked with a diverse group of people in prototyping and testing these tools in a variety of settings. As the project has grown, those collaborations, workshops, and the materials we have produced, including videos and illustrated guides, have become the focus of our efforts, perhaps even more than the resulting maps. An appreciation of the process and its ability to inspire and provoke civic engagement has grown to become one of the central tenets of my mapping work, and in my opinion, the key to its successs. 
 
 \begin{wrapfigure}{r}{0.5\textwidth}
   \begin{flushleft}
@@ -1492,8 +1450,6 @@ Perhaps the greatest change has been the application of Grassroots Mapping tools
 
 The importance of creating a feedback loop where research output is reviewed and interpreted in collaboration with participants cannot be overstated, and this is the focus of `face validity' as described by Lather. In Grassroots Mapping case studies, I have made every effort to process, analyze, and publish data in a participatory manner --- teaching and demonstrating image selection, orthorectification tools, and discussing the pros and cons of output formats such as printed or digital maps. One of the major components of the toolkit I have developed, the Cartagen Knitter, is specifically intended to aid in the production of maps and to be a sustainable and reproducible means of creating maps with aerial imagery. I have been lucky enough to be able to iteratively test Knitter with participants of varying levels of technical literacy, and to make incremental improvements on the tool's interface and abilities.  
 
-(distribution and analysis of maps themselves, illustration of presentation of maps at JP2)
-
 \begin{wrapfigure}{r}{0.5\textwidth}
   \begin{flushright}
 	\includegraphics[width=0.5\textwidth]{images/black-mountain.jpg}
@@ -1503,19 +1459,19 @@ The importance of creating a feedback loop where research output is reviewed and
 
 Ultimately, the use of maps to further the interests of participant communities lays in the hands of those participants, and over a longer timeline of months and years, it remains to be seen whether the maps I have produced with people are, for example, submitted as part of a land claim in Lima, Peru, or used to challenge a mining permit in Rock Creek, West Virginia. However, the interpretation of map data by local participants has been an essential component of the project. In a map of Black Mountain, Virginia, however, initial images of a reclamation site appeared in vibrant green when compared to previous data from Google Earth. Since the goal of the mapmaking was to highlight the environmental degradation the site had sustained, this was concerning, and indeed, upon first seeing the map many people comment on how beautiful the color is. Members of the Coal River Mountain Watch organization pointed out that despite the color, the main points of interest in the data are the contrast between the naturally forested areas and the sparse vegetation which had been replanted, as well as the tendency of the replantings to follow roadways --- the implication being that the mining company tried to mask the damage by planting where people would see it most.  
 
-Specific wording employed by participants has hinted at the degree to which participants took ownership of the process and the resulting maps. Helder Solari, a member of the Escuelab team I worked with in Canta Gallo in Lima, Peru, tellingly referred to the map as `tuyo', or yours, when he wrote to ask for a digital version. I had left only paper copies with leaders of Canta Gallo. He did make reference to the fact that our map (as I describe it) is the only one which shows the Canta Gallo community, pointing out that `in other maps, it simply doesn't exist' \cite{solari2010cantagallo}
+Face validity can also be assessed when participants present their work to others; in Juan Pablo II, our work culminated in an exhibition of students' maps and drawings to parents and community leaders, who responded with excitement and even surprise. In some cases, specific wording employed by participants has hinted at the degree to which participants took ownership of the process and the resulting maps. Helder Solari, a member of the Escuelab team I worked with in Canta Gallo in Lima, Peru, tellingly referred to the map as `tuyo', or yours, when he wrote to ask for a digital version. I had left only paper copies with leaders of Canta Gallo. He did make reference to the fact that our map (as I describe it) is the only one which shows the Canta Gallo community, pointing out that `in other maps, it simply doesn't exist' \cite{solari2010cantagallo}
 
-In the largest application of Grassroots Mapping tools in the Gulf of Mexico in 2010, several participants have written at length about our efforts in blog posts. Such accounts, though from a self-selecting group, demonstrate that many amongst the mapmakers believed strongly in the project's deeper message of cartographic testimony and democratization. ... 
-
-(face validity in the Gulf project. draw on writings of participants: lauren craig, shannon, LABB blog, cesar harada)
-
-\begin{quote}
-The simplicity of this project is what initially sparked my interest in it. The kits are assembled from relatively inexpensive materials, and almost anyone can perform the basic tasks of attaching the camera and letting out the kite or balloon. --- Lauren Craig
-\end{quote}
+In the largest application of Grassroots Mapping tools in the Gulf of Mexico in 2010, participants blog posts, though from a self-selecting group, demonstrate that many amongst the mapmakers believed strongly in the project's deeper message of cartographic testimony and democratization:
 
 \begin{quote}
 Even though we can’t all be paragliding aerial photographers, wildlife experts or boat captains, we still have a role to play in raising awareness about the effects of this disaster. The best thing that ordinary people can do for the community right now is stay informed, promote action and spread the word—this is the mission of the Louisiana Bucket Brigade in Grand Isle.
---- Lauren Craig, Tulane
+--- Lauren Craig of \ac{LABB}, after a balloon mapping trip to Grand Isle \cite{craig2010labb}
+\end{quote}
+
+
+
+\begin{quote}
+The simplicity of this project is what initially sparked my interest in it. The kits are assembled from relatively inexpensive materials, and almost anyone can perform the basic tasks of attaching the camera and letting out the kite or balloon. --- Lauren Craig
 \end{quote}
 
 \subsubsection{Catalytic Validity}
@@ -1564,7 +1520,7 @@ In parallel came the discovery that local people could readily interpret black a
 
 \subsection{Spatial resolution}
 
-Resolution can be measured in the spatial, temoral, and spectral axes; spatial refers to distance in x,y,z in the physical world, temporal refers to the frequency of image capture, and spectral resolution is the amount of color information preserved in an image. Spatial resolution in aerial imagery is referred to in terms of meters or centimeters per pixel; that is, how many meters or centimeters in the real world correspond to the width or height of a single (presumably square) pixel in the photographic data. For example, typical resolution in Google Maps for urban areas in the United States is approximately 1-2 meters. 
+Resolution can be measured in the spatial, temoral, and spectral dimensions. Spatial resolution refers to the density of information in the x, y, and sometimes z axes in the physical world. Temporal resolution refers to the frequency of image capture, and spectral resolution is the amount of color information preserved in an image\footnote{More broadly defined, spectral resolution can refer to bands of data outside the range of visual light, as well as the consistency of spectral information due to sun-object-sensor geometry. \cite{tuominen2005landsat}}. Spatial resolution in aerial imagery is measured in meters or centimeters per pixel; that is, how many meters or centimeters in the real world correspond to the width or height of a single (presumably square) pixel of photographic data. For example, typical resolution in Google Maps for urban areas in the United States is 41 cm/pixel. 
  
 On a purely technical basis, there were several key benefits to to the techniques employed by the Grassroots Mapping project. In terms of spatial resolution, the typical balloon or kite map ranges from 2-150 cm in resolution, depending on the camera used, the camera altitude, and the desired output resolution. This bridges an important gap in publicly accessible aerial imagery, as commercial satellites today are limited by US law to 50 cm resolution, and the GeoEye 1 satellite, which offers the best current resolution, offers only 141 cm color imagery. This is especially important in environmental applications; Vierling et al emphasize in their use of balloon imagery that `...there still exists a gap between canopy scale processes and landscape level satellite remote sensing measurement.' \cite{vierling2006short} The resolution required to identify objects on the ground is typically three to five times smaller than the target objects, so to identify an object 10 cm wide, a resolution of 2-3 cm is required. \cite{aber2002unmanned} This is a reasonable target resolution for balloon and kite imagery. 
 
@@ -1646,13 +1602,25 @@ An additional advantage to balloon imagery is that it can be captured inconspicu
 
 In early 2010, Jeff Haack of JumpStart International, the nonprofit group which implemented the Free Map Palestine project with Mikel Maron in 2008-9, expressed interest in applying Grassroots Mapping tools and ideas to a nation-wide mapping project in the country of Georgia. With educational projects in 5 cities across the country, this was to be the first large explicitly educational application of the Grassroots Mapping concept. In Georgia, JumpStart had focused on creating a locally-operated nonprofit called \ac{OMC} to direct mapping efforts. Beginning in June 2010 and lasting 6 weeks, the collaborative program consisted of a series of workshops and trainings with \ac{OMC}-affiliated educators and activists using balloons and kites.
 
+\begin{figure}[h]
+  \begin{center}
+	\includegraphics[width=1\textwidth]{images/mestia-cartagen.png}
+	\caption{A map of Mestia, in the Svaneti region of Georgia. The map spans 5.5 kilometers, and was captured in just 3 days of balloon and kite mapping with local OpenMapsCaucasus staff and participating students.}
+  \end{center}
+\end{figure}
+
 The existence of \ac{OMC}, a fully Georgian organization, reflects JumpStart's interest in building long-term technical expertise and interest in open-source, civil society centered projects in Georgia. Haack elaborated on this aspect of the project in a comment on Mikel Maron's blog in the spring of 2010: 
 
 \begin{quote}The NGO structure JumpStart has built in Georgia is, in my opinion, an apt and sustainable way forward. After our experience in Palestine it became clear that impact requires a lasting effort in a community and the encouragement of local skills and ownership. It’s not merely about mapping a country, but about understanding where that, conceptually, meets societal needs, and building value therein. Sustainability for \ac{OMC} comes by understanding the convergence of digital technologies with community mapping, social fabric, governance, and civil society, and filling a need within that sphere. We’re not expecting \ac{OMC}’s community mapping focus to last forever, but that concept, at the very heart of it is meaningful and sustainable, because accessing the tools for extracting and considering not oil or timber, but information, strengthens a society and can make it more prone to long term development.\end{quote} \url{http://brainoff.com/weblog/2010/04/28/1556}
 
 The trip also afforded me an opportunity to push the techniques to their limits. With a small but dedicated team of mappers in Mestia, in the far northern region of Svaneti, we set out to create the largest and most complete map of an entire city to date. Our end result, captured over three days of kite and balloon flights, and reaching altitudes of over 1.4 kilometers, covered most of the city of Mestia, and spanned over 5.5 kilometers in length. Using the new \ac{TMS} export feature of the Cartagen Knitter, this dataset will allow \ac{OMC} mappers to trace buildings, pastures, roads, and other features in \ac{JOSM} faster and more efficiently than ever before. 
 
-(Mestia map and GPS flight image)
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/mestia-gps.png}
+		\caption{Flight paths of several balloon mapping flights in Mestia, Georgia, during a 3-day project to map the entire city. The pictured flights reached 1.4 kilometers above ground level.}
+	\end{flushright}
+\end{wrapfigure}
 
 Additional tests established the difficulty in high-altitude kite photography using almost a kilometer of tether --- several kites were lost --- but ... 
 
