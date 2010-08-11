@@ -1076,15 +1076,13 @@ Producing a combined map was a potentially controversial decision, as the two se
 \begin{tabularx}{\textwidth}{>{\bfseries}rlYYY}
 \toprule\hiderowcolors
 Site&Criteria&Grassroots Mapping&Google Maps&Percent change\\\otoprule\showrowcolors
-Juan Pablo II&Resolution&&&\\
-&Recency&&&\\
-&Roof count&107&66&+62\%\\\hline
-San Ignacio Loyola&Resolution&&&\\
-&Recency&&&\\
+Juan Pablo II&Resolution&29cm&4.4cm&+659\\
+&Recency&new&2-3 yrs old&\\\hline
+San Ignacio Loyola&Resolution&29cm&3.4cm&+853\\
+&Recency&new&2-3 yrs old&\\
 &Roof count&&&\\\hline
 Canta Gallo&Resolution&29cm&7cm&+411\%\\
-&Recency&&&\\
-&Roof count&&&\\
+&Recency&new&2-3 yrs old&\\\hline
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -1096,6 +1094,13 @@ Any comprehensive evaluation of the mapmaking work I and my local partners perfo
 (Cite Remote Sensing table)
 
 On a resolution basis, these maps are far superior to any which have been made before (see Figure \ref{fig:limaevaltable}). However their most important quantitative advantage is in their recency; in comparison, those available on Google Maps are hopelessly obsolete, sometimes showing only a small percentage of the buildings which exist today. Due to these impressive numbers, a variety of individuals and organizations have suggested uses for the data, ranging from tracing and import into OpenStreetMap to use in World Bank needs assessment or municipal datasets. While I think these are generally good ideas, I also believe that the decision to publish any map data is one which community leaders and those involved in the creation of the data should make. My own publication of these maps for educational and research use was only after explicit permission was granted by all involved parties. 
+
+\begin{figure}[h]
+  \begin{center}
+	\includegraphics[width=1\textwidth]{diagrams/san-ignacio-scale.jpg}
+	\caption{Comparison of scales and level of detail between Grassroots Mapping imagery and existing Google Maps/GeoEye imagery.}
+  \end{center}
+\end{figure}
 
 Finally, and far more importantly than the technical evaluation, I was careful to record the reception and discussion of this project amongst its participants, and especially amongst the residents of the areas we mapped.\footnote{For a more thorough discussion of my evaluation strategy, see Section \ref{sec:lather}.} This took the form of informal interviews with partner organizations and residents, as well as my notes and observations, but due to the extremely speculative nature of the project, it followed no specific plan. I want to be clear that this is by no means an attempt to develop a formal scientific or ethnographic study. Rather, it represents the information with which I developed a more comprehensive and measured approach in subsequent case studies.   
 
@@ -1160,21 +1165,31 @@ As the crisis progressed, it became clear that BP was attempting to restrict acc
 
 The most challenging aspect of organizing the oil mapping project was to train a group of inexperienced but committed volunteers to use Grassroots Mapping tools such as balloons and kites, in often adverse weather conditions up to 3 hours travel from New Orleans, our home base. That a number of volunteers have continued not only to make trips on their own, but to bring and train others to map, has been both exciting and impressive.
 
-Between May 7th and July 22nd, dozens of participants made 36 trips to gather mapping data, or almost one every other day. While only one trip has failed to return with imagery, 56\% of trips returned with `excellent' or `useable' data, indicating that some quality control mechanisms might result in a higher success rate. Still, over 11,000 images have been taken, with plans and funding in place to continue mapping through January 2011. 
+Between May 7th and July 22nd, over 47 participants made 36 trips to gather mapping data, or almost one every other day. While only one trip has failed to return with imagery, 56\% of trips returned with `excellent' or `useable' data, indicating that some quality control mechanisms might result in a higher success rate. Still, over 11,000 images have been taken, with plans and funding in place to continue mapping through January 2011. 
 
 (Get Adam Griffith's photo from the 2 days grand isle post)
 
-Pie chart: Map datasets: (Long/GonzoEarth)
-15 - excellent
-5 - usable
-8 - poor
-3 - unusable
-
-(timeline of ratings to show improvement over time - color code leaders)
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{diagrams/mapping-trips.pdf}
+		\caption{Number of mapping trips per week. Drop in trips starting in week 11 was due to high summer heat and the absence of several of the project's main trip leaders who were on vacation.}
+	\end{flushright}
+\end{wrapfigure}
 
 \subsection{Workshops and trainings}
 
-One factor that likely played a major role in the rapid adoption of Grassroots Mapping techniques was the early emphasis on training. With \ac{LABB}, we organized a workshop in the first week of mapping for potential volunteers, where we demonstrated the use of the tools in a hands-on manner, flying kites and capturing a sample data set. In addition, trips to mapping sites have continued to attract new volunteers, and the teaching of aerial mapping techniques to newcomers has been a priority throughout the project. We have been lucky that \ac{LABB} has combined their outreach programming with aerial mapping trips, resulting in a steady flow of new mappers. (Lauren Craig, but spec. source?) 
+One factor that likely played a major role in the rapid adoption of Grassroots Mapping techniques was the early emphasis on training. With \ac{LABB}, we organized a workshop in the first week of mapping for potential volunteers, where we demonstrated the use of the tools in a hands-on manner, flying kites and capturing a sample data set. In addition, trips to mapping sites have continued to attract new volunteers, and the teaching of aerial mapping techniques to newcomers has been a priority throughout the project. We have been lucky that \ac{LABB} has combined their outreach programming with aerial mapping trips, resulting in a steady flow of new mappers. 
+As shown in Figure \ref{fig:tripspermapper}, while a large body of participants  .
+
+...
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\label{fig:tripspermapper}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{diagrams/mappers-histogram.pdf}
+		\caption{Number of mapping trips per mapper}
+	\end{flushright}
+\end{wrapfigure}
 
 Particularly encouraging was the participation of two mappers who had seen just a single presentation about the project, and were inspired to begin balloon mapping on their own. Assembling their own kit based on information available on the Grassroots Mapping website, Don and Justin Blancher contacted us with hundreds of photos of Perdido Point, Alabama. Delighted, we arranged a transfer of files and Stewart Long created a map within a few days. The two continue to contribute new data.  
 
@@ -1244,6 +1259,21 @@ correlations between experience and success in trips
 (attempt to establish tree - who taught whom?)
 
 feedback loop - from knitters to mappers
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{diagrams/gulf-trip-success.pdf}
+		\caption{Success of mapping trips, based on number of images captured}
+	\end{flushright}
+\end{wrapfigure}
+
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{diagrams/trip-success-leaders.pdf}
+		\caption{Success of mapping trips, based on evaluation of resulting imagery by GonzoEarth}
+	\end{flushright}
+\end{wrapfigure}
 
 \begin{table}[tp] 
 \caption{Success of image capture in varying weather conditions during over 33 mapping trips led by \ac{LABB} and other Grassroots Mapping volunteers between May 7th and July 22nd, 2010.}
@@ -1466,7 +1496,12 @@ The capture resolution is, of course, a compromise between the desired surface a
 
 Human scale --- This considerably better resolution than is typically available makes it possible to produce maps that relate to the human scale; 
 
-Illustration of sunbathers on a beach in Mississippi
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.45\textwidth]{images/long-beach-sunbathers.png}
+		\caption{Mathew Lippincott tests plastic sheeting for porosity to helium after a discussion on the Grassroots Mapping mailing list. \cite{lippincott2010helium}}
+	\end{flushright}
+\end{wrapfigure}
 
 \subsection{Precision and accuracy in low-altitude aerial imaging}
 \label{subsec:precision}
