@@ -7,7 +7,7 @@
             pdfkeywords={Cartography},
             pdfproducer={Latex with hyperref},
             pdfcreator={pdflatex,colorlinks}]{hyperref}
-\usepackage{graphicx,wrapfig,color,pdfcomment,booktabs,ctable,textcomp,tabularx,array,acronym,threeparttable}
+\usepackage{graphicx,wrapfig,color,pdfcomment,booktabs,ctable,textcomp,tabularx,array,acronym,threeparttable,pdfpages}
 \usepackage[table]{xcolor}
 \usepackage[hang,small,bf,margin=0.5cm,tableposition=top]{caption}
 \usepackage[ragged]{footmisc}
@@ -134,6 +134,35 @@ Program in Media Arts and Sciences\\
 \normalsize{
 \section*{Acknowledgements}
 }
+
+(...)
+
+\label{sec:donors}
+
+The following organizations offered generous support of the citizen mapping effort in the Gulf of Mexico following the 2010 BP oil spill, in the form of time, money, transportation, and other means. My thanks go out to them on behalf of everyone involved in the oil spill mapping project. 
+
+\begin{itemize}
+\item{Louisiana Bucket Brigade}
+\item{GonzoEarth}
+\item{1337arts.com}
+\item{MIT's Center for Future Civic Media}
+\item{The Knight Foundation}
+\item{Kris Ansin}
+\item{John Norwood}
+\item{Adam Boult}
+\item{The Lafourche Parish Port Commission}
+\item{DevelopmentSeed}
+\item{The Washington Post}
+\item{TungstenMonkey Productions/Kristian Hansen}
+\item{WebMadeMovies/Brett Gaylor}
+\item{Jeff Johnson}
+\item{Liz Barry}
+\item{The Blue Seals}
+\item{Uptown Angler}
+
+
+\end{itemize}
+
 
 \tableofcontents
 
@@ -512,10 +541,6 @@ In the February 2010 earthquake in Chile, a similar plea for imagery was sent to
 
 Ultimately, citizen-led mapping efforts present an opportunity to bypass this bottleneck by providing high-resolution, timely aerial imagery at low cost. Such an effort occurred during and after the 2010 BP oil spill in the Gulf of Mexico and is discussed at length in Chapter \ref{chap:gulf} 
 
-(Cite Remote Sensing table)
-
-% who released data??? 
-
 \chapter{State of the Art}
 
 \subsection{Participatory GIS for Development}
@@ -601,13 +626,11 @@ Another interesting aspect of OpenStreetMap is that it represents a deployed and
 
 \subsection{Humanitarian OSM Team}
  
-An offshoot of the OpenStreetMap project known as the OpenStreetMap Humanitarian Team or HOT was started in late 2009 by Mikel Maron, a map programmer and co-founder of mapping firm Mapufacture. Positioned in direct response to the need for maps in areas of humanitarian crisis, Mikel has organized members from the technology community to visit crisis zones such as Port-au-Prince as well as a long-term presence in Kibera, a large slum in Nairobi, Kenya. HOT uses the same tools as the wider OpenStreetMap community, and either runs a separate instance of the OpenStreetMap server and database, or directly uploads the data to the main OpenStreetMap.org service. 
-
-\url{http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team}
+An offshoot of the OpenStreetMap project known as the OpenStreetMap Humanitarian Team or \ac{HOT} was started in late 2009 by Mikel Maron, a map programmer and co-founder of mapping firm Mapufacture. Positioned in direct response to the need for maps in areas of humanitarian crisis, Mikel has organized members from the technology community to visit crisis zones such as Port-au-Prince as well as a long-term presence in Kibera, a large slum in Nairobi, Kenya. \ac{HOT} uses the same tools as the wider OpenStreetMap community, and either runs a separate instance of the OpenStreetMap server and database, or directly uploads the data to the main OpenStreetMap.org service. \cite{osm2010hot} 
 
 \subsubsection{OSM Gaza}
 
-HOT's first project, a volunteer effort to map the Gaza Strip during the 2008-2009 war between Israel and Gaza, relied on Yahoo Maps and Digital Globe satellite imagery. Over seven days, OpenStreetMap volunteers traced the satellite imagery in order to produce a more accurate, more up-to-date map, and with assistance from JumpStart International, the map was available online and for download with no copyright restrictions. \cite{chilton-crowdsourcing} This emphasis on placing map data (not just rendered maps!) in the public domain was intended to provide for the widest possible uses of the information, on both a technical and legal basis. In order to preserve this legal status, the OSM Gaza dataset was published separately from the main OpenStreetMap database, though in accordance with its liberal licensing, a copy was uploaded to OSM as well. Building on the success of the OSM Gaza project, HOT went on to collaborate with a variety of organizations in countries like India, Kenya, and Georgia, all using the OpenStreetMap toolset. 
+\ac{HOT}'s first project, a volunteer effort to map the Gaza Strip during the 2008-2009 war between Israel and Gaza, relied on Yahoo Maps and Digital Globe satellite imagery. Over seven days, OpenStreetMap volunteers traced the satellite imagery in order to produce a more accurate, more up-to-date map, and with assistance from JumpStart International, the map was available online and for download with no copyright restrictions. \cite{chilton-crowdsourcing} This emphasis on placing map data (not just rendered maps!) in the public domain was intended to provide for the widest possible uses of the information, on both a technical and legal basis. In order to preserve this legal status, the OSM Gaza dataset was published separately from the main OpenStreetMap database, though in accordance with its liberal licensing, a copy was uploaded to OSM as well. Building on the success of the OSM Gaza project, \ac{HOT} went on to collaborate with a variety of organizations in countries like India, Kenya, and Georgia, all using the OpenStreetMap toolset. 
 
 \begin{figure}[h]
   \begin{center}
@@ -616,7 +639,7 @@ HOT's first project, a volunteer effort to map the Gaza Strip during the 2008-20
   \end{center}
 \end{figure}
 
-Two projects by HOT stand out as their most ambitious and influential. The first, called simply Map Kibera, produced a map of the famous Kibera slum in Nairobi, Kenya, in collaboration with several local organizations. This project differed from earlier HOT projects in that it relied primarily upon local participants using hand-held GPS units to produce the map, as well as with paper-based annotations using the Walking Papers system developed by Michal Migurski of Stamen Design. With a specific mission to engage with the sociopolitical aspects of cartography, Map Kibera is much more explicit than OSM Gaza in its agenda and the needs it addressed. It also represented a shift away from remote mapping by means of tracing, towards a model which relied more heavily on local expertise and familiarity with the site. In this sense it has much more in common with the Grassroots Mapping project; both attempt to empower local communities by buildling local capacity and ceding control over the mapping process to local individuals and organizations. 
+Two projects by \ac{HOT} stand out as their most ambitious and influential. The first, called simply Map Kibera, produced a map of the famous Kibera slum in Nairobi, Kenya, in collaboration with several local organizations. This project differed from earlier \ac{HOT} projects in that it relied primarily upon local participants using hand-held GPS units to produce the map, as well as with paper-based annotations using the Walking Papers system developed by Michal Migurski of Stamen Design. With a specific mission to engage with the sociopolitical aspects of cartography, Map Kibera is much more explicit than OSM Gaza in its agenda and the needs it addressed. It also represented a shift away from remote mapping by means of tracing, towards a model which relied more heavily on local expertise and familiarity with the site. In this sense it has much more in common with the Grassroots Mapping project; both attempt to empower local communities by buildling local capacity and ceding control over the mapping process to local individuals and organizations. 
 
 The second project of note is the map making work done in the aftermath of the January 2010 earthquake in Haiti.
 
@@ -706,7 +729,7 @@ Portability&foil kites pack down to 1 liter size&helium tank and fragility of ba
 Tether angle&poor, camera altitude as low as 1/5 of tether length&in windless conditions, flies vertically; very sensitive to wind\\
 Durability&excellent, no consumables&very poor; balloons pop regularly\\
 Cost per flight&none&\$15-35 per flight dependent on helium costs\\
-Initial total cost of kit&\$60-400 depending on kite and tether material&\$100-500 depending on choice of balloon and tether material\\\bottomrule
+Initial total cost of kit&\$100-400 depending on kite and tether material&\$150-500 depending on choice of balloon and tether material\\\bottomrule
 \end{tabularx}
 \end{table}
 
@@ -755,6 +778,46 @@ Trash bags&~\$US 2&2-3&1-2 days if thicker (3 mil) plastic is used\\\bottomrule
 
 Kites present an opportunity to loft cameras at near-zero cost --- materials for making kites can be found for less than a dollar, or recycled from waste. However kites can be particularly challenging to fly stably and difficult wind conditions often make for a frustrating and exhausting day of attempted mapmaking. With this in mind, I have looked to the experience of \ac{KAP} enthusiasts in choosing a respected standard in highly portable, reliable, and flexible flight: the Sutton Flowform. This `sled kite' has no rigid spars and even its 16 square foot model can be packed down to fit in a small sack. Flowforms can be flown at a wide range of wind speeds and the Flowform 16 can lift tens of kilograms in ideal conditions. However, its ~\$100 cost makes it somewhat beyond the means of many map makers. Therefore, whenever possible I have encouraged my collaborators to apply local traditional kite designs, often with great success. In Lima, Peru and Ramallah, Palestine, local designs were cheap and effective, the only issue being that they had to be scaled up to a size which could lift the approximately 300 gram payload. Kite building makes for an engaging and fun activity while reyling on local means of production for an aerial platform. 
 
+\begin{table}[tp] 
+\caption{Balloon mapping kit pricing}
+\centering %
+\rowcolors{1}{tableShade}{white}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{WYWY}
+\toprule\hiderowcolors
+\textbf{Midrange estimate}&&\textbf{Minimum estimate}&\\\otoprule\showrowcolors
+8 ft diameter weather balloon&\$30&2x100 gallon trash bags&\$3\\
+2000 ft. nylon string&\$50&2000 ft. nylon string&\$24\\
+cotton string, duct tape, packing tape, rubber bands&\$20&cotton string, duct tape, packing tape, rubber bands&\$10\\
+Soda bottle, cardboard&\$2&Soda bottle, cardboard&\$0\\
+Scissors&\$8&Scissors&\$2\\
+Camera&\$80&Camera&\$50\\
+Clips etc.&\$5&Helium&\$55\\
+Helium&\$55&&\\\hline\hiderowcolors
+Total&\$250&Total&\$144\\\bottomrule 
+\end{tabularx}
+\end{table}
+
+\begin{table}[tp] 
+\caption{Kite mapping kit pricing}
+\centering %
+\rowcolors{1}{tableShade}{white}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{WYWY}
+\toprule\hiderowcolors
+\textbf{Midrange estimate}&&\textbf{Minimum estimate}&\\\otoprule\showrowcolors
+Sutton Flowform 16&\$110&Trash bags \& sticks&\$3\\
+1000 ft 200 lb dacron or spectra string&\$50&1000 ft nylon string&\$20\\
+Kite reel&\$20&Soda bottle, cardboard&\$2\\
+Soda bottle, cardboard&\$2&Scissors&\$2\\
+Scissors&\$8&Camera&\$50\\
+Camera&\$80&Clips etc.&\$5\\
+Clips etc.&\$5&&\\\hline\hiderowcolors
+Total&\$275&Total&\$99\\\bottomrule 
+\end{tabularx}
+\end{table}
+
+
 \subsection{Camera and intervalometer}
 
 Throughout the design of the Grassroots Mapping Kit I have emphasized low cost, therefore, taking a note from the page of low-cost aerial photographers like Oliver Yeh of \href{http://1337arts.com}{1337arts.com}, I recommend an inexpensive `point and shoot' camera, ideally of Canon's A or SD lines (the SD series is sold under the brand IXUS in Europe). While these tend to be in the 7-12 megapixel range, they are typically only 200-300 grams and are durable and compact. Such cameras can be found second-hand on \href{http://ebay.com}{eBay.com} for as low as \$US 50. Despite resolution, lens choice and stabilization advantages of more expensive models, consumer-grade compact cameras of this sort are widely available, and their image quality is sufficiently high that they make a good balance of weight, image quality, and cost --- the latter being of especially high importance since we have occasionally lost entire kits due to accidents such as improperly tied knots or sudden immersion in water. 
@@ -780,6 +843,8 @@ The soda bottle rig is convenient to carry, and makes immediate visual sense to 
 
 Once aerial imagery is captured, software must be used to distort or 'warp' the photos and combine them to fit a projection. This essentially maps every pixel of the source imagery to a position on the earth's surface, allowing for correlation to other maps and geodata sources. As no existing tool met all of the design requirements, such as cost, ease of use, low barrier to entry, and performance (see Section \ref{sec:existingtechniques}), I developed a unique tool and associated mapping framework with the goal of making DIY cartography simpler, cheaper, and more inclusive.
 
+- DIYDrones thread: "3 days stitching and tweaking images" \url{http://diydrones.com/profiles/blog/show?id=705844:BlogPost:134855&page=1#comments}
+
 \subsection{Web-based orthorectification and warping}
 
 In response to the collaborative design process and interviews conducted in Lima, Peru (Chapter \ref{chap:peru}), it was determined that the primary barrier to producing map imagery was the orthorectification process. While in Lima, participants made use of Adobe Photoshop CS3 as well as the Map Warper software discussed in Subsection \ref{subsec:mapwarper}. Attempts were made to instruct residents of the subject areas in the use of these tools. These techniques met with limited success due to factors such as availability of computers powerful enough to run Photoshop, latency in internet access, and most of all, the obscure interfaces which users were required to learn (see discussion in 9.1.9).  
@@ -802,15 +867,13 @@ The second design decision which may seem curious is the emphasis on a completel
 
 Discussion of rubbersheeting. \cite{white1985piecewise}
 
+(concurrent client ability)
+
 \section{Cartagen: an alternative architecture for digital maps}
 
 Beyond the ability to orthorectify imagery, Cartagen is a fully-fledged cartographic scripting environment and renderer. It can draw vector data onto a pixel grid at over 10 frames per second on most computers, and follows the conventions of an animation framework rather than the more static assumptions of the typical mapping system. As the user interacts with a Cartagen map, features are drawn continuously. This negates the need to cache or otherwise store raster representations of map data, and sidesteps many of the assumptions and limitations of the modern mapping technology stack. This is also what makes possible the rapid feedback loop of the Cartagen Knitter, as there is no `render' or `warp' step --- the effect of the user's orthorectification is visible in real time. 
 
 This alternative `geostack' is one of the most unique aspects of the Grassroots Mapping tool chain. The abilities it affords make it suitable for deploying original data without placing a high demand on technical skills or resources. 
-
-(concurrent client ability)
-
-- DIYDrones thread: "3 days stitching and tweaking images" \url{http://diydrones.com/profiles/blog/show?id=705844:BlogPost:134855&page=1#comments}
 
 \subsection{Cartagen dynamic rendering}
 
@@ -1102,11 +1165,7 @@ On a resolution basis, these maps are far superior to any which have been made b
   \end{center}
 \end{figure}
 
-Finally, and far more importantly than the technical evaluation, I was careful to record the reception and discussion of this project amongst its participants, and especially amongst the residents of the areas we mapped.\footnote{For a more thorough discussion of my evaluation strategy, see Section \ref{sec:lather}.} This took the form of informal interviews with partner organizations and residents, as well as my notes and observations, but due to the extremely speculative nature of the project, it followed no specific plan. I want to be clear that this is by no means an attempt to develop a formal scientific or ethnographic study. Rather, it represents the information with which I developed a more comprehensive and measured approach in subsequent case studies.   
-
-- Interviews!!!!!!! transcribe them
-
-
+Finally, and far more importantly than the technical evaluation, I was careful to record the reception and discussion of this project amongst its participants, and especially amongst the residents of the areas we mapped.\footnote{For a more thorough discussion of my evaluation strategy, see Section \ref{sec:lather}.} This took the form of informal interviews with partner organizations and residents, as well as my notes and observations, but due to the extremely speculative nature of the project, it followed no specific plan. I want to be clear that this is by no means an attempt to develop a formal scientific or ethnographic study. Rather, it represents the information with which I developed a more comprehensive and measured approach in subsequent case studies. However, what feedback I did gather was essential in identifying shortcomings in the mapping process, and in desigining interfaces and tools to meet those challenges. 
 
 \subsection{Needs (Re)assessment}
 
@@ -1121,22 +1180,18 @@ Above all, I learned the importance of building capacity amongst local partners,
 
 \section{Grassroots mapping in crisis response}
 
-In late April 2010, the Deepwater Horizon oil rig exploded and sank, initiating what may be one of the worst environmental disasters in US history. As the spill grew in size, I contacted Stewart Long of GonzoEarth.org and Oliver Yeh of 1337arts.com. \begin{wrapfigure}{r}{0.5\textwidth}
+In late April 2010, the Deepwater Horizon oil rig exploded and sank, initiating what may be one of the worst environmental disasters in US history. \cite{campbell2010oil} As the spill grew in size, I contacted Stewart Long of GonzoEarth.org and Oliver Yeh of 1337arts.com, both of whom I had collaborated with in recent aerial mapping projects. \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{images/labb-planning.jpg}
 		\caption{Volunteers at the Louisiana Bucket Brigade in New Orleans plan a mapping trip on May 7, 2010.}
 	\end{flushright}
-\end{wrapfigure}Long has used remote control aircraft to produce maps, and Yeh specializes in high-altitude photography using weather balloons, having captured imagery from a balloon at altitudes of over 90,000 feet. The three decided to travel to the Gulf Coast area to spearhead a citizen effort to map the oil spill's effects. After making phone contact with Anne Rolfes of the Louisiana Bucket Brigade (LABB), a New Orleans-based environmental activist group, Yeh and I flew to New Orleans on May 5th 2010, followed by Long on May 6th. 
-% env. crisis in US history: http://www.npr.org/templates/story/story.php?storyId=126410895
-% http://www.nytimes.com/2010/04/25/us/25rig.html - Oil Leaking Underwater From Well in Rig Blast, By CAMPBELL ROBERTSON, April 24, 2010
+\end{wrapfigure}Long has made use of remote control aircraft to capture map imagery, and Yeh specializes in high-altitude photography using weather balloons, having captured imagery from a balloon at altitudes of over 90,000 feet. We decided to travel to the Gulf Coast area to spearhead a citizen effort to map the oil spill's effects. After making phone contact with Anne Rolfes of \ac{LABB}, a New Orleans-based environmental activist group, Yeh and I flew to New Orleans on May 5th 2010, followed by Long on May 6th. 
 
-With the cooperation and extensive support of the LABB and other interested New Orleans residents, the team began leading almost daily trips to use balloons and kites to map coastal areas. While not attempting to produce imagery of the entire at-risk coastline, which stretches several thousand miles from Louisiana to Florida, the mappers focused on acquiring high resolution imagery of specific sites, with the goal of producing 'before and after' maps. The trips relied on the availability of free transport to affected areas, but in the initial days of the project this was not a problem, as fishermen and charter companies began calling in to offer their services for free. Increasingly large areas of the Gulf of Mexico were being closed to fishing, and with their livelihoods at risk, many in the fishing industry were eager to participate in the documentation of the spill. 
-
-% fishery closings: http://sero.nmfs.noaa.gov/deepwater_horizon_oil_spill.htm 
+With the cooperation and extensive support of \ac{LABB} and other interested New Orleans residents, the team began leading almost daily trips to use balloons and kites to map coastal areas. While not attempting to produce imagery of the entire at-risk coastline, which stretches several thousand miles from Louisiana to Florida, the mappers focused on acquiring high resolution imagery of specific sites, with the goal of producing `before and after' maps. The trips relied on the availability of free transport to affected areas, but in the initial days of the project this was not a problem, as fishermen and charter companies began calling in to offer rides at no charge. Increasingly large areas of the Gulf of Mexico were being closed to fishing, and with their livelihoods at risk, many in the fishing industry were eager to participate in the documentation of the spill. \cite{noaa2010oil}
 
 \section{Comparing Grassroots Maps of the spill to other sources}
 
-The 2010 Gulf oil spill was seen as an opportunity to apply the low-cost mapping techniques refined and documented on GrassrootsMapping.org to a problem of immediate import. While many overflights were occurring, there was no publicly available, orthorectified imagery available in the initial weeks of the spill; up-to-date imagery was supplied mainly by the MODIS (Moderate Resolution Imaging Spectroradiometer) sensors aboard NASA's Terra and Aqua satellites.\footnote{Since then, overflights by \ac{NOAA} have appeared in the `historical imagery' section of Google Earth. These cover a great deal of affected coastline but are of relatively poor resolution compared to \ac{LABB}/Grassroots Mapping imagery.} MODIS is limited to 250 meter resolution for those bands which are appropriate for imaging oil sheen and slick, and while the daily images available were very useful in determining where along the coast was being hit by slicks and sheens, it was not of high enough detail to show any specific damage. \cite{lotliker2009modis}\footnote{For more information on the \ac{MODIS} sensor and its abilities, see \url{http://modis.gsfc.nasa.gov/about/specifications.php}}
+Beyond the importance of establishing an independent monitoring effort of the oil spill's effects, the disaster was an opportunity to apply the low-cost mapping techniques refined and documented on GrassrootsMapping.org to a problem of immediate import, and on a large scale. While many overflights were occurring, there was no publicly available, orthorectified imagery available in the initial weeks of the spill; up-to-date imagery was supplied mainly by the \ac{MODIS} sensors aboard NASA's Terra and Aqua satellites.\footnote{Since then, overflights by \ac{NOAA} have appeared in the `historical imagery' section of Google Earth. These cover a great deal of affected coastline but are of relatively poor resolution compared to \ac{LABB}/Grassroots Mapping imagery.} MODIS is limited to 250 meter resolution for those bands which are appropriate for imaging oil sheen and slick, and while the daily images available were very useful in determining where along the coast was being hit by slicks and sheens, it was not of high enough detail to show any specific damage. \cite{lotliker2009modis}\footnote{For more information on the \ac{MODIS} sensor and its abilities, see \url{http://modis.gsfc.nasa.gov/about/specifications.php}}
 
 \begin{figure}[h]
   \begin{center}
@@ -1156,7 +1211,9 @@ By contrast, the imagery collected by the LABB/Grassroots Mapping teams was up t
 
 \section{Independent monitoring and media blackout}
 
-As the crisis progressed, it became clear that BP was attempting to restrict access to affected areas by means of airspace restrictions, closing public beaches, and preventing boats from entering some areas. The Breton Sound was closed to the public in mid May, and flyovers were restricted to a minimum of 4,000 feet, making it difficult to photograph or identify features on the ground. \cite{peters2010efforts} With reduced public and media access, many became concerned that because of the close collaboration between BP, the Coast Guard, and NOAA, the government was becoming complicit in the media blackout. Even on the ground \ac{LABB} mappers found that many cleanup workers were prohibited from talking about what they were doing. \cite{dosemagen2010heywhat} This gave our mapping effort new meaning, as our imagery was among the best available for many areas, and the support we received from local fishermen in getting to sites helped us to sidestep issues of access which limited many in the mainstream press.
+As the crisis progressed, it became clear that BP was attempting to restrict access to affected areas by means of airspace restrictions, closing public beaches, and preventing boats from entering some areas. The Breton Sound was closed to the public in mid May, and flyovers were restricted to a minimum of 4,000 feet, making it difficult to photograph or identify features on the ground. \cite{peters2010efforts} With reduced public and media access, many became concerned that because of the close collaboration between BP, the Coast Guard, and NOAA, the government was becoming complicit in the media blackout. Even on the ground \ac{LABB} mappers found that many cleanup workers were prohibited from talking about what they were doing. \cite{dosemagen2010heywhat} This gave our mapping effort even greater importance, as our imagery was among the best available for many areas, and the support we received from local fishermen in getting to sites helped us to sidestep issues of access which limited many in the mainstream press.
+
+\pagebreak
 
 \begin{figure}[h]
   \begin{center}
@@ -1165,12 +1222,16 @@ As the crisis progressed, it became clear that BP was attempting to restrict acc
   \end{center}
 \end{figure}
 
+\pagebreak
+
 \begin{figure}[h]
   \begin{center}
 	\includegraphics[width=1\textwidth]{images/chandeleur-island.jpg}
 	\caption{}
   \end{center}
 \end{figure}
+
+\pagebreak
 
 \section{Sustainability}
 
@@ -1203,7 +1264,7 @@ Between May 7th and July 22nd, over 47 participants made 36 trips to gather mapp
 
 One factor that likely played a major role in the rapid adoption of Grassroots Mapping techniques was the early emphasis on training. With \ac{LABB}, we organized a workshop in the first week of mapping for potential volunteers, where we demonstrated the use of the tools in a hands-on manner, flying kites and capturing a sample data set. In addition, trips to mapping sites have continued to attract new volunteers, and the teaching of aerial mapping techniques to newcomers has been a priority throughout the project. We have been lucky that \ac{LABB} has combined their outreach programming with aerial mapping trips, resulting in a steady flow of new mappers. 
 
-Participation has followed several interesting trends. As shown in Figure \ref{fig:tripspermapper}, while over 30 people participated in a single mapping trip, far fewer were part of a second or third trip. However, a committed group of leaders have been participants in six or seven trips; these have ensured a continuous and regular mapping effort across the initial fifteen weeks of the project..
+Participation has followed several interesting trends. As shown in Figure \ref{fig:tripspermapper}, while over 30 people participated in a single mapping trip, far fewer were part of a second or third trip. However, a committed group of leaders have been participants in six or seven trips; these have ensured a continuous and regular mapping effort across the initial fifteen weeks of the project. 
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\label{fig:tripspermapper}
@@ -1217,16 +1278,16 @@ Particularly encouraging was the participation of two mappers who had seen just 
  
 \subsection{Collaborations}
 
-From the start of the project, the Grassroots Mapping mailing list and wiki were a focal point for collaboration, and members of the wider Grassroots Mapping community helped identify local helium sources, coordinate volunteers, and even paid for plane tickets. On the ground, there was also considerable ad-hoc collaboration, with Oliver Yeh of 1337arts and Stewart Long of GonzoEarth leading trips and trainings on multiple occasions. However, over the first several weeks, Shannon Dosemagen of the Louisiana Bucket Brigade, and Kris Ansin of the University of Tulane's School of Public Health and Tropical Medicine emerged as leaders of local mapping trips, and their efforts have ensured that mapmaking has continued for close to three months since our initial efforts. Long and myself played a supporting technical role in managing, processing, and publishing stitched maps of the data, and advising the LABB team on equipment setup and maintenance. 
+From the start of the project, the Grassroots Mapping mailing list and wiki were a focal point for collaboration, and members of the wider Grassroots Mapping community helped identify local helium sources, coordinate volunteers, and even paid for plane tickets. On the ground, there was also considerable ad-hoc collaboration, with Oliver Yeh of 1337arts and Stewart Long of GonzoEarth leading trips and trainings on multiple occasions. However, over the first several weeks, Shannon Dosemagen of \ac{LABB}, and Kris Ansin of the University of Tulane's School of Public Health and Tropical Medicine emerged as leaders of local mapping trips, and their efforts have ensured that mapmaking has continued for close to three months since our initial efforts. Long and myself played a supporting technical role in managing, processing, and publishing stitched maps of the data, and advising the \ac{LABB} team on equipment setup and maintenance. 
 
 Throughout the project, we made parterships with a variety of other organizastions to share boat trips, imagery, and to collaborate directly on capturing imagery --- among these were the Blue Seals, Greenpeace, Americorps, and many individuals who volunteered their time, money and abilities. This dense web of collaborations has formed a backbone of support for the effort, and ensured its regularity and sustainability. While the urgency of the disaster itself surely played a role in forging such a network of mutual support, such strong local participation must be an integral part of \textbf{any} participatory mapping effort which expects to be sustained beyond an initial burst of enthusiasm.
 
-\subsection{Funding model}
+\subsection{Costs and funding model}
 \label{subsec:kickstarter}
 
 Mapping the spill incurred a range of new costs; not only is there a virtually unlimited potential area to map, but the intention to repeatedly map each site meant that there is no completion criterion for the effort --- trips are led and imagery is captured as often as possible given the constraints of time and money. While the costs of equipment were still in the range of \$150-200 per kit, travel turned out to be the most expensive part of the project. Not counting the hours of donated time and associated fuel costs on boats, planes, and in cars, a typical day in a chartered boat cost approximately \$US 400, and even teams visiting only the shoreline had to travel for upwards of 3 hours each way from \ac{LABB} headquarters in New Orleans. 
 
-Various donors and institutions were generous in their support of the project, including the Center for Future Civic Media, the Lafourche Port Commission, the Washington Post, Development Seed, and many more.\footnote{For a full list of donors please see Appendix \ref{app:donors}} In order to meet these expenses, on May 29th I created a proposal at \href{http://kickstarter.com}{Kickstarter.com} with help from filmmaker Kristian Hansen. Kickstarter is a site where individuals can elect to `back' a project financially, receiving rewards for different levels of support. For \$50, we offered to put backers' names on a balloon, for \$1000, we promised to send backers a complete Grassroots Mapping Kit. However, the vast majority of donations were at the \$25 level, and a total of 145 contributors backed the project with \$8,285 by June 21, 2010.
+Various donors and institutions were generous in their support of the project, including the Center for Future Civic Media, the Lafourche Port Commission, the Washington Post, Development Seed, and many more.\footnote{For a full list of contributors please see the Acknowledgements \ref{sec:donors}} In order to meet these expenses, on May 29th I created a proposal at \href{http://kickstarter.com}{Kickstarter.com} with help from filmmaker Kristian Hansen. Kickstarter is a site where individuals can elect to `back' a project financially, receiving rewards for different levels of support. For \$50, we offered to put backers' names on a balloon, for \$1000, we promised to send backers a complete Grassroots Mapping Kit. However, the vast majority of donations were at the \$25 level, and a total of 145 contributors backed the project with \$8,285 by June 21, 2010.
 
 Funding the project in this manner rather than via larger institutional grants seemed appropriate for an already citizen-led, independent effort to document the oil spill's effects. For many, contributing a small amount or even simply spreading the word was the only means of participating. For these reasons the choice of Kickstarter as a means to financial sustainability is especially relevant to the project's mission. 
 
@@ -1473,8 +1534,6 @@ Press using our images/maps
 
 \section{Comparison with existing techniques}
 
-% possible table of comparison... based on Stewarts?
-
 One of the most compelling aspects of the balloon and kite mapping techniques was its low cost; many of the communities I worked with, including those in Canta Gallo, Lima, and Rock Creek, West Virginia, mentioned cost in particular as a motivation to try these tools. For volunteers at the Louisiana Bucket Brigade in New Orleans, it was the low cost of a mapping kit which made it possible to scale up mapping efforts to several teams, with new maps made every few days, all within a budget of only a few thousand dollars. This made kite and balloon imaging techniques feasible at low cost even before the availability of digital cameras and image manipulation tools; today the development of higher-performance kites, lighter cameras, and open source mapping software has made it even more practical. In particular, the absence of engine noise makes both kite and balloon photography more appropriate than imaging from aircraft for sensitive environmental applications such as observing wildlife without disturbing it. \cite{aber1999kite} In my own work, this was useful while mapping the BP oil spill's affects on birds and other wildlife in the Gulf of Mexico. It has also proven relevant for politically and militarily sensitive areas such as coal mining sites in Appalachia, refugee camps in Palestine.
 
 Image of birds on Chandeleur islands, and helicopter scaring them away.  
@@ -1659,49 +1718,13 @@ It is my hope that such new directions, along with the continued publication of 
 \section{Maps from Georgia}
 
 
-\chapter{Guides and curricular materials}
+\chapter{Illustrated Guide to Grassroots Mapping}
 
+\includepdf[pages={1-5},scale=0.8]{appendix/grassroots-mapping-guide.pdf}
 
-\chapter{Materials checklists and prices}
+\chapter{Guides and checklists to Grassroots Mapping for the BP Oil Spill}
 
-\section{Price lists for balloon, kite, and RC plane mapping kits}
-
-\begin{table}[tp] 
-\caption{Grassroots Mapping workflow}
-\centering %
-\renewcommand{\arraystretch}{1.4}
-\begin{tabularx}{\textwidth}{YYY}
-\toprule
-Capture&Orthorectification&Publication\\\otoprule
-2-3 people can map several square km in 1 day&Sorting photos can take \textgreater1 hour, stitching up to 1 day&Export from Cartagen Knitter generates a TMS or printable GeoTiff; only web access is needed.\\\bottomrule 
-\end{tabularx}
-\end{table}
-
-\chapter{Donors and supporters of the Citizen Mapping of the Oil Spill effort}
-
-The following organizations offered generous support in the form of time, money, transportation, and other means. My thanks go out to them on behalf of everyone involved in the oil spill mapping project. 
-
-\begin{itemize}
-\item{Louisiana Bucket Brigade}
-\item{GonzoEarth}
-\item{1337arts.com}
-\item{MIT's Center for Future Civic Media}
-\item{The Knight Foundation}
-\item{Kris Ansin}
-\item{John Norwood}
-\item{Adam Boult}
-\item{The Lafourche Parish Port Commission}
-\item{DevelopmentSeed}
-\item{The Washington Post}
-\item{TungstenMonkey Productions/Kristian Hansen}
-\item{WebMadeMovies/Brett Gaylor}
-\item{Jeff Johnson}
-\item{Liz Barry}
-\item{The Blue Seals}
-\item{Uptown Angler}
-
-
-\end{itemize}
+\includepdf[pages={1-4},scale=0.8]{appendix/oil-mapping-guide.pdf}
 
 \nocite{*}
 {\small
@@ -1714,11 +1737,12 @@ The following organizations offered generous support in the form of time, money,
 \begin{acronym}
 \acro{API}{Application Programmer's Interface}
 \acro{BAP}{Balloon Aerial Photography}
-\acro{COFOPRI}{Organization for the Formalization of Informal Property}
 \acro{CEDRO}{Centro de Información y Educación para la Prevención del Abuso de Drogas}
+\acro{CHDK}{Canon Hacker Development Kit}
+\acro{COFOPRI}{Organization for the Formalization of Informal Property}
 \acro{GeoTIFF}{Geographic TIFF, or Geographic Tiled Image File Format}
 \acro{GSS}{Geographic Stylesheets}
-\acro{CHDK}{Canon Hacker Development Kit}
+\acro{HOT}{Humanitarian OpenStreetMap Team}
 \acro{JOSM}{Java OpenStreetMap Editor}
 \acro{KAP}{Kite Aerial Photography}
 \acro{KML}{Keyhole Markup Language}
@@ -1728,6 +1752,7 @@ The following organizations offered generous support in the form of time, money,
 \acro{OMC}{OpenMapsCaucasus}
 \acro{PGIS}{Participatory GIS, sometimes known as PPGIS or Public Participation GIS}
 \acro{SVG}{Scalable Vector Graphics}
+\acro{TIFF}{Tiled Image File Format}
 \acro{TMS}{Tiled Map Service}
 \end{acronym}
 
