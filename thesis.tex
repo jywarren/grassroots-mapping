@@ -1,5 +1,6 @@
 \documentclass[11pt,oneside,notitlepage]{report}
-\usepackage{fullpage}
+%\usepackage{fullpage}
+\usepackage[margin=1in]{geometry}
 \usepackage[pdftex,
             pdfauthor={Jeffrey Yoo Warren},
             pdftitle={Grassroots Mapping: a toolkit for participatory and activist cartography},
@@ -1235,16 +1236,12 @@ As the crisis progressed, it became clear that BP was attempting to restrict acc
 
 \section{Sustainability}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{images/labb-bay-babtiste-trip.jpg}
-		\caption{A volunteer prepares a balloon for launch in Bay Babtiste, Louisiana, July 11, 2010. Photo courtesy Flickr user \textbf{guiltyplanet}, at \url{http://www.flickr.com/photos/guiltyplanet/4784059359/}}
-	\end{flushright}
-\end{wrapfigure}
-
-The most challenging aspect of organizing the oil mapping project was to train a group of inexperienced but committed volunteers to use Grassroots Mapping tools such as balloons and kites, in often adverse weather conditions up to 3 hours travel from New Orleans, our home base. That a number of volunteers have continued not only to make trips on their own, but to bring and train others to map, has been both exciting and impressive.
-
-Between May 7th and July 22nd, over 47 participants made 36 trips to gather mapping data, or almost one every other day. While only one trip has failed to return with imagery, 56\% of trips returned with `excellent' or `useable' data, indicating that some quality control mechanisms might result in a higher success rate. Still, over 11,000 images have been taken, with plans and funding in place to continue mapping through January 2011. 
+%\begin{wrapfigure}{r}{0.5\textwidth}
+%	\begin{flushright}
+%		\includegraphics[width=0.45\textwidth]{images/labb-bay-babtiste-trip.jpg}
+%		\caption{A volunteer prepares a balloon for launch in Bay Babtiste, Louisiana, July 11, 2010. Photo courtesy Flickr user \textbf{guiltyplanet}, at \url{http://www.flickr.com/photos/guiltyplanet/4784059359/}}
+%	\end{flushright}
+%\end{wrapfigure}
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
@@ -1252,6 +1249,10 @@ Between May 7th and July 22nd, over 47 participants made 36 trips to gather mapp
 		\caption{Volunteers launch a balloon at Grand Isle, Louisiana. Photo courtesy Adam Griffith}
 	\end{flushright}
 \end{wrapfigure}
+
+The most challenging aspect of organizing the oil mapping project was to train a group of inexperienced but committed volunteers to use Grassroots Mapping tools such as balloons and kites, in often adverse weather conditions up to 3 hours travel from New Orleans, our home base. That a number of volunteers have continued not only to make trips on their own, but to bring and train others to map, has been both exciting and impressive.
+
+Between May 7th and July 22nd, over 47 participants made 36 trips to gather mapping data, or almost one every other day. While only one trip has failed to return with imagery, 56\% of trips returned with `excellent' or `useable' data, indicating that some quality control mechanisms might result in a higher success rate. Still, over 11,000 images have been taken, with plans and funding in place to continue mapping through January 2011. 
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
@@ -1291,7 +1292,7 @@ Various donors and institutions were generous in their support of the project, i
 
 Funding the project in this manner rather than via larger institutional grants seemed appropriate for an already citizen-led, independent effort to document the oil spill's effects. For many, contributing a small amount or even simply spreading the word was the only means of participating. For these reasons the choice of Kickstarter as a means to financial sustainability is especially relevant to the project's mission. 
 
-\section{Image processing and map stitching}
+\pagebreak
 
 \begin{figure}[h]
   \begin{center}
@@ -1300,9 +1301,9 @@ Funding the project in this manner rather than via larger institutional grants s
   \end{center}
 \end{figure}
 
-Throughout the project in the Gulf of Mexico we have relied heavily on Adobe Photoshop for manual orthorectification of maps, due to its proven track record and known limitations. Other tools such as Map Warper and Cartagen Knitter were limited by their dependence on OpenStreetMap base data, though Cartagen Knitter has since gained the ability to display a base layer of tiled satellite imagery, and may see increased usage for future map data sets. Photoshop produced \ac{TIFF} images which were processed into \ac{GeoTIFF} and cut into tiles using the \textbf{gdal2tiles.py} script. This generated both a \ac{TMS} and a \ac{KML} for viewing online. Maps were also uploaded to Flickr for public viewing, though at a lower resolution, since Flickr limits uploaded files to 10 megabytes in size. In addition, the most permissive license provided by Flickr was Creative Commons Attribution, so maps were annotated as Public Domain data in each image's description field. 
+\pagebreak
 
-Those in the project who were able to produce stitched maps, including myself and Stewart Long with some help from David Riallant and Cesar Harada, were challenged to keep up with the fast pace of map data submission. New data sets arrived as often as every other day, and a single set typically included hundreds of images to be sorted, processed for brightness and contrast, and stitched. A large monitor and a powerful computer were required, and even my own 8-core 3 GHz workstation took up to 10 minutes for each transform on larger maps. These issues, as well as the difficulty in including a broader group in the stitching effort, highlighted the need for a completed Cartagen Knitter tool, even as it took time away from its development. 
+\section{Image processing and map stitching}
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
@@ -1313,9 +1314,9 @@ Those in the project who were able to produce stitched maps, including myself an
 
 One tool I developed in response to this overwhelming amount of data was called MapMill, available at \href{http://mapmill.org}{mapmill.org}. As sorting through images often took a substantial amount of time before orthorectification or stitching could begin, visitors of MapMill were presented with an aerial image, and asked to rank it as `really good', `just ok' or `not useful' in an adaptation of the interface to the well-known `HotOrNot' website. A one-page visual guide was offered to demonstrate what constitutes a `good' image, highlighting crispness, good exposure and downward-facing camera angle. In the 50 days following its launch on June 16th, 2010, images have been ranked more than 23,000 times, demonstrating that a voluntarily crowdsourced means of image processing may be feasible. 
 
-\section{Integration with Ushahidi}
+Throughout the project in the Gulf of Mexico we have relied heavily on Adobe Photoshop for manual orthorectification of maps, due to its proven track record and known limitations. Other tools such as Map Warper and Cartagen Knitter were limited by their dependence on OpenStreetMap base data, though Cartagen Knitter has since gained the ability to display a base layer of tiled satellite imagery, and may see increased usage for future map data sets. Photoshop produced \ac{TIFF} images which were processed into \ac{GeoTIFF} and cut into tiles using the \textbf{gdal2tiles.py} script. This generated both a \ac{TMS} and a \ac{KML} for viewing online. Maps were also uploaded to Flickr for public viewing, though at a lower resolution, since Flickr limits uploaded files to 10 megabytes in size. In addition, the most permissive license provided by Flickr was Creative Commons Attribution, so maps were annotated as Public Domain data in each image's description field. 
 
-The \ac{LABB} team had already set up an instance of the Ushahidi mobile-phone based crisis reporting tool for crowdsourced information gathering, and this continues to be one of their main priorities and most publicly visible responses to the spill. To better integrate our aerial mapping data with the Ushahidi platform, I inserted \ac{TMS} layers of our data into the OpenLayers-based Ushahidi map display, so that report locations would appear overlaid on aerial imagery where available. This generated a feedback loop for mappers, who would often look to Ushahidi to identify clusters of oil sightings which made good candidate sites for aerial mapping.
+Those in the project who were able to produce stitched maps, including myself and Stewart Long with some help from David Riallant and Cesar Harada, were challenged to keep up with the fast pace of map data submission. New data sets arrived as often as every other day, and a single set typically included hundreds of images to be sorted, processed for brightness and contrast, and stitched. A large monitor and a powerful computer were required, and even my own 8-core 3 GHz workstation took up to 10 minutes for each transform on larger maps. These issues, as well as the difficulty in including a broader group in the stitching effort, highlighted the need for a completed Cartagen Knitter tool, even as it took time away from its development. 
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\begin{flushright}
@@ -1324,6 +1325,10 @@ The \ac{LABB} team had already set up an instance of the Ushahidi mobile-phone b
 	\end{flushright}
 \end{wrapfigure}
 
+\section{Integration with Ushahidi}
+
+The \ac{LABB} team had already set up an instance of the Ushahidi mobile-phone based crisis reporting tool for crowdsourced information gathering, and this continues to be one of their main priorities and most publicly visible responses to the spill. To better integrate our aerial mapping data with the Ushahidi platform, I inserted \ac{TMS} layers of our data into the OpenLayers-based Ushahidi map display, so that report locations would appear overlaid on aerial imagery where available. This generated a feedback loop for mappers, who would often look to Ushahidi to identify clusters of oil sightings which made good candidate sites for aerial mapping.
+
 \section{Overflights and a broader data strategy}
 
 As more organizations such as the Blue Seals and the Louisiana Environmental Action Network became involved, opportunities arose for the capture of data from donated airplane flights. While this was outside the scope of the Grassroos Mapping Kit, we took every opportunity to gather such data, and several of the datasets we have published were captured by volunteers on such flights, or were donated and released into the public domain. This has helped make a connection in scale, methodology, and image quality between our balloon and kite derived imagery and more conventional techniques, and in retrospect may help those in crisis management situate our work in a larger data gathering strategy. 
@@ -1331,6 +1336,13 @@ As more organizations such as the Blue Seals and the Louisiana Environmental Act
 \section{Documentation}
 
 The disaster and the incredible support and diligence of the LABB mapping team also generated a wealth of both qualitative and quantitative information on the volunteer-led effort to apply Grassroots Mapping tools toward the collection of crisis information. Mapping team leaders filled out a form describing a variety of information from weather conditions at the site to the condition and performance of the gear. Leaders built deep experience in gathering data and teaching others, and many wrote blog entries or spoke to the press about their experiences. Beyond serving as a valuable independent record of the spill, this case study lays solid groundwork for the application of these tools to other environmental, social, and political crises.
+
+\begin{figure}[h]
+  \begin{center}
+	\includegraphics[width=1\textwidth]{diagrams/trip-success-leaders.pdf}
+	\caption{Success of mapping trips over first 100 days, based on evaluation of resulting imagery by GonzoEarth}
+  \end{center}
+\end{figure}
 
 \section{Analysis of data collected}
 
@@ -1354,14 +1366,6 @@ feedback loop - from knitters to mappers
 	\begin{flushright}
 		\includegraphics[width=0.45\textwidth]{diagrams/gulf-trip-success.pdf}
 		\caption{Success of mapping trips, based on number of images captured}
-	\end{flushright}
-\end{wrapfigure}
-
-
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\begin{flushright}
-		\includegraphics[width=0.45\textwidth]{diagrams/trip-success-leaders.pdf}
-		\caption{Success of mapping trips, based on evaluation of resulting imagery by GonzoEarth}
 	\end{flushright}
 \end{wrapfigure}
 
