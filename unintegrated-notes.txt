@@ -2,20 +2,18 @@ Chapters:
 
 - abstract
 
-X intro
-X history
-X subjectivity
+x intro
+x history
+x subjectivity
 x need - restructure - too piecemeal & confusing. 
 	Asset vs. enviro? 
 	redo section headings 
 	intro that these are suggestions of need from diverse traditions/disciplines
-- state of the art
-- toolkit - thorough readthrough of Cartagen presentation, 
-	rubbersheeting discussion, 
-	redo section names, 
+x state of the art
+x toolkit 
 	more diagrams, 
 	add wings to the soda bottle diagram
-x peru - interviews?
+x peru
 x gulf - 
 - evaluation - Triangulation (ask for help!)
 - future work & conclusion - conclusion, `pushing envelope' in additional projs. and illustrated guide (another product of ...)

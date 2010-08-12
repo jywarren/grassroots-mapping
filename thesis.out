@@ -42,11 +42,11 @@
 \BOOKMARK [2][-]{subsection.6.1.4}{Enclosures and suspensions}{section.6.1}
 \BOOKMARK [1][-]{section.6.2}{Map processing and publication}{chapter.6}
 \BOOKMARK [2][-]{subsection.6.2.1}{Web-based orthorectification and warping}{section.6.2}
-\BOOKMARK [1][-]{section.6.3}{Cartagen: an alternative architecture for digital maps}{chapter.6}
-\BOOKMARK [2][-]{subsection.6.3.1}{Cartagen dynamic rendering}{section.6.3}
-\BOOKMARK [1][-]{section.6.4}{Unique abilities}{chapter.6}
-\BOOKMARK [2][-]{subsection.6.4.1}{Why an entirely new mapping system?}{section.6.4}
-\BOOKMARK [1][-]{section.6.5}{An iterative toolchain development process}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.2.2}{Cartagen Knitter}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.3}{Rubbersheeting}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.4}{Cartagen: an alternative architecture for digital maps}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.5}{Architectural advantages of the Cartagen framework}{section.6.2}
+\BOOKMARK [1][-]{section.6.3}{An iterative and collaborative approach to design}{chapter.6}
 \BOOKMARK [0][-]{chapter.7}{Case Study: Grassroots Mapping in Lima, Peru}{}
 \BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}
 \BOOKMARK [2][-]{subsection.7.1.1}{The Other Path: Lima's history of informal settlement}{section.7.1}
