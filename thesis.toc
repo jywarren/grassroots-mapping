@@ -1,106 +1,106 @@
-\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}
-\contentsline {section}{\numberline {1.1}Defining Grassroots Mapping: tools, practices, or community?}{9}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Uses of aerial imagery}{10}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Grassroots Mapping as pedagogy}{10}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Grassroots Mapping as a community}{10}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Tools, technologies, and audience}{11}{section.1.2}
-\contentsline {chapter}{\numberline {2}Movements towards a participatory and activist cartography}{12}{chapter.2}
-\contentsline {section}{\numberline {2.1}Experimental geography, radical cartography}{12}{section.2.1}
-\contentsline {section}{\numberline {2.2}GIS practitioners}{14}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Cartographic ethics}{15}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Neogeography}{16}{section.2.3}
-\contentsline {chapter}{\numberline {3}Subjectivity in Mapping}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}The mythical `complete map'}{18}{section.3.1}
-\contentsline {section}{\numberline {3.2}A `ground truth' policy for collaborative mapmaking}{20}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Privacy and mapping, privacy and open geodata}{20}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Mapping: a tool of empowerment or control?}{20}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Maps as truth}{23}{section.3.3}
-\contentsline {section}{\numberline {3.4}Maps: rhetorical, even tactical}{24}{section.3.4}
-\contentsline {chapter}{\numberline {4}The Need for Geospatial Data}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Two worlds of mapping}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Environmental assessment}{28}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Asset allocation mapping}{28}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Open geodata and crisis mapping}{29}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Crisis mapping and Ushahidi}{29}{subsection.4.3.1}
-\contentsline {subsubsection}{Ushahidi}{29}{section*.4}
-\contentsline {subsubsection}{Satellite imagery}{30}{section*.5}
-\contentsline {chapter}{\numberline {5}State of the Art}{31}{chapter.5}
-\contentsline {subsection}{\numberline {5.0.2}Participatory GIS for Development}{31}{subsection.5.0.2}
-\contentsline {section}{\numberline {5.1}Web mapping}{32}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Google Maps and proprietary data}{33}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}OpenStreetMap}{34}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}The modern open-source geostack}{34}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Humanitarian OSM Team}{35}{subsection.5.2.2}
-\contentsline {subsubsection}{OSM Gaza}{35}{section*.6}
-\contentsline {section}{\numberline {5.3}Existing techniques for low-cost orthorectification}{37}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Map Warper}{37}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}GonzoEarth and manual stitching with Adobe Photoshop}{38}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Aerial imaging with low-cost tools}{38}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}DIYDrones.com and the T3 competition}{39}{subsection.5.4.1}
-\contentsline {chapter}{\numberline {6}The Grassroots Mapping tool chain}{40}{chapter.6}
-\contentsline {section}{\numberline {6.1}Balloon and Kite Aerial Mapping}{40}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Balloon mapping}{40}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Kite mapping}{42}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Camera and intervalometer}{43}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Enclosures and suspensions}{43}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Map processing and publication}{45}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Web-based orthorectification and warping}{45}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Cartagen Knitter}{46}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Rubbersheeting}{47}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Cartagen: an alternative architecture for digital maps}{48}{subsection.6.2.4}
-\contentsline {subsubsection}{Dynamic local rendering}{48}{section*.7}
-\contentsline {subsubsection}{Cartographic design with \ac {GSS}}{49}{section*.8}
-\contentsline {subsection}{\numberline {6.2.5}Architectural advantages of the Cartagen framework}{49}{subsection.6.2.5}
-\contentsline {section}{\numberline {6.3}An iterative and collaborative approach to design}{50}{section.6.3}
-\contentsline {chapter}{\numberline {7}Case Study: Grassroots Mapping in Lima, Peru}{53}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{53}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}The Other Path: Lima's history of informal settlement}{54}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Mapping with Juan Pablo II}{55}{subsection.7.1.2}
-\contentsline {subsubsection}{First flights in Juan Pablo II}{56}{section*.9}
-\contentsline {subsubsection}{Situating mapping practice}{57}{section*.10}
-\contentsline {subsubsection}{Stitching maps with Juan Pablo II}{59}{section*.11}
-\contentsline {subsection}{\numberline {7.1.3}Mapping with San Ignacio Loyola}{60}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}Mapping with Cantagallo}{61}{subsection.7.1.4}
-\contentsline {subsubsection}{Flying balloons with Cantagallo}{63}{section*.12}
-\contentsline {subsubsection}{The rest of Canta Gallo and local geographic dispute}{63}{section*.13}
-\contentsline {subsection}{\numberline {7.1.5}Evaluation}{64}{subsection.7.1.5}
-\contentsline {subsection}{\numberline {7.1.6}Needs (Re)assessment}{66}{subsection.7.1.6}
-\contentsline {chapter}{\numberline {8}Case Study: Citizen mapping of the BP oil spill}{68}{chapter.8}
-\contentsline {section}{\numberline {8.1}Grassroots mapping in crisis response}{68}{section.8.1}
-\contentsline {section}{\numberline {8.2}Comparing Grassroots Maps of the spill to other sources}{69}{section.8.2}
-\contentsline {section}{\numberline {8.3}Independent monitoring and media blackout}{70}{section.8.3}
-\contentsline {section}{\numberline {8.4}Adoption and sustainability}{70}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Workshops and trainings}{73}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}Collaborations}{73}{subsection.8.4.2}
-\contentsline {subsection}{\numberline {8.4.3}Costs and funding model}{74}{subsection.8.4.3}
-\contentsline {section}{\numberline {8.5}Image processing and map stitching}{75}{section.8.5}
-\contentsline {section}{\numberline {8.6}Integration with Ushahidi}{77}{section.8.6}
-\contentsline {section}{\numberline {8.7}Overflights and a broader data strategy}{77}{section.8.7}
-\contentsline {section}{\numberline {8.8}Documentation}{78}{section.8.8}
-\contentsline {section}{\numberline {8.9}Analysis of data collected}{78}{section.8.9}
-\contentsline {section}{\numberline {8.10}Licensing and data use}{79}{section.8.10}
-\contentsline {chapter}{\numberline {9}Evaluation}{82}{chapter.9}
-\contentsline {section}{\numberline {9.1}Validity in openly ideological research}{83}{section.9.1}
-\contentsline {subsubsection}{Construct validity}{83}{section*.14}
-\contentsline {subsubsection}{Face validity}{84}{section*.15}
-\contentsline {subsubsection}{Catalytic Validity}{86}{section*.16}
-\contentsline {subsubsection}{Triangulation}{86}{section*.17}
-\contentsline {section}{\numberline {9.2}Comparison with existing techniques}{87}{section.9.2}
-\contentsline {section}{\numberline {9.3}Quantitative evaluation}{88}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Spatial resolution}{88}{subsection.9.3.1}
-\contentsline {subsection}{\numberline {9.3.2}Precision and accuracy in low-altitude aerial imaging}{90}{subsection.9.3.2}
-\contentsline {subsection}{\numberline {9.3.3}Temporal resolution}{90}{subsection.9.3.3}
-\contentsline {subsection}{\numberline {9.3.4}Spectral resolution}{90}{subsection.9.3.4}
-\contentsline {chapter}{\numberline {10}Conclusions and future work}{91}{chapter.10}
-\contentsline {section}{\numberline {10.1}Ongoing uses of Grassroots Mapping tools}{91}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Activist mapping with Coal River Mountain Watch}{91}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}A Grassroots Mapping collaboration in Georgia}{92}{subsection.10.1.2}
-\contentsline {section}{\numberline {10.2}Illustrated Guides}{93}{section.10.2}
-\contentsline {section}{\numberline {10.3}Outreach}{94}{section.10.3}
-\contentsline {section}{\numberline {10.4}Conclusions}{94}{section.10.4}
-\contentsline {chapter}{\numberline {A}Maps}{96}{appendix.A}
-\contentsline {section}{\numberline {A.1}Maps from Lima, Peru}{96}{section.A.1}
-\contentsline {section}{\numberline {A.2}Maps from the 2010 BP Oil Spill}{96}{section.A.2}
-\contentsline {section}{\numberline {A.3}Maps from Georgia}{96}{section.A.3}
-\contentsline {chapter}{\numberline {B}Illustrated Guide to Grassroots Mapping}{97}{appendix.B}
-\contentsline {chapter}{\numberline {C}Guides and checklists to Grassroots Mapping for the BP Oil Spill}{103}{appendix.C}
+\contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}Defining Grassroots Mapping: tools, practices, or community?}{8}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Uses of aerial imagery}{9}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Grassroots Mapping as pedagogy}{9}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Grassroots Mapping as a community}{9}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Tools, technologies, and audience}{10}{section.1.2}
+\contentsline {chapter}{\numberline {2}Movements towards a participatory and activist cartography}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Experimental geography, radical cartography}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}GIS practitioners}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Cartographic ethics}{14}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Neogeography}{15}{section.2.3}
+\contentsline {chapter}{\numberline {3}Subjectivity in Mapping}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}The mythical `complete map'}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}A `ground truth' policy for collaborative mapmaking}{19}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Privacy and mapping, privacy and open geodata}{19}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Mapping: a tool of empowerment or control?}{19}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Maps as truth}{22}{section.3.3}
+\contentsline {section}{\numberline {3.4}Maps: rhetorical, even tactical}{23}{section.3.4}
+\contentsline {chapter}{\numberline {4}The Need for Geospatial Data}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Two worlds of mapping}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Environmental assessment}{27}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Asset allocation mapping}{27}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Open geodata and crisis mapping}{28}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Crisis mapping and Ushahidi}{28}{subsection.4.3.1}
+\contentsline {subsubsection}{Ushahidi}{28}{section*.4}
+\contentsline {subsubsection}{Satellite imagery}{29}{section*.5}
+\contentsline {chapter}{\numberline {5}State of the Art}{30}{chapter.5}
+\contentsline {subsection}{\numberline {5.0.2}Participatory GIS for Development}{30}{subsection.5.0.2}
+\contentsline {section}{\numberline {5.1}Web mapping}{31}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Google Maps and proprietary data}{32}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}OpenStreetMap}{33}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}The modern open-source geostack}{33}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Humanitarian OSM Team}{34}{subsection.5.2.2}
+\contentsline {subsubsection}{OSM Gaza}{34}{section*.6}
+\contentsline {section}{\numberline {5.3}Existing techniques for low-cost orthorectification}{36}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Map Warper}{36}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}GonzoEarth and manual stitching with Adobe Photoshop}{37}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Aerial imaging with low-cost tools}{37}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}DIYDrones.com and the T3 competition}{38}{subsection.5.4.1}
+\contentsline {chapter}{\numberline {6}The Grassroots Mapping tool chain}{39}{chapter.6}
+\contentsline {section}{\numberline {6.1}Balloon and Kite Aerial Mapping}{39}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Balloon mapping}{39}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Kite mapping}{41}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Camera and intervalometer}{42}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Enclosures and suspensions}{42}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Map processing and publication}{44}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Web-based orthorectification and warping}{44}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Cartagen Knitter}{45}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Rubbersheeting}{46}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Cartagen: an alternative architecture for digital maps}{47}{subsection.6.2.4}
+\contentsline {subsubsection}{Dynamic local rendering}{47}{section*.7}
+\contentsline {subsubsection}{Cartographic design with \ac {GSS}}{48}{section*.8}
+\contentsline {subsection}{\numberline {6.2.5}Architectural advantages of the Cartagen framework}{48}{subsection.6.2.5}
+\contentsline {section}{\numberline {6.3}An iterative and collaborative approach to design}{49}{section.6.3}
+\contentsline {chapter}{\numberline {7}Case Study: Grassroots Mapping in Lima, Peru}{52}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{52}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}The Other Path: Lima's history of informal settlement}{53}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Mapping with Juan Pablo II}{54}{subsection.7.1.2}
+\contentsline {subsubsection}{First flights in Juan Pablo II}{55}{section*.9}
+\contentsline {subsubsection}{Situating mapping practice}{56}{section*.10}
+\contentsline {subsubsection}{Stitching maps with Juan Pablo II}{58}{section*.11}
+\contentsline {subsection}{\numberline {7.1.3}Mapping with San Ignacio Loyola}{59}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Mapping with Cantagallo}{60}{subsection.7.1.4}
+\contentsline {subsubsection}{Flying balloons with Cantagallo}{62}{section*.12}
+\contentsline {subsubsection}{The rest of Canta Gallo and local geographic dispute}{62}{section*.13}
+\contentsline {subsection}{\numberline {7.1.5}Evaluation}{63}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Needs (Re)assessment}{65}{subsection.7.1.6}
+\contentsline {chapter}{\numberline {8}Case Study: Citizen mapping of the BP oil spill}{67}{chapter.8}
+\contentsline {section}{\numberline {8.1}Grassroots mapping in crisis response}{67}{section.8.1}
+\contentsline {section}{\numberline {8.2}Comparing Grassroots Maps of the spill to other sources}{68}{section.8.2}
+\contentsline {section}{\numberline {8.3}Independent monitoring and media blackout}{69}{section.8.3}
+\contentsline {section}{\numberline {8.4}Adoption and sustainability}{69}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Workshops and trainings}{72}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Collaborations}{72}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Costs and funding model}{73}{subsection.8.4.3}
+\contentsline {section}{\numberline {8.5}Image processing and map stitching}{74}{section.8.5}
+\contentsline {section}{\numberline {8.6}Integration with Ushahidi}{76}{section.8.6}
+\contentsline {section}{\numberline {8.7}Overflights and a broader data strategy}{76}{section.8.7}
+\contentsline {section}{\numberline {8.8}Documentation}{77}{section.8.8}
+\contentsline {section}{\numberline {8.9}Analysis of data collected}{77}{section.8.9}
+\contentsline {section}{\numberline {8.10}Licensing and data use}{78}{section.8.10}
+\contentsline {chapter}{\numberline {9}Evaluation}{81}{chapter.9}
+\contentsline {section}{\numberline {9.1}Validity in openly ideological research}{82}{section.9.1}
+\contentsline {subsubsection}{Construct validity}{82}{section*.14}
+\contentsline {subsubsection}{Face validity}{83}{section*.15}
+\contentsline {subsubsection}{Catalytic Validity}{85}{section*.16}
+\contentsline {subsubsection}{Triangulation}{85}{section*.17}
+\contentsline {section}{\numberline {9.2}Comparison with existing techniques}{86}{section.9.2}
+\contentsline {section}{\numberline {9.3}Quantitative evaluation}{87}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Spatial resolution}{87}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Precision and accuracy in low-altitude aerial imaging}{89}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}Temporal resolution}{89}{subsection.9.3.3}
+\contentsline {subsection}{\numberline {9.3.4}Spectral resolution}{89}{subsection.9.3.4}
+\contentsline {chapter}{\numberline {10}Conclusions and future work}{90}{chapter.10}
+\contentsline {section}{\numberline {10.1}Ongoing uses of Grassroots Mapping tools}{90}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Activist mapping with Coal River Mountain Watch}{90}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}A Grassroots Mapping collaboration in Georgia}{91}{subsection.10.1.2}
+\contentsline {section}{\numberline {10.2}Illustrated Guides}{92}{section.10.2}
+\contentsline {section}{\numberline {10.3}Outreach}{93}{section.10.3}
+\contentsline {section}{\numberline {10.4}Conclusions}{93}{section.10.4}
+\contentsline {chapter}{\numberline {A}Maps}{95}{appendix.A}
+\contentsline {section}{\numberline {A.1}Maps from Lima, Peru}{95}{section.A.1}
+\contentsline {section}{\numberline {A.2}Maps from the 2010 BP Oil Spill}{95}{section.A.2}
+\contentsline {section}{\numberline {A.3}Maps from Georgia}{95}{section.A.3}
+\contentsline {chapter}{\numberline {B}Illustrated Guide to Grassroots Mapping}{96}{appendix.B}
+\contentsline {chapter}{\numberline {C}Guides and checklists to Grassroots Mapping for the BP Oil Spill}{102}{appendix.C}

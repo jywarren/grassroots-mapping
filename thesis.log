@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  12 AUG 2010 14:44
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.6.8)  12 AUG 2010 17:09
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -540,122 +540,122 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 127--132
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
 
  []
 
-[2] [3] [4] (./thesis.toc
+[2] [3] (./thesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
- [5
+ [4
 
-] [6] [7])
+] [5] [6])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [8]
+ [7]
 Chapter 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 174.
+(Font)              <7> on input line 160.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 174.
+(Font)              <5> on input line 160.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
-[9
+[8
 
-] <images/samtredia.jpg, id=521, 1027.84pt x 770.88pt>
+] <images/samtredia.jpg, id=517, 1027.84pt x 770.88pt>
 File: images/samtredia.jpg Graphic file (type jpg)
 
 <use images/samtredia.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \OT1/cmr/m/n/10 roots Map-ping work-shop in
  []
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 19
-7.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 18
+3.
 
-[10 <./images/samtredia.jpg>] (/usr/share/texmf/tex/latex/base/omlcmr.fd)
+[9 <./images/samtredia.jpg>] (/usr/share/texmf/tex/latex/base/omlcmr.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 220.
+(Font)              <9> on input line 206.
 
-[11]
+[10]
 Chapter 2.
-[12
+[11
 
-] <images/newsflow.png, id=555, 1278.7775pt x 685.56125pt>
+] <images/newsflow.png, id=551, 1278.7775pt x 685.56125pt>
 File: images/newsflow.png Graphic file (type png)
 
-<use images/newsflow.png> [13 <./images/newsflow.png (PNG copy)>] [14]
+<use images/newsflow.png> [12 <./images/newsflow.png (PNG copy)>] [13]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [15]
-[16] [17]
+ [14]
+[15] [16]
 Chapter 3.
-<images/kutaisi.png, id=633, 521.95pt x 382.42876pt>
+<images/kutaisi.png, id=629, 521.95pt x 382.42876pt>
 File: images/kutaisi.png Graphic file (type png)
  <use images/kutaisi.png>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 32
-2.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 30
+8.
 
-[18
+[17
 
  <./images/kutaisi.png (PNG copy)>]
-<images/osm-missing-parts.png, id=640, 1024.82875pt x 576.1525pt>
+<images/osm-missing-parts.png, id=636, 1024.82875pt x 576.1525pt>
 File: images/osm-missing-parts.png Graphic file (type png)
 
 <use images/osm-missing-parts.png>
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
 [] []|[]\OT1/cmr/m/n/10 A map de-pict-ing all `in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
 \OT1/cmr/m/n/10 com-plete' ar-eas of Open-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
 \OT1/cmr/m/n/10 StreetMap in the UK.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
 \OT1/cmr/m/n/10 ([][]$\OT1/cmtt/m/n/10 http : / / www . reedhome . org .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
 \OT1/cmtt/m/n/10 uk / Documents / osmembed . html ?
  []
 
-[19 <./images/osm-missing-parts.png (PNG copy)>] [20]
-<images/levinger-groundtruth.png, id=667, 751.80875pt x 568.1225pt>
+[18 <./images/osm-missing-parts.png (PNG copy)>] [19]
+<images/levinger-groundtruth.png, id=663, 751.80875pt x 568.1225pt>
 File: images/levinger-groundtruth.png Graphic file (type png)
 
 <use images/levinger-groundtruth.png>
-Underfull \hbox (badness 7631) in paragraph at lines 361--361
+Underfull \hbox (badness 7631) in paragraph at lines 347--347
 \OT1/cmr/m/n/10 ments, and check-points near
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 361--361
+Underfull \hbox (badness 6876) in paragraph at lines 347--347
 \OT1/cmr/m/n/10 Jerusalem and Ra-mal-lah, on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 \OT1/cmr/m/n/10 Josh Levinger's GroundTruth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 \OT1/cmr/m/n/10 in-ter-ac-tive map. ([][]$\OT1/cmtt/m/n/10 http :
  []
 
@@ -663,11 +663,11 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
 
-Underfull \hbox (badness 2644) in paragraph at lines 368--369
+Underfull \hbox (badness 2644) in paragraph at lines 354--355
 []\OT1/cmr/m/n/10.95 ...it's frankly the same se-cu-rity
  []
 
-[21 <./images/levinger-groundtruth.png (PNG copy)>]
+[20 <./images/levinger-groundtruth.png (PNG copy)>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no œ in font cmr10!
@@ -683,64 +683,64 @@ Missing character: There is no ” in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [22]
-<images/iraq-image-16.jpg, id=713, 602.25pt x 451.6875pt>
+ [21]
+<images/iraq-image-16.jpg, id=709, 602.25pt x 451.6875pt>
 File: images/iraq-image-16.jpg Graphic file (type jpg)
 
 <use images/iraq-image-16.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
 [] []|[][][]$\OT1/cmtt/m/n/10 http : / / www . gwu . edu /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
 \OT1/cmtt/m/n/10 ~nsarchiv / NSAEBB / NSAEBB88/$[][]\OT1/cmr/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 401--401
+Underfull \hbox (badness 2478) in paragraph at lines 387--387
 \OT1/cmr/m/n/10 Im-age 16: Chem-i-cal weapons
  []
 
-[23 <./images/iraq-image-16.jpg>]
-<images/iraq-image-13.jpg, id=724, 602.25pt x 451.6875pt>
+[22 <./images/iraq-image-16.jpg>]
+<images/iraq-image-13.jpg, id=720, 602.25pt x 451.6875pt>
 File: images/iraq-image-13.jpg Graphic file (type jpg)
 
 <use images/iraq-image-13.jpg>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 43
-2.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 41
+8.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 43
-4.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 42
+0.
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 440--440
+Underfull \hbox (badness 3158) in paragraph at lines 426--426
 []\OT1/cmr/bx/n/14.4 Maps: rhetor-i-cal, even
  []
 
-[24 <./images/iraq-image-13.jpg>] [25]
+[23 <./images/iraq-image-13.jpg>] [24]
 Chapter 4.
-<images/two-worlds-mapping.png, id=743, 901.9296pt x 360.8682pt>
+<images/two-worlds-mapping.png, id=738, 901.9296pt x 360.8682pt>
 File: images/two-worlds-mapping.png Graphic file (type png)
 
-<use images/two-worlds-mapping.png> [26
+<use images/two-worlds-mapping.png> [25
 
  <./images/two-worlds-mapping.png>]
-[27] [28] [29] [30]
+[26] [27] [28] [29]
 Chapter 5.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 536.
+(hyperref)                than one, level fixed on input line 522.
 
-[31
+[30
 
-] [32]
+] [31]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- <images/osm-composition.png, id=844, 526.96875pt x 427.5975pt>
+ <images/osm-composition.png, id=840, 526.96875pt x 427.5975pt>
 File: images/osm-composition.png Graphic file (type png)
 
 <use images/osm-composition.png>
@@ -753,7 +753,7 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [33 <./images/osm-composition.png (PNG copy)>] <images/osm-diagram.png, id=860
+ [32 <./images/osm-composition.png (PNG copy)>] <images/osm-diagram.png, id=856
 , 803.0pt x 493.845pt>
 File: images/osm-diagram.png Graphic file (type png)
 
@@ -761,419 +761,419 @@ File: images/osm-diagram.png Graphic file (type png)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34] [35 <./images/osm-diagram.png (PNG copy)>]
-<images/kibera-gpx.png, id=883, 946.53625pt x 472.76625pt>
+[33] [34 <./images/osm-diagram.png (PNG copy)>]
+<images/kibera-gpx.png, id=879, 946.53625pt x 472.76625pt>
 File: images/kibera-gpx.png Graphic file (type png)
 
 <use images/kibera-gpx.png>
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ¦ in font cmr10!
- [36 <./images/kibera-gpx.png (PNG copy)>] [37]
-<images/maron-spy-satellite.jpg, id=924, 2601.72pt x 1951.29pt>
+ [35 <./images/kibera-gpx.png (PNG copy)>] [36]
+<images/maron-spy-satellite.jpg, id=919, 2601.72pt x 1951.29pt>
 File: images/maron-spy-satellite.jpg Graphic file (type jpg)
 
-<use images/maron-spy-satellite.jpg> [38 <./images/maron-spy-satellite.jpg>]
-Underfull \hbox (badness 2088) in paragraph at lines 663--663
+<use images/maron-spy-satellite.jpg> [37 <./images/maron-spy-satellite.jpg>]
+Underfull \hbox (badness 2088) in paragraph at lines 649--649
 []\OT1/cmr/bx/n/12 DIYDrones.com and the T3
  []
 
-[39]
+[38]
 Chapter 6.
-<images/100-dollar-satellite-poster.jpg, id=957, 1480.0896pt x 987.2082pt>
+<images/100-dollar-satellite-poster.jpg, id=953, 1480.0896pt x 987.2082pt>
 File: images/100-dollar-satellite-poster.jpg Graphic file (type jpg)
 
-<use images/100-dollar-satellite-poster.jpg> [40
+<use images/100-dollar-satellite-poster.jpg> [39
 
- <./images/100-dollar-satellite-poster.jpg>] [41]
-<images/trash-bag-ballooning.jpg, id=968, 1027.84pt x 687.56876pt>
+ <./images/100-dollar-satellite-poster.jpg>] [40]
+<images/trash-bag-ballooning.jpg, id=964, 1027.84pt x 687.56876pt>
 File: images/trash-bag-ballooning.jpg Graphic file (type jpg)
 
 <use images/trash-bag-ballooning.jpg>
-Underfull \hbox (badness 1205) in paragraph at lines 713--713
+Underfull \hbox (badness 1205) in paragraph at lines 699--699
 \OT1/cmr/m/n/10 the De-part-ment of Play work-
  []
 
-[42 <./images/trash-bag-ballooning.jpg>]
-<images/kite-cesar.jpg, id=978, 1027.84pt x 770.88pt>
+[41 <./images/trash-bag-ballooning.jpg>]
+<images/kite-cesar.jpg, id=974, 1027.84pt x 770.88pt>
 File: images/kite-cesar.jpg Graphic file (type jpg)
 
 <use images/kite-cesar.jpg>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 79
-0.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 77
+6.
 
-[43 <./images/kite-cesar.jpg>] [44]
-<images/soda-bottle-overview.jpg, id=1003, 966.61125pt x 1724.4425pt>
+[42 <./images/kite-cesar.jpg>] [43]
+<images/soda-bottle-overview.jpg, id=999, 966.61125pt x 1724.4425pt>
 File: images/soda-bottle-overview.jpg Graphic file (type jpg)
 
-<use images/soda-bottle-overview.jpg> [45 <./images/soda-bottle-overview.jpg>]
-<images/cartagen-in-action-rustavi.png, id=1016, 1027.84pt x 602.25pt>
+<use images/soda-bottle-overview.jpg> [44 <./images/soda-bottle-overview.jpg>]
+<images/cartagen-in-action-rustavi.png, id=1012, 1027.84pt x 602.25pt>
 File: images/cartagen-in-action-rustavi.png Graphic file (type png)
 
 <use images/cartagen-in-action-rustavi.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46] [47 <./images/cartagen-in-action-rustavi.png (PNG copy)>] [48]
-<images/knitter-wileys.png, id=1043, 932.48375pt x 694.595pt>
+[45] [46 <./images/cartagen-in-action-rustavi.png (PNG copy)>] [47]
+<images/knitter-wileys.png, id=1039, 932.48375pt x 694.595pt>
 File: images/knitter-wileys.png Graphic file (type png)
 
 <use images/knitter-wileys.png>
-Underfull \hbox (badness 2460) in paragraph at lines 867--867
+Underfull \hbox (badness 2460) in paragraph at lines 853--853
 [][]\OT1/cmr/bx/n/10.95 Cartographic de-sign with Ge-o-graphic
  []
 
 
-Overfull \hbox (8.08401pt too wide) in paragraph at lines 869--870
+Overfull \hbox (8.08401pt too wide) in paragraph at lines 855--856
 \OT1/cmr/m/n/10.95 Though other map-ping frame-works such as Open-
  []
 
-<images/gss.pdf, id=1047, 598.235pt x 845.55902pt>
+<images/gss.pdf, id=1043, 598.235pt x 845.55902pt>
 File: images/gss.pdf Graphic file (type pdf)
  <use images/gss.pdf>
-Underfull \hbox (badness 10000) in paragraph at lines 874--874
+Underfull \hbox (badness 10000) in paragraph at lines 860--860
 [] []|[]\OT1/cmr/m/n/10 An ex-am-ple [][]GSS[][][][] stylesheet,
  []
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 87
-8.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 86
+4.
 
-[49 <./images/knitter-wileys.png (PNG copy)> <./images/gss.pdf
+[48 <./images/knitter-wileys.png (PNG copy)> <./images/gss.pdf
 
 pdfTeX warning: pdflatex (file ./images/gss.pdf): PDF inclusion: Page Group det
 ected which pdfTeX can't handle. Ignoring it.
 >]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-882.
+868.
 
-<images/knitter-josm.png, id=1070, 1027.84pt x 556.0775pt>
+<images/knitter-josm.png, id=1065, 1027.84pt x 556.0775pt>
 File: images/knitter-josm.png Graphic file (type png)
 
 <use images/knitter-josm.png>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 88
-9.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 87
+5.
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 89
-1.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 87
+7.
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-895.
+881.
 
-<images/pat-coyle-video.png, id=1075, 856.19875pt x 481.8pt>
+<images/pat-coyle-video.png, id=1070, 856.19875pt x 481.8pt>
 File: images/pat-coyle-video.png Graphic file (type png)
 
 <use images/pat-coyle-video.png>
-Underfull \hbox (badness 4819) in paragraph at lines 898--898
+Underfull \hbox (badness 4819) in paragraph at lines 884--884
 [] []|[]\OT1/cmr/m/n/10 Still frame from Pat Coyle's
  []
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 90
-2.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 88
+8.
 
-[50 <./images/knitter-josm.png (PNG copy)>]
+[49 <./images/knitter-josm.png (PNG copy)>]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-904.
+890.
 
-<images/lippincott-workshop.png, id=1084, 638.385pt x 359.3425pt>
+<images/lippincott-workshop.png, id=1080, 638.385pt x 359.3425pt>
 File: images/lippincott-workshop.png Graphic file (type png)
 
 <use images/lippincott-workshop.png>
-Underfull \hbox (badness 1178) in paragraph at lines 907--907
+Underfull \hbox (badness 1178) in paragraph at lines 893--893
 \OT1/cmr/m/n/10 shop en-ti-tled `Grass-roots Map-
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 907--907
+Underfull \hbox (badness 3312) in paragraph at lines 893--893
 \OT1/cmr/m/n/10 ping PDX' where par-tic-i-pants
  []
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-913.
+899.
 
-<images/asynchronous-editing.jpg, id=1085, 1027.84pt x 770.88pt>
+<images/asynchronous-editing.jpg, id=1081, 1027.84pt x 770.88pt>
 File: images/asynchronous-editing.jpg Graphic file (type jpg)
 
 <use images/asynchronous-editing.jpg>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 92
-0.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 90
+6.
 
-[51 <./images/pat-coyle-video.png (PNG copy)> <./images/lippincott-workshop.png
- (PNG copy)>] [52 <./images/asynchronous-editing.jpg>]
+[50 <./images/pat-coyle-video.png (PNG copy)> <./images/lippincott-workshop.png
+ (PNG copy)>] [51 <./images/asynchronous-editing.jpg>]
 Chapter 7.
-<images/kids-canta-gallo.jpg, id=1098, 1027.84pt x 770.88pt>
+<images/kids-canta-gallo.jpg, id=1094, 1027.84pt x 770.88pt>
 File: images/kids-canta-gallo.jpg Graphic file (type jpg)
 
-<use images/kids-canta-gallo.jpg> [53
+<use images/kids-canta-gallo.jpg> [52
 
  <./images/kids-canta-gallo.jpg>]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ³ in font cmr9!
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ­ in font cmr9!
- [54]
-<images/juan-pablo-measuring.jpg, id=1119, 1027.84pt x 770.88pt>
+ [53]
+<images/juan-pablo-measuring.jpg, id=1115, 1027.84pt x 770.88pt>
 File: images/juan-pablo-measuring.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-measuring.jpg>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 96
-1.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 94
+7.
 
-[55 <./images/juan-pablo-measuring.jpg>]
-<images/juan-pablo-first-flight.jpg, id=1131, 1027.84pt x 770.88pt>
+[54 <./images/juan-pablo-measuring.jpg>]
+<images/juan-pablo-first-flight.jpg, id=1126, 1027.84pt x 770.88pt>
 File: images/juan-pablo-first-flight.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-first-flight.jpg>
-Underfull \hbox (badness 2426) in paragraph at lines 976--976
+Underfull \hbox (badness 2426) in paragraph at lines 962--962
 [] []|[]\OT1/cmr/m/n/10 Initial bal-loon flights in Juan
  []
 
-<images/juan-pablo-final.jpg, id=1132, 370.0224pt x 290.5254pt>
+<images/juan-pablo-final.jpg, id=1127, 370.0224pt x 290.5254pt>
 File: images/juan-pablo-final.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-final.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[56 <./images/juan-pablo-first-flight.jpg>] [57 <./images/juan-pablo-final.jpg>
-] <images/juan-pablo-frank.jpg, id=1145, 770.88pt x 1027.84pt>
+[55 <./images/juan-pablo-first-flight.jpg>] [56 <./images/juan-pablo-final.jpg>
+] <images/juan-pablo-frank.jpg, id=1141, 770.88pt x 1027.84pt>
 File: images/juan-pablo-frank.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-frank.jpg>
-Underfull \hbox (badness 1194) in paragraph at lines 1000--1000
+Underfull \hbox (badness 1194) in paragraph at lines 986--986
 \OT1/cmr/m/n/10 in-fras-truc-tural im-prove-ments to
  []
 
-<images/juan-pablo-maqueta.jpg, id=1146, 1027.84pt x 770.88pt>
+<images/juan-pablo-maqueta.jpg, id=1142, 1027.84pt x 770.88pt>
 File: images/juan-pablo-maqueta.jpg Graphic file (type jpg)
 
 <use images/juan-pablo-maqueta.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/map-warper.png, id=1148, 971.63pt x 651.43375pt>
+<images/map-warper.png, id=1144, 971.63pt x 651.43375pt>
 File: images/map-warper.png Graphic file (type png)
 
 <use images/map-warper.png>
-Underfull \hbox (badness 1127) in paragraph at lines 1021--1021
+Underfull \hbox (badness 1127) in paragraph at lines 1007--1007
 [] []|[]\OT1/cmr/m/n/10 The Map Warper in-ter-face for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1021--1021
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1007
 \OT1/cmr/m/n/10 iden-ti-fy-ing Ground Con-trol
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1018--1023
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1009
 \OT1/cmr/m/n/10.95 agery into maps. Start-ing with the
  []
 
-[58 <./images/juan-pablo-frank.jpg>]
+[57 <./images/juan-pablo-frank.jpg>]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-1023.
+1009.
 
-<images/map-warper-hack.png, id=1158, 967.615pt x 475.7775pt>
+<images/map-warper-hack.png, id=1154, 967.615pt x 475.7775pt>
 File: images/map-warper-hack.png Graphic file (type png)
 
 <use images/map-warper-hack.png>
-Underfull \hbox (badness 1436) in paragraph at lines 1023--1028
+Underfull \hbox (badness 1436) in paragraph at lines 1009--1014
 []\OT1/cmr/m/n/10.95 Map Warper soft-ware avail-able at [][]$\OT1/cmtt/m/n/10 h
 ttp : / /
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 1023--1028
+Underfull \hbox (badness 3646) in paragraph at lines 1009--1014
 \OT1/cmtt/m/n/10 warper . geothings . net$[][]\OT1/cmr/m/n/10.95 , teach-ers fr
 om Man-
  []
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 10
-28.
+14.
 
-[59 <./images/juan-pablo-maqueta.jpg> <./images/map-warper.png (PNG copy)>]
-<images/juan-pablo-rubbersheeting.jpg, id=1171, 1027.84pt x 770.88pt>
+[58 <./images/juan-pablo-maqueta.jpg> <./images/map-warper.png (PNG copy)>]
+<images/juan-pablo-rubbersheeting.jpg, id=1167, 1027.84pt x 770.88pt>
 File: images/juan-pablo-rubbersheeting.jpg Graphic file (type jpg)
 
-<use images/juan-pablo-rubbersheeting.jpg> [60 <./images/map-warper-hack.png (P
+<use images/juan-pablo-rubbersheeting.jpg> [59 <./images/map-warper-hack.png (P
 NG copy)> <./images/juan-pablo-rubbersheeting.jpg>]
-<images/san-ignacio-loyola-map.jpg, id=1178, 411.136pt x 308.352pt>
+<images/san-ignacio-loyola-map.jpg, id=1174, 411.136pt x 308.352pt>
 File: images/san-ignacio-loyola-map.jpg Graphic file (type jpg)
 
 <use images/san-ignacio-loyola-map.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/canta-gallo-setame.jpg, id=1180, 1027.84pt x 770.88pt>
+<images/canta-gallo-setame.jpg, id=1176, 1027.84pt x 770.88pt>
 File: images/canta-gallo-setame.jpg Graphic file (type jpg)
 
-<use images/canta-gallo-setame.jpg> [61 <./images/canta-gallo-setame.jpg>]
-[62 <./images/san-ignacio-loyola-map.jpg>]
-<images/canta-gallo-drawn-map.jpg, id=1197, 1027.84pt x 770.88pt>
+<use images/canta-gallo-setame.jpg> [60 <./images/canta-gallo-setame.jpg>]
+[61 <./images/san-ignacio-loyola-map.jpg>]
+<images/canta-gallo-drawn-map.jpg, id=1193, 1027.84pt x 770.88pt>
 File: images/canta-gallo-drawn-map.jpg Graphic file (type jpg)
 
 <use images/canta-gallo-drawn-map.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1072
+Underfull \hbox (badness 10000) in paragraph at lines 1058--1058
 [] []|[]\OT1/cmr/m/n/10 Paper map-mak-ing ac-tiv-i-ties
  []
 
-<images/cantagallo-initial.jpg, id=1198, 370.0224pt x 218.2554pt>
+<images/cantagallo-initial.jpg, id=1194, 370.0224pt x 218.2554pt>
 File: images/cantagallo-initial.jpg Graphic file (type jpg)
 
 <use images/cantagallo-initial.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/cantagallo-combined.jpg, id=1200, 1027.84pt x 533.995pt>
+<images/cantagallo-combined.jpg, id=1196, 1027.84pt x 533.995pt>
 File: images/cantagallo-combined.jpg Graphic file (type jpg)
 
 <use images/cantagallo-combined.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[63 <./images/canta-gallo-drawn-map.jpg>] [64 <./images/cantagallo-initial.jpg>
-] <diagrams/san-ignacio-scale.jpg, id=1214, 843.15pt x 320.19624pt>
+[62 <./images/canta-gallo-drawn-map.jpg>] [63 <./images/cantagallo-initial.jpg>
+] <diagrams/san-ignacio-scale.jpg, id=1210, 843.15pt x 320.19624pt>
 File: diagrams/san-ignacio-scale.jpg Graphic file (type jpg)
 
 <use diagrams/san-ignacio-scale.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65 <./images/cantagallo-combined.jpg>] [66] [67 <./diagrams/san-ignacio-scale.
+[64 <./images/cantagallo-combined.jpg>] [65] [66 <./diagrams/san-ignacio-scale.
 jpg>]
 Chapter 8.
-<images/labb-planning.jpg, id=1236, 1027.84pt x 770.88pt>
+<images/labb-planning.jpg, id=1231, 1027.84pt x 770.88pt>
 File: images/labb-planning.jpg Graphic file (type jpg)
 
 <use images/labb-planning.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 1153--1153
+Underfull \hbox (badness 10000) in paragraph at lines 1139--1139
 [] []|[]\OT1/cmr/m/n/10 Volunteers at the Louisiana
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1150--1155
+Underfull \hbox (badness 10000) in paragraph at lines 1136--1141
 \OT1/cmr/m/n/10.95 re-cent aerial map-ping projects.
  []
 
-[68
+[67
 
  <./images/labb-planning.jpg>]
-<images/nasa-modis-small.jpg, id=1254, 672.5125pt x 336.25626pt>
+<images/nasa-modis-small.jpg, id=1250, 672.5125pt x 336.25626pt>
 File: images/nasa-modis-small.jpg Graphic file (type jpg)
 
-<use images/nasa-modis-small.jpg> [69 <./images/nasa-modis-small.jpg>]
-<images/birds-chandeleur.png, id=1271, 553.06625pt x 473.77pt>
+<use images/nasa-modis-small.jpg> [68 <./images/nasa-modis-small.jpg>]
+<images/birds-chandeleur.png, id=1267, 553.06625pt x 473.77pt>
 File: images/birds-chandeleur.png Graphic file (type png)
 
 <use images/birds-chandeleur.png>
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
-79.
+65.
 
-<images/grand-isle-terre.jpg, id=1275, 1027.84pt x 677.53125pt>
+<images/grand-isle-terre.jpg, id=1271, 1027.84pt x 677.53125pt>
 File: images/grand-isle-terre.jpg Graphic file (type jpg)
 
 <use images/grand-isle-terre.jpg>
-<images/chandeleur-island.jpg, id=1276, 862.22125pt x 1027.84pt>
+<images/chandeleur-island.jpg, id=1272, 862.22125pt x 1027.84pt>
 File: images/chandeleur-island.jpg Graphic file (type jpg)
 
-<use images/chandeleur-island.jpg> [70 <./images/birds-chandeleur.png (PNG copy
-)>] [71 <./images/grand-isle-terre.jpg>] [72 <./images/chandeleur-island.jpg>]
-<diagrams/mapping-trips.pdf, id=1294, 327.7869pt x 240.53915pt>
+<use images/chandeleur-island.jpg> [69 <./images/birds-chandeleur.png (PNG copy
+)>] [70 <./images/grand-isle-terre.jpg>] [71 <./images/chandeleur-island.jpg>]
+<diagrams/mapping-trips.pdf, id=1290, 327.7869pt x 240.53915pt>
 File: diagrams/mapping-trips.pdf Graphic file (type pdf)
 
 <use diagrams/mapping-trips.pdf>
-Underfull \hbox (badness 2050) in paragraph at lines 1213--1213
+Underfull \hbox (badness 2050) in paragraph at lines 1199--1199
 [] []|[]\OT1/cmr/m/n/10 Number of map-ping trips per
  []
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 12
-17.
+03.
 
-<diagrams/gulf-trip-success.pdf, id=1298, 315.22066pt x 191.04282pt>
+<diagrams/gulf-trip-success.pdf, id=1294, 315.22066pt x 191.04282pt>
 File: diagrams/gulf-trip-success.pdf Graphic file (type pdf)
 
 <use diagrams/gulf-trip-success.pdf>
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-1234.
+1220.
 
-<diagrams/mappers-histogram.pdf, id=1299, 300.65234pt x 240.89769pt>
+<diagrams/mappers-histogram.pdf, id=1295, 300.65234pt x 240.89769pt>
 File: diagrams/mappers-histogram.pdf Graphic file (type pdf)
 
 <use diagrams/mappers-histogram.pdf>
-Underfull \hbox (badness 2050) in paragraph at lines 1238--1238
+Underfull \hbox (badness 2050) in paragraph at lines 1224--1224
 [] []|[]\OT1/cmr/m/n/10 Number of map-ping trips per
  []
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 12
-42.
+28.
 
-[73 <./diagrams/mapping-trips.pdf> <./diagrams/gulf-trip-success.pdf>] [74 <./d
+[72 <./diagrams/mapping-trips.pdf> <./diagrams/gulf-trip-success.pdf>] [73 <./d
 iagrams/mappers-histogram.pdf>]
-<images/mapmill.png, id=1389, 979.66pt x 1308.89pt>
+<images/mapmill.png, id=1385, 979.66pt x 1308.89pt>
 File: images/mapmill.png Graphic file (type png)
  <use images/mapmill.png>
-Underfull \hbox (badness 3240) in paragraph at lines 1256--1256
+Underfull \hbox (badness 3240) in paragraph at lines 1242--1242
 \OT1/cmr/m/n/10 site de-vel-oped in re-sponse to
  []
 
-<images/perdido-point.jpg, id=1390, 1027.84pt x 836.12375pt>
+<images/perdido-point.jpg, id=1386, 1027.84pt x 836.12375pt>
 File: images/perdido-point.jpg Graphic file (type jpg)
 
-<use images/perdido-point.jpg> [75 <./images/mapmill.png>] [76 <./images/perdid
-o-point.jpg>] <images/labb-ushahidi.png, id=1409, 1108.14pt x 908.39375pt>
+<use images/perdido-point.jpg> [74 <./images/mapmill.png>] [75 <./images/perdid
+o-point.jpg>] <images/labb-ushahidi.png, id=1405, 1108.14pt x 908.39375pt>
 File: images/labb-ushahidi.png Graphic file (type png)
 
 <use images/labb-ushahidi.png>
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 12
-84.
+70.
 
-[77 <./images/labb-ushahidi.png (PNG copy)>]
-<diagrams/trip-success-leaders.pdf, id=1417, 843.15pt x 260.975pt>
+[76 <./images/labb-ushahidi.png (PNG copy)>]
+<diagrams/trip-success-leaders.pdf, id=1413, 843.15pt x 260.975pt>
 File: diagrams/trip-success-leaders.pdf Graphic file (type pdf)
 
-<use diagrams/trip-success-leaders.pdf> [78 <./diagrams/trip-success-leaders.pd
-f>] <images/labb-adam-balloon.jpg, id=1452, 1032.9792pt x 686.0832pt>
+<use diagrams/trip-success-leaders.pdf> [77 <./diagrams/trip-success-leaders.pd
+f>] <images/labb-adam-balloon.jpg, id=1448, 1032.9792pt x 686.0832pt>
 File: images/labb-adam-balloon.jpg Graphic file (type jpg)
 
-<use images/labb-adam-balloon.jpg> [79 <./images/labb-adam-balloon.jpg>]
-[80] [81]
+<use images/labb-adam-balloon.jpg> [78 <./images/labb-adam-balloon.jpg>]
+[79] [80]
 Chapter 9.
-[82
+[81
 
-] [83] <images/knitter-mestia.jpg, id=1484, 1027.84pt x 770.88pt>
+] [82] <images/knitter-mestia.jpg, id=1480, 1027.84pt x 770.88pt>
 File: images/knitter-mestia.jpg Graphic file (type jpg)
 
 <use images/knitter-mestia.jpg>
-Overfull \hbox (6.98901pt too wide) in paragraph at lines 1421--1422
+Overfull \hbox (6.98901pt too wide) in paragraph at lines 1407--1408
 \OT1/cmr/m/n/10.95 The im-por-tance of cre-at-ing a feed-back loop where
  []
 
-[84 <./images/knitter-mestia.jpg>]
-<images/black-mountain.jpg, id=1491, 392.2655pt x 411.136pt>
+[83 <./images/knitter-mestia.jpg>]
+<images/black-mountain.jpg, id=1487, 392.2655pt x 411.136pt>
 File: images/black-mountain.jpg Graphic file (type jpg)
 
 <use images/black-mountain.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 1426--1426
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1412
 [] []|[]\OT1/cmr/m/n/10 Roadside plant-ings at Black
  []
 
@@ -1183,55 +1183,55 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
-[85 <./images/black-mountain.jpg>] [86]
-<images/labb-bay-jimmy.jpg, id=1514, 770.88pt x 1027.84pt>
+[84 <./images/black-mountain.jpg>] [85]
+<images/labb-bay-jimmy.jpg, id=1510, 770.88pt x 1027.84pt>
 File: images/labb-bay-jimmy.jpg Graphic file (type jpg)
 
 <use images/labb-bay-jimmy.jpg>
-Underfull \hbox (badness 2573) in paragraph at lines 1476--1476
+Underfull \hbox (badness 2573) in paragraph at lines 1462--1462
 [] []|[]\OT1/cmr/m/n/10 Grassroots map-pers in a fan-
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 1476--1476
+Underfull \hbox (badness 3568) in paragraph at lines 1462--1462
 \OT1/cmr/m/n/10 boat at Bay Jimmy, LA on
  []
 
-[87 <./images/labb-bay-jimmy.jpg>]
-Underfull \hbox (badness 1648) in paragraph at lines 1483--1485
+[86 <./images/labb-bay-jimmy.jpg>]
+Underfull \hbox (badness 1648) in paragraph at lines 1469--1471
 \OT1/cmr/m/n/10.95 lo-cal peo-ple could read-ily in-ter-
  []
 
-<diagrams/resolution-frequency.pdf, id=1526, 562.1pt x 264.99pt>
+<diagrams/resolution-frequency.pdf, id=1522, 562.1pt x 264.99pt>
 File: diagrams/resolution-frequency.pdf Graphic file (type pdf)
 
 <use diagrams/resolution-frequency.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[88] [89 <./diagrams/resolution-frequency.pdf
+[87] [88 <./diagrams/resolution-frequency.pdf
 
 pdfTeX warning: pdflatex (file ./diagrams/resolution-frequency.pdf): PDF inclus
 ion: Page Group detected which pdfTeX can't handle. Ignoring it.
->] [90]
+>] [89]
 Chapter 10.
-<images/marsh-fork-cherry-pond.jpg, id=1569, 3083.52pt x 2312.64pt>
+<images/marsh-fork-cherry-pond.jpg, id=1565, 3083.52pt x 2312.64pt>
 File: images/marsh-fork-cherry-pond.jpg Graphic file (type jpg)
 
 <use images/marsh-fork-cherry-pond.jpg>
-Underfull \hbox (badness 5533) in paragraph at lines 1536--1536
+Underfull \hbox (badness 5533) in paragraph at lines 1522--1522
 [] []|[]\OT1/cmr/m/n/10 A bal-loon pho-to-graph of a
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 1536--1536
+Underfull \hbox (badness 2781) in paragraph at lines 1522--1522
 \OT1/cmr/m/n/10 Vir-ginia, cap-tured from over
  []
 
-[91
+[90
 
  <./images/marsh-fork-cherry-pond.jpg>]
-<images/mestia-cartagen.png, id=1580, 1027.84pt x 602.25pt>
+<images/mestia-cartagen.png, id=1575, 1027.84pt x 602.25pt>
 File: images/mestia-cartagen.png Graphic file (type png)
 
 <use images/mestia-cartagen.png>
@@ -1247,25 +1247,25 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[92] <images/mestia-gps.png, id=1593, 796.9775pt x 527.9725pt>
+[91] <images/mestia-gps.png, id=1589, 796.9775pt x 527.9725pt>
 File: images/mestia-gps.png Graphic file (type png)
 
 <use images/mestia-gps.png>
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 15
-71.
+57.
 
-[93 <./images/mestia-cartagen.png (PNG copy)> <./images/mestia-gps.png (PNG cop
-y)>] [94] [95]
+[92 <./images/mestia-cartagen.png (PNG copy)> <./images/mestia-gps.png (PNG cop
+y)>] [93] [94]
 Appendix A.
-[96
+[95
 
 ]
 Appendix B.
-[97
+[96
 
 ]
-<appendix/grassroots-mapping-guide.pdf, id=1623, page=1, 598.235pt x 845.55902p
+<appendix/grassroots-mapping-guide.pdf, id=1618, page=1, 598.235pt x 845.55902p
 t>
 File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
  <use appendix/grassroots-mapping-guide.pdf, page 1>
@@ -1280,9 +1280,9 @@ File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
 <use appendix/grassroots-mapping-guide.pdf, page 1>
 File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
 
-<use appendix/grassroots-mapping-guide.pdf, page 1> [98 <./appendix/grassroots-
+<use appendix/grassroots-mapping-guide.pdf, page 1> [97 <./appendix/grassroots-
 mapping-guide.pdf>]
-<appendix/grassroots-mapping-guide.pdf, id=1645, page=2, 598.235pt x 845.55902p
+<appendix/grassroots-mapping-guide.pdf, id=1641, page=2, 598.235pt x 845.55902p
 t>
 File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
  <use appendix/grassroots-mapping-guide.pdf, page 2>
@@ -1291,9 +1291,9 @@ File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
 <use appendix/grassroots-mapping-guide.pdf, page 2>
 File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
 
-<use appendix/grassroots-mapping-guide.pdf, page 2> [99 <./appendix/grassroots-
+<use appendix/grassroots-mapping-guide.pdf, page 2> [98 <./appendix/grassroots-
 mapping-guide.pdf>]
-<appendix/grassroots-mapping-guide.pdf, id=1669, page=3, 598.235pt x 845.55902p
+<appendix/grassroots-mapping-guide.pdf, id=1665, page=3, 598.235pt x 845.55902p
 t>
 File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
  <use appendix/grassroots-mapping-guide.pdf, page 3>
@@ -1302,9 +1302,9 @@ File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
 <use appendix/grassroots-mapping-guide.pdf, page 3>
 File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
 
-<use appendix/grassroots-mapping-guide.pdf, page 3> [100 <./appendix/grassroots
--mapping-guide.pdf>]
-<appendix/grassroots-mapping-guide.pdf, id=1691, page=4, 598.235pt x 845.55902p
+<use appendix/grassroots-mapping-guide.pdf, page 3> [99 <./appendix/grassroots-
+mapping-guide.pdf>]
+<appendix/grassroots-mapping-guide.pdf, id=1687, page=4, 598.235pt x 845.55902p
 t>
 File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
  <use appendix/grassroots-mapping-guide.pdf, page 4>
@@ -1313,9 +1313,9 @@ File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
 <use appendix/grassroots-mapping-guide.pdf, page 4>
 File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
 
-<use appendix/grassroots-mapping-guide.pdf, page 4> [101 <./appendix/grassroots
+<use appendix/grassroots-mapping-guide.pdf, page 4> [100 <./appendix/grassroots
 -mapping-guide.pdf>]
-<appendix/grassroots-mapping-guide.pdf, id=1717, page=5, 598.235pt x 845.55902p
+<appendix/grassroots-mapping-guide.pdf, id=1713, page=5, 598.235pt x 845.55902p
 t>
 File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
  <use appendix/grassroots-mapping-guide.pdf, page 5>
@@ -1324,12 +1324,12 @@ File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
 <use appendix/grassroots-mapping-guide.pdf, page 5>
 File: appendix/grassroots-mapping-guide.pdf Graphic file (type pdf)
 
-<use appendix/grassroots-mapping-guide.pdf, page 5> [102 <./appendix/grassroots
+<use appendix/grassroots-mapping-guide.pdf, page 5> [101 <./appendix/grassroots
 -mapping-guide.pdf>]
 Appendix C.
-[103
+[102
 
-] <appendix/oil-mapping-guide.pdf, id=1746, page=1, 614.295pt x 794.97pt>
+] <appendix/oil-mapping-guide.pdf, id=1741, page=1, 614.295pt x 794.97pt>
 File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 
 <use appendix/oil-mapping-guide.pdf, page 1>
@@ -1344,8 +1344,8 @@ File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 <use appendix/oil-mapping-guide.pdf, page 1>
 File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 
-<use appendix/oil-mapping-guide.pdf, page 1> [104 <./appendix/oil-mapping-guide
-.pdf>] <appendix/oil-mapping-guide.pdf, id=1807, page=2, 614.295pt x 794.97pt>
+<use appendix/oil-mapping-guide.pdf, page 1> [103 <./appendix/oil-mapping-guide
+.pdf>] <appendix/oil-mapping-guide.pdf, id=1803, page=2, 614.295pt x 794.97pt>
 File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 
 <use appendix/oil-mapping-guide.pdf, page 2>
@@ -1354,8 +1354,8 @@ File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 <use appendix/oil-mapping-guide.pdf, page 2>
 File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 
-<use appendix/oil-mapping-guide.pdf, page 2> [105 <./appendix/oil-mapping-guide
-.pdf>] <appendix/oil-mapping-guide.pdf, id=1848, page=3, 614.295pt x 794.97pt>
+<use appendix/oil-mapping-guide.pdf, page 2> [104 <./appendix/oil-mapping-guide
+.pdf>] <appendix/oil-mapping-guide.pdf, id=1844, page=3, 614.295pt x 794.97pt>
 File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 
 <use appendix/oil-mapping-guide.pdf, page 3>
@@ -1364,8 +1364,8 @@ File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 <use appendix/oil-mapping-guide.pdf, page 3>
 File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 
-<use appendix/oil-mapping-guide.pdf, page 3> [106 <./appendix/oil-mapping-guide
-.pdf>] <appendix/oil-mapping-guide.pdf, id=1914, page=4, 614.295pt x 794.97pt>
+<use appendix/oil-mapping-guide.pdf, page 3> [105 <./appendix/oil-mapping-guide
+.pdf>] <appendix/oil-mapping-guide.pdf, id=1910, page=4, 614.295pt x 794.97pt>
 File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 
 <use appendix/oil-mapping-guide.pdf, page 4>
@@ -1374,14 +1374,14 @@ File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 <use appendix/oil-mapping-guide.pdf, page 4>
 File: appendix/oil-mapping-guide.pdf Graphic file (type pdf)
 
-<use appendix/oil-mapping-guide.pdf, page 4> [107 <./appendix/oil-mapping-guide
+<use appendix/oil-mapping-guide.pdf, page 4> [106 <./appendix/oil-mapping-guide
 .pdf>] (./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 33--37
 []\OT1/cmr/m/n/10 Congrats to the win-ners of T3-4!  [][]$\OT1/cmtt/m/n/10 http
  : / / diydrones . ning . com / profiles / blogs /
  []
 
-[108
+[107
 
 ]
 Missing character: There is no Ã in font cmti10!
@@ -1411,7 +1411,7 @@ Missing character: There is no Â in font cmr10!
 Missing character: There is no » in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no » in font cmr10!
-[109]
+[108]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no » in font cmr10!
 
@@ -1438,7 +1438,7 @@ Missing character: There is no ˜ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[110]
+[109]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -1450,21 +1450,21 @@ Underfull \hbox (badness 3078) in paragraph at lines 443--447
 
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ± in font cmr10!
-) [111]
+) [110]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
- [112
+ [111
 
-] [113
+] [112
 
 ] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 7848 strings out of 256216
- 127334 string characters out of 1917073
+ 7847 strings out of 256216
+ 127326 string characters out of 1917073
  211135 words of memory out of 1500000
  10514 multiletter control sequences out of 10000+200000
  15034 words of font info for 51 fonts, out of 1200000 for 2000
@@ -1576,9 +1576,9 @@ ky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/te
 xmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf/fonts/type1/bluesky/c
 m/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti12.pfb></usr/share/te
 xmf/fonts/type1/bluesky/cm/cmtt10.pfb>
-Output written on thesis.pdf (113 pages, 29258084 bytes).
+Output written on thesis.pdf (112 pages, 29257805 bytes).
 PDF statistics:
- 2208 PDF objects out of 2487 (max. 8388607)
- 425 named destinations out of 1000 (max. 131072)
+ 2204 PDF objects out of 2487 (max. 8388607)
+ 424 named destinations out of 1000 (max. 131072)
  1108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
