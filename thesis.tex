@@ -447,6 +447,7 @@ It is precisely the rhetorical qualities of mapping which the Institute for Appl
 
 \chapter{The Need for Geospatial Data}
 \label{chap:need}
+
 \section{Two worlds of mapping}
 \label{sec:twoworlds}
 
@@ -472,7 +473,7 @@ While accessible and participatory mapmaking is by no means a solution to this p
 
 Activists have used maps to defend vulnerable areas for decades; Jai Sen's work in Calcutta in the 1980s used maps of informal settlements as a form of testimony to protect them from bulldozing, using traditional surveying techniques. More recent efforts by Rio de Janiero-based Rede Jovem seek to promote the culture of the city's favelas using maps, in part to protect them from the imminent relocation due to the upcoming 2016 Olympics. At the Maps for Making Change project by Bangalore-based Center for Internet and Society and Tactical Technology Collective, participants advocate mapping the `greyed-out zones' and using  `geographical mapping techniques to support struggles for social justice in India'. \cite{sen2010maps}
 
-\ac{PGIS} researchers have also established a strong case for the diverse uses of participatory maps. Robert Chambers lists several, ranging from benefits to outside aid organizations to direct benefits to the local community, including:
+\ac{PGIS} researchers have also established a strong case for the diverse needs which participatory mapping can address. Robert Chambers lists several, ranging from benefits to outside aid organizations to direct benefits to the local community:
 
 \begin{quote}
 \begin{itemize}
@@ -491,18 +492,18 @@ Currently, activists in Appalachia make widespread use of water conductivity tes
 
 \subsection{Asset allocation mapping}
 
-Asserting a voice in the management of natural resources is dependent on quantitative information on the extent and valuation of the land, which is often carried out using GIS, a language of power from which local communities are often completely excluded. Peter Poole's article `Is there Life after Tenure Mapping?' and report `Information: the First Conservation Asset' examine in detail a number of case studies where participatory mapping was used by indigenous communities to support the `stewardship of biodiversity' \cite{poole2007belize}. Citing examples of his and others' work from Venezuela, Suriname, Belize, and elsewhere, Poole shows how cartographic techniques were used not only to monitor the activities of industrial development and extraction industries, but in some cases to take legal action against such initiatives.  
+Asserting a voice in the management of natural resources is dependent on quantitative information on the extent and valuation of the land, which is often carried out using GIS, a language of power from which local communities are often completely excluded. Peter Poole's article `Is there Life after Tenure Mapping?' and report `Information: the First Conservation Asset' examine in detail a number of case studies where participatory mapping was used by indigenous communities to support the `stewardship of biodiversity' \cite{poole2007belize}. Citing examples of his and others' work from Venezuela, Suriname, Belize, and elsewhere, Poole shows how cartographic techniques helped not only to monitor the activities of industrial development and extraction industries, but in some cases to take legal action against such initiatives.  
 
 Poole distinguishes between asset-based strategies and rights-based strategies, where the former seeks to assert local control over territory in specific actions against asset extraction industries, rather than the rights-based approach of seeking broad legal recognition of territorial claims at the state level. \cite{poole2006there} While some of the examples he cites make use of GPS track collection or sketch mapping, this emphasis on assets often necessitates raster imagery instead of coordinate data, and as such, Poole's project in Belize has made use of light aircraft photography, as well as kite and balloon photography, in collecting and presenting evidence to support claims. \cite{poole2007belize} The successes of this strategy present an exciting opportunity for such dramatically lower cost aerial photography techniques as offered by the Grassroots Mapping project, and I am excited by the prospect for future collaboration.
 
 \section{Open geodata and crisis mapping}
 \subsection{Crisis mapping and Ushahidi}
 
-The ability of participatory mapping to provide maps on-demand has obvious applications in disaster response and management. A variety of different crowdsourced or grassroots mapping strategies have evolved in recent years with the intent to respond to, document, analyze, and report on the real-time occurrence of disasters and crises. From environmental crises such as the April 2010 BP Oil Spill in the Gulf of Mexico to the humanitarian crisis in the aftermath of the January 2010 Haitian earthquake, a clear need has evolved for low-cost, decentralized situational awareness and documentation tools with geospatial features. Here we discuss some of the challenges of fulfilling such diverse needs under unpredictable conditions.
+The ability of participatory mapping to provide accurate on-demand maps of changing situations has obvious applications in disaster response and management. A variety of different crowdsourced or grassroots mapping strategies have evolved in recent years with the intent to respond to, document, analyze, and report on the real-time occurrence of disasters and crises. From environmental crises such as the April 2010 BP Oil Spill in the Gulf of Mexico to the humanitarian crisis in the aftermath of the January 2010 Haitian earthquake, a clear need has evolved for low-cost, decentralized situational awareness and documentation tools with geospatial features. Here we discuss some of the challenges of fulfilling such diverse needs under unpredictable conditions.
 
 \subsubsection{Ushahidi}
 
-The Ushahidi platform has emerged as a common and easy-to-install system for crowdsourced crisis reporting. Developed in collaboration with Kenyan programmers to help voters report election violence in Kenya in 200x, it allows citizens with mobile phones to send 140 character text messages to a publicized telephone number. \cite{okolloh2009ushahidi} These messages are read by a group of editors, who attempt to identify where the messages were sent from, and are published on a web site as red dots at their assumed location. That users self-report their locations, and can do so incorrectly, is tolerated because it may represent a means of privacy for some users, and because in the aggregate it is quite difficult to `fake' an event. (cite Meier's post) Each report is verified if possible by ..., however in many cases no verification is possible, yet in emergency response situations this has proven not to impede the use of Ushahidi data by agencies such as (in the Haitian earthquake of January 2010) the Coast Guard, the US Marine Corps, and FEMA. \cite{meier2010crowdsorcerors}\cite{meier2010ushahidi} 
+The Ushahidi platform has emerged as a common and easy-to-install system for crowdsourced crisis reporting. Developed in collaboration with Kenyan programmers to help voters report election violence in Kenya in 200x, it allows citizens with mobile phones to send 140 character text messages to a publicized telephone number. \cite{okolloh2009ushahidi} These messages are read by a group of editors, who attempt to identify where the messages were sent from, and are published on a web site as red markers at their best-guess location. That users self-report their locations, and may do so inaccurately, is tolerated because it may represent a means of privacy for some users. Patrick Meier also suggests that in the aggregate it is quite difficult to `fake' an event. \cite{meier2010wag} Each report is verified if possible by ..., however in many cases no verification is possible, yet in emergency response situations this has proven not to impede the use of Ushahidi data by agencies such as (in the Haitian earthquake of January 2010) the Coast Guard, the US Marine Corps, and FEMA. \cite{meier2010crowdsorcerors}\cite{meier2010ushahidi} 
 
 % interview LABB folks about how reports are verified
 
@@ -593,6 +594,7 @@ This belief is supported by the `on the ground' policy stated explicitly in the 
 \begin{figure}[h]
   \begin{center}
     \includegraphics[scale=0.45]{images/osm-diagram.png}
+    \caption{A system diagram of the OpenStreetMap, courtesy Iván Sánchez Ortega}
   \end{center}
 \end{figure}
 
