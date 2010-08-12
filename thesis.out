@@ -7,6 +7,7 @@
 \BOOKMARK [0][-]{chapter.2}{Movements towards a participatory and activist cartography}{}
 \BOOKMARK [1][-]{section.2.1}{Experimental geography, radical cartography}{chapter.2}
 \BOOKMARK [1][-]{section.2.2}{GIS practitioners}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.2.1}{Cartographic ethics}{section.2.2}
 \BOOKMARK [1][-]{section.2.3}{Neogeography}{chapter.2}
 \BOOKMARK [0][-]{chapter.3}{Subjectivity in Mapping}{}
 \BOOKMARK [1][-]{section.3.1}{The mythical `complete map'}{chapter.3}
@@ -23,25 +24,23 @@
 \BOOKMARK [2][-]{subsection.4.3.1}{Crisis mapping and Ushahidi}{section.4.3}
 \BOOKMARK [0][-]{chapter.5}{State of the Art}{}
 \BOOKMARK [1][-]{subsection.5.0.2}{Participatory GIS for Development}{chapter.5}
-\BOOKMARK [2][-]{subsection.5.0.3}{Challenges of conventional PGIS practice}{subsection.5.0.2}
-\BOOKMARK [1][-]{section.5.1}{Cartographic ethics}{chapter.5}
-\BOOKMARK [1][-]{section.5.2}{Web mapping}{chapter.5}
-\BOOKMARK [2][-]{subsection.5.2.1}{Google Maps and proprietary data}{section.5.2}
-\BOOKMARK [1][-]{section.5.3}{OpenStreetMap}{chapter.5}
-\BOOKMARK [2][-]{subsection.5.3.1}{The modern open-source geostack}{section.5.3}
-\BOOKMARK [2][-]{subsection.5.3.2}{Humanitarian OSM Team}{section.5.3}
-\BOOKMARK [1][-]{section.5.4}{Existing techniques for low-cost orthorectification}{chapter.5}
-\BOOKMARK [2][-]{subsection.5.4.1}{Map Warper}{section.5.4}
-\BOOKMARK [2][-]{subsection.5.4.2}{GonzoEarth and manual stitching with Adobe Photoshop}{section.5.4}
-\BOOKMARK [2][-]{subsection.5.4.3}{DIYDrones.com and the T3 competition}{section.5.4}
-\BOOKMARK [1][-]{section.5.5}{Aerial imaging with low-cost tools}{chapter.5}
+\BOOKMARK [1][-]{section.5.1}{Web mapping}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.1.1}{Google Maps and proprietary data}{section.5.1}
+\BOOKMARK [1][-]{section.5.2}{OpenStreetMap}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.2.1}{The modern open-source geostack}{section.5.2}
+\BOOKMARK [2][-]{subsection.5.2.2}{Humanitarian OSM Team}{section.5.2}
+\BOOKMARK [1][-]{section.5.3}{Existing techniques for low-cost orthorectification}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.3.1}{Map Warper}{section.5.3}
+\BOOKMARK [2][-]{subsection.5.3.2}{GonzoEarth and manual stitching with Adobe Photoshop}{section.5.3}
+\BOOKMARK [1][-]{section.5.4}{Aerial imaging with low-cost tools}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.4.1}{DIYDrones.com and the T3 competition}{section.5.4}
 \BOOKMARK [0][-]{chapter.6}{The Grassroots Mapping tool chain}{}
 \BOOKMARK [1][-]{section.6.1}{Balloon and Kite Aerial Mapping}{chapter.6}
 \BOOKMARK [2][-]{subsection.6.1.1}{Balloon mapping}{section.6.1}
 \BOOKMARK [2][-]{subsection.6.1.2}{Kite mapping}{section.6.1}
 \BOOKMARK [2][-]{subsection.6.1.3}{Camera and intervalometer}{section.6.1}
 \BOOKMARK [2][-]{subsection.6.1.4}{Enclosures and suspensions}{section.6.1}
-\BOOKMARK [1][-]{section.6.2}{Reconceptualizing mapping interaction}{chapter.6}
+\BOOKMARK [1][-]{section.6.2}{Map processing and publication}{chapter.6}
 \BOOKMARK [2][-]{subsection.6.2.1}{Web-based orthorectification and warping}{section.6.2}
 \BOOKMARK [1][-]{section.6.3}{Cartagen: an alternative architecture for digital maps}{chapter.6}
 \BOOKMARK [2][-]{subsection.6.3.1}{Cartagen dynamic rendering}{section.6.3}
