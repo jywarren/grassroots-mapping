@@ -14,6 +14,11 @@ J.S. Aber, R.J. Sobieski, D.A. Distler, and M.C. Nowak.
 \newblock {\em Transactions of the Kansas Academy of Science (1903)},
   102(1):57--67, 1999.
 
+\bibitem{agre2002realtime}
+{Agre, Philip E.}
+\newblock {Real-time Politics: The Internet and the Political Process}.
+\newblock {\em The Information Society}, 18:311--331, 2002.
+
 \bibitem{anderson2009drones}
 {Announcing the official DIY Drones Trust Time Trial (T3) Contest}.
 \newblock
@@ -91,6 +96,13 @@ J.T. Coppock and D.W. Rhind.
 {another prototype}.
 \newblock \url{http://www.youtube.com/watch?v=mnGjw0nJQ3Q}.
 
+\bibitem{craig2010labb}
+Lauren Craig.
+\newblock {Two Days on Grand Isle}.
+\newblock
+  \url{http://labucketbrigade.wordpress.com/2010/05/27/two-days-on-grand-isle/%
+}.
+
 \bibitem{de1989other}
 H.~De~Soto and M.V. Llosa.
 \newblock {\em {The other path: the invisible revolution in the Third World}}.
@@ -119,6 +131,11 @@ Sarah Elwood.
 \newblock {\em {Multiple representations, significations, and epistimologies in
   community-based GIS}}.
 \newblock SAGE Publications, Ltd, 2009.
+
+\bibitem{institute2008tactical}
+Institute for Applied~Autonomy.
+\newblock {\em {Tactical Cartographies}}.
+\newblock Journal of Aesthetics \& Protest Press, 2008.
 
 \bibitem{gibson2006google}
 Rich Gibson and Schuyler Erle.
@@ -239,6 +256,11 @@ M.~Miyamoto, K.~Yoshino, T.~Nagano, T.~Ishida, and Y.~Sato.
   \url{http://www.prospectmagazine.co.uk/2009/11/how-dictators-watch-us-on-the%
 -web/}.
 
+\bibitem{noaa2010oil}
+{Deepwater Horizon/BP Oil Spill: Federal Fisheries Closure and Other
+  Information}.
+\newblock \url{http://sero.nmfs.noaa.gov/deepwater_horizon_oil_spill.htm}.
+
 \bibitem{oconnor2008maps}
 Sean O'Connor and the Tactical Technology~Collective.
 \newblock {Maps for advocacy: an Introduction to Geographical Mapping
@@ -254,6 +276,10 @@ O.~Okolloh.
 {Disputes}.
 \newblock \url{http://wiki.openstreetmap.org/wiki/Disputes#On_the_Ground_Rule},
   2007.
+
+\bibitem{osm2010hot}
+{Humanitarian OSM Team}.
+\newblock \url{http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team}.
 
 \bibitem{osm2010stats}
 {OpenStreetMap statistics}.
@@ -308,11 +334,23 @@ S.~Rana and T.~Joliveau.
 {The United States?}
 \newblock \url{http://www.radicalcartography.net/}, 2003.
 
+\bibitem{campbell2010oil}
+Campbell Robertson.
+\newblock {Oil Leaking Underwater From Well in Rig Blast}.
+\newblock \url{http://www.nytimes.com/2010/04/25/us/25rig.html}.
+
 \bibitem{senate2004report}
 United States~Senate Select Committee~on Intelligence.
 \newblock {Report of the Select Committee on Intelligence on the U.S.
   Intelligence Community’s Prewar Intelligence Assessments on Iraq}.
 \newblock \url{http://www.gpoaccess.gov/serialset/creports/iraq.html}.
+
+\bibitem{sen2010maps}
+Jaideep Sen.
+\newblock {Shanty home}.
+\newblock
+  \url{http://timeoutbengaluru.net/aroundtown/aroundtown_feature_details.asp?c%
+ode=59}.
 
 \bibitem{solari2010cantagallo}
 Helder Solari.
@@ -322,6 +360,34 @@ Helder Solari.
 The International~Charter Space and Major Disasters.
 \newblock The international charter space and major disasters.
 \newblock \url{www.disasterscharter.org}, 2010.
+
+\bibitem{tuominen2005landsat}
+S.~Tuominen and M.~Haakana.
+\newblock {Landsat TM imagery and high altitude aerial photographs in
+  estimation of forest characteristics}.
+\newblock {\em Silva Fennica}, 39(4):573, 2005.
+
+\bibitem{unhabitat2003slums}
+UN-HABITAT.
+\newblock {Slums of the World: The face of urban poverty in the new
+  millennium?}
+\newblock
+  \url{http://www.unhabitat.org/pmss/listItemDetails.aspx?publicationID=1124},
+  2003.
+
+\bibitem{unhabitat2003challenge}
+UN-HABITAT.
+\newblock {The Challenge of Slums: Global Report on Human Settlements 2003}.
+\newblock
+  \url{http://www.unhabitat.org/pmss/listItemDetails.aspx?publicationID=1156},
+  2003.
+
+\bibitem{unhabitat2008slum}
+UN-HABITAT.
+\newblock Expert meeting on slum identification mapping and monitoring.
+\newblock
+  \url{http://www.unhabitat.org/content.asp?cid=5714&catid=5&typeid=6&subMenuI%
+d=0}, 2008.
 
 \bibitem{unspider2010aims}
 {UN-SPIDER Knowledge Portal}.

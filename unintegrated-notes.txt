@@ -6,10 +6,10 @@ X intro
 X history
 X subjectivity - pgis mailing list stuff at the end, conclude the chapter
 X need - first section on UN-HABITAT, Jai sen, etc.
-x state of the art - initial PGIS section, haiti section, local expertise and empowerment/outsourcing section on PGIS/poole
+- state of the art - initial PGIS section, haiti section, local expertise and empowerment/outsourcing section on PGIS/poole
 - toolkit - thorough readthrough of Cartagen presentation, rubbersheeting discussion, redo section names
 x peru - interviews? UNICEF/Roger Hart children as community researchers 
-- gulf - graph of resolutions over time
+x gulf - graph of resolutions over time
 - evaluation - answer initial questions, Triangulation (ask for help!)
 - future work & conclusion - conclusion, `pushing envelope' in additional projs. and illustrated guide (another product of ...)
 
