@@ -35,6 +35,11 @@ J.S. Aber, R.J. Sobieski, D.A. Distler, and M.C. Nowak.
   \url{http://diydrones.ning.com/profiles/blogs/congrats-to-the-winners-of-t34%
 }.
 
+\bibitem{bentley2010warping}
+Incorporated Bentley~Systems.
+\newblock User guide: Warp tool.
+\newblock \url{http://docs.bentley.com/en/I-RASB/irasbhelp171.html}, 2010.
+
 \bibitem{boike2003mapping}
 J.~Boike and K.~Yoshikawa.
 \newblock {Mapping of periglacial geomorphology using kite/balloon aerial
@@ -86,6 +91,11 @@ S.~Chilton.
   study of OpenStreetMap}.
 \newblock In {\em Proceedings, 24th International Cartographic Congress}, 2009.
 
+\bibitem{cofopri2010mision}
+COFOPRI.
+\newblock Mision.
+\newblock \url{http://www.cofopri.gob.pe}, 2010.
+
 \bibitem{coppock1991history}
 J.T. Coppock and D.W. Rhind.
 \newblock {The history of GIS}.
@@ -112,6 +122,11 @@ H.~De~Soto and M.V. Llosa.
 Hernando de~Soto.
 \newblock {\em {El otro sendero: la revolución informal}}.
 \newblock Instituto Libertad y Democracia, 1987.
+
+\bibitem{digitalglobe2010mapmart}
+DigitalGlobe.
+\newblock Mapmart.
+\newblock \url{http://maps.mapmart.com/}, 2001.
 
 \bibitem{dosemagen2010heywhat}
 Shannon Dosemagen.
@@ -161,6 +176,11 @@ Adam Griffith.
 {Full text of Colin Powell's speech | World news | guardian.co.uk, Project
   Website}.
 \newblock \url{http://www.guardian.co.uk/world/2003/feb/05/iraq.usa}.
+
+\bibitem{hart2001children}
+Roger Hart.
+\newblock Children as community researchers.
+\newblock \url{http://www.unicef.org/teachers/researchers/intro.htm}, 2001.
 
 \bibitem{jensen1999remote}
 J.R. Jensen and D.C. Cowen.
@@ -222,27 +242,36 @@ Mikel Maron.
   Technology for Our Planet}.
 \newblock \url{http://brainoff.com/weblog/2010/01/14/1518}.
 
-\bibitem{meier2010crowdsorcerors}
-{Here Come the Crowd-Sorcerers: How Technology is Disrupting the Humanitarian
-  Space and How Easy It Is}.
-\newblock
-  \url{http://irevolution.wordpress.com/2010/07/27/crowd-sorcerers-episode1/}.
-
-\bibitem{meier2010popular}
-{Where I Disagree with Morozov vs Shirky on Digital Activism}.
-\newblock \url{http://irevolution.wordpress.com/2010/01/07/morozov-vs-shirky/}.
-
 \bibitem{meier2010ushahidi}
-{Haiti: Taking Stock of How We Are Doing}.
+Patrick Meier.
+\newblock {Haiti: Taking Stock of How We Are Doing}.
 \newblock
   \url{http://blog.ushahidi.com/index.php/2010/02/06/ushahidi-how-we-are-doing%
 /}.
 
+\bibitem{meier2010crowdsorcerors}
+Patrick Meier.
+\newblock {Here Come the Crowd-Sorcerers: How Technology is Disrupting the
+  Humanitarian Space and How Easy It Is}.
+\newblock
+  \url{http://irevolution.wordpress.com/2010/07/27/crowd-sorcerers-episode1/}.
+
 \bibitem{meier2010verification}
-{Twitter vs. Tyrants: Ushahidi and Data Verification}.
+Patrick Meier.
+\newblock {Twitter vs. Tyrants: Ushahidi and Data Verification}.
 \newblock
   \url{http://irevolution.wordpress.com/2009/10/27/twitter-vs-tyrants-ushahidi%
 /}.
+
+\bibitem{meier2010wag}
+Patrick Meier.
+\newblock {Wag the Dog, or How Falsifying Crowdsourced Data Can Be a Pain}.
+\newblock \url{http://irevolution.wordpress.com/2010/04/08/wag-the-dog/}.
+
+\bibitem{meier2010popular}
+Patrick Meier.
+\newblock {Where I Disagree with Morozov vs Shirky on Digital Activism}.
+\newblock \url{http://irevolution.wordpress.com/2010/01/07/morozov-vs-shirky/}.
 
 \bibitem{miyamoto2004use}
 M.~Miyamoto, K.~Yoshino, T.~Nagano, T.~Ishida, and Y.~Sato.
@@ -255,6 +284,12 @@ M.~Miyamoto, K.~Yoshino, T.~Nagano, T.~Ishida, and Y.~Sato.
 \newblock
   \url{http://www.prospectmagazine.co.uk/2009/11/how-dictators-watch-us-on-the%
 -web/}.
+
+\bibitem{mumby1999cost}
+PJ~Mumby, EP~Green, AJ~Edwards, and CD~Clark.
+\newblock {The cost-effectiveness of remote sensing for tropical coastal
+  resources assessment and management}.
+\newblock {\em Journal of Environmental Management}, 55(3):157--166, 1999.
 
 \bibitem{noaa2010oil}
 {Deepwater Horizon/BP Oil Spill: Federal Fisheries Closure and Other
@@ -271,6 +306,11 @@ O.~Okolloh.
 \newblock {Ushahidi, or ‘testimony’: Web 2.0 tools for crowdsourcing crisis
   information}.
 \newblock {\em Change at Hand: Web 2.0 for Development}, page~65, 2009.
+
+\bibitem{osha2006participatory}
+Jen Osha and Daniel Weiner.
+\newblock {Participatory GIS - A Paradigm Shift in Development?}
+\newblock {\em Directions Magazine}, 2006.
 
 \bibitem{osm2007disputes}
 {Disputes}.
@@ -408,12 +448,6 @@ es/}.
 \bibitem{waters2009warper}
 {Rectify Map San Ignacio Loyola on Map Warper, Project Website}.
 \newblock \url{http://warper.geothings.net/maps/preview/2018}.
-
-\bibitem{white1985piecewise}
-M.S. White and P.~Griffin.
-\newblock {Piecewise linear rubber-sheet map transformation}.
-\newblock {\em Cartography and Geographic Information Science}, 12(2):123--131,
-  1985.
 
 \bibitem{willis2007osm}
 {OpenStreetMap project imports US government maps}.

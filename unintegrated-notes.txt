@@ -5,10 +5,7 @@ Chapters:
 x intro
 x history
 x subjectivity
-x need - restructure - too piecemeal & confusing. 
-	Asset vs. enviro? 
-	redo section headings 
-	intro that these are suggestions of need from diverse traditions/disciplines
+x need 
 x state of the art
 x toolkit 
 	more diagrams, 
@@ -16,5 +13,5 @@ x toolkit
 x peru
 x gulf - 
 - evaluation - Triangulation (ask for help!)
-- future work & conclusion - conclusion, `pushing envelope' in additional projs. and illustrated guide (another product of ...)
+x conclusion
 

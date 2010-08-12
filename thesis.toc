@@ -91,24 +91,16 @@
 \contentsline {subsection}{\numberline {9.3.2}Precision and accuracy in low-altitude aerial imaging}{90}{subsection.9.3.2}
 \contentsline {subsection}{\numberline {9.3.3}Temporal resolution}{90}{subsection.9.3.3}
 \contentsline {subsection}{\numberline {9.3.4}Spectral resolution}{90}{subsection.9.3.4}
-\contentsline {chapter}{\numberline {10}Conclusions and future work}{92}{chapter.10}
-\contentsline {section}{\numberline {10.1}Ongoing uses of Grassroots Mapping tools}{92}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Activist mapping with Coal River Mountain Watch}{92}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}A Grassroots Mapping collaboration in Georgia}{93}{subsection.10.1.2}
-\contentsline {section}{\numberline {10.2}Wiki, blog and mailing list}{94}{section.10.2}
-\contentsline {section}{\numberline {10.3}Illustrated Guides}{95}{section.10.3}
-\contentsline {section}{\numberline {10.4}Outreach}{95}{section.10.4}
-\contentsline {section}{\numberline {10.5}Conclusions}{96}{section.10.5}
-\contentsline {chapter}{\numberline {A}Maps}{97}{appendix.A}
-\contentsline {section}{\numberline {A.1}Maps from Lima, Peru}{97}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Juan Pablo II}{97}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}San Ignacio Loyola}{97}{subsection.A.1.2}
-\contentsline {subsection}{\numberline {A.1.3}Canta Gallo I}{97}{subsection.A.1.3}
-\contentsline {subsection}{\numberline {A.1.4}Canta Gallo II}{97}{subsection.A.1.4}
-\contentsline {section}{\numberline {A.2}Maps from the 2010 BP Oil Spill}{97}{section.A.2}
-\contentsline {section}{\numberline {A.3}Maps from Appalachia}{97}{section.A.3}
-\contentsline {subsection}{\numberline {A.3.1}Black Mountain, Virginia}{97}{subsection.A.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Cherry Pond Mountain, West Virginia}{97}{subsection.A.3.2}
-\contentsline {section}{\numberline {A.4}Maps from Georgia}{97}{section.A.4}
-\contentsline {chapter}{\numberline {B}Illustrated Guide to Grassroots Mapping}{98}{appendix.B}
-\contentsline {chapter}{\numberline {C}Guides and checklists to Grassroots Mapping for the BP Oil Spill}{104}{appendix.C}
+\contentsline {chapter}{\numberline {10}Conclusions and future work}{91}{chapter.10}
+\contentsline {section}{\numberline {10.1}Ongoing uses of Grassroots Mapping tools}{91}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Activist mapping with Coal River Mountain Watch}{91}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}A Grassroots Mapping collaboration in Georgia}{92}{subsection.10.1.2}
+\contentsline {section}{\numberline {10.2}Illustrated Guides}{93}{section.10.2}
+\contentsline {section}{\numberline {10.3}Outreach}{94}{section.10.3}
+\contentsline {section}{\numberline {10.4}Conclusions}{94}{section.10.4}
+\contentsline {chapter}{\numberline {A}Maps}{96}{appendix.A}
+\contentsline {section}{\numberline {A.1}Maps from Lima, Peru}{96}{section.A.1}
+\contentsline {section}{\numberline {A.2}Maps from the 2010 BP Oil Spill}{96}{section.A.2}
+\contentsline {section}{\numberline {A.3}Maps from Georgia}{96}{section.A.3}
+\contentsline {chapter}{\numberline {B}Illustrated Guide to Grassroots Mapping}{97}{appendix.B}
+\contentsline {chapter}{\numberline {C}Guides and checklists to Grassroots Mapping for the BP Oil Spill}{103}{appendix.C}
