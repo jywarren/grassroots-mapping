@@ -4,12 +4,12 @@ Chapters:
 
 X intro
 X history
-X subjectivity - pgis mailing list stuff at the end, conclude the chapter
-X need - first section on UN-HABITAT, Jai sen, etc.
+X subjectivity
+x need - restructure - too piecemeal & confusing. Asset vs. enviro? redo section headings and intro that these are suggestions of need from diverse traditions/disciplines
 - state of the art - initial PGIS section, haiti section, local expertise and empowerment/outsourcing section on PGIS/poole
 - toolkit - thorough readthrough of Cartagen presentation, rubbersheeting discussion, redo section names
-x peru - interviews? UNICEF/Roger Hart children as community researchers 
-x gulf - graph of resolutions over time
-- evaluation - answer initial questions, Triangulation (ask for help!)
+x peru - interviews? - mission of COFOPRI 
+x gulf - 
+- evaluation - Triangulation (ask for help!)
 - future work & conclusion - conclusion, `pushing envelope' in additional projs. and illustrated guide (another product of ...)
 

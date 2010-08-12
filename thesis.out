@@ -15,7 +15,6 @@
 \BOOKMARK [2][-]{subsection.3.2.2}{Mapping: a tool of empowerment or control?}{section.3.2}
 \BOOKMARK [1][-]{section.3.3}{Maps as truth}{chapter.3}
 \BOOKMARK [1][-]{section.3.4}{Maps: rhetorical, even tactical}{chapter.3}
-\BOOKMARK [1][-]{section.3.5}{Cartographic ethics}{chapter.3}
 \BOOKMARK [0][-]{chapter.4}{The Need for Geospatial Data}{}
 \BOOKMARK [1][-]{section.4.1}{Two worlds of mapping}{chapter.4}
 \BOOKMARK [1][-]{section.4.2}{Environmental assessment}{chapter.4}
@@ -25,16 +24,17 @@
 \BOOKMARK [0][-]{chapter.5}{State of the Art}{}
 \BOOKMARK [1][-]{subsection.5.0.2}{Participatory GIS for Development}{chapter.5}
 \BOOKMARK [2][-]{subsection.5.0.3}{Challenges of conventional PGIS practice}{subsection.5.0.2}
-\BOOKMARK [1][-]{section.5.1}{Web mapping}{chapter.5}
-\BOOKMARK [2][-]{subsection.5.1.1}{Google Maps and proprietary data}{section.5.1}
-\BOOKMARK [1][-]{section.5.2}{OpenStreetMap}{chapter.5}
-\BOOKMARK [2][-]{subsection.5.2.1}{The modern open-source geostack}{section.5.2}
-\BOOKMARK [2][-]{subsection.5.2.2}{Humanitarian OSM Team}{section.5.2}
-\BOOKMARK [1][-]{section.5.3}{Existing techniques for low-cost orthorectification}{chapter.5}
-\BOOKMARK [2][-]{subsection.5.3.1}{Map Warper}{section.5.3}
-\BOOKMARK [2][-]{subsection.5.3.2}{GonzoEarth and manual stitching with Adobe Photoshop}{section.5.3}
-\BOOKMARK [2][-]{subsection.5.3.3}{DIYDrones.com and the T3 competition}{section.5.3}
-\BOOKMARK [1][-]{section.5.4}{Aerial imaging with low-cost tools}{chapter.5}
+\BOOKMARK [1][-]{section.5.1}{Cartographic ethics}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{Web mapping}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.2.1}{Google Maps and proprietary data}{section.5.2}
+\BOOKMARK [1][-]{section.5.3}{OpenStreetMap}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.3.1}{The modern open-source geostack}{section.5.3}
+\BOOKMARK [2][-]{subsection.5.3.2}{Humanitarian OSM Team}{section.5.3}
+\BOOKMARK [1][-]{section.5.4}{Existing techniques for low-cost orthorectification}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.4.1}{Map Warper}{section.5.4}
+\BOOKMARK [2][-]{subsection.5.4.2}{GonzoEarth and manual stitching with Adobe Photoshop}{section.5.4}
+\BOOKMARK [2][-]{subsection.5.4.3}{DIYDrones.com and the T3 competition}{section.5.4}
+\BOOKMARK [1][-]{section.5.5}{Aerial imaging with low-cost tools}{chapter.5}
 \BOOKMARK [0][-]{chapter.6}{The Grassroots Mapping tool chain}{}
 \BOOKMARK [1][-]{section.6.1}{Balloon and Kite Aerial Mapping}{chapter.6}
 \BOOKMARK [2][-]{subsection.6.1.1}{Balloon mapping}{section.6.1}
