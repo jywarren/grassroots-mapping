@@ -2,14 +2,16 @@ Chapters:
 
 - abstract
 
-X intro
-X history
-X subjectivity - pgis mailing list stuff at the end, conclude the chapter
-X need - first section on UN-HABITAT, Jai sen, etc.
-x state of the art - initial PGIS section, haiti section, local expertise and empowerment/outsourcing section on PGIS/poole
-- toolkit - thorough readthrough of Cartagen presentation, rubbersheeting discussion, redo section names
-x peru - interviews? UNICEF/Roger Hart children as community researchers 
-- gulf - analysis section
-- evaluation - answer initial questions, Triangulation (ask for help!)
-- future work & conclusion - conclusion, `pushing envelope' in additional projs. and illustrated guide (another product of ...)
+x intro
+x history
+x subjectivity
+x need 
+x state of the art
+x toolkit 
+	more diagrams, 
+	add wings to the soda bottle diagram
+x peru
+x gulf - 
+- evaluation - Triangulation (ask for help!)
+x conclusion
 
