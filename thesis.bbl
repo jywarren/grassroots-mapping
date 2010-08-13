@@ -35,6 +35,18 @@ J.S. Aber, R.J. Sobieski, D.A. Distler, and M.C. Nowak.
   \url{http://diydrones.ning.com/profiles/blogs/congrats-to-the-winners-of-t34%
 }.
 
+\bibitem{gwu2003eyes}
+The National~Security Archive.
+\newblock Eyes on saddam: U.s. overhead imagery of iraq.
+\newblock \url{http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB88/}, 2003.
+
+\bibitem{arthur2010ord}
+Charles Arthur.
+\newblock Ordnance survey launches free downloadable maps.
+\newblock
+  \url{http://www.guardian.co.uk/technology/2010/apr/01/ordnance-survey-maps-d%
+ownload-free}, 2010.
+
 \bibitem{bentley2010warping}
 Incorporated Bentley~Systems.
 \newblock User guide: Warp tool.
@@ -463,6 +475,11 @@ Eric~B. Wolf.
 \newblock Low-cost large scale aerial photography and the upland south folk
   cemetery.
 \newblock Master's thesis, Northwest Missouri State University, 2006.
+
+\bibitem{wood1992power}
+Dennis Wood and John Fells.
+\newblock {\em {The Power of Maps}}.
+\newblock Guilford Press, 1992.
 
 \bibitem{bariola2008gender}
 Virginia Zavala and Nino Bariola.
