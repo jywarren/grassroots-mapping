@@ -17,8 +17,8 @@ More at: http://unterbahn.com/thesis/
 Individual chapters are available as well:
 
 * [Abstract and table of contents](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-abstract-toc.pdf) (410 kB, 9 pages)
-* [Chapter 1: Introduction](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-abstract-toc.pdf) (689 kB, 4 pages)
-* [Chapter 2: Movements towards a participatory and activist cartography](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch1-introduction.pdf) (746 kB, 6 pages)
+* [Chapter 1: Introduction](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch1-introduction.pdf) (689 kB, 4 pages)
+* [Chapter 2: Movements towards a participatory and activist cartography](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch2-activist.pdf) (746 kB, 6 pages)
 * [Chapter 3: Subjectivity in Mapping](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch3-subjectivity.pdf) (1.8 mB, 8 pages)
 * [Chapter 4: The Need for Geospatial Data](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch4-need.pdf) (3 mB, 5 pages)
 * [Chapter 5: State of the Art](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch5-state.pdf) (2.1 mB, 9 pages)
