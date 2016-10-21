@@ -86,8 +86,8 @@ The following organizations offered generous support of the citizen mapping effo
 
 ##  1. Introduction
 
-###  1.1 Defining Grassroots Mapping: tools, practices, or community?
 
+###  1.1 Defining Grassroots Mapping: tools, practices, or community?
 
 Exactly what makes up the Grassroots Mapping project? Is it a body of code, available under an open-source MIT license at http://github.com/jywarren/cartagen? Is it a set of mapping practices, or tools, which have been employed in Lima, Peru, or Rio de Janiero? Or is it a community of practitioners and the web site, wiki, and mailing list which tie them together?
 
@@ -95,16 +95,19 @@ Fundamentally this project attempts to make mapping easier for lay users, in ord
 
 The core of the Grassroots Mapping project is the *application* of a novel combination of technologies to specific communities. These technologies consist of low-cost aerial imaging techniques using balloons and kites, and a novel online tool for stitching the resulting imagery into maps. The success of these tools is due to the effort and faith of the organizations and individuals who were willing to adopt these new and unfamiliar tools, and who saw their potential for use in their communities in Lima, Peru, and the oil spill crisis on the coast of the Gulf of Mexico. This includes Carla del Carpio of Manzanita 'A' and Ernesto Fernandez of CEDRO, both in Lima, Peru, and Daniel Miracle and others from Escuelab, also in Lima. It includes Kris Ansin, Shannon Dosemagen, and Anne Rolfes of the Louisiana Bucket Brigade in New Orleans. It also includes the dozens of participants who tirelessly flew kites and balloons, and untangled and wound miles of string day after day. Perhaps most importantly, the tools grew and evolved in response to sustained use by participants, and with the input and collaboration of those who used them.
 
+
 ####  1.1.1 Uses of aerial imagery
 
 Participants in the project have made maps for diverse purposes, including environmental monitoring, tenure rights, journalism, and commercial use. Many maps were created in youth workshops emphasizing hands-on learning and community planning, and the tools' unique ability to produce on-demand maps was explored in crisis situations and areas of conflict. Due to their low cost, the techniques have potential for even broader use in asset mapping in low-income or developing areas, and local-level urban planning. The ability to see one's home from a new perspective can initiate thought and discussion about community, environment, and social issues. By engaging with and teaching local communities to use the tools, mapping has taken on more personal relevance than efforts which charactarize themselves as remote sensing --- efforts which treat people as data and gloss over the human side of cartography. 
  
+
 ####  1.1.2 Grassroots Mapping as pedagogy
 
 To facilitate widespread adoption, the project evolved to include a variety of teaching materials, printed guides, online videos, and workshops, both by myself and by the diverse collaborators who took ownership of the tools. These materials addressed a broad range of audiences, from 10-15 year olds in Lima, Peru to environmental activists in West Virginia and Kentucky. This documentation evolved as I collaborated with and instructed participants in dozens of workshops over the past year, and include a project wiki, a blog on which participants document their work, videos, and a mailing list where new ideas and projects are discussed and critiqued.
 
 ![samtredia.jpg](../images/samtredia.jpg)
-_Student participants in a Grassroots Mapping workshop in Samtredia, Georgia)
+_Student participants in a Grassroots Mapping workshop in Samtredia, Georgia_
+
 
 ####  1.1.3 Grassroots Mapping as a community
 
@@ -112,29 +115,25 @@ Ultimately, even the digital tools, including the Cartagen map rendering framewo
 
 Building tools is unlike developing more abstract technologies in that to be successful, a series of compromises and pragmatic decisions must guide the design process, as well as continuous communication with an audience of users. The Grassroots Mapping project has evolved in response to these needs and should be examined in the context of the specific uses it has attempted to address, rather as an isolated or purely academic work.
 
+
 ###  1.2 Tools, technologies, and audience
 
 The tools developed as part of the Grassroots Mapping project address the needs of both committed enthusiasts who need powerful and efficient mapping technology, as well as those who have little experience and expertise but need simple and direct tools to make maps. Therefore, some of the tools, while being simple to use, are intended for 'power users' or those technically fluent in writing and editing code. The Cartagen framework falls under this category. Other tools, such as the balloon and kite platforms for capturing aerial imagery, are intended for a wider audience, as is the Cartagen Knitter, a specific application of the Cartagen framework. A description of the various tools follows.
 
 The Grassroots Mapping Kit can be used to capture original aerial imagery, process and stitch the results, and publish digital and print maps. This section focuses on the framing, intent, and audience of the necessary tools. A technical discussion of the tools can be found in [Chapter 6](#6-the-grassroots-mapping-tool-chain). 
 
-\begin{table}[tp] 
-\caption{Grassroots Mapping workflow}
-\centering %
-\renewcommand{\arraystretch}{1.4}
-\begin{tabularx}{\textwidth}{YYY}
-\toprule
-Capture&Orthorectification&Publication\\\otoprule
-2-3 people can map several square km in 1 day&Sorting photos can take \textgreater1 hour, stitching up to 1 day&Export from Cartagen Knitter generates a TMS or printable GeoTiff; only web access is needed.\\\bottomrule 
-\end{tabularx}
-\end{table}
+### Grassroots Mapping workflow
+
+| Capture | Orthorectification | Publication |
+|---------|--------------------|-------------|
+| 2-3 people can map several square km in 1 day | Sorting photos can take 1 hour, stitching up to 1 day | Export from Cartagen Knitter generates a TMS or printable GeoTiff; only web access is needed. |
 
 Briefly, map-makers visit the site they intend to map, bringing with them a kite, a balloon, a helium tank, a digital camera, and a minimum of 200 meters of string, along with an assortment of other materials. Attaching the camera to the tethered balloon or kite, they capture imagery by setting up the camera to automatically take pictures on a 1-10 second cycle and raising it to between 200 and 2000 meters in altitude, in accordance with local regulations. The map-makers reel in the tether to recover the camera and, using a web-enabled computer, upload the best imagery to the Cartagen Knitter web site. (http://cartagen.org/maps/) There they create a new online map, and using either OpenStreetMap vector data or a tiled map base layer for reference, each imagery can be orthorectified and ultimately composited into a map. The results can be embedded in another website for online viewing, exported as a TMS service, or printed from a GeoTIFF, depending on the intended use. 
 
-The Grassroots Mapping Kit and associated techniques are thoroughly documented at the project wiki, at http://wiki.grassrootsmapping.org, and additional support and discussion is available at the project mailing list and blog, which can be found at http://grassrootsmapping.org} along with extensive documentation of past and in-progress mapping efforts around the world. Printed documentation is also available in the form of available in the form of a 5-page illustrated guide and several checklists designed to accompany each kit. (See [Guide](#10-3-illustrated-guides), and view the guides in [Appendix B](#b-illustrated-guide-to-grassroots-mapping)
+The Grassroots Mapping Kit and associated techniques are thoroughly documented at the project wiki, at http://wiki.grassrootsmapping.org, and additional support and discussion is available at the project mailing list and blog, which can be found at http://grassrootsmapping.org} along with extensive documentation of past and in-progress mapping efforts around the world. Printed documentation is also available in the form of available in the form of a 5-page illustrated guide and several checklists designed to accompany each kit. (See [Guide](#103-illustrated-guides), and view the guides in [Appendix B](#b-illustrated-guide-to-grassroots-mapping)
+
 
 ##  2. Movements towards a participatory and activist cartography
-
 
 A brief description of three distinct groups of practitioners is worthwhile, as each embodies a distinct conception of mapmaking and its purposes. These three cartographic movements have positioned themselves as challengers to previous forms of cartography, and as such, the following will help to situate the Grassroots Mapping project (in addition to the Cartagen framework) as a similar attempt to broaden participation and reconceptualize the practice. 
 
@@ -145,16 +144,16 @@ A growing movement toward a cartographically literate art practice has emerged w
 
 Artists like Bill Rankin use the thin-lined mechanical aesthetics of GIS to comment upon the normally cartographically invisible American Indian reservations, emphasizing the incompatiblity between conventional, formalized modes of representation and the more complex geographies which exist in the real world. His map, `The United States?' offers two separate attempts, but Rankin points out some of the difficulties in such an adaptation:
 
-> At stake here is the European definition of nation-state sovereignty, which implies a close (and, ideally, consensual) relation between an area on a map and the governance of its inhabitants. It is not simply that a European-style map has a hard time representing the sovereignty rights (or claims) of indigenous peoples; rather, such relations are a priori impossible to depict on a typical map. \cite{rankin2003reservations}
+> At stake here is the European definition of nation-state sovereignty, which implies a close (and, ideally, consensual) relation between an area on a map and the governance of its inhabitants. It is not simply that a European-style map has a hard time representing the sovereignty rights (or claims) of indigenous peoples; rather, such relations are a priori impossible to depict on a typical map. (Rankin, 2003)
 
 The collective Hackitectura inverts a map of the Gibralter area with Morocco and Western Sahara on top and Spain and Portugal below, while highlighting the complex landscape of legal and illegal immigration. Graphs, diagrams of security systems, and satellites dot the map depicting 'the multitude versus the Empire', along with marks for immigrant detainment and the Spanish tomato farms whose need for cheap labor feeds much of the migration. The mapmakers' willingness to abandon the guise of objectivity in favor of such a clear geopolitical agenda is typical of many members of this wider cartographic movement.  
 
 ![newsflow.png](../images/newsflow.png)
 _A selection of articles published by the BBC, linked to the BBC headquarters in my project NEWSFLOW, 2009_
 
-Proboscis in particular has produced a number of cartographic works with urban communities with the goal of creating an 'anthropology of ourselves' and 'become co-creators and not just consumers of information' --- the latter of which parallels the neogeographers' interest in making participants of their audience (See [Section 2.3](#2-3-neogeography)). Their projects take the form of mapmaking workshops and activities, using basic materials like paper and watercolor, as well as high-tech tools such as GPS-enabled mobile phones. They focus on recording the historical narratives of participants while relating the stories to geographic positions and routes in a kind of city-wide game. 
+Proboscis in particular has produced a number of cartographic works with urban communities with the goal of creating an 'anthropology of ourselves' and 'become co-creators and not just consumers of information' --- the latter of which parallels the neogeographers' interest in making participants of their audience (See [Section 2.3](#23-neogeography)). Their projects take the form of mapmaking workshops and activities, using basic materials like paper and watercolor, as well as high-tech tools such as GPS-enabled mobile phones. They focus on recording the historical narratives of participants while relating the stories to geographic positions and routes in a kind of city-wide game. 
 
-Proboscis uses the term 'bodystorming' to describe their emphasis on experiencing the world on both a physical and conceptual level, facilitating `the transformation of abstract ideas and concepts into physical experiences, a tactile approach allowing us to investigate different qualities that ideas may have when applied to physical settings --- part of a dynamic and continuous process of trial and error.' \cite{proboscis2003bodystorming} 
+Proboscis uses the term 'bodystorming' to describe their emphasis on experiencing the world on both a physical and conceptual level, facilitating `the transformation of abstract ideas and concepts into physical experiences, a tactile approach allowing us to investigate different qualities that ideas may have when applied to physical settings --- part of a dynamic and continuous process of trial and error.' (Proboscis, 2003)
 
 By contrast, my own project ARMSFLOW (http://armsflow.org, 2007) describes in a purely online map the sale of conventional arms between governments worldwide from 1950-2006, using data culled from SIPRI. Red lines of varying thickness (representing an abstract metric called TIV, or trend-indicator value) link buyers to sellers, and users may explore the data by country or by year. A followup project, NEWSFLOW (http://newsflow.cartagen.org, 2009), displays in a similar format connections between news organizations and the locations of stories they publish, as scraped from Google News. In these works, my interest in cartographic activism and data transparency focused mainly on the interpretation and exploration of data, rather than its production or origins. Though visually compelling and information-rich, these two maps are emblematic of the shortcomings of the 'data visualization' movement. Natalie Jeremijenko addresses the crux of the matter when she questions the sources of such works: 
 
