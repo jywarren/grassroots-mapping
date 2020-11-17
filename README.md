@@ -2,7 +2,7 @@
 
 _Master's thesis, August 13th, 2010)_
 
-[Full document](https://github.com/jywarren/grassroots-mapping/raw/master/thesis.pdf) (28 mB, 112 pages)
+[Full document](https://github.com/jywarren/grassroots-mapping/raw/main/thesis.pdf) (28 mB, 112 pages)
 
 ### Abstract
 
@@ -16,18 +16,18 @@ More at: http://unterbahn.com/thesis/
 
 Individual chapters are available as well:
 
-* [Abstract and table of contents](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-abstract-toc.pdf) (410 kB, 9 pages)
-* [Chapter 1: Introduction](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch1-introduction.pdf) (689 kB, 4 pages)
-* [Chapter 2: Movements towards a participatory and activist cartography](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch2-activist.pdf) (746 kB, 6 pages)
-* [Chapter 3: Subjectivity in Mapping](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch3-subjectivity.pdf) (1.8 mB, 8 pages)
-* [Chapter 4: The Need for Geospatial Data](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch4-need.pdf) (3 mB, 5 pages)
-* [Chapter 5: State of the Art](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch5-state.pdf) (2.1 mB, 9 pages)
-* [Chapter 6: The Grassroots Mapping tool chain](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch6-tools.pdf) (6 mB, 12 pages)
-* [Chapter 7: Case Study: Grassroots Mapping in Lima, Peru](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch7-peru.pdf) (6.1 mB, 15 pages)
-* [Chapter 8: Case Study: Citizen mapping of the BP oil spill](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch8-gulf.pdf) (5.7 mB, 14 pages)
-* [Chapter 9: Evaluation](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch9-evaluation.pdf) (2 mB, 9 pages)
-* [Chapter 10: Conclusions and future work](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-ch10-conclusion.pdf) (3.4 mB, 5 pages)
-* [Appendices and Bibliography](https://github.com/jywarren/grassroots-mapping/raw/master/chapters/grassroots-mapping-appendix-bibliography.pdf) (2.1 mB, 19 pages)
+* [Abstract and table of contents](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-abstract-toc.pdf) (410 kB, 9 pages)
+* [Chapter 1: Introduction](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-ch1-introduction.pdf) (689 kB, 4 pages)
+* [Chapter 2: Movements towards a participatory and activist cartography](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-ch2-activist.pdf) (746 kB, 6 pages)
+* [Chapter 3: Subjectivity in Mapping](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-ch3-subjectivity.pdf) (1.8 mB, 8 pages)
+* [Chapter 4: The Need for Geospatial Data](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-ch4-need.pdf) (3 mB, 5 pages)
+* [Chapter 5: State of the Art](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-ch5-state.pdf) (2.1 mB, 9 pages)
+* [Chapter 6: The Grassroots Mapping tool chain](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-ch6-tools.pdf) (6 mB, 12 pages)
+* [Chapter 7: Case Study: Grassroots Mapping in Lima, Peru](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-ch7-peru.pdf) (6.1 mB, 15 pages)
+* [Chapter 8: Case Study: Citizen mapping of the BP oil spill](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-ch8-gulf.pdf) (5.7 mB, 14 pages)
+* [Chapter 9: Evaluation](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-ch9-evaluation.pdf) (2 mB, 9 pages)
+* [Chapter 10: Conclusions and future work](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-ch10-conclusion.pdf) (3.4 mB, 5 pages)
+* [Appendices and Bibliography](https://github.com/jywarren/grassroots-mapping/raw/main/chapters/grassroots-mapping-appendix-bibliography.pdf) (2.1 mB, 19 pages)
 
 It is released under a Creative Commons Attribution license, thanks to the [Center for Civic Media at MIT](http://civic.mit.edu)
 
