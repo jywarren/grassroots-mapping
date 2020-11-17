@@ -1,10 +1,10 @@
-##Grassroots Mapping: tools for participatory and activist cartography
+## Grassroots Mapping: tools for participatory and activist cartography
 
 _Master's thesis, August 13th, 2010)_
 
 [Full document](https://github.com/jywarren/grassroots-mapping/raw/master/thesis.pdf) (28 mB, 112 pages)
 
-###Abstract
+### Abstract
 
 Geospatial tools and information play an important role in urban planning and policymaking, and maps have diverse uses in legal, environmental, political, land rights, and social arenas. Widespread participation in mapmaking and access to its benefits is limited by obscure and expensive tools and techniques. This has resulted in poor or nonexistent maps for much of the world’s population, especially in areas of urban poverty. In particular, public access to recent and high-resolution satellite imagery is largely controlled by government and large industry. This thesis proposes balloon and kite aerial photography as a low-cost and easy to learn means to collect aerial imagery for mapping, and introduces a novel open-source online tool for orthorectifying and compositing images into maps.
 
@@ -12,7 +12,7 @@ A series of case studies where such tools and techniques were used by communitie
 
 More at: http://unterbahn.com/thesis/
 
-###Chapters
+### Chapters
 
 Individual chapters are available as well:
 
